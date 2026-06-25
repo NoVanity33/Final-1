@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>No Vanity 33 | Christian Apparel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">NO VANITY <span>33</span></div>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#scripture">Scripture Generator</a>
+      <a href="#customize">Customize</a>
+      <a href="#mission">Mission</a>
+      <a href="#cart">Cart <span id="cartCount">0</span></a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Faith over vanity</p>
+      <h1>Christ-centered apparel with purpose.</h1>
+      <p>Due to demand, all items currently have a 3–4 week lead time. Thank you for supporting the mission.</p>
+      <a class="button" href="#shop">Shop Collection</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="shop" class="section">
+      <h2>Shop Collection</h2>
+      <p class="section-note">Choose size and color, then add items to your cart.</p>
+      <div id="productGrid" class="product-grid"></div>
+    </section>
+
+    <section id="scripture" class="section card">
+      <h2>Scripture Generator</h2>
+      <p id="verseText">Click below for a scripture.</p>
+      <button class="button" id="verseBtn">Generate Scripture</button>
+    </section>
+
+    <section id="customize" class="section card">
+      <h2>Customize</h2>
+      <p>Want a specific scripture or color scheme? Add a note with your order, or email <strong>novanity2026@gmail.com</strong>.</p>
+    </section>
+
+    <section id="mission" class="section card">
+      <h2>Mission</h2>
+      <p>No Vanity 33 exists to honor Christ, create bold faith-based apparel, and build toward helping people in need through the work.</p>
+    </section>
+
+    <section id="cart" class="section card">
+      <h2>Your Cart</h2>
+      <div id="cartItems"></div>
+      <p class="cart-total">Total: $<span id="cartTotal">0</span></p>
+      <div class="payment-box">
+        <a class="button" href="https://paypal.me/novanity33" target="_blank" rel="noopener">Pay with PayPal</a>
+        <a class="button secondary" href="https://cash.app/$NoVanity33" target="_blank" rel="noopener">Pay with Cash App</a>
+        <a class="button secondary" href="https://buy.stripe.com/fZu3cx2WugOz4FidoWao800" target="_blank" rel="noopener">Pay with Stripe / Card</a>
+      </div>
+      <p class="small">After payment, email your name, item list, sizes, colors, and shipping info to novanity2026@gmail.com.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© No Vanity 33 • novanity2026@gmail.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
