@@ -1,72 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="No Vanity 33 is a Christ-centered apparel brand made to spread Scripture, invite prayer, and help people in practical ways.">
+  <meta name="keywords" content="No Vanity 33, Christian clothing, faith apparel, scripture shirts, prayer shirts, Christian streetwear">
+  <meta property="og:title" content="No Vanity 33 | Christian Apparel">
+  <meta property="og:description" content="Wear your faith. Live with purpose. Point others to Christ.">
+  <meta property="og:type" content="website">
   <title>No Vanity 33 | Christian Apparel</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand">NO VANITY <span>33</span></div>
-    <nav>
-      <a href="#shop">Shop</a>
-      <a href="#scripture">Scripture Generator</a>
-      <a href="#customize">Customize</a>
-      <a href="#mission">Mission</a>
-      <a href="#cart">Cart <span id="cartCount">0</span></a>
-    </nav>
-  </header>
+<header class="nav">
+  <a class="brand" href="#home">NO VANITY <span>33</span></a>
+  <nav>
+    <a href="#shop">Shop</a>
+    <a href="#mission">Mission</a>
+    <a href="#prayer">Prayer</a>
+    <a href="#generator">Scripture</a>
+    <a href="#cart">Cart <b id="cartCount">0</b></a>
+  </nav>
+</header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <p class="eyebrow">Faith over vanity</p>
-      <h1>Christ-centered apparel with purpose.</h1>
-      <p>Due to demand, all items currently have a 3–4 week lead time. Thank you for supporting the mission.</p>
-      <a class="button" href="#shop">Shop Collection</a>
+<main>
+  <section id="home" class="hero">
+    <p class="eyebrow">FAITH • PURPOSE • NO VANITY</p>
+    <h1>Wear the Word. Live the Gospel.</h1>
+    <p class="hero-verse">“And whatsoever ye do, do it heartily, as to the Lord, and not unto men.” — Colossians 3:23</p>
+    <p>Christian apparel made to carry Scripture, start conversations, and invite prayer.</p>
+    <div class="hero-actions">
+      <a class="btn" href="#shop">Shop Collection</a>
+      <a class="btn secondary" href="#mission">Read the Mission</a>
     </div>
   </section>
 
-  <main>
-    <section id="shop" class="section">
-      <h2>Shop Collection</h2>
-      <p class="section-note">Choose size and color, then add items to your cart.</p>
-      <div id="productGrid" class="product-grid"></div>
-    </section>
+  <section class="notice">
+    <strong>Important Order Information:</strong> These launch items are being prepared for print-on-demand fulfillment. For now, please allow 3–4 weeks for production and delivery while No Vanity 33 finishes its fulfillment setup.
+  </section>
 
-    <section id="scripture" class="section card">
-      <h2>Scripture Generator</h2>
-      <p id="verseText">Click below for a scripture.</p>
-      <button class="button" id="verseBtn">Generate Scripture</button>
-    </section>
+  <section class="signature-strip">
+    <span>If you need prayer, just ask me.</span>
+    <span>novanity33.com</span>
+  </section>
 
-    <section id="customize" class="section card">
-      <h2>Customize</h2>
-      <p>Want a specific scripture or color scheme? Add a note with your order, or email <strong>novanity2026@gmail.com</strong>.</p>
-    </section>
+  <section id="shop">
+    <p class="eyebrow">LAUNCH COLLECTION</p>
+    <h2>Shop Collection</h2>
+    <p class="section-intro">New simple faith tees have been added at $20. Each shirt is designed to be wearable, clean, and bold enough to open the door for prayer.</p>
+    <div id="products" class="grid"></div>
+  </section>
 
-    <section id="mission" class="section card">
-      <h2>Mission</h2>
-      <p>No Vanity 33 exists to honor Christ, create bold faith-based apparel, and build toward helping people in need through the work.</p>
-    </section>
+  <section id="mission" class="panel mission-panel">
+    <p class="eyebrow">THE STORY</p>
+    <h2>Our Mission</h2>
+    <p><strong>No Vanity 33</strong> was founded with one purpose: to point people toward Christ.</p>
+    <p>In a world that often celebrates self, appearance, and status, we want every design to remind people that true identity is not found in ourselves. It is found in Jesus Christ. The name <strong>No Vanity</strong> is a reminder that our lives are meant to reflect Him, not ourselves.</p>
+    <p>Every shirt is created with intention. Our designs are meant to start conversations, encourage faith, and remind both the person wearing them and the people around them that hope is still alive.</p>
+    <h3>Why Every Shirt Carries Scripture</h3>
+    <p>One of the things that makes No Vanity 33 unique is that every design includes Scripture. Rather than printing the same verses repeatedly, we intentionally use different passages from the Bible across our apparel. Our hope is that every order places God’s Word into someone’s life in a fresh way. A verse on the back of a shirt may be exactly what someone needed to read on an ordinary day.</p>
+    <h3>If You Need Prayer, Just Ask Me</h3>
+    <p>You will also notice a simple message connected to our apparel: <strong>“If you need prayer, just ask me.”</strong> Those words are not just a slogan. They are an invitation.</p>
+    <p>We believe some of the most important conversations begin with a simple question. If one shirt leads to one prayer, one encouraging conversation, or one person taking a step closer to Christ, then it has already served a purpose far greater than clothing.</p>
+    <h3>More Than Apparel</h3>
+    <p>As No Vanity 33 grows, our desire is to use the business to serve people in practical ways. We hope to support those facing hardship, encourage families in need, and invest in opportunities that reflect Christ’s love through both words and actions.</p>
+    <p>We do not claim to have all the answers. We simply want to build a company that honors Christ, treats people with kindness, and reminds the world that God’s Word is living, powerful, and still changing lives today.</p>
+    <p class="mission-close"><strong>Wear your faith. Live with purpose. Point others to Christ.</strong></p>
+  </section>
 
-    <section id="cart" class="section card">
-      <h2>Your Cart</h2>
-      <div id="cartItems"></div>
-      <p class="cart-total">Total: $<span id="cartTotal">0</span></p>
-      <div class="payment-box">
-        <a class="button" href="https://paypal.me/novanity33" target="_blank" rel="noopener">Pay with PayPal</a>
-        <a class="button secondary" href="https://cash.app/$NoVanity33" target="_blank" rel="noopener">Pay with Cash App</a>
-        <a class="button secondary" href="https://buy.stripe.com/fZu3cx2WugOz4FidoWao800" target="_blank" rel="noopener">Pay with Stripe / Card</a>
-      </div>
-      <p class="small">After payment, email your name, item list, sizes, colors, and shipping info to novanity2026@gmail.com.</p>
-    </section>
-  </main>
+  <section id="prayer" class="panel gold-panel">
+    <p class="eyebrow">PRAYER REQUESTS</p>
+    <h2>Need Prayer?</h2>
+    <p>No Vanity 33 is built around more than clothing. If you need prayer, we want this brand to become a place where you can ask.</p>
+    <p class="big">Prayer request form coming soon. For now, email <a href="mailto:novanity2026@gmail.com">novanity2026@gmail.com</a>.</p>
+  </section>
 
-  <footer>
-    <p>© No Vanity 33 • novanity2026@gmail.com</p>
-  </footer>
+  <section id="generator" class="panel">
+    <p class="eyebrow">SCRIPTURE TOOL</p>
+    <h2>Scripture Generator</h2>
+    <p>Choose a theme or let a verse be selected for a custom shirt.</p>
+    <div class="gen-grid">
+      <select id="topic">
+        <option value="faith">Faith</option>
+        <option value="strength">Strength</option>
+        <option value="hope">Hope</option>
+        <option value="salvation">Salvation</option>
+        <option value="peace">Peace</option>
+      </select>
+      <button class="btn" id="generateVerse">Choose a Verse</button>
+    </div>
+    <div id="verseBox" class="verse">Click the button to reveal a scripture.</div>
+    <label>Your scripture request</label>
+    <textarea id="customVerse" placeholder="Example: Let God choose for me, John 3:16, or scriptures about strength..."></textarea>
+    <button class="btn" id="useGenerated">Use Generated Scripture</button>
+  </section>
 
-  <script src="script.js"></script>
+  <section id="cart" class="panel">
+    <h2>Your Cart</h2>
+    <div id="cartItems">Cart is empty.</div>
+    <div class="total">Total: $<span id="total">0</span></div>
+    <div class="checkout">
+      <a class="btn" href="https://buy.stripe.com/fZu3cx2WugOz4FidoWao800" target="_blank" rel="noopener">Checkout with Stripe</a>
+      <a class="btn secondary" href="https://paypal.me/novanity33" target="_blank" rel="noopener">Pay with PayPal</a>
+      <a class="btn secondary" href="https://cash.app/$NoVanity33" target="_blank" rel="noopener">Pay with Cash App</a>
+    </div>
+    <p class="small">After payment, email order details to novanity2026@gmail.com. Printful fulfillment connection is being prepared.</p>
+  </section>
+</main>
+
+<footer>
+  <strong>No Vanity 33</strong><br>
+  Wear the Word. Live the Gospel. • novanity2026@gmail.com
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
