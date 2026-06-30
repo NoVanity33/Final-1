@@ -1,12 +1,3 @@
-No Vanity 33 Master Launch Site
+No Vanity 33 V3 Complete Launch
 
-This version restores the original clothing catalog and keeps the new V2 mission section and four $20 launch tees.
-
-Upload the CONTENTS of this folder to GitHub:
-- images folder
-- index.html
-- styles.css
-- script.js
-- README.txt
-
-Cloudflare is connected to GitHub and should deploy automatically after you commit changes to main.
+Includes original full catalog, 4 new $20 launch tees, mission, prayer section, and cache-busted CSS/JS for Cloudflare. Upload the CONTENTS of this folder to GitHub root (index.html, styles.css, script.js, images folder, README.txt).
