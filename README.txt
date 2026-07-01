@@ -1,10 +1,24 @@
-No Vanity 33 V4 TRUE MASTER
+No Vanity 33 FINAL MASTER
 
-This package is built from the working launch site and includes:
-- Original product catalog rendered in script.js
+Upload the CONTENTS of this folder to the root of the GitHub repository:
+- index.html
+- styles.css
+- script.js
+- README.txt
+- images folder
+
+This version includes:
+- Full restored catalog from uploaded product images
 - Four new $20 launch tees
-- Mission and prayer sections
-- catalog/ folder with additional PNG catalog assets
-- Cloudflare/GitHub-ready root files
+- Mission section
+- Prayer section
+- Scripture explanation section
+- Cart with size/color selectors
+- PayPal and Cash App checkout links
+- GitHub/Cloudflare-ready static file structure
 
-Upload the CONTENTS of this folder to GitHub root: index.html, styles.css, script.js, README.txt, images/, catalog/.
+Next planned updates:
+- Printful product sync
+- Stripe Checkout
+- Apple Pay and Google Pay
+- QR-code linked Scripture/prayer pages

@@ -1,71 +1,111 @@
-const products = [
-  {id:'cross-prayer-black',name:'Cross Prayer Tee - Black',price:20,img:'images/cross-prayer-black.png',desc:'Simple cross front, Scripture across the upper back, and a small prayer invitation.'},
-  {id:'cross-prayer-white',name:'Cross Prayer Tee - White',price:20,img:'images/cross-prayer-white.png',desc:'White launch tee with black lettering, Scripture, and the No Vanity prayer invitation.'},
-  {id:'yahweh-black',name:'YAHWEH Tee - Black',price:20,img:'images/qr-prayer-black.png',desc:'Bold faith tee with YAHWEH across the chest and Scripture on the back.'},
-  {id:'yahweh-white',name:'YAHWEH Tee - White',price:20,img:'images/yahweh-white.png',desc:'White YAHWEH launch tee with Scripture on the back.'},
-
-  {id:'crown-tee',name:'Crown of Thorns 33 Tee',price:25,img:'images/crown-tee.svg',desc:'Logo front with bold scripture back.'},
-  {id:'lion-tee',name:'Lion Crown Tee',price:25,img:'images/lion-tee.svg',desc:'Lion of Judah inspired front with scripture back.'},
-  {id:'cross-bible-tee',name:'Cross & Open Bible Tee',price:25,img:'images/cross-bible-tee.svg',desc:'Simple cross front and Word-centered back.'},
-  {id:'white-horse-tee',name:'Christ Returns Tee',price:30,img:'images/white-horse-tee.svg',desc:'White horse return design with King of Kings theme.'},
-  {id:'armor-tee',name:'Armor of God Tee',price:25,img:'images/armor-tee.svg',desc:'Armor of God design with scripture back.'},
-  {id:'custom-shirt',name:'Custom Scripture Shirt',price:30,img:'images/custom-shirt.svg',desc:'Use the Scripture Generator for the back.'},
-  {id:'hoodie',name:'No Vanity 33 Hoodie',price:45,img:'images/hoodie.svg',desc:'Premium hoodie with crown logo and scripture.'},
-  {id:'sweatpants',name:'Cross Scripture Sweatpants',price:35,img:'images/sweatpants.svg',desc:'Cross down one leg and scripture on the other.'},
-  {id:'black-shorts',name:'Black Sport Shorts',price:22,img:'images/black-shorts.svg',desc:'Simple cross athletic shorts.'},
-  {id:'red-shorts',name:'Red Cross Shorts',price:22,img:'images/red-shorts.svg',desc:'Red shorts with gold cross detail.'},
-  {id:'socks',name:'Cross Socks',price:12,img:'images/socks.svg',desc:'Cross socks with multiple color options.'},
-  {id:'beanie',name:'Crown 33 Beanie',price:18,img:'images/beanie.svg',desc:'Simple No Vanity 33 headwear.'}
-];
-
-const verses={
-  faith:['Hebrews 11:1 — Now faith is the substance of things hoped for, the evidence of things not seen.','2 Corinthians 5:7 — For we walk by faith, not by sight.'],
-  strength:['Philippians 4:13 — I can do all things through Christ which strengtheneth me.','Isaiah 40:31 — They that wait upon the LORD shall renew their strength.'],
-  hope:['Jeremiah 29:11 — For I know the thoughts that I think toward you, saith the LORD.','Romans 15:13 — Now the God of hope fill you with all joy and peace in believing.'],
-  salvation:['John 3:16 — For God so loved the world, that he gave his only begotten Son.','Romans 10:9 — If thou shalt confess with thy mouth the Lord Jesus...'],
-  peace:['John 14:27 — Peace I leave with you, my peace I give unto you.','Philippians 4:7 — The peace of God, which passeth all understanding...']
+const STORE = {
+  email: 'novanity2026@gmail.com',
+  paypalMe: 'https://paypal.me/novanity33',
+  cashApp: 'https://cash.app/$NoVanity33'
 };
 
-let cart=[];
-let currentVerse='';
+const products = [
+  // New $20 launch tees
+  {id:'cross-prayer-black', category:'Launch Tees', name:'Simple Cross Prayer Tee - Black', price:20, img:'images/cross-prayer-black.png', desc:'Simple white cross front with Scripture and prayer invitation on back.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Black']},
+  {id:'cross-prayer-white', category:'Launch Tees', name:'Simple Cross Prayer Tee - White', price:20, img:'images/cross-prayer-white.png', desc:'Clean white tee with black cross, Scripture, and prayer invitation.', sizes:['S','M','L','XL','2XL','3XL'], colors:['White']},
+  {id:'yahweh-black', category:'Launch Tees', name:'YAHWEH Scripture Tee - Black', price:20, img:'images/yahweh-black.png', desc:'YAHWEH arched chest design with Exodus Scripture on back.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Black']},
+  {id:'yahweh-white', category:'Launch Tees', name:'YAHWEH Scripture Tee - White', price:20, img:'images/yahweh-white.png', desc:'White YAHWEH Scripture tee with bold black lettering.', sizes:['S','M','L','XL','2XL','3XL'], colors:['White']},
+
+  // Original restored catalog
+  {id:'crown-thorns-33', category:'Shirts', name:'Crown of Thorns 33 Tee', price:25, img:'images/crown-thorns-33-tee.png', desc:'Crown of thorns with 33 and Isaiah 53:5 Scripture back.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Black']},
+  {id:'logo-crown-tee', category:'Shirts', name:'Gold Crown 33 Logo Tee', price:25, img:'images/logo-crown-tee.png', desc:'Minimal No Vanity 33 crown logo shirt with John 3:33.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Black']},
+  {id:'no-vanity-black', category:'Shirts', name:'No Vanity Statement Tee - Black', price:25, img:'images/no-vanity-shirt.png', desc:'No Vanity 33 statement tee with 1 Corinthians 10:31.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Black']},
+  {id:'no-vanity-tan', category:'Shirts', name:'No Vanity Statement Tee - Tan', price:25, img:'images/no-vanity-tan-shirt.png', desc:'Tan No Vanity 33 tee with Scripture back.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Tan']},
+  {id:'christ-returns', category:'Shirts', name:'Christ Returns King of Kings Tee', price:30, img:'images/christ-returns-tee.png', desc:'Christ returning on the white horse with Revelation 19:11–16 theme.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Black']},
+  {id:'lion-judah', category:'Shirts', name:'Lion of Judah Tee', price:30, img:'images/lion-of-judah-tee.png', desc:'Lion of the tribe of Judah design with Revelation 5:5 back.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Black']},
+  {id:'crown-logo-alt', category:'Shirts', name:'Crown 33 Logo Tee Alt', price:25, img:'images/crown-thorns-logo-tee-alt.png', desc:'Alternate crown logo product image for No Vanity 33.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Black']},
+
+  {id:'black-cross-sweatpants', category:'Sweatpants', name:'Black Cross Scripture Sweatpants', price:45, img:'images/black-cross-sweatpants.png', desc:'Black sweatpants with cross and multiple Scripture references.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Black']},
+  {id:'gray-cross-sweatpants', category:'Sweatpants', name:'Gray Cross Scripture Sweatpants', price:45, img:'images/gray-cross-sweatpants.png', desc:'Gray sweatpants with cross and Scripture down the leg.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Gray']},
+  {id:'gray-sweatpants-alt', category:'Sweatpants', name:'Gray Scripture Sweatpants Alt', price:45, img:'images/gray-sweatpants-alt.png', desc:'Alternate gray sweatpants product image.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Gray']},
+
+  {id:'black-cross-shorts', category:'Shorts', name:'Black Cross Shorts', price:30, img:'images/black-cross-shorts.png', desc:'Black athletic shorts with simple white cross.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Black']},
+  {id:'red-crown-shorts', category:'Shorts', name:'Red Crown 33 Shorts', price:30, img:'images/red-crown-shorts.png', desc:'Red shorts with crown 33 logo and Isaiah 53:5 Scripture.', sizes:['S','M','L','XL','2XL','3XL'], colors:['Red']},
+
+  {id:'black-red-cross-socks', category:'Socks', name:'Black Socks with Red Cross', price:15, img:'images/black-red-cross-socks.png', desc:'Black crew socks with red cross on front.', sizes:['One Size'], colors:['Black / Red']},
+  {id:'red-cross-socks', category:'Socks', name:'Red Cross Socks', price:15, img:'images/red-cross-socks.png', desc:'Red socks with white cross details.', sizes:['One Size'], colors:['Red']},
+  {id:'blue-cross-socks', category:'Socks', name:'Blue Cross Socks', price:15, img:'images/blue-cross-socks.png', desc:'Blue socks with white cross details.', sizes:['One Size'], colors:['Blue']},
+  {id:'green-cross-socks', category:'Socks', name:'Green Cross Socks', price:15, img:'images/green-cross-socks.png', desc:'Green socks with white cross details.', sizes:['One Size'], colors:['Green']}
+];
+
+let currentCategory = 'All';
+let cart = [];
+
+function money(n){ return Number(n).toFixed(2); }
+
+function categories(){
+  return ['All', ...Array.from(new Set(products.map(p => p.category)))];
+}
+
+function renderFilters(){
+  const el = document.getElementById('filters');
+  el.innerHTML = categories().map(cat => `<button class="filter-btn ${cat===currentCategory?'active':''}" data-cat="${cat}">${cat}</button>`).join('');
+  el.querySelectorAll('button').forEach(btn => btn.addEventListener('click', () => {
+    currentCategory = btn.dataset.cat;
+    renderFilters();
+    renderProducts();
+  }));
+}
+
+function productCard(p){
+  return `<article class="card">
+    ${p.category==='Launch Tees' ? '<span class="badge">New $20 Launch Tee</span>' : `<span class="badge">${p.category}</span>`}
+    <img src="${p.img}" alt="${p.name}" loading="lazy" onerror="this.style.opacity=.35;this.alt='Image missing: ${p.img}'">
+    <h3>${p.name}</h3>
+    <div class="price">$${money(p.price)}</div>
+    <p class="desc">${p.desc}</p>
+    <div class="options">
+      <label>Size
+        <select id="size-${p.id}">${p.sizes.map(s => `<option>${s}</option>`).join('')}</select>
+      </label>
+      <label>Color
+        <select id="color-${p.id}">${p.colors.map(c => `<option>${c}</option>`).join('')}</select>
+      </label>
+    </div>
+    <button class="btn add" onclick="addToCart('${p.id}')">Add to Cart</button>
+  </article>`;
+}
 
 function renderProducts(){
-  const productGrid = document.getElementById('products');
-  productGrid.innerHTML=products.map(p=>`<div class="card">
-    <div class="image-wrap"><img src="${p.img}" alt="${p.name}"></div>
-    <h3>${p.name}</h3>
-    <p>${p.desc}</p>
-    <p class="prayer-line">If you need prayer, just ask me.</p>
-    <div class="options">
-      <select id="size-${p.id}"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2X</option><option>3X</option></select>
-      <select id="color-${p.id}"><option>Black</option><option>White</option><option>Cream</option><option>Olive</option><option>Red</option><option>Gold</option><option>Gray</option></select>
-    </div>
-    <div class="price">$${p.price}</div>
-    <button class="btn" onclick="addToCart('${p.id}')">Add to Cart</button>
-  </div>`).join('')
+  const list = currentCategory === 'All' ? products : products.filter(p => p.category === currentCategory);
+  document.getElementById('products').innerHTML = list.map(productCard).join('');
 }
 
 function addToCart(id){
-  const p=products.find(x=>x.id===id);
-  cart.push({...p,size:document.getElementById('size-'+id).value,color:document.getElementById('color-'+id).value,verse:currentVerse});
+  const p = products.find(x => x.id === id);
+  const size = document.getElementById(`size-${id}`).value;
+  const color = document.getElementById(`color-${id}`).value;
+  cart.push({...p, size, color});
+  renderCart();
+}
+
+function removeFromCart(index){
+  cart.splice(index,1);
   renderCart();
 }
 
 function renderCart(){
-  document.getElementById('cartCount').textContent=cart.length;
-  if(!cart.length){document.getElementById('cartItems').textContent='Cart is empty.';document.getElementById('total').textContent='0';return}
-  document.getElementById('cartItems').innerHTML=cart.map((i,n)=>`<div class="cart-row"><span>${i.name} — ${i.size}, ${i.color}</span><strong>$${i.price}</strong></div>`).join('');
-  document.getElementById('total').textContent=cart.reduce((s,i)=>s+i.price,0)
+  document.getElementById('cartCount').textContent = cart.length;
+  const items = document.getElementById('cartItems');
+  if(!cart.length){
+    items.innerHTML = '<p class="section-intro">Your cart is empty.</p>';
+  } else {
+    items.innerHTML = cart.map((item, i) => `<div class="cart-row">
+      <div><strong>${item.name}</strong><br><span>${item.size} / ${item.color}</span></div>
+      <div><strong>$${money(item.price)}</strong> <button onclick="removeFromCart(${i})">Remove</button></div>
+    </div>`).join('');
+  }
+  const total = cart.reduce((sum, item) => sum + Number(item.price), 0);
+  document.getElementById('cartTotal').textContent = money(total);
 }
 
-document.getElementById('generateVerse').onclick=()=>{
-  const t=document.getElementById('topic').value;
-  const arr=verses[t];
-  currentVerse=arr[Math.floor(Math.random()*arr.length)];
-  document.getElementById('verseBox').textContent=currentVerse
-};
-
-document.getElementById('useGenerated').onclick=()=>{document.getElementById('customVerse').value=currentVerse||'Let God choose my scripture.'};
-
-renderProducts();
-renderCart();
+document.addEventListener('DOMContentLoaded', () => {
+  renderFilters();
+  renderProducts();
+  renderCart();
+});
