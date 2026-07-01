@@ -1,3 +1,10 @@
-No Vanity 33 V3 Complete Launch
+No Vanity 33 V4 TRUE MASTER
 
-Includes original full catalog, 4 new $20 launch tees, mission, prayer section, and cache-busted CSS/JS for Cloudflare. Upload the CONTENTS of this folder to GitHub root (index.html, styles.css, script.js, images folder, README.txt).
+This package is built from the working launch site and includes:
+- Original product catalog rendered in script.js
+- Four new $20 launch tees
+- Mission and prayer sections
+- catalog/ folder with additional PNG catalog assets
+- Cloudflare/GitHub-ready root files
+
+Upload the CONTENTS of this folder to GitHub root: index.html, styles.css, script.js, README.txt, images/, catalog/.
