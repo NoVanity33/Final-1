@@ -1,0 +1,27 @@
+{
+  "id": "crown-33-sweatpants-gray",
+  "name": "Crown 33 Sweatpants - Gray",
+  "category": "Sweatpants",
+  "price": 45,
+  "currency": "USD",
+  "colors": [
+    "Gray"
+  ],
+  "sizes": [
+    "Youth S",
+    "Youth M",
+    "Youth L",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL"
+  ],
+  "image": "assets/images/products/crown-33-sweatpants-gray.png",
+  "description": "Jogger-style gray sweatpants with a defined cross on the right leg and Crown 33 logo on the left leg.",
+  "lead_time": "2-3 weeks",
+  "fulfillment": "Printful-ready / made to order",
+  "printful_product_id": "",
+  "printful_variant_ids": {}
+}

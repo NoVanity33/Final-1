@@ -1,0 +1,19 @@
+{
+  "id": "crown-33-dad-hat-black",
+  "name": "Crown 33 Dad Hat - Black",
+  "category": "Hats",
+  "price": 20,
+  "currency": "USD",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "image": "assets/images/products/crown-33-dad-hat-black.png",
+  "description": "Black dad hat with Crown 33 logo.",
+  "lead_time": "2-3 weeks",
+  "fulfillment": "Printful-ready / made to order",
+  "printful_product_id": "",
+  "printful_variant_ids": {}
+}

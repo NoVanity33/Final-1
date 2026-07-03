@@ -1,8 +1,14 @@
-# No Vanity 33 Launch v1 Exact
+# No Vanity 33 Launch v1 Organized
 
-Static Cloudflare Pages / GitHub-ready website.
+This ZIP contains the organized launch build for No Vanity 33.
 
-## Notes
-- All products are displayed on the home page.
-- Printful fulfillment messaging uses 2–3 week lead time.
-- Product details, Printful IDs, and live checkout can be connected in Phase 2.
+## Included
+- One-page homepage with full catalog
+- Lion with crown-of-thorns branding in header
+- 2–3 week Printful lead-time messaging
+- Product cards with price, color, size, and Add to Cart
+- Individual product folders with `mockup.png`, `product.json`, and `description.txt`
+- Ready for GitHub / Cloudflare Pages upload
+
+## Next phase
+Connect Printful product IDs, Stripe/PayPal checkout, and the Prayer Wall database.

@@ -1,0 +1,19 @@
+{
+  "id": "crown-33-water-bottle",
+  "name": "Crown 33 Water Bottle",
+  "category": "Accessories",
+  "price": 25,
+  "currency": "USD",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "image": "assets/images/products/crown-33-water-bottle.png",
+  "description": "Black water bottle with Crown 33 logo.",
+  "lead_time": "2-3 weeks",
+  "fulfillment": "Printful-ready / made to order",
+  "printful_product_id": "",
+  "printful_variant_ids": {}
+}

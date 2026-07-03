@@ -1,0 +1,19 @@
+{
+  "id": "wear-the-word-wristband",
+  "name": "Wear The Word Wristband",
+  "category": "Accessories",
+  "price": 5,
+  "currency": "USD",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "image": "assets/images/products/wear-the-word-wristband.png",
+  "description": "Black wristband with Wear The Word message.",
+  "lead_time": "2-3 weeks",
+  "fulfillment": "Printful-ready / made to order",
+  "printful_product_id": "",
+  "printful_variant_ids": {}
+}

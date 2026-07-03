@@ -1,0 +1,27 @@
+{
+  "id": "no-vanity-33-tee-white",
+  "name": "No Vanity 33 Tee - White",
+  "category": "T-Shirts",
+  "price": 25,
+  "currency": "USD",
+  "colors": [
+    "White"
+  ],
+  "sizes": [
+    "Youth S",
+    "Youth M",
+    "Youth L",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL"
+  ],
+  "image": "assets/images/products/no-vanity-33-tee-white.png",
+  "description": "Clean No Vanity 33 white tee with 1 Corinthians 10:31 back print.",
+  "lead_time": "2-3 weeks",
+  "fulfillment": "Printful-ready / made to order",
+  "printful_product_id": "",
+  "printful_variant_ids": {}
+}

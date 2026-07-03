@@ -1,0 +1,27 @@
+{
+  "id": "lion-judah-hoodie",
+  "name": "Lion of Judah Hoodie - Black",
+  "category": "Hoodies",
+  "price": 50,
+  "currency": "USD",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "Youth S",
+    "Youth M",
+    "Youth L",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL"
+  ],
+  "image": "assets/images/products/lion-judah-hoodie.png",
+  "description": "Black hoodie using the Lion of Judah crown-of-thorns artwork and scripture on the back.",
+  "lead_time": "2-3 weeks",
+  "fulfillment": "Printful-ready / made to order",
+  "printful_product_id": "",
+  "printful_variant_ids": {}
+}
