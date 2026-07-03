@@ -1,13 +1,12 @@
-# No Vanity 33 - Printful Ready Store
+# No Vanity 33 — Printful Ready v3
 
-Upload everything inside this folder to GitHub or Cloudflare Pages.
-Main file: index.html
-Product data: assets/js/products.js
-Printful instructions: docs/PRINTFUL_SETUP.md
+This ZIP has files at the root so Cloudflare Pages can deploy it directly.
 
+Changes in v3:
+- Uploaded catalog images are included and wired into the product catalog.
+- Shorts and socks use object-fit: contain so they do not stretch.
+- Prices stay below each product image/title.
+- Accessories are kept.
+- Sweatpants names are Crown 33 placeholders until final Printful sweatpants mockups are exported.
 
-## July 2 catalog update
-- Replaced catalog mockups with the uploaded product images.
-- Fixed stretched shorts/socks by using contain-fit product image boxes.
-- Moved prices below each image/title area so they no longer slide into the photo window.
-- Sweatpants product names now use Crown 33/Crown of Thorns direction; replace their placeholder mockups with final Printful exports when ready.
+Upload this ZIP directly to Cloudflare Pages, or extract it and upload the contents.
