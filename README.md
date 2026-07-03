@@ -1,6 +1,5 @@
-# No Vanity 33 Home Catalog
+# No Vanity 33 v1 Homepage Final
 
-Upload the contents of this ZIP directly to Cloudflare Pages. The catalog is on the homepage at `index.html`.
+Upload the contents of this ZIP to Cloudflare Pages or GitHub. `index.html` is the homepage and includes the full product catalog.
 
-## Printful
-The visible Printful Link buttons were removed. Add Printful product IDs/checkout logic inside `script.js` where you see `ADD_PRINTFUL_PRODUCT_ID_HERE`.
+Lead time is set to 2–3 weeks. Product details and Printful IDs can be connected in the next phase.
