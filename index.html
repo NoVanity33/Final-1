@@ -1,121 +1,329 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>No Vanity 33 | Christ-Centered Apparel</title>
-  <meta name="description" content="No Vanity 33 is Christ-centered apparel built around Scripture, prayer, and purpose." />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>No Vanity 33 | Christ-Centered Apparel</title>
+<meta name="description" content="No Vanity 33 is Christ-centered apparel made to carry Scripture, start conversations, and invite prayer.">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home"><span>NO VANITY</span> <b>33</b><small>Wear the Word. Live the Gospel.</small></a>
-    <nav>
-      <a href="#home">Home</a><a href="#shop">Shop</a><a href="#mission">Mission</a><a href="#prayer-wall">Prayer Wall</a><a href="#contact">Contact</a><a href="#cart">Cart <span id="cartCount">0</span></a>
-    </nav>
-  </header>
-
-  <main id="home">
-    <section class="hero">
-      <div class="hero-art"><img src="images/hero-lion.webp" alt="Lion of Judah No Vanity 33" /></div>
-      <div class="hero-copy">
-        <p class="eyebrow">Christ-Centered Apparel</p>
-        <h1>Wear the Word.<br><span>Live the Gospel.</span></h1>
-        <p class="verse">“And whatsoever ye do, do it heartily, as to the Lord, and not unto men.” — Colossians 3:23</p>
-        <div class="actions"><a class="btn" href="#shop">Shop Collection</a><a class="btn ghost" href="#prayer-wall">Prayer Wall</a></div>
-      </div>
-      <aside class="notice-card">
-        <h3>Important Order Information</h3>
-        <p>Due to demand and made-to-order production, please allow <b>3–4 weeks</b> lead time while fulfillment is being connected.</p>
-        <p class="gold">If you need prayer, just ask me.</p>
-      </aside>
-    </section>
-
-    <section class="category-row">
-      <a href="#shop" data-filter="Shirts"><b>✝ Shirts</b><span>View All</span></a>
-      <a href="#shop" data-filter="Shorts"><b>▰ Shorts</b><span>View All</span></a>
-      <a href="#shop" data-filter="Sweatpants"><b>▮ Sweatpants</b><span>View All</span></a>
-      <a href="#shop" data-filter="Socks"><b>◖ Socks</b><span>View All</span></a>
-      <a href="#mission"><b>✚ Mission</b><span>Our Purpose</span></a>
-      <a href="#prayer-wall"><b>🙏 Prayer Wall</b><span>Need Prayer?</span></a>
-    </section>
-
-    <section id="shop" class="section">
-      <p class="eyebrow center">Launch Ready Catalog</p>
-      <h2>Shop Collection</h2>
-      <p class="intro">Clean, simple product cards. Each color/design is its own product for easier checkout and Printful setup.</p>
-      <div class="filters" id="filters"></div>
-      <div id="products" class="product-grid"></div>
-    </section>
-
-    <section class="trust-strip">
-      <div><b>Faith First</b><span>Everything we do points to Christ.</span></div>
-      <div><b>Community Driven</b><span>Built to help people in real need.</span></div>
-      <div><b>Made To Order</b><span>Each item is made just for you.</span></div>
-      <div><b>3–4 Week Lead Time</b><span>Quality takes time. Thank you.</span></div>
-      <div><b>Safe Checkout</b><span>Stripe, PayPal, Cash App ready.</span></div>
-    </section>
-
-    <section id="mission" class="section split">
-      <div>
-        <p class="eyebrow">Our Mission</p>
-        <h2>More Than Clothing</h2>
-        <p>No Vanity 33 exists to point people toward Christ through conversation, Scripture, and prayer. In a world that often celebrates self, our goal is to make apparel that reflects Him.</p>
-        <p>Every shirt carries Scripture because one verse read at the right moment can open the door to hope, prayer, and a conversation about Christ.</p>
-      </div>
-      <div class="card">
-        <h3>If You Need Prayer, Just Ask</h3>
-        <p>This line is a signature of the brand. It is not just a slogan. It is an invitation to stop, listen, pray, and care.</p>
-        <p>As No Vanity 33 grows, the goal is to help people in practical ways while keeping Christ at the center.</p>
-      </div>
-    </section>
-
-    <section id="prayer-wall" class="section split">
-      <div>
-        <p class="eyebrow">Prayer Wall</p>
-        <h2>If You Need Prayer, Just Ask</h2>
-        <form id="prayerForm" class="card form-card">
-          <label>Name optional<input id="prayerName" placeholder="First name or anonymous" /></label>
-          <label>Prayer category<select id="prayerCategory"><option>Healing</option><option>Family</option><option>Provision</option><option>Recovery</option><option>Strength</option><option>Other</option></select></label>
-          <label>Prayer request<textarea id="prayerText" placeholder="How can we pray with you?" required></textarea></label>
-          <button class="btn" type="submit">Submit Prayer</button>
-        </form>
-      </div>
-      <div>
-        <h3>Community Prayer</h3>
-        <div id="prayerList" class="prayer-list"></div>
-      </div>
-    </section>
-
-    <section id="cart" class="section split">
-      <div>
-        <p class="eyebrow">Checkout</p>
-        <h2>Your Cart</h2>
-        <div id="cartItems"></div>
-        <h3 id="cartTotal">Total: $0.00</h3>
-      </div>
-      <div class="card checkout-card">
-        <h3>Current checkout</h3>
-        <p>Use PayPal/Cash App while Stripe + Apple Pay + Google Pay + Printful are being connected.</p>
-        <div class="actions stacked">
-          <a class="btn" href="https://paypal.me/novanity33" target="_blank" rel="noopener">Pay with PayPal</a>
-          <a class="btn ghost" href="https://cash.app/$NoVanity33" target="_blank" rel="noopener">Pay with Cash App</a>
-          <button class="btn ghost" onclick="alert('Paste your Stripe Payment Link into script.js for each product when ready.')">Add Stripe Links</button>
+<header class="topbar">
+  <a class="brand" href="#home"><span>NO VANITY</span><b>33</b><small>Wear the Word. Live the Gospel.</small></a>
+  <nav>
+    <a href="#home">Home</a><a href="#shop">Shop</a><a href="#mission">Mission</a><a href="#prayer">Prayer Wall</a><a href="#contact">Contact</a><a href="#cart">Cart <span id="cart-count">0</span></a>
+  </nav>
+</header>
+<main>
+<section id="home" class="hero">
+  <div class="hero-img"><img src="images/hero-lion.webp" alt="Lion of Judah No Vanity 33 shirt"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">Christ-Centered Apparel</p>
+    <h1>Wear the Word.<br><span>Live the Gospel.</span></h1>
+    <p class="verse">“And whatsoever ye do, do it heartily, as to the Lord, and not unto men.” — Colossians 3:23</p>
+    <div class="hero-actions"><a class="btn" href="#shop">Shop Collection</a><a class="btn outline" href="#prayer">Prayer Wall</a></div>
+  </div>
+  <aside class="hero-note"><h3>Important Order Information</h3><p>Due to demand and made-to-order production, please allow 3–4 weeks lead time while fulfillment is being connected.</p><strong>If you need prayer, just ask me.</strong></aside>
+</section>
+<section class="category-row">
+  <a href="#shop" data-filter="Shirts">👕<span>Shirts</span></a><a href="#shop" data-filter="Shorts">🩳<span>Shorts</span></a><a href="#shop" data-filter="Sweatpants">👖<span>Sweatpants</span></a><a href="#shop" data-filter="Socks">🧦<span>Socks</span></a><a href="#mission">✝<span>Mission</span></a><a href="#prayer">🙏<span>Prayer Wall</span></a>
+</section>
+<section id="shop" class="section">
+  <p class="eyebrow center">Launch Ready Catalog</p><h2>Shop Collection</h2>
+  <p class="intro">Simple, clean product cards. Each color/design is its own product, which makes checkout and Printful fulfillment cleaner.</p>
+  <div class="filters"><button class="filter active" data-filter="All">All</button><button class="filter" data-filter="Launch Collection">Launch Tees</button><button class="filter" data-filter="Shirts">Shirts</button><button class="filter" data-filter="Sweatpants">Sweatpants</button><button class="filter" data-filter="Shorts">Shorts</button><button class="filter" data-filter="Socks">Socks</button></div>
+  <div class="grid">
+      <article class="product-card" data-category="Launch Collection">
+        <div class="badge">Launch Collection</div>
+        <img src="images/cross-prayer-black.webp" alt="Simple Cross Prayer Tee - Black" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Simple Cross Prayer Tee - Black</h3>
+          <div class="price">$20.00</div>
+          <p>Simple cross front with Scripture back and prayer invitation.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="Simple Cross Prayer Tee - Black" data-price="20">Add to Cart</button>
         </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <p class="eyebrow">Connect</p>
-      <h2>No Vanity 33</h2>
-      <p>Questions, prayer requests, or order help: <a href="mailto:novanity2026@gmail.com">novanity2026@gmail.com</a></p>
-    </section>
-  </main>
-
-  <footer>
-    <b>NO VANITY 33</b><span>Wear the Word. Live the Gospel.</span>
-    <p>Secure checkout with Stripe, Visa, Mastercard, Apple Pay, Google Pay, PayPal, and Cash App once payment links are connected.</p>
-  </footer>
+      </article>
+      <article class="product-card" data-category="Launch Collection">
+        <div class="badge">Launch Collection</div>
+        <img src="images/cross-prayer-white.webp" alt="Simple Cross Prayer Tee - White" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Simple Cross Prayer Tee - White</h3>
+          <div class="price">$20.00</div>
+          <p>White tee with black cross lettering and prayer invitation.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="Simple Cross Prayer Tee - White" data-price="20">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Launch Collection">
+        <div class="badge">Launch Collection</div>
+        <img src="images/yahweh-black.webp" alt="YAHWEH Scripture Tee - Black" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>YAHWEH Scripture Tee - Black</h3>
+          <div class="price">$20.00</div>
+          <p>Arched YAHWEH chest design with Scripture on back.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="YAHWEH Scripture Tee - Black" data-price="20">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Launch Collection">
+        <div class="badge">Launch Collection</div>
+        <img src="images/yahweh-white.webp" alt="YAHWEH Scripture Tee - White" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>YAHWEH Scripture Tee - White</h3>
+          <div class="price">$20.00</div>
+          <p>White YAHWEH launch tee with black lettering.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="YAHWEH Scripture Tee - White" data-price="20">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Shirts">
+        <div class="badge">Shirts</div>
+        <img src="images/crown-thorns.webp" alt="Crown of Thorns 33 Tee" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Crown of Thorns 33 Tee</h3>
+          <div class="price">$25.00</div>
+          <p>Crown of thorns 33 design with Isaiah 53:5.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="Crown of Thorns 33 Tee" data-price="25">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Shirts">
+        <div class="badge">Shirts</div>
+        <img src="images/no-vanity-black.webp" alt="No Vanity Statement Tee - Black" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>No Vanity Statement Tee - Black</h3>
+          <div class="price">$25.00</div>
+          <p>Bold No Vanity statement tee made to point attention back to God.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="No Vanity Statement Tee - Black" data-price="25">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Shirts">
+        <div class="badge">Shirts</div>
+        <img src="images/no-vanity-tan.webp" alt="No Vanity Statement Tee - Tan" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>No Vanity Statement Tee - Tan</h3>
+          <div class="price">$25.00</div>
+          <p>Tan No Vanity tee with clean everyday wear styling.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="No Vanity Statement Tee - Tan" data-price="25">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Shirts">
+        <div class="badge">Shirts</div>
+        <img src="images/lion-judah.webp" alt="Lion of Judah Tee" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Lion of Judah Tee</h3>
+          <div class="price">$30.00</div>
+          <p>Lion of Judah artwork with Revelation 5:5 message.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="Lion of Judah Tee" data-price="30">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Shirts">
+        <div class="badge">Shirts</div>
+        <img src="images/christ-returns.webp" alt="Christ Returns King of Kings Tee" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Christ Returns King of Kings Tee</h3>
+          <div class="price">$30.00</div>
+          <p>Christ returning on the white horse. Revelation 19:11–16.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="Christ Returns King of Kings Tee" data-price="30">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Shirts">
+        <div class="badge">Shirts</div>
+        <img src="images/gold-logo.webp" alt="Gold Crown 33 Logo Tee" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Gold Crown 33 Logo Tee</h3>
+          <div class="price">$25.00</div>
+          <p>Clean No Vanity 33 crown logo tee.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="Gold Crown 33 Logo Tee" data-price="25">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Shorts">
+        <div class="badge">Shorts</div>
+        <img src="images/black-shorts-clean.webp" alt="Black Cross Shorts" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Black Cross Shorts</h3>
+          <div class="price">$30.00</div>
+          <p>Black athletic shorts with simple cross design.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="Black Cross Shorts" data-price="30">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Shorts">
+        <div class="badge">Shorts</div>
+        <img src="images/red-shorts-clean.webp" alt="Red Crown 33 Shorts" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Red Crown 33 Shorts</h3>
+          <div class="price">$30.00</div>
+          <p>Red shorts with crown 33 branding. Full product view.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="Red Crown 33 Shorts" data-price="30">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Shorts">
+        <div class="badge">Shorts</div>
+        <img src="images/white-shorts-clean.webp" alt="White Crown 33 Shorts" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>White Crown 33 Shorts</h3>
+          <div class="price">$30.00</div>
+          <p>White shorts with crown 33 branding. Full product view.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="White Crown 33 Shorts" data-price="30">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Sweatpants">
+        <div class="badge">Sweatpants</div>
+        <img src="images/black-sweatpants-clean.webp" alt="Black Logo Cross Sweatpants" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Black Logo Cross Sweatpants</h3>
+          <div class="price">$45.00</div>
+          <p>Updated sweatpants with logo and cross only. No long scripture.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="Black Logo Cross Sweatpants" data-price="45">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Sweatpants">
+        <div class="badge">Sweatpants</div>
+        <img src="images/gray-sweatpants-clean.webp" alt="Gray Logo Cross Sweatpants" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Gray Logo Cross Sweatpants</h3>
+          <div class="price">$45.00</div>
+          <p>Updated gray sweatpants concept with logo and cross only.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="Gray Logo Cross Sweatpants" data-price="45">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Sweatpants">
+        <div class="badge">Sweatpants</div>
+        <img src="images/tan-sweatpants-clean.webp" alt="Tan Logo Cross Sweatpants" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Tan Logo Cross Sweatpants</h3>
+          <div class="price">$45.00</div>
+          <p>Third sweatpants color concept with logo and cross only.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select>
+          </label>
+          <button class="add-cart" data-name="Tan Logo Cross Sweatpants" data-price="45">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Socks">
+        <div class="badge">Socks</div>
+        <img src="images/black-socks.webp" alt="Black Cross Socks" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Black Cross Socks</h3>
+          <div class="price">$15.00</div>
+          <p>Black socks with red cross.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>One Size</option></select>
+          </label>
+          <button class="add-cart" data-name="Black Cross Socks" data-price="15">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Socks">
+        <div class="badge">Socks</div>
+        <img src="images/blue-socks.webp" alt="Blue Cross Socks" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Blue Cross Socks</h3>
+          <div class="price">$15.00</div>
+          <p>Blue socks with white cross.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>One Size</option></select>
+          </label>
+          <button class="add-cart" data-name="Blue Cross Socks" data-price="15">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Socks">
+        <div class="badge">Socks</div>
+        <img src="images/green-socks.webp" alt="Green Cross Socks" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Green Cross Socks</h3>
+          <div class="price">$15.00</div>
+          <p>Green socks with white cross.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>One Size</option></select>
+          </label>
+          <button class="add-cart" data-name="Green Cross Socks" data-price="15">Add to Cart</button>
+        </div>
+      </article>
+      <article class="product-card" data-category="Socks">
+        <div class="badge">Socks</div>
+        <img src="images/red-socks.webp" alt="Red Cross Socks" class="product-image" loading="lazy">
+        <div class="product-body">
+          <h3>Red Cross Socks</h3>
+          <div class="price">$15.00</div>
+          <p>Red socks with white cross.</p>
+          <p class="prayer">If you need prayer, just ask me.</p>
+          <label>Size
+            <select class="size-select"><option>One Size</option></select>
+          </label>
+          <button class="add-cart" data-name="Red Cross Socks" data-price="15">Add to Cart</button>
+        </div>
+      </article></div>
+</section>
+<section id="mission" class="section split">
+  <div><p class="eyebrow">Our Mission</p><h2>Clothing with purpose.</h2><p>No Vanity 33 exists to point people toward Christ through conversation, Scripture, and prayer. The name is a reminder that our lives are meant to reflect Him, not ourselves.</p><p>Every shirt carries Scripture because one verse seen at the right moment can start a conversation, encourage faith, or invite someone to ask for prayer.</p></div>
+  <div class="panel"><h3>Why “If you need prayer, just ask me.”?</h3><p>It is not just a slogan. It is an invitation. If one shirt leads to one prayer, one encouraging conversation, or one person taking a step closer to Christ, then it has served a purpose greater than clothing.</p></div>
+</section>
+<section id="prayer" class="section split">
+  <div><p class="eyebrow">Prayer Wall</p><h2>If You Need Prayer, Just Ask</h2><p>This first version works locally on the visitor’s device. When we connect a backend later, prayer requests can save publicly with approval.</p><form id="prayer-form"><label>Name optional<input placeholder="First name or anonymous"></label><label>Prayer category<select><option>Healing</option><option>Family</option><option>Work</option><option>Provision</option><option>Salvation</option><option>Other</option></select></label><label>Prayer request<textarea placeholder="How can we pray with you?"></textarea></label><button class="btn" type="submit">Submit Prayer Request</button></form></div>
+  <div class="panel"><h3>Community Prayer</h3><div class="prayer-card"><strong>No Vanity 33 • Mission</strong><p>Pray that this brand points people to Christ and helps those in need.</p><button id="pray-btn">❤️ I’m praying</button><span id="pray-count">33 praying</span></div></div>
+</section>
+<section id="cart" class="section"><p class="eyebrow">Checkout</p><h2>Your Cart</h2><div id="cart-items">Your cart is empty.</div><h3>Total: $<span id="cart-total">0.00</span></h3><div class="panel checkout"><p><strong>Current checkout:</strong> Use PayPal/Cash App while Stripe + Apple Pay + Google Pay + Printful are being connected.</p><a class="btn" href="https://paypal.me/novanity33" target="_blank">Pay with PayPal</a><a class="btn outline" href="https://cash.app/$NoVanity33" target="_blank">Pay with Cash App</a></div></section>
+<section id="contact" class="section footer"><h2>No Vanity 33</h2><p>Faith first. Community driven. Made to order. Scripture with every wear.</p><p>Secure checkout coming with Stripe, Apple Pay, Google Pay, PayPal, and Cash App.</p></section>
+</main>
 <script src="script.js"></script>
-</body>
-</html>
+</body></html>
