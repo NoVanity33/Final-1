@@ -1,55 +1,36 @@
-
-const STRIPE_LINKS = {
-  // Paste real Stripe Payment Links here later, for example:
-  // "Simple Cross Prayer Tee - Black": "https://buy.stripe.com/..."
-};
-let cart = JSON.parse(localStorage.getItem('nv33_cart') || '[]');
-const saveCart = () => localStorage.setItem('nv33_cart', JSON.stringify(cart));
-function updateCart(){
-  const count = cart.reduce((n,i)=>n+i.qty,0);
-  document.getElementById('cartCount').textContent = count;
-  const box = document.getElementById('cartItems');
-  const total = cart.reduce((sum,i)=>sum + i.price*i.qty,0);
-  document.getElementById('cartTotal').textContent = total.toFixed(2);
-  if(!cart.length){ box.innerHTML = '<p class="section-intro">Your cart is empty.</p>'; return; }
-  box.innerHTML = cart.map((i,idx)=>`<div class="cart-row"><div><strong>${i.name}</strong><br><span>${i.size} • Qty ${i.qty}</span></div><div><strong>$${(i.price*i.qty).toFixed(2)}</strong> <button class="remove" data-idx="${idx}">Remove</button></div></div>`).join('');
-  document.querySelectorAll('.remove').forEach(btn=>btn.addEventListener('click',()=>{cart.splice(+btn.dataset.idx,1);saveCart();updateCart();}));
-}
-document.querySelectorAll('.add').forEach(btn=>btn.addEventListener('click', e=>{
-  const card = e.target.closest('.card');
-  const name = card.dataset.name, price = Number(card.dataset.price), size = card.querySelector('.size').value;
-  const existing = cart.find(i=>i.name===name && i.size===size);
-  if(existing) existing.qty += 1; else cart.push({name,price,size,qty:1});
-  saveCart(); updateCart(); document.getElementById('cart').scrollIntoView({behavior:'smooth'});
-}));
-document.querySelectorAll('.filters button').forEach(btn=>btn.addEventListener('click',()=>{
-  document.querySelectorAll('.filters button').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  const filter = btn.dataset.filter;
-  document.querySelectorAll('.card').forEach(card=>{card.style.display = (filter==='All' || card.dataset.category===filter) ? '' : 'none';});
-}));
-// product thumbnails and modal
-const modal=document.getElementById('productModal'), modalImg=document.getElementById('modalImg'), modalThumbs=document.getElementById('modalThumbs');
-function openModal(card, startSrc){
-  const imgs=(card.dataset.gallery||card.dataset.img).split('|');
-  modalImg.src=startSrc || imgs[0]; modalImg.alt=card.dataset.name;
-  modalThumbs.innerHTML=imgs.map(src=>`<button type="button"><img src="${src}" alt="${card.dataset.name}"></button>`).join('');
-  modalThumbs.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>modalImg.src=b.querySelector('img').src));
-  modal.setAttribute('aria-hidden','false');
-}
-document.querySelectorAll('.product-image-button').forEach(btn=>btn.addEventListener('click',()=>openModal(btn.closest('.card'), btn.querySelector('img').src)));
-document.querySelectorAll('.thumb').forEach(t=>t.addEventListener('click',()=>{const card=t.closest('.card'); const src=t.querySelector('img').getAttribute('src'); card.querySelector('.main-img').src=src;}));
-document.getElementById('modalClose').addEventListener('click',()=>modal.setAttribute('aria-hidden','true'));
-modal.addEventListener('click',e=>{if(e.target===modal) modal.setAttribute('aria-hidden','true');});
-// prayer wall local version
-const defaultPrayers=[{name:'No Vanity 33',cat:'Mission',text:'Pray that this brand points people to Christ and helps those in need.',count:33}];
-let prayers=JSON.parse(localStorage.getItem('nv33_prayers')||JSON.stringify(defaultPrayers));
-function renderPrayers(){
-  const list=document.getElementById('prayerList');
-  list.innerHTML=prayers.map((p,i)=>`<div class="prayer-item"><h4>${p.name||'Anonymous'} • ${p.cat}</h4><p>${p.text}</p><div class="prayer-actions"><button class="btn secondary pray-btn" data-i="${i}">❤️ I’m praying</button><span>${p.count||0} praying</span></div></div>`).join('');
-  document.querySelectorAll('.pray-btn').forEach(btn=>btn.addEventListener('click',()=>{prayers[+btn.dataset.i].count=(prayers[+btn.dataset.i].count||0)+1;localStorage.setItem('nv33_prayers',JSON.stringify(prayers));renderPrayers();}));
-}
-const form=document.getElementById('prayerForm');
-form.addEventListener('submit',e=>{e.preventDefault(); const text=document.getElementById('prayerText').value.trim(); if(!text) return; prayers.unshift({name:document.getElementById('prayerName').value.trim()||'Anonymous',cat:document.getElementById('prayerCategory').value,text,count:0}); localStorage.setItem('nv33_prayers',JSON.stringify(prayers)); form.reset(); renderPrayers();});
-document.getElementById('navToggle').addEventListener('click',()=>document.getElementById('navMenu').classList.toggle('open'));
-renderPrayers(); updateCart();
+const products=[
+{id:'cross-prayer-black',cat:'Launch Tees',name:'Simple Cross Prayer Tee - Black',price:20,img:'images/cross-prayer-black.webp',desc:'Simple cross front with Scripture back and prayer invitation.'},
+{id:'cross-prayer-white',cat:'Launch Tees',name:'Simple Cross Prayer Tee - White',price:20,img:'images/cross-prayer-white.webp',desc:'White launch tee with black cross lettering and prayer message.'},
+{id:'yahweh-black',cat:'Launch Tees',name:'YAHWEH Scripture Tee - Black',price:20,img:'images/yahweh-black.webp',desc:'YAHWEH arched chest design with Scripture on back.'},
+{id:'yahweh-white',cat:'Launch Tees',name:'YAHWEH Scripture Tee - White',price:20,img:'images/yahweh-white.webp',desc:'White YAHWEH launch tee with Scripture on back.'},
+{id:'crown-thorns',cat:'Shirts',name:'Crown of Thorns 33 Tee - Black',price:25,img:'images/crown-thorns-33.webp',desc:'Crown of thorns 33 design with Isaiah 53:5 on back.'},
+{id:'no-vanity-black',cat:'Shirts',name:'No Vanity Statement Tee - Black',price:25,img:'images/no-vanity-black.webp',desc:'Bold No Vanity statement tee made to point attention back to God.'},
+{id:'no-vanity-tan',cat:'Shirts',name:'No Vanity Statement Tee - Tan',price:25,img:'images/no-vanity-tan.webp',desc:'Tan No Vanity tee with clean everyday wear styling.'},
+{id:'lion-judah',cat:'Shirts',name:'Lion of Judah Tee - Black',price:30,img:'images/lion-of-judah.webp',desc:'Lion of Judah artwork with bold Christ-centered presence.'},
+{id:'christ-returns',cat:'Shirts',name:'Christ Returns King of Kings Tee',price:30,img:'images/christ-returns.webp',desc:'Christ returning imagery with Revelation 19:11–16 theme.'},
+{id:'logo-crown',cat:'Shirts',name:'Gold Crown 33 Logo Tee',price:25,img:'images/logo-crown-black.webp',desc:'Clean No Vanity 33 crown logo tee.'},
+{id:'black-sweats',cat:'Sweatpants',name:'Black Logo Cross Sweatpants',price:45,img:'images/black-logo-cross-sweatpants-clean.webp',desc:'Black sweatpants concept updated with logo and cross only.'},
+{id:'gray-sweats',cat:'Sweatpants',name:'Gray Logo Cross Sweatpants',price:45,img:'images/gray-logo-cross-sweatpants-clean.webp',desc:'Gray sweatpants concept updated with logo and cross only.'},
+{id:'cream-sweats',cat:'Sweatpants',name:'Cream Logo Cross Sweatpants',price:45,img:'images/cream-logo-cross-sweatpants-clean.webp',desc:'Third sweatpants color concept with logo and cross only.'},
+{id:'black-shorts',cat:'Shorts',name:'Black Cross Shorts',price:30,img:'images/black-shorts.webp',desc:'Black athletic shorts with simple white cross.'},
+{id:'red-shorts',cat:'Shorts',name:'Red Crown 33 Shorts',price:30,img:'images/red-shorts.webp',desc:'Red shorts with crown 33 branding.'},
+{id:'white-shorts',cat:'Shorts',name:'White Crown 33 Shorts',price:30,img:'images/white-crown-shorts.webp',desc:'White shorts concept with No Vanity 33 styling.'},
+{id:'black-socks',cat:'Socks',name:'Black Red Cross Socks',price:12,img:'images/black-socks.webp',desc:'Black socks with red cross design.'},
+{id:'blue-socks',cat:'Socks',name:'Blue Cross Socks',price:12,img:'images/blue-socks.webp',desc:'Blue socks with white cross.'},
+{id:'green-socks',cat:'Socks',name:'Green Cross Socks',price:12,img:'images/green-socks.webp',desc:'Green socks with white cross.'},
+{id:'red-socks',cat:'Socks',name:'Red Cross Socks',price:12,img:'images/red-socks.webp',desc:'Red socks with white cross.'}
+];
+const sizes=['S','M','L','XL','2XL','3XL'];
+let active='All';
+let cart=JSON.parse(localStorage.getItem('nv33_cart')||'[]');
+const fmt=n=>'$'+Number(n).toFixed(2);
+function renderFilters(){const cats=['All',...new Set(products.map(p=>p.cat))];document.getElementById('filters').innerHTML=cats.map(c=>`<button class="filter ${c===active?'active':''}" data-cat="${c}">${c}</button>`).join('');document.querySelectorAll('.filter').forEach(b=>b.onclick=()=>{active=b.dataset.cat;renderProducts();renderFilters();});}
+function renderProducts(){const list=active==='All'?products:products.filter(p=>p.cat===active);document.getElementById('products').innerHTML=list.map(p=>`<article class="product-card"><div class="product-image"><img src="${p.img}" alt="${p.name}" loading="lazy"></div><div class="product-body"><span class="tag">${p.cat}</span><h3>${p.name}</h3><div class="price">${fmt(p.price)}</div><p>${p.desc}</p><p class="gold">If you need prayer, just ask me.</p><div class="product-row"><label>Size <select id="size-${p.id}">${sizes.map(s=>`<option>${s}</option>`).join('')}</select></label><button class="btn" onclick="addToCart('${p.id}')">Add to Cart</button></div></div></article>`).join('');}
+function addToCart(id){const p=products.find(x=>x.id===id);const size=document.getElementById('size-'+id)?.value||'M';cart.push({...p,size,qty:1});localStorage.setItem('nv33_cart',JSON.stringify(cart));renderCart();location.hash='cart';}
+function renderCart(){document.getElementById('cartCount').textContent=cart.length;const box=document.getElementById('cartItems');if(!cart.length){box.innerHTML='<p>Your cart is empty.</p>';document.getElementById('cartTotal').textContent='Total: $0.00';return;}box.innerHTML=cart.map((item,i)=>`<div class="cart-item"><span><b>${item.name}</b><br>Size: ${item.size}</span><span>${fmt(item.price)} <button class="pray-btn" onclick="removeItem(${i})">Remove</button></span></div>`).join('');const total=cart.reduce((a,b)=>a+b.price,0);document.getElementById('cartTotal').textContent='Total: '+fmt(total);}
+function removeItem(i){cart.splice(i,1);localStorage.setItem('nv33_cart',JSON.stringify(cart));renderCart();}
+document.querySelectorAll('[data-filter]').forEach(a=>a.addEventListener('click',()=>{active=a.dataset.filter;setTimeout(()=>{renderFilters();renderProducts()},80)}));
+function renderPrayer(){let prayers=JSON.parse(localStorage.getItem('nv33_prayers')||'[]');if(!prayers.length) prayers=[{name:'No Vanity 33 • Mission',cat:'Mission',text:'Pray that this brand points people to Christ and helps those in need.',count:33}];document.getElementById('prayerList').innerHTML=prayers.map((p,i)=>`<div class="prayer-item"><h4>${p.name||'Anonymous'} • ${p.cat}</h4><p>${p.text}</p><button class="pray-btn" onclick="pray(${i})">❤️ I’m praying</button> <span>${p.count||0} praying</span></div>`).join('');}
+function pray(i){let prayers=JSON.parse(localStorage.getItem('nv33_prayers')||'[]');if(!prayers.length) prayers=[{name:'No Vanity 33 • Mission',cat:'Mission',text:'Pray that this brand points people to Christ and helps those in need.',count:33}];prayers[i].count=(prayers[i].count||0)+1;localStorage.setItem('nv33_prayers',JSON.stringify(prayers));renderPrayer();}
+document.getElementById('prayerForm').addEventListener('submit',e=>{e.preventDefault();let prayers=JSON.parse(localStorage.getItem('nv33_prayers')||'[]');prayers.unshift({name:document.getElementById('prayerName').value||'Anonymous',cat:document.getElementById('prayerCategory').value,text:document.getElementById('prayerText').value,count:0});localStorage.setItem('nv33_prayers',JSON.stringify(prayers));e.target.reset();renderPrayer();});
+renderFilters();renderProducts();renderCart();renderPrayer();
