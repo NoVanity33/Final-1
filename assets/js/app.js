@@ -1,22 +1,8 @@
 
-let cart = JSON.parse(localStorage.getItem('nv33_cart') || '[]');
-const grid=document.getElementById('productGrid');
-const count=document.getElementById('cartCount');
-const drawer=document.getElementById('cartDrawer');
-function money(n){return '$'+Number(n).toFixed(2)}
-function renderProducts(cat='All Products'){
- if(!grid) return;
- grid.innerHTML='';
- PRODUCTS.filter(p=>cat==='All Products'||p.category===cat).forEach(p=>{
-  const el=document.createElement('article'); el.className='card';
-  el.innerHTML=`<div class="imageBox"><img src="${p.image}" alt="${p.name}"></div><div class="cardBody"><h3>${p.name}</h3><div class="price">${money(p.price)}</div><div class="controls"><select id="color-${p.id}">${p.colors.map(c=>`<option>${c}</option>`).join('')}</select><select id="size-${p.id}">${p.sizes.map(s=>`<option>${s}</option>`).join('')}</select></div><div class="controls"><input id="qty-${p.id}" type="number" min="1" value="1"><a class="printfulBtn" target="_blank" href="${p.printfulUrl}">Printful Link</a></div><button class="add" onclick="addToCart('${p.id}')">Add to Cart</button></div>`;
-  grid.appendChild(el);
- });
-}
-function addToCart(id){const p=PRODUCTS.find(x=>x.id===id);const item={...p,color:document.getElementById('color-'+id).value,size:document.getElementById('size-'+id).value,qty:Number(document.getElementById('qty-'+id).value||1)};cart.push(item);save();openCart();}
-function save(){localStorage.setItem('nv33_cart',JSON.stringify(cart)); if(count) count.textContent=cart.reduce((a,b)=>a+b.qty,0); renderCart();}
-function renderCart(){const box=document.getElementById('cartItems'); if(!box)return; let total=0; box.innerHTML=''; cart.forEach((i,idx)=>{total+=i.price*i.qty; box.innerHTML+=`<div class="cartItem"><b>${i.name}</b><br>${i.size} / ${i.color}<br>Qty ${i.qty} — ${money(i.price*i.qty)} <button onclick="removeItem(${idx})">Remove</button></div>`}); document.getElementById('cartTotal').textContent=money(total);}
-function removeItem(i){cart.splice(i,1);save()} function openCart(){drawer.classList.add('open');renderCart()} function closeCart(){drawer.classList.remove('open')}
-document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderProducts(b.textContent.trim())}));
-function checkout(){alert('Printful-ready build: connect Stripe/PayPal checkout or replace each product Printful link in assets/js/products.js.');}
-renderProducts();save();
+const $=(s)=>document.querySelector(s);const $$=(s)=>Array.from(document.querySelectorAll(s));
+function cart(){return JSON.parse(localStorage.getItem('nv33cart')||'[]')}function saveCart(c){localStorage.setItem('nv33cart',JSON.stringify(c));updateCount()}function updateCount(){let n=cart().reduce((a,i)=>a+i.qty,0); $$('#cartCount').forEach(e=>e.textContent=n)}
+function renderFilters(){const el=$('#filters'); if(!el)return; const cats=['All Products',...new Set(PRODUCTS.map(p=>p.category))]; el.innerHTML=cats.map((c,i)=>`<button class="filter-btn ${i==0?'active':''}" data-cat="${c}">${c}</button>`).join(''); $$('.filter-btn').forEach(b=>b.onclick=()=>{ $$('.filter-btn').forEach(x=>x.classList.remove('active')); b.classList.add('active'); renderProducts(b.dataset.cat)})}
+function renderProducts(cat='All Products'){const grid=$('#productGrid'); if(!grid)return; let list=cat==='All Products'?PRODUCTS:PRODUCTS.filter(p=>p.category===cat); grid.innerHTML=list.map((p,idx)=>`<article class="card" data-id="${p.id}"><div class="image-wrap"><img src="${p.image}" alt="${p.name}" loading="lazy"></div><div class="details"><h3>${p.name}</h3><div class="price">$${p.price.toFixed(2)}</div><div class="controls"><select class="color">${p.colors.map(c=>`<option>${c}</option>`).join('')}</select><select class="size">${p.sizes.map(s=>`<option>${s}</option>`).join('')}</select><div class="qty"><button class="minus">−</button><span>1</span><button class="plus">+</button></div><button class="add">Add to Cart</button></div><div class="tiny">Fulfilled by Printful after checkout connection.</div></div></article>`).join(''); attachCards()}
+function attachCards(){ $$('.card').forEach(card=>{let q=1; const span=card.querySelector('.qty span'); card.querySelector('.minus').onclick=()=>{q=Math.max(1,q-1);span.textContent=q}; card.querySelector('.plus').onclick=()=>{q++;span.textContent=q}; card.querySelector('.add').onclick=()=>{let p=PRODUCTS.find(x=>x.id===card.dataset.id); let item={id:p.id,name:p.name,price:p.price,image:p.image,color:card.querySelector('.color').value,size:card.querySelector('.size').value,qty:q}; let c=cart(); let ex=c.find(x=>x.id===item.id&&x.color===item.color&&x.size===item.size); if(ex)ex.qty+=item.qty; else c.push(item); saveCart(c); card.querySelector('.add').textContent='Added ✓'; setTimeout(()=>card.querySelector('.add').textContent='Add to Cart',900)}})}
+function renderCart(){const el=$('#cartPage'); if(!el)return; const c=cart(); if(!c.length){el.innerHTML='<p class="empty">Your cart is empty.</p>';return} let total=c.reduce((a,i)=>a+i.price*i.qty,0); el.innerHTML=c.map(i=>`<div class="cart-row"><span><b>${i.name}</b><br>${i.color} / ${i.size} × ${i.qty}</span><strong>$${(i.price*i.qty).toFixed(2)}</strong></div>`).join('')+`<h2>Total: $${total.toFixed(2)}</h2><p>Next step: connect live checkout/Printful product IDs.</p><a class="btn" href="checkout.html">Checkout</a>`}
+renderFilters();renderProducts();renderCart();updateCount();
