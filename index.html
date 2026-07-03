@@ -1,1 +1,54 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>No Vanity 33 | Wear The Word</title><link rel="icon" href="assets/images/favicon.png"><link rel="stylesheet" href="assets/css/style.css"></head><body><header class="site-header"><a href="#home"><img class="logo" src="assets/images/novanity33-logo.png" alt="No Vanity 33"></a><nav class="nav"><a class="active" href="#home">Home</a><a href="#catalog">Shop</a><a href="mission.html">Mission</a><a href="prayer-wall.html">Prayer Wall</a><a href="contact.html">Contact</a><a class="cart-pill" href="cart.html">🛒 Cart <span data-cart-count>0</span></a></nav></header><main id="home"><section class="hero"><div><img class="hero-lion" src="assets/images/crowned-lion-hero.png" alt="Lion with crown of thorns"></div><div><div class="eyebrow">CHRIST-CENTERED APPAREL</div><h1>WEAR THE WORD.<br><span class="gold">LIVE THE GOSPEL.</span></h1><p class="verse">“And whatsoever ye do, do it heartily, as to the Lord, and not unto men.”<br>— Colossians 3:23</p><div class="hero-actions"><a class="btn" href="#catalog">Shop Collection</a><a class="btn alt" href="prayer-wall.html">Prayer Wall</a></div></div><aside class="notice"><h3>IMPORTANT ORDER INFORMATION</h3><p>Due to demand and Printful fulfillment, please allow 3–4 weeks lead time while your order is processed and shipped.</p><hr><p><strong>If you need prayer,<br>just ask me.</strong></p></aside></section><section id="catalog" class="catalog"><div class="section-head"><div class="eyebrow">FULL CATALOG</div><h2>All Products</h2></div><div class="filters"><button class="filter-btn active" data-filter="All Products">All Products</button><button class="filter-btn" data-filter="T-Shirts">T-Shirts</button><button class="filter-btn" data-filter="Hoodies">Hoodies</button><button class="filter-btn" data-filter="Sweatpants">Sweatpants</button><button class="filter-btn" data-filter="Shorts">Shorts</button><button class="filter-btn" data-filter="Socks">Socks</button><button class="filter-btn" data-filter="Hats">Hats</button><button class="filter-btn" data-filter="Accessories">Accessories</button></div><div id="productsGrid" class="products-grid"></div></section><section class="benefits"><div class="benefit"><div class="benefit-icon">🚚</div><div><strong>3–4 WEEK LEAD TIME</strong><span>Orders are fulfilled and shipped by Printful.</span></div></div><div class="benefit"><div class="benefit-icon">🔒</div><div><strong>SAFE & SECURE</strong><span>Your payment information stays protected.</span></div></div><div class="benefit"><div class="benefit-icon">♡</div><div><strong>COMMUNITY DRIVEN</strong><span>40% of profits go toward helping those in need.</span></div></div><div class="benefit"><div class="benefit-icon">✝</div><div><strong>MISSION</strong><span>Point people to Christ and help those in need.</span></div></div></section></main><footer class="footer">© 2026 No Vanity 33. All rights reserved.</footer><div id="toast" class="toast"></div><script src="assets/js/products.js"></script><script src="assets/js/app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>No Vanity 33 | Wear the Word. Live the Gospel.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top"><img src="assets/images/logo-hero.png" alt="No Vanity 33"></a>
+    <nav>
+      <a href="#top">Home</a>
+      <a href="#catalog">Shop</a>
+      <a href="mission.html">Mission</a>
+      <a href="prayer-wall.html">Prayer Wall</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="cart-pill" id="cartButton">🛒 Cart <span id="cartCount">0</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-art"><img src="assets/images/logo-hero.png" alt="Crowned lion No Vanity 33"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Christ-centered apparel</p>
+        <h1>Wear the Word.<br><span>Live the Gospel.</span></h1>
+        <p class="verse">“And whatsoever ye do, do it heartily, as to the Lord, and not unto men.”<br>— Colossians 3:23</p>
+        <div class="hero-buttons"><a href="#catalog" class="btn gold">Shop Collection</a><a href="prayer-wall.html" class="btn ghost">Prayer Wall</a></div>
+      </div>
+      <aside class="notice"><h3>Important Order Information</h3><p>Due to demand and Printful fulfillment, please allow 3–4 weeks lead time while your order is processed and shipped.</p><hr><strong>If you need prayer,<br>just ask me.</strong></aside>
+    </section>
+
+    <section id="catalog" class="catalog">
+      <p class="eyebrow">Full Catalog</p>
+      <h2>All Products</h2>
+      <div class="filters" id="filters">
+        <button class="active" data-filter="all">All Products</button><button data-filter="tees">T-Shirts</button><button data-filter="hoodies">Hoodies</button><button data-filter="sweatpants">Sweatpants</button><button data-filter="shorts">Shorts</button><button data-filter="socks">Socks</button><button data-filter="accessories">Accessories</button>
+      </div>
+      <div class="grid" id="productGrid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><span>🚚</span><b>3–4 Week Lead Time</b><small>Orders are fulfilled and shipped by Printful.</small></div>
+    <div><span>🔒</span><b>Safe & Secure</b><small>Your payment information is protected.</small></div>
+    <div><span>♡</span><b>Community Driven</b><small>40% of profits go toward helping those in need.</small></div>
+    <div><span>✝</span><b>Mission</b><small>Point people to Christ and help those in need.</small></div>
+  </footer>
+
+  <div class="cart-drawer" id="cartDrawer" aria-hidden="true"><div class="cart-box"><button class="close" id="closeCart">×</button><h2>Your Cart</h2><div id="cartItems"></div><p class="cart-total">Total: <span id="cartTotal">$0.00</span></p><a class="btn gold full" href="checkout.html">Checkout</a></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
