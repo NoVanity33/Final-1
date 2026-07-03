@@ -26,7 +26,7 @@ function money(n){return '$'+n.toFixed(2)}
 function render(filter='all'){
  grid.innerHTML='';
  PRODUCTS.filter(p=>filter==='all'||p.cat===filter).forEach(p=>{
-  const card=document.createElement('article'); card.className='card';
+  const card=document.createElement('article'); card.className='card'; card.dataset.cat=p.cat;
   card.innerHTML=`<div class="photo"><img src="assets/images/products/${p.file}" alt="${p.name}"></div><div class="info"><h3>${p.name}</h3><div class="price">${money(p.price)}</div><div class="controls"><select class="color">${p.colors.map(c=>`<option>${c}</option>`).join('')}</select><select class="size">${p.sizes.map(s=>`<option>${s}</option>`).join('')}</select></div><div class="controls"><div class="qty-control"><button class="minus">−</button><span class="qty">1</span><button class="plus">+</button></div><button class="add">Add to Cart</button></div><span class="printful-note" data-printful-id="ADD_PRINTFUL_PRODUCT_ID_HERE"></span></div>`;
   let qty=1; card.querySelector('.minus').onclick=()=>{qty=Math.max(1,qty-1);card.querySelector('.qty').textContent=qty}; card.querySelector('.plus').onclick=()=>{qty++;card.querySelector('.qty').textContent=qty}; card.querySelector('.add').onclick=()=>{cart.push({id:p.id,name:p.name,price:p.price,qty,color:card.querySelector('.color').value,size:card.querySelector('.size').value});saveCart();openCart()};
   grid.appendChild(card);
