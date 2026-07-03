@@ -1,8 +1,9 @@
 {
   "id": "prayer-cross",
   "name": "Prayer Cross Tee - Black",
-  "category": "T-Shirts",
   "price": 25,
+  "category": "T-Shirts",
+  "image": "prayer-cross-tee.png",
   "color": "Black",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "prayer-cross-tee.png",
-  "description": "Cross front tee with prayer invitation on the back."
+  "description": "Simple cross front and \u201cIf you need prayer, just ask me\u201d back."
 }

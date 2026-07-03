@@ -1,8 +1,9 @@
 {
   "id": "sweats-gray",
   "name": "Crown 33 Sweatpants - Gray",
-  "category": "Sweatpants",
   "price": 45,
+  "category": "Sweatpants",
+  "image": "crown-33-sweatpants-gray.png",
   "color": "Gray",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "crown-33-sweatpants-gray.png",
-  "description": "Jogger sweatpants with defined cross on right leg and Crown 33 logo on left leg."
+  "description": "Jogger-style sweatpants with defined cross and Crown 33 logo."
 }

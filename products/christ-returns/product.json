@@ -1,8 +1,9 @@
 {
   "id": "christ-returns",
   "name": "Christ Returns Tee - Black",
-  "category": "T-Shirts",
   "price": 30,
+  "category": "T-Shirts",
+  "image": "christ-returns-tee.png",
   "color": "Black",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "christ-returns-tee.png",
-  "description": "Christ returning on the white horse with King of Kings back design."
+  "description": "Christ returning on the white horse with King of Kings scripture design."
 }

@@ -1,8 +1,9 @@
 {
   "id": "sweats-tan",
   "name": "Crown 33 Sweatpants - Tan",
-  "category": "Sweatpants",
   "price": 45,
+  "category": "Sweatpants",
+  "image": "crown-33-sweatpants-tan.png",
   "color": "Tan",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "crown-33-sweatpants-tan.png",
-  "description": "Sand/tan joggers with cross and Crown 33 logo."
+  "description": "Tan jogger sweatpants with cross and Crown 33 logo."
 }

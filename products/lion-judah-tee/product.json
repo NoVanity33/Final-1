@@ -1,8 +1,9 @@
 {
   "id": "lion-judah-tee",
   "name": "Lion of Judah Tee - Black",
-  "category": "T-Shirts",
   "price": 30,
+  "category": "T-Shirts",
+  "image": "lion-judah-tee.png",
   "color": "Black",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "lion-judah-tee.png",
-  "description": "Lion of Judah tee with crowned lion artwork and Revelation 5:5 scripture inspiration."
+  "description": "Lion of Judah design with crown of thorns and Revelation 5:5 message."
 }

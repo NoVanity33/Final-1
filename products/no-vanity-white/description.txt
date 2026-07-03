@@ -2,7 +2,10 @@ No Vanity 33 Tee - White
 
 Price: $25.00
 Category: T-Shirts
-Color: White
+Default color: White
 Sizes: Youth S, Youth M, Youth L, S, M, L, XL, 2XL, 3XL
 
-No Vanity 33 white tee with 1 Corinthians 10:31 message.
+Description:
+No Vanity 33 white tee with 1 Corinthians 10:31 back print.
+
+Printful note: add the Printful product/template ID in product.json when ready.

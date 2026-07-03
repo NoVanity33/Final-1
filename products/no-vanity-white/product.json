@@ -1,8 +1,9 @@
 {
   "id": "no-vanity-white",
   "name": "No Vanity 33 Tee - White",
-  "category": "T-Shirts",
   "price": 25,
+  "category": "T-Shirts",
+  "image": "no-vanity-33-tee-white.png",
   "color": "White",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "no-vanity-33-tee-white.png",
-  "description": "No Vanity 33 white tee with 1 Corinthians 10:31 message."
+  "description": "No Vanity 33 white tee with 1 Corinthians 10:31 back print."
 }

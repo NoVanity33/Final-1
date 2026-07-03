@@ -1,8 +1,9 @@
 {
   "id": "shorts-white",
   "name": "Crown 33 Shorts - White",
-  "category": "Shorts",
   "price": 30,
+  "category": "Shorts",
+  "image": "crown-33-shorts-white.png",
   "color": "White",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "crown-33-shorts-white.png",
-  "description": "White athletic shorts with Crown 33 logo positioned on the left leg."
+  "description": "White athletic shorts with Crown 33 logo on the left leg."
 }

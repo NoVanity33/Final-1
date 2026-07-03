@@ -2,7 +2,10 @@ Wear The Word Wristband
 
 Price: $5.00
 Category: Accessories
-Color: Black
+Default color: Black
 Sizes: One Size
 
-Wear The Word silicone wristband.
+Description:
+Wear The Word black wristband.
+
+Printful note: add the Printful product/template ID in product.json when ready.

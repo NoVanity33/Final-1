@@ -1,12 +1,12 @@
 {
   "id": "hat",
   "name": "Crown 33 Dad Hat - Black",
-  "category": "Hats",
   "price": 20,
+  "category": "Hats",
+  "image": "crown-33-dad-hat-black.png",
   "color": "Black",
   "sizes": [
     "One Size"
   ],
-  "image": "crown-33-dad-hat-black.png",
-  "description": "Black dad hat with Crown 33 logo."
+  "description": "Black dad hat with Crown of Thorns 33 logo."
 }

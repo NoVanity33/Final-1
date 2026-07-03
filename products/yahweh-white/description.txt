@@ -2,7 +2,10 @@ YAHWEH Tee - White
 
 Price: $20.00
 Category: T-Shirts
-Color: White
+Default color: White
 Sizes: Youth S, Youth M, Youth L, S, M, L, XL, 2XL, 3XL
 
-White YAHWEH tee with Exodus scripture back design.
+Description:
+White YAHWEH tee with scripture on the back.
+
+Printful note: add the Printful product/template ID in product.json when ready.

@@ -1,8 +1,9 @@
 {
   "id": "yahweh-black",
   "name": "YAHWEH Tee - Black",
-  "category": "T-Shirts",
   "price": 20,
+  "category": "T-Shirts",
+  "image": "yahweh-tee-black.png",
   "color": "Black",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "yahweh-tee-black.png",
-  "description": "YAHWEH front design with scripture text on the back."
+  "description": "YAHWEH tee with Exodus scripture on the back."
 }

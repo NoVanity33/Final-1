@@ -2,7 +2,10 @@ Lion of Judah Tee - Black
 
 Price: $30.00
 Category: T-Shirts
-Color: Black
+Default color: Black
 Sizes: Youth S, Youth M, Youth L, S, M, L, XL, 2XL, 3XL
 
-Lion of Judah tee with crowned lion artwork and Revelation 5:5 scripture inspiration.
+Description:
+Lion of Judah design with crown of thorns and Revelation 5:5 message.
+
+Printful note: add the Printful product/template ID in product.json when ready.

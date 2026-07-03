@@ -1,12 +1,12 @@
 {
   "id": "socks-pack",
   "name": "Cross Crew Socks (4-Pack)",
-  "category": "Socks",
   "price": 20,
+  "category": "Socks",
+  "image": "cross-crew-socks-4-pack.png",
   "color": "4-Pack",
   "sizes": [
     "One Size"
   ],
-  "image": "cross-crew-socks-4-pack.png",
-  "description": "Four-color crew sock pack with cross design."
+  "description": "Four-color crew sock pack with cross designs."
 }

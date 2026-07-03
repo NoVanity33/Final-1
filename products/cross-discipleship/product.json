@@ -1,8 +1,9 @@
 {
   "id": "cross-discipleship",
   "name": "Cross & Discipleship Tee - Black",
-  "category": "T-Shirts",
   "price": 25,
+  "category": "T-Shirts",
+  "image": "cross-discipleship-tee.png",
   "color": "Black",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "cross-discipleship-tee.png",
-  "description": "Simple cross front with discipleship scripture and QR-style back artwork."
+  "description": "Cross front with discipleship scripture and prayer outreach back."
 }

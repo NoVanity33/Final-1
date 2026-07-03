@@ -1,8 +1,9 @@
 {
   "id": "sweats-black",
   "name": "Crown 33 Sweatpants - Black",
-  "category": "Sweatpants",
   "price": 45,
+  "category": "Sweatpants",
+  "image": "crown-33-sweatpants-black.png",
   "color": "Black",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "crown-33-sweatpants-black.png",
-  "description": "Black joggers with white cross and Crown 33 logo."
+  "description": "Black jogger sweatpants with cross and Crown 33 logo."
 }

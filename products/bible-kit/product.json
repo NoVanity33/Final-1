@@ -1,12 +1,12 @@
 {
   "id": "bible-kit",
   "name": "Bible Kit",
-  "category": "Accessories",
   "price": 25,
+  "category": "Accessories",
+  "image": "bible-kit.png",
   "color": "Black",
   "sizes": [
     "One Size"
   ],
-  "image": "bible-kit.png",
-  "description": "Protective Bible kit with space for a Bible, notes, pens, and study materials."
+  "description": "Bible kit with case, Bible, journal space, pen holders, and study supplies."
 }

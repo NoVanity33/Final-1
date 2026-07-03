@@ -1,8 +1,9 @@
 {
   "id": "shorts-black",
   "name": "Crown 33 Shorts - Black",
-  "category": "Shorts",
   "price": 30,
+  "category": "Shorts",
+  "image": "crown-33-shorts-black.png",
   "color": "Black",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "crown-33-shorts-black.png",
-  "description": "Black athletic shorts with Crown 33 design."
+  "description": "Black athletic shorts with faith-centered Crown 33 design."
 }

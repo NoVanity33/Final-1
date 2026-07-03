@@ -1,12 +1,12 @@
 {
   "id": "bottle",
   "name": "Crown 33 Water Bottle",
-  "category": "Accessories",
   "price": 25,
+  "category": "Accessories",
+  "image": "crown-33-water-bottle.png",
   "color": "Black",
   "sizes": [
     "One Size"
   ],
-  "image": "crown-33-water-bottle.png",
-  "description": "Black water bottle with Crown 33 branding."
+  "description": "Black water bottle with Crown 33 logo."
 }

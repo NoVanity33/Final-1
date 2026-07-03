@@ -1,8 +1,9 @@
 {
   "id": "king-of-kings-tee",
   "name": "King of Kings Tee - Black",
-  "category": "T-Shirts",
   "price": 30,
+  "category": "T-Shirts",
+  "image": "king-of-kings-tee.png",
   "color": "Black",
   "sizes": [
     "Youth S",
@@ -15,6 +16,5 @@
     "2XL",
     "3XL"
   ],
-  "image": "king-of-kings-tee.png",
-  "description": "Bold King of Kings tee inspired by Revelation 19:16."
+  "description": "King of Kings design with Revelation 19:16 scripture."
 }

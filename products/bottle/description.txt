@@ -2,7 +2,10 @@ Crown 33 Water Bottle
 
 Price: $25.00
 Category: Accessories
-Color: Black
+Default color: Black
 Sizes: One Size
 
-Black water bottle with Crown 33 branding.
+Description:
+Black water bottle with Crown 33 logo.
+
+Printful note: add the Printful product/template ID in product.json when ready.
