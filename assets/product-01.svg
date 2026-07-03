@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 260 300">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#191919"/><stop offset="1" stop-color="#030303"/></linearGradient></defs>
+<rect width="260" height="300" fill="url(#g)"/>
+<path d="M120 95 L175 70 L218 98 L205 145 L180 135 L180 255 L80 255 L80 135 L55 145 L42 98 L85 70 Z" fill="#111" stroke="#333" stroke-width="3"/><text x="130" y="155" text-anchor="middle" font-size="26" font-weight="900" fill="#d6a92d">33</text><text x="130" y="185" text-anchor="middle" font-size="14" fill="#f7f7f7">T-Shirts</text>
+<text x="130" y="285" text-anchor="middle" font-size="13" font-family="Arial" fill="#f6d26b">Lion of Judah Tee</text>
+</svg>

@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Lion of Judah Tee",
+    "cat": "T-Shirts",
+    "price": 30,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-01.svg"
+  },
+  {
+    "name": "King of Kings Tee",
+    "cat": "T-Shirts",
+    "price": 30,
+    "color": "Cream",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-02.svg"
+  },
+  {
+    "name": "Prayer Cross Tee",
+    "cat": "T-Shirts",
+    "price": 25,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-03.svg"
+  },
+  {
+    "name": "Cross & Discipleship Tee",
+    "cat": "T-Shirts",
+    "price": 25,
+    "color": "Cream",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-04.svg"
+  },
+  {
+    "name": "YAHWEH Tee - Black",
+    "cat": "T-Shirts",
+    "price": 20,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-05.svg"
+  },
+  {
+    "name": "YAHWEH Tee - White",
+    "cat": "T-Shirts",
+    "price": 20,
+    "color": "White",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-06.svg"
+  },
+  {
+    "name": "No Vanity 33 Tee - White",
+    "cat": "T-Shirts",
+    "price": 25,
+    "color": "White",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-07.svg"
+  },
+  {
+    "name": "Lion of Judah Hoodie",
+    "cat": "Hoodies",
+    "price": 50,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-08.svg"
+  },
+  {
+    "name": "Crown 33 Sweatpants - Black",
+    "cat": "Sweatpants",
+    "price": 45,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-09.svg"
+  },
+  {
+    "name": "Crown 33 Sweatpants - Athletic Gray",
+    "cat": "Sweatpants",
+    "price": 45,
+    "color": "Athletic Gray",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-10.svg"
+  },
+  {
+    "name": "Crown 33 Sweatpants - Sand",
+    "cat": "Sweatpants",
+    "price": 45,
+    "color": "Sand",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-11.svg"
+  },
+  {
+    "name": "Crown 33 Shorts - Black",
+    "cat": "Shorts",
+    "price": 30,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-12.svg"
+  },
+  {
+    "name": "Crown 33 Shorts - White",
+    "cat": "Shorts",
+    "price": 30,
+    "color": "White",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-13.svg"
+  },
+  {
+    "name": "Crown 33 Shorts - Red",
+    "cat": "Shorts",
+    "price": 30,
+    "color": "Red",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "image": "assets/product-14.svg"
+  },
+  {
+    "name": "Cross Crew Socks (5 Colors)",
+    "cat": "Socks",
+    "price": 20,
+    "color": "5-Pack",
+    "sizes": [
+      "One Size"
+    ],
+    "image": "assets/product-15.svg"
+  },
+  {
+    "name": "Scripture Wristband",
+    "cat": "Accessories",
+    "price": 5,
+    "color": "Black / Gold",
+    "sizes": [
+      "One Size"
+    ],
+    "image": "assets/product-16.svg"
+  },
+  {
+    "name": "Crown 33 Dad Hat",
+    "cat": "Accessories",
+    "price": 20,
+    "color": "Black",
+    "sizes": [
+      "One Size"
+    ],
+    "image": "assets/product-17.svg"
+  },
+  {
+    "name": "Crown 33 Water Bottle",
+    "cat": "Accessories",
+    "price": 25,
+    "color": "Matte Black",
+    "sizes": [
+      "One Size"
+    ],
+    "image": "assets/product-18.svg"
+  },
+  {
+    "name": "No Vanity 33 Duffel Bag",
+    "cat": "Accessories",
+    "price": 60,
+    "color": "Black",
+    "sizes": [
+      "One Size"
+    ],
+    "image": "assets/product-19.svg"
+  },
+  {
+    "name": "Bible Kit",
+    "cat": "Accessories",
+    "price": 25,
+    "color": "Black",
+    "sizes": [
+      "One Size"
+    ],
+    "image": "assets/product-20.svg"
+  }
+]
