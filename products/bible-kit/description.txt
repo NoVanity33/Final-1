@@ -2,10 +2,7 @@ Bible Kit
 
 Price: $25.00
 Category: Accessories
-Default Color: Black
+Color: Black
 Sizes: One Size
 
-Description:
-Protective Bible kit with space for Bible, notes, pens, cards, and prayer essentials.
-
-Printful: connect this product to its matching Printful product ID in the next phase.
+Protective Bible kit with space for a Bible, notes, pens, and study materials.

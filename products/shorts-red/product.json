@@ -1,0 +1,20 @@
+{
+  "id": "shorts-red",
+  "name": "Crown 33 Shorts - Red",
+  "category": "Shorts",
+  "price": 30,
+  "color": "Red",
+  "sizes": [
+    "Youth S",
+    "Youth M",
+    "Youth L",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL"
+  ],
+  "image": "crown-33-shorts-red.png",
+  "description": "Red athletic shorts with Crown 33 design."
+}

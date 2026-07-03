@@ -1,14 +1,15 @@
-# No Vanity 33 Launch v1 Fixed
+# No Vanity 33 v1 Launch Roll
 
-Upload the contents of this folder to GitHub or Cloudflare Pages.
+Deployment-ready static site for GitHub / Cloudflare Pages.
 
-Included fixes:
-- Lion with crown of thorns restored in the header.
-- Correct hoodie product image.
-- Rebuilt jogger-style sweatpants with cross and Crown 33 logo.
-- Bible Kit image without Amazon branding.
-- All catalog items included on the homepage.
-- 2–3 week lead time.
-- Product folders with editable product.json and description.txt.
+Included:
+- Full catalog on homepage
+- Lion with Crown of Thorns header logo
+- Approved Christ Returns tee
+- Real hoodie mockup asset
+- Rebuilt jogger-style sweatpants with cross and Crown 33 logo
+- Bible Kit without Amazon branding
+- Product descriptions and editable product JSON files
+- 2–3 week Printful fulfillment notice
 
-Next phase: connect Printful product IDs and payment checkout.
+Next phase: add live Printful product IDs and payment checkout.

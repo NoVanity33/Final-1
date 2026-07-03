@@ -1,0 +1,12 @@
+{
+  "id": "wristband",
+  "name": "Wear The Word Wristband",
+  "category": "Accessories",
+  "price": 5,
+  "color": "Black",
+  "sizes": [
+    "One Size"
+  ],
+  "image": "wear-the-word-wristband.png",
+  "description": "Wear The Word silicone wristband."
+}

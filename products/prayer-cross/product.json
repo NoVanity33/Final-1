@@ -1,0 +1,20 @@
+{
+  "id": "prayer-cross",
+  "name": "Prayer Cross Tee - Black",
+  "category": "T-Shirts",
+  "price": 25,
+  "color": "Black",
+  "sizes": [
+    "Youth S",
+    "Youth M",
+    "Youth L",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL"
+  ],
+  "image": "prayer-cross-tee.png",
+  "description": "Cross front tee with prayer invitation on the back."
+}

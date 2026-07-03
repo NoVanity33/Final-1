@@ -1,0 +1,20 @@
+{
+  "id": "yahweh-white",
+  "name": "YAHWEH Tee - White",
+  "category": "T-Shirts",
+  "price": 20,
+  "color": "White",
+  "sizes": [
+    "Youth S",
+    "Youth M",
+    "Youth L",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL"
+  ],
+  "image": "yahweh-tee-white.png",
+  "description": "White YAHWEH tee with Exodus scripture back design."
+}

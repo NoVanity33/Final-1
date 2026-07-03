@@ -2,10 +2,7 @@ Lion of Judah Hoodie - Black
 
 Price: $50.00
 Category: Hoodies
-Default Color: Black
+Color: Black
 Sizes: Youth S, Youth M, Youth L, S, M, L, XL, 2XL, 3XL
 
-Description:
-Black hoodie with Lion of Judah front and scripture back.
-
-Printful: connect this product to its matching Printful product ID in the next phase.
+Black hoodie mockup with Lion of Judah artwork and scripture back.

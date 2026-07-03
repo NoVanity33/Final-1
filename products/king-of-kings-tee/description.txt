@@ -2,10 +2,7 @@ King of Kings Tee - Black
 
 Price: $30.00
 Category: T-Shirts
-Default Color: Black
+Color: Black
 Sizes: Youth S, Youth M, Youth L, S, M, L, XL, 2XL, 3XL
 
-Description:
-King of Kings statement tee with Revelation 19:16 inspiration.
-
-Printful: connect this product to its matching Printful product ID in the next phase.
+Bold King of Kings tee inspired by Revelation 19:16.
