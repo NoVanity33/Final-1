@@ -1,9 +1,6 @@
-# No Vanity 33 Launch Edition
+No Vanity 33 One Page Printful Build
 
-Upload the contents of this ZIP directly to Cloudflare Pages or GitHub.
-
-## Important
-- Product cards use crisp uploaded catalog images.
-- Printful buttons are hidden from customers.
-- Add to Cart works locally now. To go fully live, connect each product to Printful/Stripe checkout IDs in `assets/js/products.js`.
-- Clothing and shipping are fulfilled by Printful.
+Upload the CONTENTS of this zip to Cloudflare Pages.
+All products are on the home page.
+The Printful link button is hidden/removed from the customer view.
+Use assets/js/products.js to update product names, prices, images, and future Printful IDs/links.
