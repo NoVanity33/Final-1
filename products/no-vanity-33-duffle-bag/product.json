@@ -3,17 +3,10 @@
   "name": "No Vanity 33 Duffle Bag",
   "category": "Accessories",
   "price": 60,
-  "currency": "USD",
-  "colors": [
-    "Black"
-  ],
+  "color": "Black",
   "sizes": [
     "One Size"
   ],
-  "image": "assets/images/products/no-vanity-33-duffle-bag.png",
-  "description": "Black duffle bag with Crown 33 / No Vanity branding.",
-  "lead_time": "2-3 weeks",
-  "fulfillment": "Printful-ready / made to order",
-  "printful_product_id": "",
-  "printful_variant_ids": {}
+  "image": "no-vanity-33-duffle-bag.png",
+  "desc": "Black duffle bag with Crown 33 branding."
 }

@@ -3,10 +3,7 @@
   "name": "Prayer Cross Tee - Black",
   "category": "T-Shirts",
   "price": 25,
-  "currency": "USD",
-  "colors": [
-    "Black"
-  ],
+  "color": "Black",
   "sizes": [
     "Youth S",
     "Youth M",
@@ -18,10 +15,6 @@
     "2XL",
     "3XL"
   ],
-  "image": "assets/images/products/prayer-cross-tee.png",
-  "description": "Simple cross front with \u201cIf you need prayer, just ask me\u201d message on the back.",
-  "lead_time": "2-3 weeks",
-  "fulfillment": "Printful-ready / made to order",
-  "printful_product_id": "",
-  "printful_variant_ids": {}
+  "image": "prayer-cross-tee.png",
+  "desc": "Simple cross front with \u201cIf you need prayer, just ask me\u201d back."
 }

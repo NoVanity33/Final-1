@@ -3,10 +3,7 @@
   "name": "King of Kings Tee - Black",
   "category": "T-Shirts",
   "price": 30,
-  "currency": "USD",
-  "colors": [
-    "Black"
-  ],
+  "color": "Black",
   "sizes": [
     "Youth S",
     "Youth M",
@@ -18,10 +15,6 @@
     "2XL",
     "3XL"
   ],
-  "image": "assets/images/products/king-of-kings-tee.png",
-  "description": "Bold King of Kings design inspired by Revelation 19:16 with gold lettering on black.",
-  "lead_time": "2-3 weeks",
-  "fulfillment": "Printful-ready / made to order",
-  "printful_product_id": "",
-  "printful_variant_ids": {}
+  "image": "king-of-kings-tee.png",
+  "desc": "King of Kings statement tee with Revelation 19:16 inspiration."
 }

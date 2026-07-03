@@ -1,10 +1,11 @@
 Crown 33 Dad Hat - Black
 
-Black dad hat with Crown 33 logo.
-
 Price: $20.00
 Category: Hats
-Colors: Black
+Default Color: Black
 Sizes: One Size
-Lead Time: 2-3 weeks
-Fulfillment: Printful-ready / made to order
+
+Description:
+Black dad hat with Crown 33 logo.
+
+Printful: connect this product to its matching Printful product ID in the next phase.

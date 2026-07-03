@@ -1,10 +1,11 @@
 Crown 33 Shorts - Red
 
-Red athletic shorts with Crown 33 logo.
-
 Price: $30.00
 Category: Shorts
-Colors: Red
+Default Color: Red
 Sizes: Youth S, Youth M, Youth L, S, M, L, XL, 2XL, 3XL
-Lead Time: 2-3 weeks
-Fulfillment: Printful-ready / made to order
+
+Description:
+Red athletic shorts with Crown 33 detail.
+
+Printful: connect this product to its matching Printful product ID in the next phase.

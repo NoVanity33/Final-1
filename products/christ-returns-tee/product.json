@@ -3,10 +3,7 @@
   "name": "Christ Returns Tee - Black",
   "category": "T-Shirts",
   "price": 30,
-  "currency": "USD",
-  "colors": [
-    "Black"
-  ],
+  "color": "Black",
   "sizes": [
     "Youth S",
     "Youth M",
@@ -18,10 +15,6 @@
     "2XL",
     "3XL"
   ],
-  "image": "assets/images/products/christ-returns-tee.png",
-  "description": "Approved Christ Returns design with Christ on the white horse and Revelation 19:11-16 theme.",
-  "lead_time": "2-3 weeks",
-  "fulfillment": "Printful-ready / made to order",
-  "printful_product_id": "",
-  "printful_variant_ids": {}
+  "image": "christ-returns-tee.png",
+  "desc": "Christ returning on the white horse with King of Kings back design."
 }

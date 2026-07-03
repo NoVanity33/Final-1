@@ -3,10 +3,7 @@
   "name": "Cross & Discipleship Tee - Black",
   "category": "T-Shirts",
   "price": 25,
-  "currency": "USD",
-  "colors": [
-    "Black"
-  ],
+  "color": "Black",
   "sizes": [
     "Youth S",
     "Youth M",
@@ -18,10 +15,6 @@
     "2XL",
     "3XL"
   ],
-  "image": "assets/images/products/cross-discipleship-tee.png",
-  "description": "Simple cross front with discipleship scripture and QR-ready back layout.",
-  "lead_time": "2-3 weeks",
-  "fulfillment": "Printful-ready / made to order",
-  "printful_product_id": "",
-  "printful_variant_ids": {}
+  "image": "cross-discipleship-tee.png",
+  "desc": "Cross front with discipleship scripture and prayer wall QR on back."
 }

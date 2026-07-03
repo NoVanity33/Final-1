@@ -3,10 +3,7 @@
   "name": "Crown 33 Sweatpants - Tan",
   "category": "Sweatpants",
   "price": 45,
-  "currency": "USD",
-  "colors": [
-    "Tan"
-  ],
+  "color": "Tan",
   "sizes": [
     "Youth S",
     "Youth M",
@@ -18,10 +15,6 @@
     "2XL",
     "3XL"
   ],
-  "image": "assets/images/products/crown-33-sweatpants-tan.png",
-  "description": "Jogger-style tan sweatpants with a defined cross on the right leg and Crown 33 logo on the left leg.",
-  "lead_time": "2-3 weeks",
-  "fulfillment": "Printful-ready / made to order",
-  "printful_product_id": "",
-  "printful_variant_ids": {}
+  "image": "crown-33-sweatpants-tan.png",
+  "desc": "Tan joggers with cross and Crown 33 logo."
 }

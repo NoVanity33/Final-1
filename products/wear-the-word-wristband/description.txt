@@ -1,10 +1,11 @@
 Wear The Word Wristband
 
-Black wristband with Wear The Word message.
-
 Price: $5.00
 Category: Accessories
-Colors: Black
+Default Color: Black
 Sizes: One Size
-Lead Time: 2-3 weeks
-Fulfillment: Printful-ready / made to order
+
+Description:
+Wear The Word black wristband.
+
+Printful: connect this product to its matching Printful product ID in the next phase.

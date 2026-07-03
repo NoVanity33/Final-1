@@ -3,10 +3,7 @@
   "name": "YAHWEH Tee - White",
   "category": "T-Shirts",
   "price": 20,
-  "currency": "USD",
-  "colors": [
-    "White"
-  ],
+  "color": "White",
   "sizes": [
     "Youth S",
     "Youth M",
@@ -18,10 +15,6 @@
     "2XL",
     "3XL"
   ],
-  "image": "assets/images/products/yahweh-tee-white.png",
-  "description": "White YAHWEH tee with scripture block on the back.",
-  "lead_time": "2-3 weeks",
-  "fulfillment": "Printful-ready / made to order",
-  "printful_product_id": "",
-  "printful_variant_ids": {}
+  "image": "yahweh-tee-white.png",
+  "desc": "White YAHWEH tee with scripture back."
 }

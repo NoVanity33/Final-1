@@ -4,9 +4,7 @@
     "name": "Lion of Judah Tee - Black",
     "category": "T-Shirts",
     "price": 30,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -18,17 +16,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/lion-judah-tee.png",
-    "description": "Lion of Judah tee with crown-of-thorns lion artwork and Revelation 5:5 message on the back."
+    "image": "lion-judah-tee.png",
+    "desc": "Lion of Judah design with Revelation 5:5 scripture on back."
   },
   {
     "id": "king-of-kings-tee",
     "name": "King of Kings Tee - Black",
     "category": "T-Shirts",
     "price": 30,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -40,17 +36,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/king-of-kings-tee.png",
-    "description": "Bold King of Kings design inspired by Revelation 19:16 with gold lettering on black."
+    "image": "king-of-kings-tee.png",
+    "desc": "King of Kings statement tee with Revelation 19:16 inspiration."
   },
   {
     "id": "yahweh-tee-black",
     "name": "YAHWEH Tee - Black",
     "category": "T-Shirts",
     "price": 20,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -62,17 +56,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/yahweh-tee-black.png",
-    "description": "YAHWEH front design with scripture block on the back."
+    "image": "yahweh-tee-black.png",
+    "desc": "YAHWEH front with Exodus scripture on the back."
   },
   {
     "id": "yahweh-tee-white",
     "name": "YAHWEH Tee - White",
     "category": "T-Shirts",
     "price": 20,
-    "colors": [
-      "White"
-    ],
+    "color": "White",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -84,17 +76,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/yahweh-tee-white.png",
-    "description": "White YAHWEH tee with scripture block on the back."
+    "image": "yahweh-tee-white.png",
+    "desc": "White YAHWEH tee with scripture back."
   },
   {
     "id": "no-vanity-33-tee-white",
     "name": "No Vanity 33 Tee - White",
     "category": "T-Shirts",
     "price": 25,
-    "colors": [
-      "White"
-    ],
+    "color": "White",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -106,17 +96,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/no-vanity-33-tee-white.png",
-    "description": "Clean No Vanity 33 white tee with 1 Corinthians 10:31 back print."
+    "image": "no-vanity-33-tee-white.png",
+    "desc": "Clean No Vanity 33 front with 1 Corinthians 10:31 back."
   },
   {
     "id": "lion-judah-hoodie",
     "name": "Lion of Judah Hoodie - Black",
     "category": "Hoodies",
     "price": 50,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -128,17 +116,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/lion-judah-hoodie.png",
-    "description": "Black hoodie using the Lion of Judah crown-of-thorns artwork and scripture on the back."
+    "image": "lion-judah-hoodie.png",
+    "desc": "Black hoodie with Lion of Judah front and scripture back."
   },
   {
     "id": "christ-returns-tee",
     "name": "Christ Returns Tee - Black",
     "category": "T-Shirts",
     "price": 30,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -150,17 +136,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/christ-returns-tee.png",
-    "description": "Approved Christ Returns design with Christ on the white horse and Revelation 19:11-16 theme."
+    "image": "christ-returns-tee.png",
+    "desc": "Christ returning on the white horse with King of Kings back design."
   },
   {
     "id": "cross-discipleship-tee",
     "name": "Cross & Discipleship Tee - Black",
     "category": "T-Shirts",
     "price": 25,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -172,17 +156,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/cross-discipleship-tee.png",
-    "description": "Simple cross front with discipleship scripture and QR-ready back layout."
+    "image": "cross-discipleship-tee.png",
+    "desc": "Cross front with discipleship scripture and prayer wall QR on back."
   },
   {
     "id": "prayer-cross-tee",
     "name": "Prayer Cross Tee - Black",
     "category": "T-Shirts",
     "price": 25,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -194,17 +176,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/prayer-cross-tee.png",
-    "description": "Simple cross front with \u201cIf you need prayer, just ask me\u201d message on the back."
+    "image": "prayer-cross-tee.png",
+    "desc": "Simple cross front with \u201cIf you need prayer, just ask me\u201d back."
   },
   {
     "id": "crown-33-sweatpants-gray",
     "name": "Crown 33 Sweatpants - Gray",
     "category": "Sweatpants",
     "price": 45,
-    "colors": [
-      "Gray"
-    ],
+    "color": "Gray",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -216,17 +196,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/crown-33-sweatpants-gray.png",
-    "description": "Jogger-style gray sweatpants with a defined cross on the right leg and Crown 33 logo on the left leg."
+    "image": "crown-33-sweatpants-gray.png",
+    "desc": "Jogger-style sweatpants with cross and Crown 33 logo."
   },
   {
     "id": "crown-33-sweatpants-black",
     "name": "Crown 33 Sweatpants - Black",
     "category": "Sweatpants",
     "price": 45,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -238,17 +216,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/crown-33-sweatpants-black.png",
-    "description": "Jogger-style black sweatpants with a defined cross on the right leg and Crown 33 logo on the left leg."
+    "image": "crown-33-sweatpants-black.png",
+    "desc": "Black joggers with defined cross and Crown 33 logo."
   },
   {
     "id": "crown-33-sweatpants-tan",
     "name": "Crown 33 Sweatpants - Tan",
     "category": "Sweatpants",
     "price": 45,
-    "colors": [
-      "Tan"
-    ],
+    "color": "Tan",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -260,17 +236,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/crown-33-sweatpants-tan.png",
-    "description": "Jogger-style tan sweatpants with a defined cross on the right leg and Crown 33 logo on the left leg."
+    "image": "crown-33-sweatpants-tan.png",
+    "desc": "Tan joggers with cross and Crown 33 logo."
   },
   {
     "id": "crown-33-shorts-black",
     "name": "Crown 33 Shorts - Black",
     "category": "Shorts",
     "price": 30,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -282,17 +256,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/crown-33-shorts-black.png",
-    "description": "Black athletic shorts with Crown 33 style placement."
+    "image": "crown-33-shorts-black.png",
+    "desc": "Black athletic shorts with cross detail."
   },
   {
     "id": "crown-33-shorts-red",
     "name": "Crown 33 Shorts - Red",
     "category": "Shorts",
     "price": 30,
-    "colors": [
-      "Red"
-    ],
+    "color": "Red",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -304,17 +276,15 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/crown-33-shorts-red.png",
-    "description": "Red athletic shorts with Crown 33 logo."
+    "image": "crown-33-shorts-red.png",
+    "desc": "Red athletic shorts with Crown 33 detail."
   },
   {
     "id": "crown-33-shorts-white",
     "name": "Crown 33 Shorts - White",
     "category": "Shorts",
     "price": 30,
-    "colors": [
-      "White"
-    ],
+    "color": "White",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -326,91 +296,79 @@
       "2XL",
       "3XL"
     ],
-    "image": "assets/images/products/crown-33-shorts-white.png",
-    "description": "White athletic shorts with Crown 33 logo placed on the leg, as approved."
+    "image": "crown-33-shorts-white.png",
+    "desc": "White athletic shorts with Crown 33 logo positioned on leg."
   },
   {
     "id": "cross-crew-socks-4-pack",
     "name": "Cross Crew Socks (4-Pack)",
     "category": "Socks",
     "price": 20,
-    "colors": [
-      "4-Pack"
-    ],
+    "color": "4-Pack",
     "sizes": [
       "One Size"
     ],
-    "image": "assets/images/products/cross-crew-socks-4-pack.png",
-    "description": "Four-color crew sock pack with cross designs."
+    "image": "cross-crew-socks-4-pack.png",
+    "desc": "Four-color cross crew sock pack."
   },
   {
     "id": "crown-33-dad-hat-black",
     "name": "Crown 33 Dad Hat - Black",
     "category": "Hats",
     "price": 20,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "One Size"
     ],
-    "image": "assets/images/products/crown-33-dad-hat-black.png",
-    "description": "Black dad hat with Crown 33 logo."
+    "image": "crown-33-dad-hat-black.png",
+    "desc": "Black dad hat with Crown 33 logo."
   },
   {
     "id": "no-vanity-33-duffle-bag",
     "name": "No Vanity 33 Duffle Bag",
     "category": "Accessories",
     "price": 60,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "One Size"
     ],
-    "image": "assets/images/products/no-vanity-33-duffle-bag.png",
-    "description": "Black duffle bag with Crown 33 / No Vanity branding."
+    "image": "no-vanity-33-duffle-bag.png",
+    "desc": "Black duffle bag with Crown 33 branding."
   },
   {
     "id": "crown-33-water-bottle",
     "name": "Crown 33 Water Bottle",
     "category": "Accessories",
     "price": 25,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "One Size"
     ],
-    "image": "assets/images/products/crown-33-water-bottle.png",
-    "description": "Black water bottle with Crown 33 logo."
+    "image": "crown-33-water-bottle.png",
+    "desc": "Black water bottle with Crown 33 logo."
   },
   {
     "id": "wear-the-word-wristband",
     "name": "Wear The Word Wristband",
     "category": "Accessories",
     "price": 5,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "One Size"
     ],
-    "image": "assets/images/products/wear-the-word-wristband.png",
-    "description": "Black wristband with Wear The Word message."
+    "image": "wear-the-word-wristband.png",
+    "desc": "Wear The Word black wristband."
   },
   {
     "id": "bible-kit",
     "name": "Bible Kit",
     "category": "Accessories",
     "price": 25,
-    "colors": [
-      "Black"
-    ],
+    "color": "Black",
     "sizes": [
       "One Size"
     ],
-    "image": "assets/images/products/bible-kit.png",
-    "description": "Bible Kit sleeve/case to help keep your Bible protected and organized."
+    "image": "bible-kit.png",
+    "desc": "Protective Bible kit with space for Bible, notes, pens, cards, and prayer essentials."
   }
 ]

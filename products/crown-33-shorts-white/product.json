@@ -3,10 +3,7 @@
   "name": "Crown 33 Shorts - White",
   "category": "Shorts",
   "price": 30,
-  "currency": "USD",
-  "colors": [
-    "White"
-  ],
+  "color": "White",
   "sizes": [
     "Youth S",
     "Youth M",
@@ -18,10 +15,6 @@
     "2XL",
     "3XL"
   ],
-  "image": "assets/images/products/crown-33-shorts-white.png",
-  "description": "White athletic shorts with Crown 33 logo placed on the leg, as approved.",
-  "lead_time": "2-3 weeks",
-  "fulfillment": "Printful-ready / made to order",
-  "printful_product_id": "",
-  "printful_variant_ids": {}
+  "image": "crown-33-shorts-white.png",
+  "desc": "White athletic shorts with Crown 33 logo positioned on leg."
 }

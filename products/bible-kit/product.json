@@ -3,17 +3,10 @@
   "name": "Bible Kit",
   "category": "Accessories",
   "price": 25,
-  "currency": "USD",
-  "colors": [
-    "Black"
-  ],
+  "color": "Black",
   "sizes": [
     "One Size"
   ],
-  "image": "assets/images/products/bible-kit.png",
-  "description": "Bible Kit sleeve/case to help keep your Bible protected and organized.",
-  "lead_time": "2-3 weeks",
-  "fulfillment": "Printful-ready / made to order",
-  "printful_product_id": "",
-  "printful_variant_ids": {}
+  "image": "bible-kit.png",
+  "desc": "Protective Bible kit with space for Bible, notes, pens, cards, and prayer essentials."
 }

@@ -3,10 +3,7 @@
   "name": "Lion of Judah Tee - Black",
   "category": "T-Shirts",
   "price": 30,
-  "currency": "USD",
-  "colors": [
-    "Black"
-  ],
+  "color": "Black",
   "sizes": [
     "Youth S",
     "Youth M",
@@ -18,10 +15,6 @@
     "2XL",
     "3XL"
   ],
-  "image": "assets/images/products/lion-judah-tee.png",
-  "description": "Lion of Judah tee with crown-of-thorns lion artwork and Revelation 5:5 message on the back.",
-  "lead_time": "2-3 weeks",
-  "fulfillment": "Printful-ready / made to order",
-  "printful_product_id": "",
-  "printful_variant_ids": {}
+  "image": "lion-judah-tee.png",
+  "desc": "Lion of Judah design with Revelation 5:5 scripture on back."
 }

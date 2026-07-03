@@ -1,14 +1,14 @@
-# No Vanity 33 Launch v1 Organized
+# No Vanity 33 Launch v1 Fixed
 
-This ZIP contains the organized launch build for No Vanity 33.
+Upload the contents of this folder to GitHub or Cloudflare Pages.
 
-## Included
-- One-page homepage with full catalog
-- Lion with crown-of-thorns branding in header
-- 2–3 week Printful lead-time messaging
-- Product cards with price, color, size, and Add to Cart
-- Individual product folders with `mockup.png`, `product.json`, and `description.txt`
-- Ready for GitHub / Cloudflare Pages upload
+Included fixes:
+- Lion with crown of thorns restored in the header.
+- Correct hoodie product image.
+- Rebuilt jogger-style sweatpants with cross and Crown 33 logo.
+- Bible Kit image without Amazon branding.
+- All catalog items included on the homepage.
+- 2–3 week lead time.
+- Product folders with editable product.json and description.txt.
 
-## Next phase
-Connect Printful product IDs, Stripe/PayPal checkout, and the Prayer Wall database.
+Next phase: connect Printful product IDs and payment checkout.

@@ -1,10 +1,11 @@
 Cross Crew Socks (4-Pack)
 
-Four-color crew sock pack with cross designs.
-
 Price: $20.00
 Category: Socks
-Colors: 4-Pack
+Default Color: 4-Pack
 Sizes: One Size
-Lead Time: 2-3 weeks
-Fulfillment: Printful-ready / made to order
+
+Description:
+Four-color cross crew sock pack.
+
+Printful: connect this product to its matching Printful product ID in the next phase.

@@ -3,17 +3,10 @@
   "name": "Cross Crew Socks (4-Pack)",
   "category": "Socks",
   "price": 20,
-  "currency": "USD",
-  "colors": [
-    "4-Pack"
-  ],
+  "color": "4-Pack",
   "sizes": [
     "One Size"
   ],
-  "image": "assets/images/products/cross-crew-socks-4-pack.png",
-  "description": "Four-color crew sock pack with cross designs.",
-  "lead_time": "2-3 weeks",
-  "fulfillment": "Printful-ready / made to order",
-  "printful_product_id": "",
-  "printful_variant_ids": {}
+  "image": "cross-crew-socks-4-pack.png",
+  "desc": "Four-color cross crew sock pack."
 }
