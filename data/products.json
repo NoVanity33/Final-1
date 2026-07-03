@@ -1,0 +1,386 @@
+[
+  {
+    "id": "lion-judah-tee",
+    "name": "Lion of Judah Tee",
+    "category": "T-Shirts",
+    "price": 30,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Wear the Word.",
+    "image": "assets/products/lion-judah-tee.svg"
+  },
+  {
+    "id": "prayer-cross-tee",
+    "name": "Prayer Cross Tee",
+    "category": "T-Shirts",
+    "price": 25,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Pray without ceasing.",
+    "image": "assets/products/prayer-cross-tee.svg"
+  },
+  {
+    "id": "cross-discipleship-tee",
+    "name": "Cross & Discipleship Tee",
+    "category": "T-Shirts",
+    "price": 25,
+    "color": "Cream",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Follow Him daily.",
+    "image": "assets/products/cross-discipleship-tee.svg"
+  },
+  {
+    "id": "yahweh-black",
+    "name": "YAHWEH Tee - Black",
+    "category": "T-Shirts",
+    "price": 20,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "I AM THAT I AM.",
+    "image": "assets/products/yahweh-black.svg"
+  },
+  {
+    "id": "yahweh-white",
+    "name": "YAHWEH Tee - White",
+    "category": "T-Shirts",
+    "price": 20,
+    "color": "White",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "I AM THAT I AM.",
+    "image": "assets/products/yahweh-white.svg"
+  },
+  {
+    "id": "no-vanity-white",
+    "name": "No Vanity 33 Tee",
+    "category": "T-Shirts",
+    "price": 20,
+    "color": "White",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Do all to the glory of God.",
+    "image": "assets/products/no-vanity-white.svg"
+  },
+  {
+    "id": "crimson-worm-tee",
+    "name": "Crimson Worm Tee",
+    "category": "T-Shirts",
+    "price": 25,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Psalm 22:6 teaching tee.",
+    "image": "assets/products/crimson-worm-tee.svg"
+  },
+  {
+    "id": "lion-hoodie",
+    "name": "Lion of Judah Hoodie",
+    "category": "Hoodies",
+    "price": 50,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Revelation 5:5.",
+    "image": "assets/products/lion-hoodie.svg"
+  },
+  {
+    "id": "discipleship-hoodie",
+    "name": "Cross & Discipleship Hoodie",
+    "category": "Hoodies",
+    "price": 50,
+    "color": "Cream",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Follow Him daily.",
+    "image": "assets/products/discipleship-hoodie.svg"
+  },
+  {
+    "id": "sweats-black",
+    "name": "Crown 33 Sweatpants - Black",
+    "category": "Sweatpants",
+    "price": 45,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Cross + Crown 33 logo.",
+    "image": "assets/products/sweats-black.svg"
+  },
+  {
+    "id": "sweats-gray",
+    "name": "Crown 33 Sweatpants - Athletic Gray",
+    "category": "Sweatpants",
+    "price": 45,
+    "color": "Athletic Gray",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Cross + Crown 33 logo.",
+    "image": "assets/products/sweats-gray.svg"
+  },
+  {
+    "id": "sweats-sand",
+    "name": "Crown 33 Sweatpants - Sand",
+    "category": "Sweatpants",
+    "price": 45,
+    "color": "Sand",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Cross + Crown 33 logo.",
+    "image": "assets/products/sweats-sand.svg"
+  },
+  {
+    "id": "shorts-black",
+    "name": "Crown 33 Shorts - Black",
+    "category": "Shorts",
+    "price": 30,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Faith-based athletic shorts.",
+    "image": "assets/products/shorts-black.svg"
+  },
+  {
+    "id": "shorts-white",
+    "name": "Crown 33 Shorts - White",
+    "category": "Shorts",
+    "price": 30,
+    "color": "White",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Faith-based athletic shorts.",
+    "image": "assets/products/shorts-white.svg"
+  },
+  {
+    "id": "shorts-red",
+    "name": "Crown 33 Shorts - Red",
+    "category": "Shorts",
+    "price": 30,
+    "color": "Red",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "purpose": "Faith-based athletic shorts.",
+    "image": "assets/products/shorts-red.svg"
+  },
+  {
+    "id": "socks",
+    "name": "Cross Crew Socks",
+    "category": "Socks",
+    "price": 12,
+    "color": "Multi Color",
+    "sizes": [
+      "One Size"
+    ],
+    "purpose": "Mid-calf cross socks.",
+    "image": "assets/products/socks.svg"
+  },
+  {
+    "id": "wristbands",
+    "name": "Scripture Wristbands",
+    "category": "Accessories",
+    "price": 4,
+    "color": "Black / Gold",
+    "sizes": [
+      "One Size"
+    ],
+    "purpose": "Short scripture references wrapped around the band.",
+    "image": "assets/products/wristbands.svg"
+  },
+  {
+    "id": "hat",
+    "name": "Crown 33 Dad Hat",
+    "category": "Hats",
+    "price": 25,
+    "color": "Black",
+    "sizes": [
+      "One Size"
+    ],
+    "purpose": "Crown 33 embroidered logo.",
+    "image": "assets/products/hat.svg"
+  },
+  {
+    "id": "bottle",
+    "name": "Matte Black Bottle",
+    "category": "Accessories",
+    "price": 20,
+    "color": "Matte Black",
+    "sizes": [
+      "One Size"
+    ],
+    "purpose": "Wear the Word. Live the Gospel.",
+    "image": "assets/products/bottle.svg"
+  },
+  {
+    "id": "duffel",
+    "name": "No Vanity 33 Duffel Bag",
+    "category": "Accessories",
+    "price": 45,
+    "color": "Black",
+    "sizes": [
+      "One Size"
+    ],
+    "purpose": "Premium travel and gym bag.",
+    "image": "assets/products/duffel.svg"
+  },
+  {
+    "id": "bible-kit",
+    "name": "Bible Kit",
+    "category": "Accessories",
+    "price": 60,
+    "color": "Black",
+    "sizes": [
+      "One Size"
+    ],
+    "purpose": "KJV Bible, journal, pens, highlighters, sticky notes, scripture cards, prayer cards, bookmark, premium case.",
+    "image": "assets/products/bible-kit.svg"
+  },
+  {
+    "id": "patches",
+    "name": "Iron-On Patches (2-Pack)",
+    "category": "Accessories",
+    "price": 10,
+    "color": "Black / Gold",
+    "sizes": [
+      "One Size"
+    ],
+    "purpose": "Crown 33 and cross patch set.",
+    "image": "assets/products/patches.svg"
+  }
+]
