@@ -9,7 +9,7 @@ function renderProducts(cat='All Products'){
  grid.innerHTML='';
  PRODUCTS.filter(p=>cat==='All Products'||p.category===cat).forEach(p=>{
   const el=document.createElement('article'); el.className='card';
-  el.innerHTML=`<img src="${p.image}" alt="${p.name}"><div class="cardBody"><h3>${p.name}</h3><div class="price">${money(p.price)}</div><div class="controls"><select id="color-${p.id}">${p.colors.map(c=>`<option>${c}</option>`).join('')}</select><select id="size-${p.id}">${p.sizes.map(s=>`<option>${s}</option>`).join('')}</select></div><div class="controls"><input id="qty-${p.id}" type="number" min="1" value="1"><a class="btn" target="_blank" href="${p.printfulUrl}">Printful Link</a></div><button class="add" onclick="addToCart('${p.id}')">Add to Cart</button></div>`;
+  el.innerHTML=`<div class="imageBox"><img src="${p.image}" alt="${p.name}"></div><div class="cardBody"><h3>${p.name}</h3><div class="price">${money(p.price)}</div><div class="controls"><select id="color-${p.id}">${p.colors.map(c=>`<option>${c}</option>`).join('')}</select><select id="size-${p.id}">${p.sizes.map(s=>`<option>${s}</option>`).join('')}</select></div><div class="controls"><input id="qty-${p.id}" type="number" min="1" value="1"><a class="printfulBtn" target="_blank" href="${p.printfulUrl}">Printful Link</a></div><button class="add" onclick="addToCart('${p.id}')">Add to Cart</button></div>`;
   grid.appendChild(el);
  });
 }
