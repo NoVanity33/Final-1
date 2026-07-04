@@ -1,1 +1,1 @@
-No Vanity 33 v1 Release. Upload all contents to Cloudflare Pages or GitHub Pages.
+No Vanity 33 v1 actual rebuild. Upload all contents of this ZIP to Cloudflare Pages/GitHub.

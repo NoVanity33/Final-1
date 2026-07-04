@@ -1,27 +1,5 @@
 [
   {
-    "id": "lion-judah-tee",
-    "name": "Lion of Judah Tee",
-    "category": "T-Shirts",
-    "price": 30,
-    "color": "Black",
-    "sizes": [
-      "Youth S",
-      "Youth M",
-      "Youth L",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "purpose": "Revelation 5:5 \u2014 The Lion of Judah has triumphed.",
-    "type": "tee",
-    "art": "lion",
-    "image": "assets/products/lion-judah-tee.svg"
-  },
-  {
     "id": "prayer-cross-tee",
     "name": "Prayer Cross Tee",
     "category": "T-Shirts",
@@ -39,9 +17,7 @@
       "3XL"
     ],
     "purpose": "Pray without ceasing. 1 Thessalonians 5:17.",
-    "type": "tee",
-    "art": "cross",
-    "image": "assets/products/prayer-cross-tee.svg"
+    "image": "assets/products/prayer-cross-tee.png"
   },
   {
     "id": "cross-discipleship-tee",
@@ -61,9 +37,7 @@
       "3XL"
     ],
     "purpose": "Follow Him daily. Matthew 4:19.",
-    "type": "tee",
-    "art": "bible",
-    "image": "assets/products/cross-discipleship-tee.svg"
+    "image": "assets/products/cross-discipleship-tee.png"
   },
   {
     "id": "yahweh-black",
@@ -83,9 +57,7 @@
       "3XL"
     ],
     "purpose": "I AM THAT I AM. Exodus 3:14.",
-    "type": "tee",
-    "art": "yahweh",
-    "image": "assets/products/yahweh-black.svg"
+    "image": "assets/products/yahweh-black.png"
   },
   {
     "id": "yahweh-white",
@@ -105,9 +77,7 @@
       "3XL"
     ],
     "purpose": "I AM THAT I AM. Exodus 3:14.",
-    "type": "tee",
-    "art": "yahweh",
-    "image": "assets/products/yahweh-white.svg"
+    "image": "assets/products/yahweh-white.png"
   },
   {
     "id": "no-vanity-white",
@@ -126,10 +96,8 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Do all things to the glory of God. 1 Corinthians 10:31.",
-    "type": "tee",
-    "art": "novanity",
-    "image": "assets/products/no-vanity-white.svg"
+    "purpose": "Do all things to the glory of God.",
+    "image": "assets/products/no-vanity-white.png"
   },
   {
     "id": "crimson-worm-tee",
@@ -148,10 +116,8 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Psalm 22:6 \u2014 teaching design on the crimson worm and Christ\u2019s sacrifice.",
-    "type": "tee",
-    "art": "worm",
-    "image": "assets/products/crimson-worm-tee.svg"
+    "purpose": "Psalm 22:6 teaching tee about the crimson worm.",
+    "image": "assets/products/crimson-worm-tee.png"
   },
   {
     "id": "lion-hoodie",
@@ -170,13 +136,11 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Lion front with Revelation 5:5 scripture back.",
-    "type": "hoodie",
-    "art": "lion",
-    "image": "assets/products/lion-hoodie.svg"
+    "purpose": "Lion with crown of thorns, Revelation 5:5.",
+    "image": "assets/products/lion-hoodie.png"
   },
   {
-    "id": "discipleship-hoodie",
+    "id": "cross-discipleship-hoodie",
     "name": "Cross & Discipleship Hoodie",
     "category": "Hoodies",
     "price": 50,
@@ -193,9 +157,7 @@
       "3XL"
     ],
     "purpose": "Cross and discipleship scripture hoodie.",
-    "type": "hoodie",
-    "art": "bible",
-    "image": "assets/products/discipleship-hoodie.svg"
+    "image": "assets/products/cross-discipleship-hoodie.png"
   },
   {
     "id": "sweats-black",
@@ -214,10 +176,8 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Right leg cross. Left leg crown-of-thorns 33 logo.",
-    "type": "sweats",
-    "art": "sweats",
-    "image": "assets/products/sweats-black.svg"
+    "purpose": "Right leg cross. Left leg Crown 33 logo.",
+    "image": "assets/products/sweats-black.png"
   },
   {
     "id": "sweats-gray",
@@ -236,10 +196,8 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Right leg cross. Left leg crown-of-thorns 33 logo.",
-    "type": "sweats",
-    "art": "sweats",
-    "image": "assets/products/sweats-gray.svg"
+    "purpose": "Right leg cross. Left leg Crown 33 logo.",
+    "image": "assets/products/sweats-gray.png"
   },
   {
     "id": "sweats-sand",
@@ -258,10 +216,8 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Right leg cross. Left leg crown-of-thorns 33 logo.",
-    "type": "sweats",
-    "art": "sweats",
-    "image": "assets/products/sweats-sand.svg"
+    "purpose": "Right leg cross. Left leg Crown 33 logo.",
+    "image": "assets/products/sweats-sand.png"
   },
   {
     "id": "shorts-black",
@@ -281,9 +237,7 @@
       "3XL"
     ],
     "purpose": "Athletic shorts with Crown 33 mark.",
-    "type": "shorts",
-    "art": "shorts",
-    "image": "assets/products/shorts-black.svg"
+    "image": "assets/products/shorts-black.png"
   },
   {
     "id": "shorts-white",
@@ -303,9 +257,7 @@
       "3XL"
     ],
     "purpose": "Athletic shorts with Crown 33 mark.",
-    "type": "shorts",
-    "art": "shorts",
-    "image": "assets/products/shorts-white.svg"
+    "image": "assets/products/shorts-white.png"
   },
   {
     "id": "shorts-red",
@@ -325,9 +277,7 @@
       "3XL"
     ],
     "purpose": "Athletic shorts with Crown 33 mark.",
-    "type": "shorts",
-    "art": "shorts",
-    "image": "assets/products/shorts-red.svg"
+    "image": "assets/products/shorts-red.png"
   },
   {
     "id": "socks",
@@ -338,10 +288,8 @@
     "sizes": [
       "One Size"
     ],
-    "purpose": "Mid-calf cross socks in black, white, red, royal blue, and olive.",
-    "type": "socks",
-    "art": "socks",
-    "image": "assets/products/socks.svg"
+    "purpose": "Mid-calf cross socks.",
+    "image": "assets/products/socks.png"
   },
   {
     "id": "wristbands",
@@ -352,10 +300,8 @@
     "sizes": [
       "One Size"
     ],
-    "purpose": "Short scripture references wrapped around silicone wristbands.",
-    "type": "wristband",
-    "art": "wristband",
-    "image": "assets/products/wristbands.svg"
+    "purpose": "Short scripture references wrapped around the band.",
+    "image": "assets/products/wristbands.png"
   },
   {
     "id": "hat",
@@ -366,10 +312,8 @@
     "sizes": [
       "One Size"
     ],
-    "purpose": "Black dad hat with Crown 33 embroidered look.",
-    "type": "hat",
-    "art": "hat",
-    "image": "assets/products/hat.svg"
+    "purpose": "Crown 33 dad hat.",
+    "image": "assets/products/hat.png"
   },
   {
     "id": "bottle",
@@ -381,9 +325,7 @@
       "One Size"
     ],
     "purpose": "Matte bottle with Crown 33 logo.",
-    "type": "bottle",
-    "art": "bottle",
-    "image": "assets/products/bottle.svg"
+    "image": "assets/products/bottle.png"
   },
   {
     "id": "duffel",
@@ -394,10 +336,8 @@
     "sizes": [
       "One Size"
     ],
-    "purpose": "Premium travel and gym bag with Crown 33 logo.",
-    "type": "duffel",
-    "art": "duffel",
-    "image": "assets/products/duffel.svg"
+    "purpose": "Travel and gym duffel with Crown 33 logo.",
+    "image": "assets/products/duffel.png"
   },
   {
     "id": "bible-kit",
@@ -409,9 +349,7 @@
       "One Size"
     ],
     "purpose": "KJV Bible, journal, pens, highlighters, sticky notes, scripture cards, prayer cards, bookmark, premium case.",
-    "type": "biblekit",
-    "art": "biblekit",
-    "image": "assets/products/bible-kit.svg"
+    "image": "assets/products/bible-kit.png"
   },
   {
     "id": "patches",
@@ -423,8 +361,6 @@
       "One Size"
     ],
     "purpose": "Crown 33 and cross patch set.",
-    "type": "patch",
-    "art": "patch",
-    "image": "assets/products/patches.svg"
+    "image": "assets/products/patches.png"
   }
 ]
