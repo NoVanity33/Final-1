@@ -1,1 +1,1 @@
-No Vanity 33 v1 actual rebuild. Upload all contents of this ZIP to Cloudflare Pages/GitHub.
+No Vanity 33 V2 Fresh Build. Upload all contents to Cloudflare Pages. This package does NOT include King of Kings / Christ Returns.
