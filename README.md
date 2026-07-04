@@ -1,16 +1,16 @@
-# No Vanity 33 — Sprint 1 Foundation
+# No Vanity 33 — From The Top Clean Build
 
-This is a fresh homepage/layout pass built from the ZIP Luke uploaded.
+This is a clean project structure:
+- index.html
+- css/style.css
+- js/app.js
+- data/products.json
+- assets/logo
+- assets/products
+- prayer-wall.html
 
-What changed:
-- New visual layout (look for: "Sprint 1 Foundation • Fresh Layout" in the hero)
-- Lion/crown logo shown in header and hero
-- Full catalog on homepage
-- Prices on every product
-- Size dropdowns for clothing
-- Category filters
-- Cart counter
-- Prayer Wall page
-- King of Kings / Christ Returns removed
+Look for the hero text: "From The Top • Clean Build" to confirm the new version uploaded.
 
-Upload the contents of this ZIP to Cloudflare Pages or GitHub.
+King of Kings / Christ Returns are removed.
+Crimson Worm Tee is included.
+Prices, sizes, category filters, cart counter, and Prayer Wall are included.

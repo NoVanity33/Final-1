@@ -17,8 +17,6 @@
       "3XL"
     ],
     "purpose": "Pray without ceasing. 1 Thessalonians 5:17.",
-    "kind": "tee",
-    "primary": "cross",
     "image": "assets/products/prayer-cross-tee.png"
   },
   {
@@ -39,9 +37,7 @@
       "3XL"
     ],
     "purpose": "Follow Him daily. Matthew 4:19.",
-    "kind": "tee",
-    "primary": "bible",
-    "image": "assets/products/cross-discipleship-tee.png"
+    "image": "assets/products/prayer-cross-tee.png"
   },
   {
     "id": "yahweh-black",
@@ -61,9 +57,7 @@
       "3XL"
     ],
     "purpose": "I AM THAT I AM. Exodus 3:14.",
-    "kind": "tee",
-    "primary": "yahweh",
-    "image": "assets/products/yahweh-black.png"
+    "image": "assets/products/prayer-cross-tee.png"
   },
   {
     "id": "yahweh-white",
@@ -83,12 +77,10 @@
       "3XL"
     ],
     "purpose": "I AM THAT I AM. Exodus 3:14.",
-    "kind": "tee",
-    "primary": "yahweh",
-    "image": "assets/products/yahweh-white.png"
+    "image": "assets/products/prayer-cross-tee.png"
   },
   {
-    "id": "no-vanity-tee",
+    "id": "no-vanity-33-tee",
     "name": "No Vanity 33 Tee",
     "category": "T-Shirts",
     "price": 20,
@@ -104,10 +96,8 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Do all things to the glory of God.",
-    "kind": "tee",
-    "primary": "novanity",
-    "image": "assets/products/no-vanity-tee.png"
+    "purpose": "Do all to the glory of God.",
+    "image": "assets/products/prayer-cross-tee.png"
   },
   {
     "id": "crimson-worm-tee",
@@ -127,12 +117,10 @@
       "3XL"
     ],
     "purpose": "Psalm 22:6 teaching tee about the crimson worm.",
-    "kind": "tee",
-    "primary": "worm",
-    "image": "assets/products/crimson-worm-tee.png"
+    "image": "assets/products/prayer-cross-tee.png"
   },
   {
-    "id": "lion-hoodie",
+    "id": "lion-judah-hoodie",
     "name": "Lion of Judah Hoodie",
     "category": "Hoodies",
     "price": 50,
@@ -149,12 +137,10 @@
       "3XL"
     ],
     "purpose": "Lion with crown of thorns. Revelation 5:5.",
-    "kind": "hoodie",
-    "primary": "lion",
     "image": "assets/products/lion-hoodie.png"
   },
   {
-    "id": "discipleship-hoodie",
+    "id": "cross-discipleship-hoodie",
     "name": "Cross & Discipleship Hoodie",
     "category": "Hoodies",
     "price": 50,
@@ -171,12 +157,10 @@
       "3XL"
     ],
     "purpose": "Cross and discipleship scripture hoodie.",
-    "kind": "hoodie",
-    "primary": "bible",
-    "image": "assets/products/discipleship-hoodie.png"
+    "image": "assets/products/prayer-cross-tee.png"
   },
   {
-    "id": "sweats-black",
+    "id": "sweatpants-black",
     "name": "Crown 33 Sweatpants - Black",
     "category": "Sweatpants",
     "price": 45,
@@ -193,12 +177,10 @@
       "3XL"
     ],
     "purpose": "Right leg cross. Left leg Crown 33 logo.",
-    "kind": "sweats",
-    "primary": "crown",
-    "image": "assets/products/sweats-black.png"
+    "image": "assets/products/yahweh-black.png"
   },
   {
-    "id": "sweats-gray",
+    "id": "sweatpants-gray",
     "name": "Crown 33 Sweatpants - Athletic Gray",
     "category": "Sweatpants",
     "price": 45,
@@ -215,12 +197,10 @@
       "3XL"
     ],
     "purpose": "Right leg cross. Left leg Crown 33 logo.",
-    "kind": "sweats",
-    "primary": "crown",
-    "image": "assets/products/sweats-gray.png"
+    "image": "assets/products/sweats-black.png"
   },
   {
-    "id": "sweats-sand",
+    "id": "sweatpants-sand",
     "name": "Crown 33 Sweatpants - Sand",
     "category": "Sweatpants",
     "price": 45,
@@ -237,9 +217,7 @@
       "3XL"
     ],
     "purpose": "Right leg cross. Left leg Crown 33 logo.",
-    "kind": "sweats",
-    "primary": "crown",
-    "image": "assets/products/sweats-sand.png"
+    "image": "assets/products/sweats-black.png"
   },
   {
     "id": "shorts-black",
@@ -259,9 +237,7 @@
       "3XL"
     ],
     "purpose": "Athletic shorts with Crown 33 mark.",
-    "kind": "shorts",
-    "primary": "crown",
-    "image": "assets/products/shorts-black.png"
+    "image": "assets/products/yahweh-black.png"
   },
   {
     "id": "shorts-white",
@@ -281,9 +257,7 @@
       "3XL"
     ],
     "purpose": "Athletic shorts with Crown 33 mark.",
-    "kind": "shorts",
-    "primary": "crown",
-    "image": "assets/products/shorts-white.png"
+    "image": "assets/products/yahweh-white.png"
   },
   {
     "id": "shorts-red",
@@ -303,12 +277,10 @@
       "3XL"
     ],
     "purpose": "Athletic shorts with Crown 33 mark.",
-    "kind": "shorts",
-    "primary": "crown",
-    "image": "assets/products/shorts-red.png"
+    "image": "assets/products/sweats-black.png"
   },
   {
-    "id": "socks",
+    "id": "cross-crew-socks",
     "name": "Cross Crew Socks",
     "category": "Socks",
     "price": 12,
@@ -317,12 +289,10 @@
       "One Size"
     ],
     "purpose": "Mid-calf cross socks.",
-    "kind": "socks",
-    "primary": "cross",
-    "image": "assets/products/socks.png"
+    "image": "assets/products/prayer-cross-tee.png"
   },
   {
-    "id": "wristbands",
+    "id": "scripture-wristbands",
     "name": "Scripture Wristbands",
     "category": "Accessories",
     "price": 4,
@@ -331,12 +301,10 @@
       "One Size"
     ],
     "purpose": "Short scripture references wrapped around the band.",
-    "kind": "wristband",
-    "primary": "scripture",
     "image": "assets/products/wristbands.png"
   },
   {
-    "id": "hat",
+    "id": "dad-hat",
     "name": "Crown 33 Dad Hat",
     "category": "Hats",
     "price": 25,
@@ -345,12 +313,10 @@
       "One Size"
     ],
     "purpose": "Black dad hat with Crown 33 logo.",
-    "kind": "hat",
-    "primary": "crown",
-    "image": "assets/products/hat.png"
+    "image": "assets/products/sweats-black.png"
   },
   {
-    "id": "bottle",
+    "id": "water-bottle",
     "name": "Matte Black Bottle",
     "category": "Accessories",
     "price": 20,
@@ -359,12 +325,10 @@
       "One Size"
     ],
     "purpose": "Matte bottle with Crown 33 logo.",
-    "kind": "bottle",
-    "primary": "crown",
-    "image": "assets/products/bottle.png"
+    "image": "assets/products/yahweh-black.png"
   },
   {
-    "id": "duffel",
+    "id": "duffel-bag",
     "name": "No Vanity 33 Duffel Bag",
     "category": "Accessories",
     "price": 45,
@@ -373,9 +337,7 @@
       "One Size"
     ],
     "purpose": "Travel and gym duffel with Crown 33 logo.",
-    "kind": "duffel",
-    "primary": "crown",
-    "image": "assets/products/duffel.png"
+    "image": "assets/products/no-vanity-tee.png"
   },
   {
     "id": "bible-kit",
@@ -387,12 +349,10 @@
       "One Size"
     ],
     "purpose": "KJV Bible, journal, pens, highlighters, sticky notes, scripture cards, prayer cards, bookmark, premium case.",
-    "kind": "biblekit",
-    "primary": "kit",
     "image": "assets/products/bible-kit.png"
   },
   {
-    "id": "patches",
+    "id": "patch-pack",
     "name": "Iron-On Patches (2-Pack)",
     "category": "Accessories",
     "price": 10,
@@ -401,8 +361,6 @@
       "One Size"
     ],
     "purpose": "Crown 33 and cross patch set.",
-    "kind": "patch",
-    "primary": "patch",
     "image": "assets/products/patches.png"
   }
 ]
