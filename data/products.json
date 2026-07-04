@@ -16,7 +16,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Wear the Word.",
+    "purpose": "Revelation 5:5 \u2014 The Lion of Judah has triumphed.",
+    "type": "tee",
+    "art": "lion",
     "image": "assets/products/lion-judah-tee.svg"
   },
   {
@@ -36,7 +38,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Pray without ceasing.",
+    "purpose": "Pray without ceasing. 1 Thessalonians 5:17.",
+    "type": "tee",
+    "art": "cross",
     "image": "assets/products/prayer-cross-tee.svg"
   },
   {
@@ -56,7 +60,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Follow Him daily.",
+    "purpose": "Follow Him daily. Matthew 4:19.",
+    "type": "tee",
+    "art": "bible",
     "image": "assets/products/cross-discipleship-tee.svg"
   },
   {
@@ -76,7 +82,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "I AM THAT I AM.",
+    "purpose": "I AM THAT I AM. Exodus 3:14.",
+    "type": "tee",
+    "art": "yahweh",
     "image": "assets/products/yahweh-black.svg"
   },
   {
@@ -96,7 +104,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "I AM THAT I AM.",
+    "purpose": "I AM THAT I AM. Exodus 3:14.",
+    "type": "tee",
+    "art": "yahweh",
     "image": "assets/products/yahweh-white.svg"
   },
   {
@@ -116,7 +126,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Do all to the glory of God.",
+    "purpose": "Do all things to the glory of God. 1 Corinthians 10:31.",
+    "type": "tee",
+    "art": "novanity",
     "image": "assets/products/no-vanity-white.svg"
   },
   {
@@ -136,7 +148,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Psalm 22:6 teaching tee.",
+    "purpose": "Psalm 22:6 \u2014 teaching design on the crimson worm and Christ\u2019s sacrifice.",
+    "type": "tee",
+    "art": "worm",
     "image": "assets/products/crimson-worm-tee.svg"
   },
   {
@@ -156,7 +170,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Revelation 5:5.",
+    "purpose": "Lion front with Revelation 5:5 scripture back.",
+    "type": "hoodie",
+    "art": "lion",
     "image": "assets/products/lion-hoodie.svg"
   },
   {
@@ -176,7 +192,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Follow Him daily.",
+    "purpose": "Cross and discipleship scripture hoodie.",
+    "type": "hoodie",
+    "art": "bible",
     "image": "assets/products/discipleship-hoodie.svg"
   },
   {
@@ -196,7 +214,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Cross + Crown 33 logo.",
+    "purpose": "Right leg cross. Left leg crown-of-thorns 33 logo.",
+    "type": "sweats",
+    "art": "sweats",
     "image": "assets/products/sweats-black.svg"
   },
   {
@@ -216,7 +236,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Cross + Crown 33 logo.",
+    "purpose": "Right leg cross. Left leg crown-of-thorns 33 logo.",
+    "type": "sweats",
+    "art": "sweats",
     "image": "assets/products/sweats-gray.svg"
   },
   {
@@ -236,7 +258,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Cross + Crown 33 logo.",
+    "purpose": "Right leg cross. Left leg crown-of-thorns 33 logo.",
+    "type": "sweats",
+    "art": "sweats",
     "image": "assets/products/sweats-sand.svg"
   },
   {
@@ -256,7 +280,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Faith-based athletic shorts.",
+    "purpose": "Athletic shorts with Crown 33 mark.",
+    "type": "shorts",
+    "art": "shorts",
     "image": "assets/products/shorts-black.svg"
   },
   {
@@ -276,7 +302,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Faith-based athletic shorts.",
+    "purpose": "Athletic shorts with Crown 33 mark.",
+    "type": "shorts",
+    "art": "shorts",
     "image": "assets/products/shorts-white.svg"
   },
   {
@@ -296,7 +324,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Faith-based athletic shorts.",
+    "purpose": "Athletic shorts with Crown 33 mark.",
+    "type": "shorts",
+    "art": "shorts",
     "image": "assets/products/shorts-red.svg"
   },
   {
@@ -308,7 +338,9 @@
     "sizes": [
       "One Size"
     ],
-    "purpose": "Mid-calf cross socks.",
+    "purpose": "Mid-calf cross socks in black, white, red, royal blue, and olive.",
+    "type": "socks",
+    "art": "socks",
     "image": "assets/products/socks.svg"
   },
   {
@@ -320,7 +352,9 @@
     "sizes": [
       "One Size"
     ],
-    "purpose": "Short scripture references wrapped around the band.",
+    "purpose": "Short scripture references wrapped around silicone wristbands.",
+    "type": "wristband",
+    "art": "wristband",
     "image": "assets/products/wristbands.svg"
   },
   {
@@ -332,7 +366,9 @@
     "sizes": [
       "One Size"
     ],
-    "purpose": "Crown 33 embroidered logo.",
+    "purpose": "Black dad hat with Crown 33 embroidered look.",
+    "type": "hat",
+    "art": "hat",
     "image": "assets/products/hat.svg"
   },
   {
@@ -344,7 +380,9 @@
     "sizes": [
       "One Size"
     ],
-    "purpose": "Wear the Word. Live the Gospel.",
+    "purpose": "Matte bottle with Crown 33 logo.",
+    "type": "bottle",
+    "art": "bottle",
     "image": "assets/products/bottle.svg"
   },
   {
@@ -356,7 +394,9 @@
     "sizes": [
       "One Size"
     ],
-    "purpose": "Premium travel and gym bag.",
+    "purpose": "Premium travel and gym bag with Crown 33 logo.",
+    "type": "duffel",
+    "art": "duffel",
     "image": "assets/products/duffel.svg"
   },
   {
@@ -369,6 +409,8 @@
       "One Size"
     ],
     "purpose": "KJV Bible, journal, pens, highlighters, sticky notes, scripture cards, prayer cards, bookmark, premium case.",
+    "type": "biblekit",
+    "art": "biblekit",
     "image": "assets/products/bible-kit.svg"
   },
   {
@@ -381,6 +423,8 @@
       "One Size"
     ],
     "purpose": "Crown 33 and cross patch set.",
+    "type": "patch",
+    "art": "patch",
     "image": "assets/products/patches.svg"
   }
 ]

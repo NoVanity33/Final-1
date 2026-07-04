@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 420 360"><rect width="420" height="360" fill="#050505"/><path d="M105 95 L315 95 L340 285 L230 285 L210 180 L190 285 L80 285 Z" fill="#b51217" stroke="#333" stroke-width="4"/><text x="150" y="210" text-anchor="middle" font-size="58" fill="#050505">✝</text><circle cx="265" cy="205" r="36" fill="none" stroke="#d9a928" stroke-width="5"/><text x="265" y="217" text-anchor="middle" font-size="31" fill="#d9a928">33</text><text x="210" y="340" text-anchor="middle" font-family="Arial" font-size="18" font-weight="900" fill="#d9a928">Crown 33 Shorts - Red</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 300 380">
+<defs><linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#171717"/><stop offset="1" stop-color="#020202"/></linearGradient></defs>
+<rect width="300" height="380" fill="url(#bg)"/>
+<path d="M62 86 L238 86 L260 270 L170 270 L150 170 L130 270 L40 270 Z" fill="#b51217" stroke="#333" stroke-width="4"/><path d="M62 86 Q150 65 238 86" stroke="#555" stroke-width="8" fill="none"/>
+<text x="88" y="205" text-anchor="middle" font-size="48" fill="#f7f7f7">✝</text><circle cx="215" cy="210" r="34" fill="none" stroke="#d9a928" stroke-width="5"/><text x="215" y="222" text-anchor="middle" font-size="30" fill="#d9a928">33</text>
+<text x="150" y="360" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#d9a928">Crown 33 Shorts - Red</text>
+</svg>
