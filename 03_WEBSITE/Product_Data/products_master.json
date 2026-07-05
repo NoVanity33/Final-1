@@ -1,0 +1,200 @@
+[
+  {
+    "sku": "NV33-TS-001",
+    "name": "Lion of Judah Tee",
+    "category": "Shirt",
+    "price": 30,
+    "colors": "Black",
+    "sizes": "Youth S-3XL",
+    "scripture": "Revelation 5:5 / John 18:37",
+    "status": "Included",
+    "assetPath": "01_PRODUCTS/Shirts/Lion_of_Judah_Tee/Product_Mockup.png"
+  },
+  {
+    "sku": "NV33-TS-002",
+    "name": "Prayer Cross Tee",
+    "category": "Shirt",
+    "price": 25,
+    "colors": "Black",
+    "sizes": "Youth S-3XL",
+    "scripture": "Philippians 4:13",
+    "status": "Included",
+    "assetPath": "01_PRODUCTS/Shirts/Prayer_Cross_Tee/Product_Mockup.png"
+  },
+  {
+    "sku": "NV33-TS-003",
+    "name": "Cross & Discipleship Tee",
+    "category": "Shirt",
+    "price": 25,
+    "colors": "Black",
+    "sizes": "Youth S-3XL",
+    "scripture": "Luke 9:23",
+    "status": "Included",
+    "assetPath": "01_PRODUCTS/Shirts/Cross_and_Discipleship_Tee/Product_Mockup.png"
+  },
+  {
+    "sku": "NV33-TS-004",
+    "name": "Crimson Worm Tee",
+    "category": "Shirt",
+    "price": 25,
+    "colors": "Black",
+    "sizes": "Youth S-3XL",
+    "scripture": "Psalm 22:6",
+    "status": "Needs final image",
+    "assetPath": "01_PRODUCTS/Shirts/Crimson_Worm_Tee/"
+  },
+  {
+    "sku": "NV33-TS-005",
+    "name": "YAHWEH White",
+    "category": "Shirt",
+    "price": 30,
+    "colors": "White",
+    "sizes": "Youth S-3XL",
+    "scripture": "Exodus 3:14-15",
+    "status": "Included",
+    "assetPath": "01_PRODUCTS/Shirts/YAHWEH_White/Product_Mockup.png"
+  },
+  {
+    "sku": "NV33-TS-006",
+    "name": "YAHWEH Black",
+    "category": "Shirt",
+    "price": 30,
+    "colors": "Black",
+    "sizes": "Youth S-3XL",
+    "scripture": "Exodus 3:14-15",
+    "status": "Needs final image",
+    "assetPath": "01_PRODUCTS/Shirts/YAHWEH_Black/"
+  },
+  {
+    "sku": "NV33-TS-007",
+    "name": "No Vanity 33 Tee",
+    "category": "Shirt",
+    "price": 20,
+    "colors": "White",
+    "sizes": "Youth S-3XL",
+    "scripture": "1 Corinthians 10:31",
+    "status": "Included",
+    "assetPath": "01_PRODUCTS/Shirts/No_Vanity_33_Tee/Product_Mockup.png"
+  },
+  {
+    "sku": "NV33-TS-008",
+    "name": "Crown 33 Tee",
+    "category": "Shirt",
+    "price": 30,
+    "colors": "Black",
+    "sizes": "Youth S-3XL",
+    "scripture": "John 3:33",
+    "status": "Included",
+    "assetPath": "01_PRODUCTS/Shirts/Crown33_Tee/Product_Mockup.png"
+  },
+  {
+    "sku": "NV33-TS-009",
+    "name": "Christ Returns Tee",
+    "category": "Shirt",
+    "price": 30,
+    "colors": "Black",
+    "sizes": "Youth S-3XL",
+    "scripture": "Revelation 19:11-16",
+    "status": "Included / review for launch",
+    "assetPath": "01_PRODUCTS/Shirts/Christ_Returns_Tee/Product_Mockup.png"
+  },
+  {
+    "sku": "NV33-HD-001",
+    "name": "Lion of Judah Hoodie",
+    "category": "Hoodie",
+    "price": 50,
+    "colors": "Black",
+    "sizes": "Youth S-3XL",
+    "scripture": "Revelation 5:5",
+    "status": "Needs final image",
+    "assetPath": "01_PRODUCTS/Hoodies/Lion_of_Judah_Hoodie/"
+  },
+  {
+    "sku": "NV33-HD-002",
+    "name": "Cross & Discipleship Hoodie",
+    "category": "Hoodie",
+    "price": 50,
+    "colors": "Cream",
+    "sizes": "Youth S-3XL",
+    "scripture": "Luke 9:23",
+    "status": "Needs final image",
+    "assetPath": "01_PRODUCTS/Hoodies/Cross_and_Discipleship_Hoodie/"
+  },
+  {
+    "sku": "NV33-SP-001",
+    "name": "Crown 33 Sweatpants - Black",
+    "category": "Sweatpants",
+    "price": 45,
+    "colors": "Black",
+    "sizes": "Youth S-3XL",
+    "scripture": "Cross / Crown 33",
+    "status": "Needs final image",
+    "assetPath": "01_PRODUCTS/Sweatpants/Black/"
+  },
+  {
+    "sku": "NV33-SP-002",
+    "name": "Crown 33 Sweatpants - Gray",
+    "category": "Sweatpants",
+    "price": 45,
+    "colors": "Gray",
+    "sizes": "Youth S-3XL",
+    "scripture": "Cross / Crown 33",
+    "status": "Needs final image",
+    "assetPath": "01_PRODUCTS/Sweatpants/Gray/"
+  },
+  {
+    "sku": "NV33-SP-003",
+    "name": "Crown 33 Sweatpants - Sand",
+    "category": "Sweatpants",
+    "price": 45,
+    "colors": "Sand",
+    "sizes": "Youth S-3XL",
+    "scripture": "Cross / Crown 33",
+    "status": "Needs final image",
+    "assetPath": "01_PRODUCTS/Sweatpants/Sand/"
+  },
+  {
+    "sku": "NV33-SH-001",
+    "name": "Crown 33 Shorts - Black",
+    "category": "Shorts",
+    "price": 30,
+    "colors": "Black",
+    "sizes": "Youth S-3XL",
+    "scripture": "Cross / Crown 33",
+    "status": "Needs final image",
+    "assetPath": "01_PRODUCTS/Shorts/Black/"
+  },
+  {
+    "sku": "NV33-SH-002",
+    "name": "Crown 33 Shorts - White",
+    "category": "Shorts",
+    "price": 30,
+    "colors": "White",
+    "sizes": "Youth S-3XL",
+    "scripture": "Cross / Crown 33",
+    "status": "Needs final image",
+    "assetPath": "01_PRODUCTS/Shorts/White/"
+  },
+  {
+    "sku": "NV33-SH-003",
+    "name": "Crown 33 Shorts - Red",
+    "category": "Shorts",
+    "price": 30,
+    "colors": "Red",
+    "sizes": "Youth S-3XL",
+    "scripture": "Cross / Crown 33",
+    "status": "Needs final image",
+    "assetPath": "01_PRODUCTS/Shorts/Red/"
+  },
+  {
+    "sku": "NV33-AC-001",
+    "name": "Bible Kit",
+    "category": "Accessory",
+    "price": 60,
+    "colors": "Black",
+    "sizes": "One Size",
+    "scripture": "Study / prayer kit",
+    "status": "Needs final image",
+    "assetPath": "01_PRODUCTS/Accessories/Bible_Kit/"
+  }
+]

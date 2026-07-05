@@ -1,16 +1,26 @@
-# No Vanity 33 — From The Top Clean Build
+# NOVANITY33 MASTER ASSET LIBRARY v2
 
-This is a clean project structure:
-- index.html
-- css/style.css
-- js/app.js
-- data/products.json
-- assets/logo
-- assets/products
-- prayer-wall.html
+This package includes the master No Vanity 33 folder structure plus the approved designs uploaded today.
 
-Look for the hero text: "From The Top • Clean Build" to confirm the new version uploaded.
+## Included today
+- Christ_Returns_Tee
+- Crown33_Tee
+- Lion_of_Judah_Tee
+- No_Vanity_33_Tee
+- YAHWEH_White
+- Prayer_Cross_Tee
+- Cross_and_Discipleship_Tee
 
-King of Kings / Christ Returns are removed.
-Crimson Worm Tee is included.
-Prices, sizes, category filters, cart counter, and Prayer Wall are included.
+## Important
+This is the master asset library, not the final website ZIP.
+Use this as the permanent home for:
+- product images
+- descriptions
+- scripture references
+- SKUs
+- Printful files
+- website-ready images
+- marketing assets
+
+## Next step
+Upload the remaining missing product mockups and they will be added into the matching product folders.
