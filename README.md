@@ -1,9 +1,10 @@
-# NOVANITY33_PHASE1_DEPLOY_READY
+# NOVANITY33 FULL CATALOG NO COLOR DROPDOWN
+
+Changes:
+- Full launch catalog added
+- Color dropdown removed
+- Site logo is now a clean brand logo, not a shirt/product image
+- Category filters included
+- Missing items use category-specific temporary mockups until final images are uploaded
 
 Upload this ZIP directly to Cloudflare Pages.
-
-IMPORTANT:
-- index.html is at the ROOT of this ZIP.
-- This version uses real uploaded product mockups for the active launch collection.
-- Christ Returns is archived in the master-library for review, not active in the launch catalog.
-- Hero marker: "Phase 1 Deploy Ready"

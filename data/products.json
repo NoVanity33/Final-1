@@ -5,7 +5,6 @@
     "name": "Lion of Judah Tee",
     "category": "T-Shirts",
     "price": 30,
-    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -19,7 +18,6 @@
     ],
     "scripture": "Revelation 5:5",
     "purpose": "A bold black tee featuring the Lion of Judah crowned with thorns.",
-    "why": "Revelation 5:5 declares that the Lion of the tribe of Judah has triumphed.",
     "image": "assets/products/lion-of-judah-tee.png"
   },
   {
@@ -28,7 +26,6 @@
     "name": "Crown 33 Tee",
     "category": "T-Shirts",
     "price": 30,
-    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -41,8 +38,7 @@
       "3XL"
     ],
     "scripture": "John 3:33",
-    "purpose": "A clean everyday tee centered on the crown-of-thorns 33 mark.",
-    "why": "The Crown 33 mark keeps the focus on Christ, the crown of thorns, and a life lived without vanity.",
+    "purpose": "Clean crown-of-thorns 33 design for everyday wear.",
     "image": "assets/products/crown-33-tee.png"
   },
   {
@@ -51,7 +47,6 @@
     "name": "Prayer Cross Tee",
     "category": "T-Shirts",
     "price": 25,
-    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -64,8 +59,7 @@
       "3XL"
     ],
     "scripture": "Philippians 4:13",
-    "purpose": "A simple cross design reminding believers to live prayerfully.",
-    "why": "Christ strengthens us and prayer keeps us anchored.",
+    "purpose": "Simple cross tee reminding believers to live prayerfully.",
     "image": "assets/products/prayer-cross-tee.png"
   },
   {
@@ -74,7 +68,6 @@
     "name": "Cross & Discipleship Tee",
     "category": "T-Shirts",
     "price": 25,
-    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -88,7 +81,6 @@
     ],
     "scripture": "Luke 9:23",
     "purpose": "A discipleship tee rooted in taking up the cross daily.",
-    "why": "Luke 9:23 calls believers to deny themselves, take up the cross daily, and follow Jesus.",
     "image": "assets/products/cross-discipleship-tee.png"
   },
   {
@@ -97,7 +89,6 @@
     "name": "Crimson Worm Tee",
     "category": "T-Shirts",
     "price": 25,
-    "color": "Black",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -110,8 +101,7 @@
       "3XL"
     ],
     "scripture": "Psalm 22:6",
-    "purpose": "A teaching tee based on Psalm 22:6 and the crimson worm picture.",
-    "why": "Psalm 22:6 says, \u201cBut I am a worm, and no man.\u201d This design points to sacrifice, scarlet covering, and new life in Christ.",
+    "purpose": "Teaching tee based on Psalm 22:6 and the crimson worm picture.",
     "image": "assets/products/crimson-worm-tee.png"
   },
   {
@@ -120,7 +110,6 @@
     "name": "No Vanity 33 Tee",
     "category": "T-Shirts",
     "price": 20,
-    "color": "White",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -133,8 +122,7 @@
       "3XL"
     ],
     "scripture": "1 Corinthians 10:31",
-    "purpose": "The clean brand tee for everyday wear.",
-    "why": "This design carries the heart of the brand: whatever we do, we do all to the glory of God.",
+    "purpose": "Clean brand tee for everyday wear.",
     "image": "assets/products/no-vanity-33-tee.png"
   },
   {
@@ -143,7 +131,6 @@
     "name": "YAHWEH White Tee",
     "category": "T-Shirts",
     "price": 30,
-    "color": "White",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -156,8 +143,287 @@
       "3XL"
     ],
     "scripture": "Exodus 3:14",
-    "purpose": "A clean YAHWEH design pointing to the name of God revealed in Exodus.",
-    "why": "Exodus 3:14 reveals God as I AM THAT I AM.",
+    "purpose": "YAHWEH design pointing to the name of God revealed in Exodus.",
     "image": "assets/products/yahweh-white-tee.png"
+  },
+  {
+    "sku": "NV33-TS-008",
+    "id": "yahweh-black-tee",
+    "name": "YAHWEH Black Tee",
+    "category": "T-Shirts",
+    "price": 30,
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "scripture": "Exodus 3:14",
+    "purpose": "Black YAHWEH tee with Exodus scripture focus.",
+    "image": "assets/products/yahweh-black-tee.png"
+  },
+  {
+    "sku": "NV33-HD-001",
+    "id": "lion-hoodie",
+    "name": "Lion of Judah Hoodie",
+    "category": "Hoodies",
+    "price": 50,
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "scripture": "Revelation 5:5",
+    "purpose": "Lion of Judah hoodie with Christ-centered message.",
+    "image": "assets/products/lion-hoodie.png"
+  },
+  {
+    "sku": "NV33-HD-002",
+    "id": "cross-hoodie",
+    "name": "Cross & Discipleship Hoodie",
+    "category": "Hoodies",
+    "price": 50,
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "scripture": "Luke 9:23",
+    "purpose": "Discipleship hoodie built around taking up the cross.",
+    "image": "assets/products/cross-hoodie.png"
+  },
+  {
+    "sku": "NV33-SP-001",
+    "id": "black-sweatpants",
+    "name": "Crown 33 Sweatpants - Black",
+    "category": "Sweatpants",
+    "price": 45,
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "scripture": "Cross / Crown 33",
+    "purpose": "Jogger-style sweatpants with cross and Crown 33 mark.",
+    "image": "assets/products/black-sweatpants.png"
+  },
+  {
+    "sku": "NV33-SP-002",
+    "id": "gray-sweatpants",
+    "name": "Crown 33 Sweatpants - Gray",
+    "category": "Sweatpants",
+    "price": 45,
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "scripture": "Cross / Crown 33",
+    "purpose": "Gray jogger-style sweatpants with cross and Crown 33 mark.",
+    "image": "assets/products/gray-sweatpants.png"
+  },
+  {
+    "sku": "NV33-SP-003",
+    "id": "sand-sweatpants",
+    "name": "Crown 33 Sweatpants - Sand",
+    "category": "Sweatpants",
+    "price": 45,
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "scripture": "Cross / Crown 33",
+    "purpose": "Sand jogger-style sweatpants with cross and Crown 33 mark.",
+    "image": "assets/products/sand-sweatpants.png"
+  },
+  {
+    "sku": "NV33-SH-001",
+    "id": "black-shorts",
+    "name": "Crown 33 Shorts - Black",
+    "category": "Shorts",
+    "price": 30,
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "scripture": "Crown 33",
+    "purpose": "Athletic shorts with Crown 33 mark.",
+    "image": "assets/products/black-shorts.png"
+  },
+  {
+    "sku": "NV33-SH-002",
+    "id": "white-shorts",
+    "name": "Crown 33 Shorts - White",
+    "category": "Shorts",
+    "price": 30,
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "scripture": "Crown 33",
+    "purpose": "White athletic shorts with Crown 33 mark.",
+    "image": "assets/products/white-shorts.png"
+  },
+  {
+    "sku": "NV33-SH-003",
+    "id": "red-shorts",
+    "name": "Crown 33 Shorts - Red",
+    "category": "Shorts",
+    "price": 30,
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "scripture": "Crown 33",
+    "purpose": "Red athletic shorts with Crown 33 mark.",
+    "image": "assets/products/red-shorts.png"
+  },
+  {
+    "sku": "NV33-SK-001",
+    "id": "cross-crew-socks",
+    "name": "Cross Crew Socks 4-Pack",
+    "category": "Socks",
+    "price": 20,
+    "sizes": [
+      "One Size"
+    ],
+    "scripture": "Cross",
+    "purpose": "Four color cross crew sock pack.",
+    "image": "assets/products/cross-crew-socks.png"
+  },
+  {
+    "sku": "NV33-HT-001",
+    "id": "dad-hat",
+    "name": "Crown 33 Dad Hat",
+    "category": "Hats",
+    "price": 25,
+    "sizes": [
+      "One Size"
+    ],
+    "scripture": "Crown 33",
+    "purpose": "Black dad hat with Crown 33 mark.",
+    "image": "assets/products/dad-hat.png"
+  },
+  {
+    "sku": "NV33-AC-001",
+    "id": "water-bottle",
+    "name": "Crown 33 Water Bottle",
+    "category": "Accessories",
+    "price": 25,
+    "sizes": [
+      "One Size"
+    ],
+    "scripture": "Crown 33",
+    "purpose": "Matte black water bottle with Crown 33 mark.",
+    "image": "assets/products/water-bottle.png"
+  },
+  {
+    "sku": "NV33-AC-002",
+    "id": "duffel-bag",
+    "name": "No Vanity 33 Duffel Bag",
+    "category": "Accessories",
+    "price": 60,
+    "sizes": [
+      "One Size"
+    ],
+    "scripture": "Crown 33",
+    "purpose": "Black duffel bag for gym and travel.",
+    "image": "assets/products/duffel-bag.png"
+  },
+  {
+    "sku": "NV33-AC-003",
+    "id": "scripture-wristbands",
+    "name": "Scripture Wristbands",
+    "category": "Accessories",
+    "price": 5,
+    "sizes": [
+      "One Size"
+    ],
+    "scripture": "Short Scriptures",
+    "purpose": "Wristbands with short scripture references wrapped around the band.",
+    "image": "assets/products/scripture-wristbands.png"
+  },
+  {
+    "sku": "NV33-AC-004",
+    "id": "bible-kit",
+    "name": "Bible Kit",
+    "category": "Accessories",
+    "price": 60,
+    "sizes": [
+      "One Size"
+    ],
+    "scripture": "Study Kit",
+    "purpose": "Bible cover kit with journal, pens, highlighters, tabs, prayer cards, and bookmark.",
+    "image": "assets/products/bible-kit.png"
+  },
+  {
+    "sku": "NV33-AC-005",
+    "id": "patch-pack",
+    "name": "Patch Pack",
+    "category": "Accessories",
+    "price": 10,
+    "sizes": [
+      "One Size"
+    ],
+    "scripture": "Crown 33",
+    "purpose": "Iron-on patch pack for bags, hats, and apparel.",
+    "image": "assets/products/patch-pack.png"
   }
 ]
