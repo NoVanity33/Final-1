@@ -1,5 +1,52 @@
 [
   {
+    "sku": "NV33-TS-001",
+    "id": "lion-of-judah-tee",
+    "name": "Lion of Judah Tee",
+    "category": "T-Shirts",
+    "price": 30,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "scripture": "Revelation 5:5",
+    "purpose": "A bold black tee featuring the Lion of Judah crowned with thorns.",
+    "why": "Revelation 5:5 declares that the Lion of the tribe of Judah has triumphed.",
+    "image": "assets/products/lion-of-judah-tee.png"
+  },
+  {
+    "sku": "NV33-TS-002",
+    "id": "crown-33-tee",
+    "name": "Crown 33 Tee",
+    "category": "T-Shirts",
+    "price": 30,
+    "color": "Black",
+    "sizes": [
+      "Youth S",
+      "Youth M",
+      "Youth L",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "scripture": "John 3:33",
+    "purpose": "A clean everyday tee centered on the crown-of-thorns 33 mark.",
+    "why": "The Crown 33 mark keeps the focus on Christ, the crown of thorns, and a life lived without vanity.",
+    "image": "assets/products/crown-33-tee.png"
+  },
+  {
+    "sku": "NV33-TS-003",
     "id": "prayer-cross-tee",
     "name": "Prayer Cross Tee",
     "category": "T-Shirts",
@@ -16,34 +63,17 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Pray without ceasing. 1 Thessalonians 5:17.",
+    "scripture": "Philippians 4:13",
+    "purpose": "A simple cross design reminding believers to live prayerfully.",
+    "why": "Christ strengthens us and prayer keeps us anchored.",
     "image": "assets/products/prayer-cross-tee.png"
   },
   {
+    "sku": "NV33-TS-004",
     "id": "cross-discipleship-tee",
     "name": "Cross & Discipleship Tee",
     "category": "T-Shirts",
     "price": 25,
-    "color": "Cream",
-    "sizes": [
-      "Youth S",
-      "Youth M",
-      "Youth L",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "purpose": "Follow Him daily. Matthew 4:19.",
-    "image": "assets/products/prayer-cross-tee.png"
-  },
-  {
-    "id": "yahweh-black",
-    "name": "YAHWEH Tee - Black",
-    "category": "T-Shirts",
-    "price": 20,
     "color": "Black",
     "sizes": [
       "Youth S",
@@ -56,50 +86,13 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "I AM THAT I AM. Exodus 3:14.",
-    "image": "assets/products/prayer-cross-tee.png"
+    "scripture": "Luke 9:23",
+    "purpose": "A discipleship tee rooted in taking up the cross daily.",
+    "why": "Luke 9:23 calls believers to deny themselves, take up the cross daily, and follow Jesus.",
+    "image": "assets/products/cross-discipleship-tee.png"
   },
   {
-    "id": "yahweh-white",
-    "name": "YAHWEH Tee - White",
-    "category": "T-Shirts",
-    "price": 20,
-    "color": "White",
-    "sizes": [
-      "Youth S",
-      "Youth M",
-      "Youth L",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "purpose": "I AM THAT I AM. Exodus 3:14.",
-    "image": "assets/products/prayer-cross-tee.png"
-  },
-  {
-    "id": "no-vanity-33-tee",
-    "name": "No Vanity 33 Tee",
-    "category": "T-Shirts",
-    "price": 20,
-    "color": "White",
-    "sizes": [
-      "Youth S",
-      "Youth M",
-      "Youth L",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "purpose": "Do all to the glory of God.",
-    "image": "assets/products/prayer-cross-tee.png"
-  },
-  {
+    "sku": "NV33-TS-005",
     "id": "crimson-worm-tee",
     "name": "Crimson Worm Tee",
     "category": "T-Shirts",
@@ -116,15 +109,18 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Psalm 22:6 teaching tee about the crimson worm.",
-    "image": "assets/products/prayer-cross-tee.png"
+    "scripture": "Psalm 22:6",
+    "purpose": "A teaching tee based on Psalm 22:6 and the crimson worm picture.",
+    "why": "Psalm 22:6 says, \u201cBut I am a worm, and no man.\u201d This design points to sacrifice, scarlet covering, and new life in Christ.",
+    "image": "assets/products/crimson-worm-tee.png"
   },
   {
-    "id": "lion-judah-hoodie",
-    "name": "Lion of Judah Hoodie",
-    "category": "Hoodies",
-    "price": 50,
-    "color": "Black",
+    "sku": "NV33-TS-006",
+    "id": "no-vanity-33-tee",
+    "name": "No Vanity 33 Tee",
+    "category": "T-Shirts",
+    "price": 20,
+    "color": "White",
     "sizes": [
       "Youth S",
       "Youth M",
@@ -136,113 +132,16 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Lion with crown of thorns. Revelation 5:5.",
-    "image": "assets/products/lion-hoodie.png"
+    "scripture": "1 Corinthians 10:31",
+    "purpose": "The clean brand tee for everyday wear.",
+    "why": "This design carries the heart of the brand: whatever we do, we do all to the glory of God.",
+    "image": "assets/products/no-vanity-33-tee.png"
   },
   {
-    "id": "cross-discipleship-hoodie",
-    "name": "Cross & Discipleship Hoodie",
-    "category": "Hoodies",
-    "price": 50,
-    "color": "Cream",
-    "sizes": [
-      "Youth S",
-      "Youth M",
-      "Youth L",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "purpose": "Cross and discipleship scripture hoodie.",
-    "image": "assets/products/prayer-cross-tee.png"
-  },
-  {
-    "id": "sweatpants-black",
-    "name": "Crown 33 Sweatpants - Black",
-    "category": "Sweatpants",
-    "price": 45,
-    "color": "Black",
-    "sizes": [
-      "Youth S",
-      "Youth M",
-      "Youth L",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "purpose": "Right leg cross. Left leg Crown 33 logo.",
-    "image": "assets/products/yahweh-black.png"
-  },
-  {
-    "id": "sweatpants-gray",
-    "name": "Crown 33 Sweatpants - Athletic Gray",
-    "category": "Sweatpants",
-    "price": 45,
-    "color": "Athletic Gray",
-    "sizes": [
-      "Youth S",
-      "Youth M",
-      "Youth L",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "purpose": "Right leg cross. Left leg Crown 33 logo.",
-    "image": "assets/products/sweats-black.png"
-  },
-  {
-    "id": "sweatpants-sand",
-    "name": "Crown 33 Sweatpants - Sand",
-    "category": "Sweatpants",
-    "price": 45,
-    "color": "Sand",
-    "sizes": [
-      "Youth S",
-      "Youth M",
-      "Youth L",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "purpose": "Right leg cross. Left leg Crown 33 logo.",
-    "image": "assets/products/sweats-black.png"
-  },
-  {
-    "id": "shorts-black",
-    "name": "Crown 33 Shorts - Black",
-    "category": "Shorts",
-    "price": 30,
-    "color": "Black",
-    "sizes": [
-      "Youth S",
-      "Youth M",
-      "Youth L",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "purpose": "Athletic shorts with Crown 33 mark.",
-    "image": "assets/products/yahweh-black.png"
-  },
-  {
-    "id": "shorts-white",
-    "name": "Crown 33 Shorts - White",
-    "category": "Shorts",
+    "sku": "NV33-TS-007",
+    "id": "yahweh-white-tee",
+    "name": "YAHWEH White Tee",
+    "category": "T-Shirts",
     "price": 30,
     "color": "White",
     "sizes": [
@@ -256,111 +155,9 @@
       "2XL",
       "3XL"
     ],
-    "purpose": "Athletic shorts with Crown 33 mark.",
-    "image": "assets/products/yahweh-white.png"
-  },
-  {
-    "id": "shorts-red",
-    "name": "Crown 33 Shorts - Red",
-    "category": "Shorts",
-    "price": 30,
-    "color": "Red",
-    "sizes": [
-      "Youth S",
-      "Youth M",
-      "Youth L",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "purpose": "Athletic shorts with Crown 33 mark.",
-    "image": "assets/products/sweats-black.png"
-  },
-  {
-    "id": "cross-crew-socks",
-    "name": "Cross Crew Socks",
-    "category": "Socks",
-    "price": 12,
-    "color": "Multi Color",
-    "sizes": [
-      "One Size"
-    ],
-    "purpose": "Mid-calf cross socks.",
-    "image": "assets/products/prayer-cross-tee.png"
-  },
-  {
-    "id": "scripture-wristbands",
-    "name": "Scripture Wristbands",
-    "category": "Accessories",
-    "price": 4,
-    "color": "Black / Gold",
-    "sizes": [
-      "One Size"
-    ],
-    "purpose": "Short scripture references wrapped around the band.",
-    "image": "assets/products/wristbands.png"
-  },
-  {
-    "id": "dad-hat",
-    "name": "Crown 33 Dad Hat",
-    "category": "Hats",
-    "price": 25,
-    "color": "Black",
-    "sizes": [
-      "One Size"
-    ],
-    "purpose": "Black dad hat with Crown 33 logo.",
-    "image": "assets/products/sweats-black.png"
-  },
-  {
-    "id": "water-bottle",
-    "name": "Matte Black Bottle",
-    "category": "Accessories",
-    "price": 20,
-    "color": "Matte Black",
-    "sizes": [
-      "One Size"
-    ],
-    "purpose": "Matte bottle with Crown 33 logo.",
-    "image": "assets/products/yahweh-black.png"
-  },
-  {
-    "id": "duffel-bag",
-    "name": "No Vanity 33 Duffel Bag",
-    "category": "Accessories",
-    "price": 45,
-    "color": "Black",
-    "sizes": [
-      "One Size"
-    ],
-    "purpose": "Travel and gym duffel with Crown 33 logo.",
-    "image": "assets/products/no-vanity-tee.png"
-  },
-  {
-    "id": "bible-kit",
-    "name": "Bible Kit",
-    "category": "Accessories",
-    "price": 60,
-    "color": "Black",
-    "sizes": [
-      "One Size"
-    ],
-    "purpose": "KJV Bible, journal, pens, highlighters, sticky notes, scripture cards, prayer cards, bookmark, premium case.",
-    "image": "assets/products/bible-kit.png"
-  },
-  {
-    "id": "patch-pack",
-    "name": "Iron-On Patches (2-Pack)",
-    "category": "Accessories",
-    "price": 10,
-    "color": "Black / Gold",
-    "sizes": [
-      "One Size"
-    ],
-    "purpose": "Crown 33 and cross patch set.",
-    "image": "assets/products/patches.png"
+    "scripture": "Exodus 3:14",
+    "purpose": "A clean YAHWEH design pointing to the name of God revealed in Exodus.",
+    "why": "Exodus 3:14 reveals God as I AM THAT I AM.",
+    "image": "assets/products/yahweh-white-tee.png"
   }
 ]

@@ -18,8 +18,8 @@
       "3XL"
     ],
     "scripture": "Revelation 5:5",
-    "purpose": "A bold design pointing to Christ as the Lion of the tribe of Judah.",
-    "why": "Revelation 5:5 declares that the Lion of the tribe of Judah has triumphed. This design is made to start conversations about the victory and worthiness of Jesus Christ.",
+    "purpose": "A bold black tee featuring the Lion of Judah crowned with thorns.",
+    "why": "Revelation 5:5 declares that the Lion of the tribe of Judah has triumphed.",
     "image": "assets/products/lion-of-judah-tee.png"
   },
   {
@@ -41,7 +41,7 @@
       "3XL"
     ],
     "scripture": "John 3:33",
-    "purpose": "A clean everyday tee centered on the Crown 33 mark.",
+    "purpose": "A clean everyday tee centered on the crown-of-thorns 33 mark.",
     "why": "The Crown 33 mark keeps the focus on Christ, the crown of thorns, and a life lived without vanity.",
     "image": "assets/products/crown-33-tee.png"
   },
@@ -65,7 +65,7 @@
     ],
     "scripture": "Philippians 4:13",
     "purpose": "A simple cross design reminding believers to live prayerfully.",
-    "why": "This design keeps the message simple: Christ strengthens us and prayer keeps us anchored.",
+    "why": "Christ strengthens us and prayer keeps us anchored.",
     "image": "assets/products/prayer-cross-tee.png"
   },
   {
@@ -111,7 +111,7 @@
     ],
     "scripture": "Psalm 22:6",
     "purpose": "A teaching tee based on Psalm 22:6 and the crimson worm picture.",
-    "why": "Psalm 22:6 says, 'But I am a worm, and no man.' The crimson worm has often been used as an illustration of sacrifice, scarlet covering, and new life \u2014 pointing to the Gospel of Christ.",
+    "why": "Psalm 22:6 says, \u201cBut I am a worm, and no man.\u201d This design points to sacrifice, scarlet covering, and new life in Christ.",
     "image": "assets/products/crimson-worm-tee.png"
   },
   {
@@ -157,7 +157,17 @@
     ],
     "scripture": "Exodus 3:14",
     "purpose": "A clean YAHWEH design pointing to the name of God revealed in Exodus.",
-    "why": "Exodus 3:14 reveals God as I AM THAT I AM. This design keeps attention on the Lord and His eternal nature.",
+    "why": "Exodus 3:14 reveals God as I AM THAT I AM.",
     "image": "assets/products/yahweh-white-tee.png"
+  },
+  {
+    "sku": "NV33-TS-ARCHIVE-001",
+    "id": "christ-returns-tee-review",
+    "name": "Christ Returns Tee - Review",
+    "category": "Archive",
+    "price": 30,
+    "scripture": "Revelation 19:11-16",
+    "status": "Archived for review before launch",
+    "image": "assets/products/christ-returns-tee-review.png"
   }
 ]

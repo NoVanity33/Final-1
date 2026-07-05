@@ -1,13 +1,9 @@
-# NOVANITY33 Phase 1 Launch Files
+# NOVANITY33_PHASE1_DEPLOY_READY
 
-Includes:
-- website/ launch foundation
-- master-library/ organized brand and product assets
-- real uploaded product designs from today
-- Crimson Worm Tee mockup with no person/model
-- Product database
-- Mission statement
-- Prayer Wall starter page
+Upload this ZIP directly to Cloudflare Pages.
 
-Upload the contents of the `website` folder to Cloudflare when ready.
-Use `master-library` as the permanent home for No Vanity 33 assets.
+IMPORTANT:
+- index.html is at the ROOT of this ZIP.
+- This version uses real uploaded product mockups for the active launch collection.
+- Christ Returns is archived in the master-library for review, not active in the launch catalog.
+- Hero marker: "Phase 1 Deploy Ready"
