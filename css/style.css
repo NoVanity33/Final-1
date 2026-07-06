@@ -1,2 +1,63 @@
  
 :root{--gold:#f5c84b;--line:#33250a;--black:#030303}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#030303;color:#fff;font-family:Arial,Helvetica,sans-serif}.top{background:#080808;border-bottom:1px solid var(--line);text-align:center;color:#ddd;padding:9px;font-size:13px}.header{position:sticky;top:0;z-index:9;background:rgba(0,0,0,.94);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 24px}.brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none}.brand img{width:54px;height:54px;object-fit:contain}.brand small{display:block;color:var(--gold);font-size:10px;font-weight:900;letter-spacing:1.5px}nav{display:flex;gap:16px;flex-wrap:wrap}nav a,.cart{color:#fff;text-decoration:none;font-weight:900}.cart{border:1px solid var(--line);border-radius:999px;padding:10px 14px}.hero{display:grid;grid-template-columns:1.1fr .9fr .45fr;gap:32px;align-items:center;min-height:640px;padding:48px 32px;background:radial-gradient(circle at 30% 10%,#171717,#030303 60%)}.hero-art{border:1px solid var(--line);border-radius:22px;background:#000;display:grid;place-items:center;min-height:510px;overflow:hidden}.hero-art img{width:100%;height:100%;object-fit:contain}.eyebrow{color:var(--gold);letter-spacing:7px;text-transform:uppercase;font-weight:900;font-size:12px}h1{font-size:clamp(48px,6vw,94px);line-height:.9;margin:10px 0}h1 span,.gold{color:var(--gold)}.lead{font-size:18px;line-height:1.5;color:#ddd}.btn{display:inline-block;text-decoration:none;font-weight:900;border-radius:10px;padding:14px 20px;margin:8px 8px 0 0}.primary{background:linear-gradient(#ffe782,#d49a18);color:#050505}.secondary{border:1px solid var(--line);color:white}.side{border:1px solid var(--line);border-radius:18px;padding:20px;background:linear-gradient(#111,#050505);color:#ddd}.section{padding:46px 24px;border-top:1px solid var(--line)}.center{text-align:center}.filters{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:22px 0}.filters button{background:#050505;color:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 16px;font-weight:900;cursor:pointer}.filters button.active,.filters button:hover{background:linear-gradient(#ffe782,#d49a18);color:#050505}.grid{display:grid;grid-template-columns:repeat(4,minmax(220px,1fr));gap:22px;max-width:1400px;margin:0 auto}.card{background:linear-gradient(#101010,#050505);border:1px solid #241d10;border-radius:16px;overflow:hidden;display:flex;flex-direction:column}.card-img{height:290px;background:#050505;display:grid;place-items:center;border-bottom:1px solid #241d10;padding:8px}.card-img img{max-width:100%;max-height:100%;object-fit:contain}.body{padding:16px;display:flex;flex-direction:column;gap:10px;flex:1}.body h3{margin:0;min-height:42px;font-size:16px}.price{color:var(--gold);font-weight:900;font-size:22px;margin:0}.desc{color:#bbb;font-size:13px;line-height:1.35;min-height:38px}select{width:100%;background:#050505;color:white;border:1px solid #555;border-radius:8px;padding:10px}.add{border:0;border-radius:10px;padding:12px;background:linear-gradient(#ffe782,#d49a18);font-weight:900;cursor:pointer}.mission{max-width:980px;margin:auto;color:#ddd;line-height:1.55}.footer{border-top:1px solid var(--line);text-align:center;color:#aaa;padding:28px}.cartbox{position:fixed;right:20px;bottom:20px;z-index:60;background:#080808;border:1px solid var(--line);border-radius:16px;padding:16px;min-width:270px;box-shadow:0 20px 80px rgba(0,0,0,.5);display:none}.cartbox.show{display:block}.cart-row{display:flex;justify-content:space-between;border-bottom:1px solid #222;padding:8px 0;color:#ddd;font-size:13px}@media(max-width:1100px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.hero-art{min-height:360px}}@media(max-width:640px){.header{position:relative;flex-direction:column;align-items:flex-start}.grid{grid-template-columns:1fr}.hero{padding:28px 14px}.section{padding:34px 14px}.card-img{height:330px}}
+
+
+/* ================================
+   No Vanity 33 Hero Size Patch
+   Makes the Lion mark smaller and balances the hero section.
+   ================================ */
+
+.hero{
+  grid-template-columns: .9fr 1fr .42fr;
+  min-height: 560px;
+  padding: 42px 34px;
+}
+
+.hero-art{
+  min-height: 430px;
+  max-height: 500px;
+  padding: 28px;
+}
+
+.hero-art img{
+  width: 86%;
+  height: 86%;
+  object-fit: contain;
+}
+
+.hero h1{
+  font-size: clamp(54px, 6.4vw, 104px);
+}
+
+@media(max-width:1100px){
+  .hero{
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .hero-art{
+    min-height: 340px;
+    max-height: 420px;
+  }
+
+  .hero-art img{
+    width: 78%;
+    height: 78%;
+  }
+}
+
+@media(max-width:640px){
+  .hero{
+    padding: 26px 14px;
+  }
+
+  .hero-art{
+    min-height: 280px;
+    padding: 20px;
+  }
+
+  .hero-art img{
+    width: 82%;
+    height: 82%;
+  }
+}
