@@ -1,23 +1,16 @@
-NO VANITY 33 TEE COLOR SWATCH UPDATE
+NO VANITY 33 PRODUCTS.JSON REPAIR
 
-This update adds color swatches for:
-- Midnight Black
-- Pure White
-- Heather Gray
-
-It updates:
-- data/products.json
-- js/app.js
-- css/style.css
-
-Important:
-For now, the White and Heather Gray swatches use the same mockup image as Black.
-Later, when we generate true white and gray tee mockups, we only need to swap the image paths in data/products.json.
+This replaces the corrupted 2-byte products.json file.
 
 Install:
 1. Extract this ZIP.
-2. Copy the data, js, and css folders into your local Final-1 folder.
-3. Choose Replace files in destination.
-4. Open GitHub Desktop.
-5. Commit: Add tee color swatches
-6. Push origin.
+2. Open the extracted data folder.
+3. Copy products.json.
+4. Paste it into Final-1/data/
+5. Replace the existing products.json.
+6. Open GitHub Desktop.
+7. Commit: Restore product catalog
+8. Push origin.
+9. Wait for Cloudflare to redeploy.
+
+Christ Returns is intentionally excluded for the future collection.
