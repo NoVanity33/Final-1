@@ -1,10 +1,14 @@
-# NOVANITY33 FULL CATALOG NO COLOR DROPDOWN
+# No Vanity 33 Launch V3
 
-Changes:
-- Full launch catalog added
-- Color dropdown removed
-- Site logo is now a clean brand logo, not a shirt/product image
-- Category filters included
-- Missing items use category-specific temporary mockups until final images are uploaded
+Upload the contents of this folder to GitHub/Cloudflare Pages.
 
-Upload this ZIP directly to Cloudflare Pages.
+Important files:
+- `index.html` - homepage and product catalog
+- `data/products.json` - product list and image paths
+- `assets/logo/` - Crown 33 and Lion of Judah marks
+- `assets/products/` - product images
+- `assets/socks/` - sock images
+- `css/style.css` - styling
+- `js/app.js` - cart and product rendering
+
+Do not upload the ZIP only. Extract it first, then upload the contents.
