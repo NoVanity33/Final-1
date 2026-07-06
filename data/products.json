@@ -13,14 +13,15 @@
       "2XL",
       "3XL"
     ],
-    "description": "Revelation 5:5 design with front and back artwork."
+    "tag": "Best Seller",
+    "desc": "Revelation 5:5 front/back tee with Lion of Judah artwork."
   },
   {
-    "id": "crown-33-tee",
+    "id": "crown33-tee",
     "name": "Crown 33 Tee",
     "category": "Premium Tees",
     "price": 30,
-    "image": "assets/products/crown-33-tee.png",
+    "image": "assets/products/crown33-tee.png",
     "sizes": [
       "S",
       "M",
@@ -29,7 +30,8 @@
       "2XL",
       "3XL"
     ],
-    "description": "Crown of thorns and 33 design pointing to Christ."
+    "tag": "Founder",
+    "desc": "Crown of thorns and 33 design pointing to Christ\u2019s finished work."
   },
   {
     "id": "prayer-cross-tee",
@@ -45,7 +47,8 @@
       "2XL",
       "3XL"
     ],
-    "description": "Prayer changes things. Philippians 4 design."
+    "tag": "Launch",
+    "desc": "Prayer Changes Things tee with Scripture and biblical context."
   },
   {
     "id": "crimson-worm-tee",
@@ -61,7 +64,8 @@
       "2XL",
       "3XL"
     ],
-    "description": "Psalm 22 crimson worm design pointing to redemption."
+    "tag": "Launch",
+    "desc": "Psalm 22 inspired design pointing to sacrifice, redemption, and life."
   },
   {
     "id": "yahweh-tee",
@@ -77,7 +81,8 @@
       "2XL",
       "3XL"
     ],
-    "description": "Exodus 3:14 sacred name design."
+    "tag": "Scripture",
+    "desc": "Exodus 3:14 sacred name design with teaching context."
   },
   {
     "id": "armor-of-god-tee",
@@ -93,7 +98,25 @@
       "2XL",
       "3XL"
     ],
-    "description": "Ephesians 6 full armor design."
+    "tag": "Ephesians 6",
+    "desc": "Full Armor of God design with Ephesians 6 teaching."
+  },
+  {
+    "id": "lamb-of-god-tee",
+    "name": "Lamb of God Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/lamb-of-god-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "John 1:29",
+    "desc": "The perfect sacrifice design with John 1:29 and Isaiah 53."
   },
   {
     "id": "parting-the-sea-tee",
@@ -109,7 +132,8 @@
       "2XL",
       "3XL"
     ],
-    "description": "Exodus 14 deliverance design."
+    "tag": "Exodus 14",
+    "desc": "Stand still and see the salvation of the Lord."
   },
   {
     "id": "living-word-tee",
@@ -125,7 +149,8 @@
       "2XL",
       "3XL"
     ],
-    "description": "Open Bible and cross design."
+    "tag": "Psalm 119",
+    "desc": "Open Bible and cross design centered on the Word of God."
   },
   {
     "id": "burning-bush-tee",
@@ -141,12 +166,13 @@
       "2XL",
       "3XL"
     ],
-    "description": "Exodus 3 burning bush design."
+    "tag": "Exodus 3",
+    "desc": "Burning bush design with biblical context and Daily Walk QR concept."
   },
   {
     "id": "black-sweatpants",
     "name": "Crown 33 Sweatpants - Black",
-    "category": "Bottoms",
+    "category": "Sweatpants",
     "price": 45,
     "image": "assets/products/black-sweatpants.png",
     "sizes": [
@@ -157,12 +183,13 @@
       "2XL",
       "3XL"
     ],
-    "description": "Black sweatpants with brush cross and Crown 33 mark."
+    "tag": "Bottoms",
+    "desc": "Black sweatpants with brush cross and Crown 33 mark."
   },
   {
     "id": "tan-sweatpants",
     "name": "Crown 33 Sweatpants - Tan",
-    "category": "Bottoms",
+    "category": "Sweatpants",
     "price": 45,
     "image": "assets/products/tan-sweatpants.png",
     "sizes": [
@@ -173,12 +200,13 @@
       "2XL",
       "3XL"
     ],
-    "description": "Tan sweatpants with brush cross and Crown 33 mark."
+    "tag": "Bottoms",
+    "desc": "Tan sweatpants with brush cross and Crown 33 mark."
   },
   {
     "id": "charcoal-sweatpants",
     "name": "Crown 33 Sweatpants - Charcoal",
-    "category": "Bottoms",
+    "category": "Sweatpants",
     "price": 45,
     "image": "assets/products/charcoal-sweatpants.png",
     "sizes": [
@@ -189,14 +217,15 @@
       "2XL",
       "3XL"
     ],
-    "description": "Charcoal sweatpants with brush cross and Crown 33 mark."
+    "tag": "Bottoms",
+    "desc": "Charcoal sweatpants with brush cross and Crown 33 mark."
   },
   {
     "id": "black-shorts",
     "name": "Crown 33 Basketball Shorts - Black",
-    "category": "Bottoms",
+    "category": "Shorts",
     "price": 30,
-    "image": "assets/products/black-basketball-shorts.png",
+    "image": "assets/products/black-shorts.png",
     "sizes": [
       "S",
       "M",
@@ -205,14 +234,15 @@
       "2XL",
       "3XL"
     ],
-    "description": "Black basketball shorts with cross and Crown 33 mark."
+    "tag": "Shorts",
+    "desc": "Black basketball shorts with cross and Crown 33 mark."
   },
   {
     "id": "red-shorts",
     "name": "Crown 33 Basketball Shorts - Red",
-    "category": "Bottoms",
+    "category": "Shorts",
     "price": 30,
-    "image": "assets/products/red-basketball-shorts.png",
+    "image": "assets/products/red-shorts.png",
     "sizes": [
       "S",
       "M",
@@ -221,14 +251,15 @@
       "2XL",
       "3XL"
     ],
-    "description": "Red basketball shorts with gold cross and Crown 33 mark."
+    "tag": "Shorts",
+    "desc": "Red basketball shorts with gold cross and Crown 33 mark."
   },
   {
     "id": "white-shorts",
     "name": "Crown 33 Basketball Shorts - White",
-    "category": "Bottoms",
+    "category": "Shorts",
     "price": 30,
-    "image": "assets/products/white-basketball-shorts.png",
+    "image": "assets/products/white-shorts.png",
     "sizes": [
       "S",
       "M",
@@ -237,73 +268,80 @@
       "2XL",
       "3XL"
     ],
-    "description": "White basketball shorts with gold cross and Crown 33 mark."
+    "tag": "Shorts",
+    "desc": "White basketball shorts with gold cross and Crown 33 mark."
   },
   {
     "id": "socks-black",
     "name": "Socks - Black",
     "category": "Socks",
     "price": 15,
-    "image": "assets/products/socks_black.png",
+    "image": "assets/products/socks-black.png",
     "sizes": [
       "One Size"
     ],
-    "description": "Black crew socks with cross."
+    "tag": "Socks",
+    "desc": "Black crew socks with white cross."
   },
   {
     "id": "socks-black-red",
     "name": "Socks - Black / Red Cross",
     "category": "Socks",
     "price": 15,
-    "image": "assets/products/socks_black_red_cross.png",
+    "image": "assets/products/socks-black-red.png",
     "sizes": [
       "One Size"
     ],
-    "description": "Black crew socks with red cross."
+    "tag": "Socks",
+    "desc": "Black crew socks with red cross."
   },
   {
     "id": "socks-gray",
     "name": "Socks - Gray",
     "category": "Socks",
     "price": 15,
-    "image": "assets/products/socks_gray.png",
+    "image": "assets/products/socks-gray.png",
     "sizes": [
       "One Size"
     ],
-    "description": "Gray crew socks with cross."
+    "tag": "Socks",
+    "desc": "Gray crew socks with white cross."
   },
   {
     "id": "socks-olive",
     "name": "Socks - Olive",
     "category": "Socks",
     "price": 15,
-    "image": "assets/products/socks_olive.png",
+    "image": "assets/products/socks-olive.png",
     "sizes": [
       "One Size"
     ],
-    "description": "Olive crew socks with cross."
+    "tag": "Socks",
+    "desc": "Olive crew socks with white cross."
   },
   {
-    "id": "socks-blue",
+    "id": "socks-carolina-blue",
     "name": "Socks - Carolina Blue",
     "category": "Socks",
     "price": 15,
-    "image": "assets/products/socks_carolina_blue.png",
+    "image": "assets/products/socks-carolina-blue.png",
     "sizes": [
       "One Size"
     ],
-    "description": "Carolina blue crew socks with cross."
+    "tag": "Socks",
+    "desc": "Carolina blue crew socks with white cross."
   },
   {
     "id": "water-bottle",
-    "name": "40oz Scripture Water Bottle",
+    "name": "40oz Scripture Bottle",
     "category": "Accessories",
     "price": 35,
-    "image": "assets/products/scripture-water-bottle.png",
+    "image": "assets/products/water-bottle.png",
     "sizes": [
-      "One Size"
+      "40 oz"
     ],
-    "description": "Insulated bottle with Lion mark and Daily Walk QR idea."
+    "tag": "Drinkware",
+    "desc": "Insulated stainless steel water bottle with Daily Walk QR concept."
   },
   {
     "id": "duffle-bag",
@@ -314,28 +352,31 @@
     "sizes": [
       "One Size"
     ],
-    "description": "Premium black duffle with Lion mark and cross detail."
+    "tag": "Bag",
+    "desc": "Premium black duffle with Lion mark and brush cross detail."
   },
   {
     "id": "wristband",
     "name": "Scripture Wristband",
     "category": "Accessories",
     "price": 5,
-    "image": "assets/products/scripture-wristband.png",
+    "image": "assets/products/wristband.png",
     "sizes": [
       "One Size"
     ],
-    "description": "Slim scripture reference wristband."
+    "tag": "Scripture",
+    "desc": "Slim silicone wristband with Scripture reference."
   },
   {
     "id": "daily-walk-kit",
     "name": "Daily Walk Bible Kit",
     "category": "Daily Walk",
     "price": 80,
-    "image": "assets/logos/lion-of-judah-mark.png",
+    "image": "assets/logos/lion33.png",
     "sizes": [
       "One Size"
     ],
-    "description": "Bible organizer kit concept with prayer cards, journal, and reading plan."
+    "tag": "Coming Soon",
+    "desc": "Bible organizer kit concept with journal, prayer cards, and reading plan."
   }
 ]

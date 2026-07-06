@@ -1,13 +1,9 @@
-No Vanity 33 Hero Size Patch
+NO VANITY 33 V2 LAUNCH SITE
 
-This patch only replaces css/style.css.
+Use GitHub Desktop.
 
-Steps:
 1. Extract this ZIP.
-2. Copy the css folder into your local Final-1 GitHub folder.
-3. When Windows asks, choose Replace files in destination.
-4. Open GitHub Desktop.
-5. Commit: Adjust hero lion size
-6. Push origin.
-
-This makes the hero Lion mark about 25-30% smaller and gives the headline more balance.
+2. Copy everything inside into Documents/GitHub/Final-1.
+3. Replace files when Windows asks.
+4. Commit: No Vanity 33 V2 launch rebuild
+5. Push origin.
