@@ -1,7 +1,5 @@
 # No Vanity 33 Tee
 
-SKU: NV33-TS-006
-
 Price: $20
 
 Scripture: 1 Corinthians 10:31

@@ -1,13 +1,11 @@
 # Lion of Judah Tee
 
-SKU: NV33-TS-001
-
 Price: $30
 
 Scripture: Revelation 5:5
 
 ## Description
-A bold black tee featuring the Lion of Judah crowned with thorns.
+A bold design pointing to Christ as the Lion of the tribe of Judah.
 
 ## Why This Design?
-Revelation 5:5 declares that the Lion of the tribe of Judah has triumphed.
+Revelation 5:5 declares that the Lion of the tribe of Judah has triumphed. This design is made to start conversations about the victory and worthiness of Jesus Christ.
