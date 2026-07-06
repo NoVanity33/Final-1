@@ -1,29 +1,341 @@
 [
-  {"id":"lion-of-judah-tee","name":"Lion of Judah Tee","category":"Premium Tees","price":30,"image":"assets/products/lion-of-judah-tee.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"Revelation 5:5","description":"Flagship Lion of Judah tee with front and back Scripture design.","badge":"Bible QR Experience"},
-  {"id":"crown-33-tee","name":"Crown 33 Tee","category":"Premium Tees","price":30,"image":"assets/products/crown-33-tee.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"John 19:30 / Isaiah 53:5","description":"Crown of thorns design centered on the finished work of Christ.","badge":"Bible QR Experience"},
-  {"id":"prayer-cross-tee","name":"Prayer Cross Tee","category":"Premium Tees","price":25,"image":"assets/products/prayer-cross-tee.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"Philippians 4:6-7","description":"A prayer-centered design reminding believers to pray, trust, and obey.","badge":"Bible QR Experience"},
-  {"id":"crimson-worm-tee","name":"Crimson Worm Tee","category":"Premium Tees","price":25,"image":"assets/products/crimson-worm-tee.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"Psalm 22:6 / Hebrews 9:22","description":"A redemption design pointing to the blood of Christ and Biblical crimson imagery.","badge":"Bible QR Experience"},
-  {"id":"yahweh-tee","name":"YAHWEH Tee","category":"Premium Tees","price":30,"image":"assets/products/yahweh-tee.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"Exodus 3:14","description":"A reverent design centered on the sacred Name revealed to Moses.","badge":"Limited Release"},
-  {"id":"armor-of-god-tee","name":"Armor of God Tee","category":"Premium Tees","price":30,"image":"assets/products/armor-of-god-tee.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"Ephesians 6:10-18","description":"A bold Armor of God design with visual reminders of spiritual readiness.","badge":"Bible QR Experience"},
-  {"id":"parting-the-sea-tee","name":"Parting the Sea Tee","category":"Premium Tees","price":30,"image":"assets/products/parting-the-sea-tee.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"Exodus 14:13-14","description":"A cinematic Exodus design telling the story of deliverance.","badge":"Bible QR Experience"},
-  {"id":"living-word-tee","name":"The Living Word Tee","category":"Premium Tees","price":30,"image":"assets/products/living-word-tee.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"Psalm 119:105 / 2 Timothy 3:16","description":"Open Bible and cross artwork focused on the power of God’s Word.","badge":"Bible QR Experience"},
-  {"id":"burning-bush-tee","name":"Burning Bush Tee","category":"Premium Tees","price":30,"image":"assets/products/burning-bush-tee.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"Exodus 3:14","description":"A powerful Burning Bush design with Biblical context on the back.","badge":"Bible QR Experience"},
-
-  {"id":"black-sweatpants","name":"Crown 33 Sweatpants - Black","category":"Bottoms","price":45,"image":"assets/products/black-sweatpants.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"John 3:30","description":"Black sweatpants with brush cross and Crown 33 mark.","badge":"Simple Back"},
-  {"id":"tan-sweatpants","name":"Crown 33 Sweatpants - Tan","category":"Bottoms","price":45,"image":"assets/products/tan-sweatpants.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"John 3:30","description":"Tan sweatpants with black brush cross and Crown 33 mark.","badge":"Simple Back"},
-  {"id":"charcoal-sweatpants","name":"Crown 33 Sweatpants - Charcoal","category":"Bottoms","price":45,"image":"assets/products/charcoal-sweatpants.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"John 3:30","description":"Dark gray sweatpants with brush cross and Crown 33 mark.","badge":"Simple Back"},
-  {"id":"black-basketball-shorts","name":"Crown 33 Basketball Shorts - Black","category":"Bottoms","price":30,"image":"assets/products/black-basketball-shorts.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"John 3:30","description":"Black mesh basketball shorts with white cross and Crown 33 mark.","badge":"Athletic Fit"},
-  {"id":"red-basketball-shorts","name":"Crown 33 Basketball Shorts - Red","category":"Bottoms","price":30,"image":"assets/products/red-basketball-shorts.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"John 3:30","description":"Red mesh basketball shorts with gold cross and Crown 33 mark.","badge":"Athletic Fit"},
-  {"id":"white-basketball-shorts","name":"Crown 33 Basketball Shorts - White","category":"Bottoms","price":30,"image":"assets/products/white-basketball-shorts.png","sizes":["S","M","L","XL","2XL","3XL"],"scripture":"John 3:30","description":"White mesh basketball shorts with gold cross and Crown 33 mark.","badge":"Athletic Fit"},
-
-  {"id":"socks-black","name":"Socks - Black / White Cross","category":"Socks","price":15,"image":"assets/socks/socks-black.png","sizes":["One Size"],"scripture":"Walk by Faith","description":"Black crew socks with white cross and faith statement.","badge":"Everyday"},
-  {"id":"socks-black-red","name":"Socks - Black / Red Cross","category":"Socks","price":15,"image":"assets/socks/socks-black-red-cross.png","sizes":["One Size"],"scripture":"Faith Over Fear","description":"Black crew socks with red cross design.","badge":"Crimson Edition"},
-  {"id":"socks-gray","name":"Socks - Gray","category":"Socks","price":15,"image":"assets/socks/socks-gray.png","sizes":["One Size"],"scripture":"Faith Over Fear","description":"Gray crew socks with clean cross design.","badge":"Everyday"},
-  {"id":"socks-olive","name":"Socks - Olive","category":"Socks","price":15,"image":"assets/socks/socks-olive.png","sizes":["One Size"],"scripture":"Faith Over Fear","description":"Olive crew socks with white cross design.","badge":"Everyday"},
-  {"id":"socks-blue","name":"Socks - Carolina Blue","category":"Socks","price":15,"image":"assets/socks/socks-carolina-blue.png","sizes":["One Size"],"scripture":"Faith Over Fear","description":"Carolina blue crew socks with white cross design.","badge":"Colorway"},
-
-  {"id":"water-bottle","name":"40oz Scripture Water Bottle","category":"Accessories","price":35,"image":"assets/products/water-bottle.png","sizes":["40 oz"],"scripture":"Daily Reading QR","description":"Matte black insulated bottle with Lion mark and mission text.","badge":"QR Ready"},
-  {"id":"duffle-bag","name":"No Vanity 33 Duffle Bag","category":"Accessories","price":60,"image":"assets/products/duffle-bag.png","sizes":["One Size"],"scripture":"Made to Glorify Christ","description":"Premium black duffle with Lion mark, brush cross, and gold hardware.","badge":"Gym / Travel"},
-  {"id":"scripture-wristband","name":"Scripture Wristband","category":"Accessories","price":5,"image":"assets/products/scripture-wristband.png","sizes":["One Size"],"scripture":"Joshua 1:9","description":"Slim black silicone wristband with Scripture reference and Crown 33 mark.","badge":"Low Cost"},
-  {"id":"daily-walk-kit","name":"Daily Walk Bible Kit","category":"Daily Walk","price":60,"image":"assets/logo/lion-of-judah-mark.png","sizes":["Coming Soon"],"scripture":"Daily Walk","description":"Bible organizer kit with prayer journal, reading tracker, cards, highlighters, pen, and QR portal. Phase 1 sourced kit; custom case coming later.","badge":"Coming Soon"}
+  {
+    "id": "lion-of-judah-tee",
+    "name": "Lion of Judah Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/lion-of-judah-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Revelation 5:5 design with front and back artwork."
+  },
+  {
+    "id": "crown-33-tee",
+    "name": "Crown 33 Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/crown-33-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Crown of thorns and 33 design pointing to Christ."
+  },
+  {
+    "id": "prayer-cross-tee",
+    "name": "Prayer Cross Tee",
+    "category": "Premium Tees",
+    "price": 25,
+    "image": "assets/products/prayer-cross-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Prayer changes things. Philippians 4 design."
+  },
+  {
+    "id": "crimson-worm-tee",
+    "name": "Crimson Worm Tee",
+    "category": "Premium Tees",
+    "price": 25,
+    "image": "assets/products/crimson-worm-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Psalm 22 crimson worm design pointing to redemption."
+  },
+  {
+    "id": "yahweh-tee",
+    "name": "YAHWEH Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/yahweh-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Exodus 3:14 sacred name design."
+  },
+  {
+    "id": "armor-of-god-tee",
+    "name": "Armor of God Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/armor-of-god-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Ephesians 6 full armor design."
+  },
+  {
+    "id": "parting-the-sea-tee",
+    "name": "Parting the Sea Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/parting-the-sea-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Exodus 14 deliverance design."
+  },
+  {
+    "id": "living-word-tee",
+    "name": "The Living Word Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/living-word-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Open Bible and cross design."
+  },
+  {
+    "id": "burning-bush-tee",
+    "name": "Burning Bush Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/burning-bush-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Exodus 3 burning bush design."
+  },
+  {
+    "id": "black-sweatpants",
+    "name": "Crown 33 Sweatpants - Black",
+    "category": "Bottoms",
+    "price": 45,
+    "image": "assets/products/black-sweatpants.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Black sweatpants with brush cross and Crown 33 mark."
+  },
+  {
+    "id": "tan-sweatpants",
+    "name": "Crown 33 Sweatpants - Tan",
+    "category": "Bottoms",
+    "price": 45,
+    "image": "assets/products/tan-sweatpants.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Tan sweatpants with brush cross and Crown 33 mark."
+  },
+  {
+    "id": "charcoal-sweatpants",
+    "name": "Crown 33 Sweatpants - Charcoal",
+    "category": "Bottoms",
+    "price": 45,
+    "image": "assets/products/charcoal-sweatpants.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Charcoal sweatpants with brush cross and Crown 33 mark."
+  },
+  {
+    "id": "black-shorts",
+    "name": "Crown 33 Basketball Shorts - Black",
+    "category": "Bottoms",
+    "price": 30,
+    "image": "assets/products/black-basketball-shorts.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Black basketball shorts with cross and Crown 33 mark."
+  },
+  {
+    "id": "red-shorts",
+    "name": "Crown 33 Basketball Shorts - Red",
+    "category": "Bottoms",
+    "price": 30,
+    "image": "assets/products/red-basketball-shorts.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "Red basketball shorts with gold cross and Crown 33 mark."
+  },
+  {
+    "id": "white-shorts",
+    "name": "Crown 33 Basketball Shorts - White",
+    "category": "Bottoms",
+    "price": 30,
+    "image": "assets/products/white-basketball-shorts.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "White basketball shorts with gold cross and Crown 33 mark."
+  },
+  {
+    "id": "socks-black",
+    "name": "Socks - Black",
+    "category": "Socks",
+    "price": 15,
+    "image": "assets/products/socks_black.png",
+    "sizes": [
+      "One Size"
+    ],
+    "description": "Black crew socks with cross."
+  },
+  {
+    "id": "socks-black-red",
+    "name": "Socks - Black / Red Cross",
+    "category": "Socks",
+    "price": 15,
+    "image": "assets/products/socks_black_red_cross.png",
+    "sizes": [
+      "One Size"
+    ],
+    "description": "Black crew socks with red cross."
+  },
+  {
+    "id": "socks-gray",
+    "name": "Socks - Gray",
+    "category": "Socks",
+    "price": 15,
+    "image": "assets/products/socks_gray.png",
+    "sizes": [
+      "One Size"
+    ],
+    "description": "Gray crew socks with cross."
+  },
+  {
+    "id": "socks-olive",
+    "name": "Socks - Olive",
+    "category": "Socks",
+    "price": 15,
+    "image": "assets/products/socks_olive.png",
+    "sizes": [
+      "One Size"
+    ],
+    "description": "Olive crew socks with cross."
+  },
+  {
+    "id": "socks-blue",
+    "name": "Socks - Carolina Blue",
+    "category": "Socks",
+    "price": 15,
+    "image": "assets/products/socks_carolina_blue.png",
+    "sizes": [
+      "One Size"
+    ],
+    "description": "Carolina blue crew socks with cross."
+  },
+  {
+    "id": "water-bottle",
+    "name": "40oz Scripture Water Bottle",
+    "category": "Accessories",
+    "price": 35,
+    "image": "assets/products/scripture-water-bottle.png",
+    "sizes": [
+      "One Size"
+    ],
+    "description": "Insulated bottle with Lion mark and Daily Walk QR idea."
+  },
+  {
+    "id": "duffle-bag",
+    "name": "No Vanity 33 Duffle Bag",
+    "category": "Accessories",
+    "price": 60,
+    "image": "assets/products/duffle-bag.png",
+    "sizes": [
+      "One Size"
+    ],
+    "description": "Premium black duffle with Lion mark and cross detail."
+  },
+  {
+    "id": "wristband",
+    "name": "Scripture Wristband",
+    "category": "Accessories",
+    "price": 5,
+    "image": "assets/products/scripture-wristband.png",
+    "sizes": [
+      "One Size"
+    ],
+    "description": "Slim scripture reference wristband."
+  },
+  {
+    "id": "daily-walk-kit",
+    "name": "Daily Walk Bible Kit",
+    "category": "Daily Walk",
+    "price": 80,
+    "image": "assets/logos/lion-of-judah-mark.png",
+    "sizes": [
+      "One Size"
+    ],
+    "description": "Bible organizer kit concept with prayer cards, journal, and reading plan."
+  }
 ]
