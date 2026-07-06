@@ -1,1 +1,0 @@
-Revelation 5:5

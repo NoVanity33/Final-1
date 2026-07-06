@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 260 300">
-<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#191919"/><stop offset="1" stop-color="#030303"/></linearGradient></defs>
-<rect width="260" height="300" fill="url(#g)"/>
-<rect x="45" y="75" width="28" height="120" rx="10" fill="#050505" stroke="#333"/><text x="59" y="125" text-anchor="middle" fill="#d6a92d" font-size="22">✝</text><rect x="87" y="75" width="28" height="120" rx="10" fill="#eee" stroke="#333"/><text x="101" y="125" text-anchor="middle" fill="#d6a92d" font-size="22">✝</text><rect x="129" y="75" width="28" height="120" rx="10" fill="#b41414" stroke="#333"/><text x="143" y="125" text-anchor="middle" fill="#d6a92d" font-size="22">✝</text><rect x="171" y="75" width="28" height="120" rx="10" fill="#164eb5" stroke="#333"/><text x="185" y="125" text-anchor="middle" fill="#d6a92d" font-size="22">✝</text><rect x="213" y="75" width="28" height="120" rx="10" fill="#55603c" stroke="#333"/><text x="227" y="125" text-anchor="middle" fill="#d6a92d" font-size="22">✝</text>
-<text x="130" y="285" text-anchor="middle" font-size="13" font-family="Arial" fill="#f6d26b">Cross Crew Socks (5 Colors)</text>
-</svg>

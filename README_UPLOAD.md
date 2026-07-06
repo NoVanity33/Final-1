@@ -1,1 +1,0 @@
-Upload the CONTENTS of this folder to the root of your GitHub repo. Replace existing files. Commit and push with GitHub Desktop.

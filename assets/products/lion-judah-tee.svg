@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 300 380">
-<defs><linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#171717"/><stop offset="1" stop-color="#020202"/></linearGradient></defs>
-<rect width="300" height="380" fill="url(#bg)"/>
-<path d="M92 80 L150 50 L202 80 L245 70 L282 120 L245 158 L220 145 L220 325 L80 325 L80 145 L55 158 L18 120 L55 70 Z" fill="#090909" stroke="#333" stroke-width="4"/>
-<text x="150" y="173" text-anchor="middle" font-size="58" fill="#d9a928">🦁</text><text x="150" y="230" text-anchor="middle" font-size="34" font-weight="900" fill="#d9a928">33</text>
-<text x="150" y="360" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#d9a928">Lion of Judah Tee</text>
-</svg>
