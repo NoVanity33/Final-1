@@ -216,6 +216,74 @@
     "desc": "Burning bush design with biblical context and Daily Walk QR concept."
   },
   {
+    "id": "essential-maroon-crown33",
+    "name": "Essential Crown 33 Tee - Maroon",
+    "category": "Essentials",
+    "price": 20,
+    "image": "assets/products/essential-maroon-crown33.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "$20 Line",
+    "desc": "Maroon everyday witness tee with the Crown 33 logo on front and Scripture on back."
+  },
+  {
+    "id": "essential-white-cross",
+    "name": "Essential Cross Tee - White",
+    "category": "Essentials",
+    "price": 20,
+    "image": "assets/products/essential-white-cross.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "$20 Line",
+    "desc": "White everyday witness tee with detailed cross on front and Scripture on back."
+  },
+  {
+    "id": "essential-dark-gray-lamb",
+    "name": "Essential Lamb Tee - Dark Gray",
+    "category": "Essentials",
+    "price": 20,
+    "image": "assets/products/essential-dark-gray-lamb.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "$20 Line",
+    "desc": "Dark gray everyday witness tee with lamb silhouette, crown of thorns, and Scripture on back."
+  },
+  {
+    "id": "essential-cream-shroud",
+    "name": "Essential Shroud Tee - Cream",
+    "category": "Essentials",
+    "price": 20,
+    "image": "assets/products/essential-cream-shroud.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "$20 Line",
+    "desc": "Cream everyday witness tee with Shroud-inspired front and Isaiah 53:5 on back."
+  },
+  {
     "id": "tan-sweatpants",
     "name": "Crown 33 Sweatpants - Tan",
     "category": "Sweatpants",
