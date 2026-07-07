@@ -5,37 +5,16 @@
     "category": "Hoodies",
     "price": 55,
     "image": "assets/products/lion-of-judah-hoodie.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
     "tag": "Featured",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "lion-of-judah-tee",
-    "name": "Lion of Judah Tee",
-    "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/lion-of-judah-tee.png",
-    "tag": "Best Seller",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
+    "desc": "Premium black hoodie with Lion of Judah front/back artwork."
   },
   {
     "id": "crown33-tee",
@@ -43,246 +22,16 @@
     "category": "Premium Tees",
     "price": 30,
     "image": "assets/products/crown33-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
     "tag": "Featured",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "armor-of-god-tee",
-    "name": "Armor of God Tee",
-    "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/armor-of-god-tee.png",
-    "tag": "Premium",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "lamb-of-god-tee",
-    "name": "Lamb of God Tee",
-    "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/lamb-of-god-tee.png",
-    "tag": "Premium",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "living-word-tee",
-    "name": "The Living Word Tee",
-    "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/living-word-tee.png",
-    "tag": "Premium",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "parting-the-sea-tee",
-    "name": "Parting the Sea Tee",
-    "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/parting-the-sea-tee.png",
-    "tag": "Premium",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "crimson-worm-tee",
-    "name": "Crimson Worm Tee",
-    "category": "Premium Tees",
-    "price": 25,
-    "image": "assets/products/crimson-worm-tee.png",
-    "tag": "Premium",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "prayer-cross-tee",
-    "name": "Prayer Cross Tee",
-    "category": "Premium Tees",
-    "price": 25,
-    "image": "assets/products/prayer-cross-tee.png",
-    "tag": "Premium",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "yahweh-tee",
-    "name": "YAHWEH Tee",
-    "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/yahweh-tee.png",
-    "tag": "Premium",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "burning-bush-tee",
-    "name": "Burning Bush Tee",
-    "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/burning-bush-tee.png",
-    "tag": "Premium",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "essential-maroon-crown33",
-    "name": "Essential Crown 33 Tee - Maroon",
-    "category": "Essentials",
-    "price": 20,
-    "image": "assets/products/essential-maroon-crown33.png",
-    "tag": "$20 Line",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "essential-white-cross",
-    "name": "Essential Cross Tee - White",
-    "category": "Essentials",
-    "price": 20,
-    "image": "assets/products/essential-white-cross.png",
-    "tag": "$20 Line",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "essential-dark-gray-lamb",
-    "name": "Essential Lamb Tee - Dark Gray",
-    "category": "Essentials",
-    "price": 20,
-    "image": "assets/products/essential-dark-gray-lamb.png",
-    "tag": "$20 Line",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "essential-cream-shroud",
-    "name": "Essential Shroud Tee - Cream",
-    "category": "Essentials",
-    "price": 20,
-    "image": "assets/products/essential-cream-shroud.png",
-    "tag": "$20 Line",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
+    "desc": "Crown of thorns and 33 design pointing to Christ\u2019s finished work."
   },
   {
     "id": "black-sweatpants",
@@ -290,7 +39,6 @@
     "category": "Sweatpants",
     "price": 45,
     "image": "assets/products/black-sweatpants.png",
-    "tag": "Bottoms",
     "sizes": [
       "S",
       "M",
@@ -299,104 +47,8 @@
       "2XL",
       "3XL"
     ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "tan-sweatpants",
-    "name": "Crown 33 Sweatpants - Tan",
-    "category": "Sweatpants",
-    "price": 45,
-    "image": "assets/products/tan-sweatpants.png",
-    "tag": "Bottoms",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "charcoal-sweatpants",
-    "name": "Crown 33 Sweatpants - Charcoal",
-    "category": "Sweatpants",
-    "price": 45,
-    "image": "assets/products/charcoal-sweatpants.png",
-    "tag": "Bottoms",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "black-shorts",
-    "name": "Crown 33 Basketball Shorts - Black",
-    "category": "Shorts",
-    "price": 30,
-    "image": "assets/products/black-shorts.png",
-    "tag": "Shorts",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "red-shorts",
-    "name": "Crown 33 Basketball Shorts - Red",
-    "category": "Shorts",
-    "price": 30,
-    "image": "assets/products/red-shorts.png",
-    "tag": "Shorts",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
-  },
-  {
-    "id": "white-shorts",
-    "name": "Crown 33 Basketball Shorts - White",
-    "category": "Shorts",
-    "price": 30,
-    "image": "assets/products/white-shorts.png",
-    "tag": "Shorts",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
+    "tag": "Featured",
+    "desc": "Black sweatpants with brush cross and Crown 33 mark."
   },
   {
     "id": "socks-black",
@@ -404,13 +56,249 @@
     "category": "Socks",
     "price": 15,
     "image": "assets/products/socks-black.png",
-    "tag": "Socks",
     "sizes": [
       "One Size"
     ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
+    "tag": "Featured",
+    "desc": "Black crew socks with clean white cross."
+  },
+  {
+    "id": "lion-of-judah-tee",
+    "name": "Lion of Judah Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/lion-of-judah-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Best Seller",
+    "desc": "Revelation 5:5 front/back tee with Lion of Judah artwork."
+  },
+  {
+    "id": "prayer-cross-tee",
+    "name": "Prayer Cross Tee",
+    "category": "Premium Tees",
+    "price": 25,
+    "image": "assets/products/prayer-cross-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Launch",
+    "desc": "Prayer Changes Things tee with Scripture and biblical context."
+  },
+  {
+    "id": "crimson-worm-tee",
+    "name": "Crimson Worm Tee",
+    "category": "Premium Tees",
+    "price": 25,
+    "image": "assets/products/crimson-worm-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Launch",
+    "desc": "Psalm 22 inspired design pointing to sacrifice, redemption, and life."
+  },
+  {
+    "id": "yahweh-tee",
+    "name": "YAHWEH Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/yahweh-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Scripture",
+    "desc": "Exodus 3:14 sacred name design with teaching context."
+  },
+  {
+    "id": "armor-of-god-tee",
+    "name": "Armor of God Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/armor-of-god-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Ephesians 6",
+    "desc": "Full Armor of God design with Ephesians 6 teaching."
+  },
+  {
+    "id": "lamb-of-god-tee",
+    "name": "Lamb of God Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/lamb-of-god-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "John 1:29",
+    "desc": "The perfect sacrifice design with John 1:29 and Isaiah 53."
+  },
+  {
+    "id": "parting-the-sea-tee",
+    "name": "Parting the Sea Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/parting-the-sea-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Exodus 14",
+    "desc": "Stand still and see the salvation of the Lord."
+  },
+  {
+    "id": "living-word-tee",
+    "name": "The Living Word Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/living-word-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Psalm 119",
+    "desc": "Open Bible and cross design centered on the Word of God."
+  },
+  {
+    "id": "burning-bush-tee",
+    "name": "Burning Bush Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/burning-bush-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Exodus 3",
+    "desc": "Burning bush design with biblical context and Daily Walk QR concept."
+  },
+  {
+    "id": "tan-sweatpants",
+    "name": "Crown 33 Sweatpants - Tan",
+    "category": "Sweatpants",
+    "price": 45,
+    "image": "assets/products/tan-sweatpants.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Bottoms",
+    "desc": "Tan sweatpants with brush cross and Crown 33 mark."
+  },
+  {
+    "id": "charcoal-sweatpants",
+    "name": "Crown 33 Sweatpants - Charcoal",
+    "category": "Sweatpants",
+    "price": 45,
+    "image": "assets/products/charcoal-sweatpants.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Bottoms",
+    "desc": "Charcoal sweatpants with brush cross and Crown 33 mark."
+  },
+  {
+    "id": "black-shorts",
+    "name": "Crown 33 Basketball Shorts - Black",
+    "category": "Shorts",
+    "price": 30,
+    "image": "assets/products/black-shorts.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Shorts",
+    "desc": "Black basketball shorts with cross and Crown 33 mark."
+  },
+  {
+    "id": "red-shorts",
+    "name": "Crown 33 Basketball Shorts - Red",
+    "category": "Shorts",
+    "price": 30,
+    "image": "assets/products/red-shorts.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Shorts",
+    "desc": "Red basketball shorts with gold cross and Crown 33 mark."
+  },
+  {
+    "id": "white-shorts",
+    "name": "Crown 33 Basketball Shorts - White",
+    "category": "Shorts",
+    "price": 30,
+    "image": "assets/products/white-shorts.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Shorts",
+    "desc": "White basketball shorts with gold cross and Crown 33 mark."
   },
   {
     "id": "socks-black-red",
@@ -418,13 +306,11 @@
     "category": "Socks",
     "price": 15,
     "image": "assets/products/socks-black-red.png",
-    "tag": "Socks",
     "sizes": [
       "One Size"
     ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
+    "tag": "Socks",
+    "desc": "Black crew socks with red cross."
   },
   {
     "id": "socks-gray",
@@ -432,13 +318,11 @@
     "category": "Socks",
     "price": 15,
     "image": "assets/products/socks-gray.png",
-    "tag": "Socks",
     "sizes": [
       "One Size"
     ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
+    "tag": "Socks",
+    "desc": "Gray crew socks with white cross."
   },
   {
     "id": "socks-olive",
@@ -446,27 +330,23 @@
     "category": "Socks",
     "price": 15,
     "image": "assets/products/socks-olive.png",
-    "tag": "Socks",
     "sizes": [
       "One Size"
     ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
+    "tag": "Socks",
+    "desc": "Olive crew socks with white cross."
   },
   {
-    "id": "socks-carolina-blue",
+    "id": "socks-blue",
     "name": "Cross Socks - Carolina Blue",
     "category": "Socks",
     "price": 15,
     "image": "assets/products/socks-carolina-blue.png",
-    "tag": "Socks",
     "sizes": [
       "One Size"
     ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
+    "tag": "Socks",
+    "desc": "Carolina blue crew socks with white cross."
   },
   {
     "id": "water-bottle",
@@ -474,13 +354,11 @@
     "category": "Accessories",
     "price": 35,
     "image": "assets/products/water-bottle.png",
-    "tag": "Accessories",
     "sizes": [
       "40 oz"
     ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
+    "tag": "Drinkware",
+    "desc": "Insulated stainless steel water bottle with Daily Walk QR concept."
   },
   {
     "id": "duffle-bag",
@@ -488,13 +366,11 @@
     "category": "Accessories",
     "price": 60,
     "image": "assets/products/duffle-bag.png",
-    "tag": "Accessories",
     "sizes": [
       "One Size"
     ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
+    "tag": "Bag",
+    "desc": "Premium black duffle with Lion mark and brush cross detail."
   },
   {
     "id": "wristband",
@@ -502,12 +378,22 @@
     "category": "Accessories",
     "price": 5,
     "image": "assets/products/wristband.png",
-    "tag": "Accessories",
     "sizes": [
       "One Size"
     ],
-    "desc": "Faith-inspired apparel made to point people toward Christ.",
-    "stripePriceId": "",
-    "printfulVariantIds": {}
+    "tag": "Scripture",
+    "desc": "Slim silicone wristband with Scripture reference."
+  },
+  {
+    "id": "daily-walk-kit",
+    "name": "Daily Walk Bible Kit",
+    "category": "Daily Walk",
+    "price": 80,
+    "image": "assets/logos/lion33.png",
+    "sizes": [
+      "One Size"
+    ],
+    "tag": "Coming Soon",
+    "desc": "Bible organizer kit concept with journal, prayer cards, and reading plan."
   }
 ]
