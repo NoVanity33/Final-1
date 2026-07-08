@@ -1,0 +1,5 @@
+export async function onRequestGet() {
+  return new Response(JSON.stringify({ ok: true, message: "No Vanity 33 checkout function is live." }), {
+    headers: { "Content-Type": "application/json" }
+  });
+}
