@@ -28,7 +28,6 @@ export async function onRequestPost(context) {
       if (!item.price) throw new Error("Missing Stripe Price ID.");
       params.set(`line_items[${index}][price]`, item.price);
       params.set(`line_items[${index}][quantity]`, String(item.quantity || 1));
-
       if (item.productId) params.set(`metadata[product_${index}_id]`, item.productId);
       if (item.size) params.set(`metadata[product_${index}_size]`, item.size);
       if (item.color) params.set(`metadata[product_${index}_color]`, item.color);
