@@ -15,8 +15,9 @@
     ],
     "tag": "Featured",
     "desc": "Premium black hoodie with Lion of Judah front/back artwork.",
-    "stripePriceId": "",
-    "priceId": ""
+    "stripePriceId": "price_1Tr2hgRQ7M5gXs0AZK8lSqU4",
+    "priceId": "price_1Tr2hgRQ7M5gXs0AZK8lSqU4",
+    "stripeProductName": "LOJ Hoodie"
   },
   {
     "id": "crown33-tee",
