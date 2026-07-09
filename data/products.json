@@ -69,14 +69,15 @@
     ],
     "tag": "Featured",
     "desc": "Black crew socks with clean white cross.",
-    "stripePriceId": "",
-    "priceId": ""
+    "stripePriceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH",
+    "priceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH",
+    "stripeProductName": "NV33 socks Black and Red"
   },
   {
     "id": "lion-of-judah-tee",
     "name": "Lion of Judah Tee",
     "category": "Premium Tees",
-    "price": 30,
+    "price": 35,
     "image": "assets/products/lion-of-judah-tee.png",
     "sizes": [
       "S",
@@ -88,8 +89,9 @@
     ],
     "tag": "Best Seller",
     "desc": "Revelation 5:5 front/back tee with Lion of Judah artwork.",
-    "stripePriceId": "",
-    "priceId": ""
+    "stripePriceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A",
+    "priceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A",
+    "stripeProductName": "Lamb Of God Tee"
   },
   {
     "id": "prayer-cross-tee",

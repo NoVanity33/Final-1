@@ -21,6 +21,10 @@ function setColor(id,color){
 function addToCart(id){
   const p=products.find(x=>x.id===id);
   if(!p)return;
+  if(!(p.stripePriceId || p.priceId)){
+    alert(`${p.name} is not connected to checkout yet.`);
+    return;
+  }
   const size=document.getElementById('size-'+id)?.value||'One Size';
   const color=selectedColor(id) || (p.colors?.[0]?.value || "");
   cart.push({
@@ -71,18 +75,18 @@ async function checkoutStripe(){
     if(data.url){
       window.location.href=data.url;
     }else{
-      alert(data.error || 'Checkout could not start. Check Cloudflare Function and Stripe secret key.');
+      alert(data.error || 'Checkout could not start.');
     }
   }catch(err){
     console.error(err);
-    alert('Checkout could not start. Please try again or contact novanity2026@gmail.com.');
+    alert('Checkout could not start. Please contact novanity2026@gmail.com.');
   }
 }
 
 function renderCart(){
   cartCount.textContent=cart.length;
   const total=cart.reduce((s,i)=>s+Number(i.price||0),0);
-  cartBox.innerHTML=`<h3>Your Cart</h3>${cart.length?cart.map((i,idx)=>`<div class="cartrow"><span>${i.name}<br><small>${[i.color,i.size].filter(Boolean).join(' · ')}</small></span><b>${money(i.price)}</b><button onclick="removeCartItem(${idx})" style="margin-left:8px;border:1px solid #555;background:#111;color:#fff;border-radius:4px">×</button></div>`).join(''):'<p>Your cart is empty.</p>'}<p><b>Total: ${money(total)}</b></p><button class="add" onclick="cart=[];save()">Clear Cart</button><button class="add" onclick="checkoutStripe()">Secure Checkout</button>`;
+  cartBox.innerHTML=`<h3>Your Cart</h3>${cart.length?cart.map((i,idx)=>`<div class="cartrow"><span>${i.name}<br><small>${[i.color,i.size].filter(Boolean).join(' · ')}</small></span><b>${money(i.price)}</b><button onclick="removeCartItem(${idx})" style="margin-left:8px;border:1px solid #555;background:#111;color:#fff;border-radius:4px">×</button></div>`).join(''):'<p>Your cart is empty.</p>'}<p><b>Total: ${money(total)}</b></p><button class="add" onclick="cart=[];save()">Clear Cart</button><button class="add" onclick="checkoutStripe()">Secure Checkout</button><a class="btn primary" href="checkout.html" style="margin-top:10px;width:100%;justify-content:center">Review Checkout</a>`;
 }
 
 function swatches(p){
@@ -97,9 +101,9 @@ function render(f='All'){
   grid.innerHTML=items.map(p=>{
     const firstColor=p.colors?.[0]?.value;
     const initial=(p.images && firstColor && p.images[firstColor]) ? p.images[firstColor] : p.image;
-    const comingSoon = !p.stripePriceId && !p.priceId;
+    const connected = Boolean(p.stripePriceId || p.priceId);
     return `<article class="card">
-      <span class="badge">${comingSoon ? 'Coming Soon' : (p.tag||'NEW')}</span>
+      <span class="badge">${connected ? (p.tag||'NEW') : 'Coming Soon'}</span>
       <span class="heart">♡</span>
       <div class="imgbox"><img id="img-${p.id}" src="${initial}" alt="${p.name}" loading="lazy" onerror="this.src='assets/logos/crown33.png'"></div>
       <h3>${p.name}</h3>
@@ -107,7 +111,7 @@ function render(f='All'){
       <p class="desc">${p.desc||'Premium Cotton'}</p>
       ${swatches(p)}
       <select id="size-${p.id}">${(p.sizes||['One Size']).map(s=>`<option>${s}</option>`).join('')}</select>
-      <button class="add" ${comingSoon ? 'disabled style="opacity:.55;cursor:not-allowed"' : ''} onclick="addToCart('${p.id}')">${comingSoon ? 'Coming Soon' : '🛒 Add to Cart'}</button>
+      <button class="add" ${connected?'':'disabled style="opacity:.55;cursor:not-allowed"'} onclick="addToCart('${p.id}')">${connected?'🛒 Add to Cart':'Coming Soon'}</button>
     </article>`;
   }).join('');
 }
@@ -125,7 +129,7 @@ cartBtn.onclick=e=>{
   cartBox.classList.toggle('show');
 };
 
-fetch('data/products.json?v=stripe-v1').then(r=>r.json()).then(d=>{
+fetch('data/products.json?v=clean-stripe-v1').then(r=>r.json()).then(d=>{
   products=d;
   render();
   renderCart();

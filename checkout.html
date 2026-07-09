@@ -12,10 +12,7 @@
     <img src="assets/logos/lion33.png" alt="No Vanity 33">
     <span><strong>NO VANITY 33</strong><small>SECURE CHECKOUT</small></span>
   </a>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="index.html#shop">Shop</a>
-  </nav>
+  <nav><a href="index.html">Home</a><a href="index.html#shop">Shop</a></nav>
 </header>
 
 <main class="section">
@@ -24,7 +21,6 @@
     <h1>REVIEW YOUR ORDER</h1>
     <p class="lead" style="margin:0 auto 28px;">Your order will be processed securely through Stripe.</p>
   </div>
-
   <div class="callout" style="align-items:flex-start;">
     <div style="width:100%;">
       <h3>Your Cart</h3>
@@ -42,7 +38,6 @@ const msg = document.getElementById('checkoutMsg');
 const itemsBox = document.getElementById('checkoutItems');
 const totalBox = document.getElementById('checkoutTotal');
 const btn = document.getElementById('checkoutBtn');
-
 let cart = JSON.parse(localStorage.getItem('nv33cart') || '[]');
 let products = [];
 
@@ -53,40 +48,23 @@ function renderCheckout(){
     btn.style.display = 'none';
     return;
   }
-
   const total = cart.reduce((s,i)=>s + Number(i.price || 0), 0);
-  itemsBox.innerHTML = cart.map(i => `
-    <div class="cartrow">
-      <span>${i.name}<br><small>${[i.color, i.size].filter(Boolean).join(' · ')}</small></span>
-      <b>${money(i.price)}</b>
-    </div>
-  `).join('');
+  itemsBox.innerHTML = cart.map(i => `<div class="cartrow"><span>${i.name}<br><small>${[i.color, i.size].filter(Boolean).join(' · ')}</small></span><b>${money(i.price)}</b></div>`).join('');
   totalBox.textContent = 'Total: ' + money(total);
 }
 
 async function loadProducts(){
-  try{
-    const res = await fetch('data/products.json?v=stripe-v1');
-    products = await res.json();
-  }catch(e){
-    console.error(e);
-    msg.textContent = 'Could not load product data. Please contact novanity2026@gmail.com.';
-  }
+  const res = await fetch('data/products.json?v=clean-stripe-v1');
+  products = await res.json();
 }
 
 function findProduct(cartItem){
-  return products.find(p => 
-    (cartItem.id && p.id === cartItem.id) ||
-    (cartItem.name && p.name === cartItem.name)
-  );
+  return products.find(p => (cartItem.id && p.id === cartItem.id) || (cartItem.name && p.name === cartItem.name));
 }
 
 async function startCheckout(){
   if(!cart.length) return;
-
-  if(!products.length){
-    await loadProducts();
-  }
+  if(!products.length) await loadProducts();
 
   const lineItems = [];
   const missing = [];
@@ -94,12 +72,10 @@ async function startCheckout(){
   for(const item of cart){
     const p = findProduct(item);
     const stripePriceId = item.stripePriceId || item.priceId || p?.stripePriceId || p?.priceId || '';
-
     if(!stripePriceId){
       missing.push(item.name);
       continue;
     }
-
     lineItems.push({
       price: stripePriceId,
       quantity: 1,
@@ -124,13 +100,11 @@ async function startCheckout(){
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({items:lineItems})
     });
-
     const data = await res.json().catch(()=>({}));
-
     if(data.url){
       window.location.href = data.url;
     }else{
-      msg.textContent = data.error || 'Checkout could not start. Please contact novanity2026@gmail.com.';
+      msg.textContent = data.error || 'Checkout could not start.';
       btn.disabled = false;
       btn.textContent = 'Pay Securely with Stripe';
     }
@@ -143,7 +117,7 @@ async function startCheckout(){
 }
 
 btn.addEventListener('click', startCheckout);
-loadProducts();
+loadProducts().catch(e=>{console.error(e); msg.textContent='Could not load product data.';});
 renderCheckout();
 </script>
 </body>
