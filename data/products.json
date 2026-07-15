@@ -1,5 +1,25 @@
 [
   {
+    "id": "shroud-tee",
+    "name": "The Shroud Tee",
+    "category": "Premium Tees",
+    "price": 37,
+    "image": "assets/products/shroud-tee.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Flagship",
+    "featured": true,
+    "dynamicCheckout": true,
+    "desc": "A premium faith-centered tee inspired by the Shroud and Isaiah 53:5—created to start conversations about the death, burial, and resurrection of Jesus Christ.",
+    "stripeProductName": "The Shroud Tee"
+  },
+  {
     "id": "lion-of-judah-hoodie",
     "name": "Lion of Judah Hoodie",
     "category": "Hoodies",
@@ -34,7 +54,7 @@
       "3XL"
     ],
     "tag": "Featured",
-    "desc": "Crown of thorns and 33 design pointing to Christ\u2019s finished work.",
+    "desc": "Crown of thorns and 33 design pointing to Christ’s finished work.",
     "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
     "priceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
     "stripeProductName": "Crown 33 Tee"
