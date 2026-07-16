@@ -16,8 +16,9 @@
     "tag": "Flagship",
     "featured": true,
     "dynamicCheckout": true,
-    "desc": "A premium faith-centered tee inspired by the Shroud and Isaiah 53:5—created to start conversations about the death, burial, and resurrection of Jesus Christ.",
-    "stripeProductName": "The Shroud Tee"
+    "desc": "A premium black faith-centered tee inspired by the Shroud and Isaiah 53:5—created to start conversations about the death, burial, and resurrection of Jesus Christ.",
+    "stripeProductName": "The Shroud Tee",
+    "color": "Black"
   },
   {
     "id": "lion-of-judah-hoodie",
