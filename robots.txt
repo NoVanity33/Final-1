@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /checkout.html
+Disallow: /cancel.html
+Disallow: /functions/
+Disallow: /data/
+
+Sitemap: https://novanity33.com/sitemap.xml
