@@ -14,11 +14,10 @@
       "3XL"
     ],
     "tag": "Flagship",
+    "status": "available",
     "featured": true,
-    "dynamicCheckout": true,
-    "desc": "A premium black faith-centered tee inspired by the Shroud and Isaiah 53:5—created to start conversations about the death, burial, and resurrection of Jesus Christ.",
-    "stripeProductName": "The Shroud Tee",
-    "color": "Black"
+    "desc": "A black premium tee inspired by the Shroud of Turin, created to point toward the sacrifice and resurrection of Jesus Christ.",
+    "founderFeatured": true
   },
   {
     "id": "lion-of-judah-hoodie",
@@ -36,15 +35,14 @@
     ],
     "tag": "Featured",
     "desc": "Premium black hoodie with Lion of Judah front/back artwork.",
-    "stripePriceId": "price_1Tr2hgRQ7M5gXs0AZK8lSqU4",
-    "priceId": "price_1Tr2hgRQ7M5gXs0AZK8lSqU4",
-    "stripeProductName": "LOJ Hoodie"
+    "status": "available",
+    "founderFeatured": false
   },
   {
     "id": "crown33-tee",
     "name": "Crown 33 Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 30,
     "image": "assets/products/crown33-tee.png",
     "sizes": [
       "S",
@@ -56,9 +54,8 @@
     ],
     "tag": "Featured",
     "desc": "Crown of thorns and 33 design pointing to Christ’s finished work.",
-    "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
-    "priceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
-    "stripeProductName": "Crown 33 Tee"
+    "status": "available",
+    "founderFeatured": true
   },
   {
     "id": "black-sweatpants",
@@ -74,11 +71,10 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Featured",
+    "tag": "Coming Soon",
     "desc": "Black sweatpants with brush cross and Crown 33 mark.",
-    "stripePriceId": "price_1Tr1YaRQ7M5gXs0AfJeNAXWc",
-    "priceId": "price_1Tr1YaRQ7M5gXs0AfJeNAXWc",
-    "stripeProductName": "Logo Sweats In Black"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "socks-black",
@@ -87,19 +83,19 @@
     "price": 15,
     "image": "assets/products/socks-black.png",
     "sizes": [
-      "One Size"
+      "Men 6-8 / Women 7-9",
+      "Men 9-12 / Women 10-13"
     ],
-    "tag": "Featured",
+    "tag": "Coming Soon",
     "desc": "Black crew socks with clean white cross.",
-    "stripePriceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH",
-    "priceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH",
-    "stripeProductName": "NV33 socks Black and Red"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "lion-of-judah-tee",
     "name": "Lion of Judah Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 30,
     "image": "assets/products/lion-of-judah-tee.png",
     "sizes": [
       "S",
@@ -111,15 +107,14 @@
     ],
     "tag": "Best Seller",
     "desc": "Revelation 5:5 front/back tee with Lion of Judah artwork.",
-    "stripePriceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A",
-    "priceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A",
-    "stripeProductName": "Lamb Of God Tee"
+    "status": "available",
+    "founderFeatured": true
   },
   {
     "id": "prayer-cross-tee",
     "name": "Prayer Cross Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 25,
     "image": "assets/products/prayer-cross-tee.png",
     "sizes": [
       "S",
@@ -131,15 +126,14 @@
     ],
     "tag": "Launch",
     "desc": "Prayer Changes Things tee with Scripture and biblical context.",
-    "stripePriceId": "price_1Tr1l2RQ7M5gXs0AsMQ3XtyT",
-    "priceId": "price_1Tr1l2RQ7M5gXs0AsMQ3XtyT",
-    "stripeProductName": "Praying Tee"
+    "status": "available",
+    "founderFeatured": false
   },
   {
     "id": "crimson-worm-tee",
     "name": "Crimson Worm Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 25,
     "image": "assets/products/crimson-worm-tee.png",
     "sizes": [
       "S",
@@ -151,15 +145,14 @@
     ],
     "tag": "Launch",
     "desc": "Psalm 22 inspired design pointing to sacrifice, redemption, and life.",
-    "stripePriceId": "price_1Tr1dbRQ7M5gXs0AOJ32Ehdg",
-    "priceId": "price_1Tr1dbRQ7M5gXs0AOJ32Ehdg",
-    "stripeProductName": "Crimson Worm Brand Launch Tee"
+    "status": "available",
+    "founderFeatured": false
   },
   {
     "id": "yahweh-tee",
-    "name": "YAHWEH Tee",
+    "name": "YHWH Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 30,
     "image": "assets/products/yahweh-tee.png",
     "sizes": [
       "S",
@@ -170,16 +163,15 @@
       "3XL"
     ],
     "tag": "Scripture",
-    "desc": "Exodus 3:14 sacred name design with teaching context.",
-    "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM",
-    "priceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM",
-    "stripeProductName": "Yahweh Tee"
+    "desc": "Sacred Name design featuring the Hebrew Tetragrammaton and YHWH.",
+    "status": "available",
+    "founderFeatured": false
   },
   {
     "id": "armor-of-god-tee",
     "name": "Armor of God Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 30,
     "image": "assets/products/armor-of-god-tee.png",
     "sizes": [
       "S",
@@ -191,15 +183,14 @@
     ],
     "tag": "Ephesians 6",
     "desc": "Full Armor of God design with Ephesians 6 teaching.",
-    "stripePriceId": "price_1Tr1gERQ7M5gXs0Ay6KDZDZ8",
-    "priceId": "price_1Tr1gERQ7M5gXs0Ay6KDZDZ8",
-    "stripeProductName": "AOG Tee"
+    "status": "available",
+    "founderFeatured": false
   },
   {
     "id": "lamb-of-god-tee",
     "name": "Lamb of God Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 30,
     "image": "assets/products/lamb-of-god-tee.png",
     "sizes": [
       "S",
@@ -211,15 +202,14 @@
     ],
     "tag": "John 1:29",
     "desc": "The perfect sacrifice design with John 1:29 and Isaiah 53.",
-    "stripePriceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A",
-    "priceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A",
-    "stripeProductName": "Lamb Of God Tee"
+    "status": "available",
+    "founderFeatured": false
   },
   {
     "id": "parting-the-sea-tee",
     "name": "Parting the Sea Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 30,
     "image": "assets/products/parting-the-sea-tee.png",
     "sizes": [
       "S",
@@ -231,15 +221,14 @@
     ],
     "tag": "Exodus 14",
     "desc": "Stand still and see the salvation of the Lord.",
-    "stripePriceId": "price_1Tr1p9RQ7M5gXs0ADDbEGAOf",
-    "priceId": "price_1Tr1p9RQ7M5gXs0ADDbEGAOf",
-    "stripeProductName": "Parting the Sea"
+    "status": "available",
+    "founderFeatured": false
   },
   {
     "id": "living-word-tee",
     "name": "The Living Word Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 30,
     "image": "assets/products/living-word-tee.png",
     "sizes": [
       "S",
@@ -251,15 +240,14 @@
     ],
     "tag": "Psalm 119",
     "desc": "Open Bible and cross design centered on the Word of God.",
-    "stripePriceId": "price_1Tr1nQRQ7M5gXs0AcCDm8inf",
-    "priceId": "price_1Tr1nQRQ7M5gXs0AcCDm8inf",
-    "stripeProductName": "psalms Tee"
+    "status": "available",
+    "founderFeatured": true
   },
   {
     "id": "burning-bush-tee",
     "name": "Burning Bush Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 30,
     "image": "assets/products/burning-bush-tee.png",
     "sizes": [
       "S",
@@ -271,9 +259,8 @@
     ],
     "tag": "Exodus 3",
     "desc": "Burning bush design with biblical context and Daily Walk QR concept.",
-    "stripePriceId": "price_1Tr1hqRQ7M5gXs0AjFGpCWQP",
-    "priceId": "price_1Tr1hqRQ7M5gXs0AjFGpCWQP",
-    "stripeProductName": "Burning bush Tee"
+    "status": "available",
+    "founderFeatured": false
   },
   {
     "id": "tan-sweatpants",
@@ -289,11 +276,10 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Bottoms",
+    "tag": "Coming Soon",
     "desc": "Tan sweatpants with brush cross and Crown 33 mark.",
-    "stripePriceId": "price_1Tr1ZlRQ7M5gXs0A6kDZ58aa",
-    "priceId": "price_1Tr1ZlRQ7M5gXs0A6kDZ58aa",
-    "stripeProductName": "Logo Sweats In Tan"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "charcoal-sweatpants",
@@ -309,11 +295,10 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Bottoms",
+    "tag": "Coming Soon",
     "desc": "Charcoal sweatpants with brush cross and Crown 33 mark.",
-    "stripePriceId": "price_1Tr1b4RQ7M5gXs0A4JWZ8961",
-    "priceId": "price_1Tr1b4RQ7M5gXs0A4JWZ8961",
-    "stripeProductName": "Sweat Pants Charcoal"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "black-shorts",
@@ -329,11 +314,10 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Shorts",
+    "tag": "Coming Soon",
     "desc": "Black basketball shorts with cross and Crown 33 mark.",
-    "stripePriceId": "price_1Tr1svRQ7M5gXs0AcmLFlNmz",
-    "priceId": "price_1Tr1svRQ7M5gXs0AcmLFlNmz",
-    "stripeProductName": "Logo Shorts Black"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "red-shorts",
@@ -349,11 +333,10 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Shorts",
+    "tag": "Coming Soon",
     "desc": "Red basketball shorts with gold cross and Crown 33 mark.",
-    "stripePriceId": "price_1Tr1yERQ7M5gXs0A7gVSXRMQ",
-    "priceId": "price_1Tr1yERQ7M5gXs0A7gVSXRMQ",
-    "stripeProductName": "Logo Shorts Red"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "white-shorts",
@@ -369,11 +352,10 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Shorts",
+    "tag": "Coming Soon",
     "desc": "White basketball shorts with gold cross and Crown 33 mark.",
-    "stripePriceId": "price_1Tr1uTRQ7M5gXs0AKiTeTsli",
-    "priceId": "price_1Tr1uTRQ7M5gXs0AKiTeTsli",
-    "stripeProductName": "Logo Shorts White"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "socks-black-red",
@@ -382,13 +364,13 @@
     "price": 15,
     "image": "assets/products/socks-black-red.png",
     "sizes": [
-      "One Size"
+      "Men 6-8 / Women 7-9",
+      "Men 9-12 / Women 10-13"
     ],
-    "tag": "Socks",
+    "tag": "Coming Soon",
     "desc": "Black crew socks with red cross.",
-    "stripePriceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH",
-    "priceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH",
-    "stripeProductName": "NV33 socks Black and Red"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "socks-gray",
@@ -397,12 +379,13 @@
     "price": 15,
     "image": "assets/products/socks-gray.png",
     "sizes": [
-      "One Size"
+      "Men 6-8 / Women 7-9",
+      "Men 9-12 / Women 10-13"
     ],
-    "tag": "Socks",
+    "tag": "Coming Soon",
     "desc": "Gray crew socks with white cross.",
-    "stripePriceId": "",
-    "priceId": ""
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "socks-olive",
@@ -411,13 +394,13 @@
     "price": 15,
     "image": "assets/products/socks-olive.png",
     "sizes": [
-      "One Size"
+      "Men 6-8 / Women 7-9",
+      "Men 9-12 / Women 10-13"
     ],
-    "tag": "Socks",
+    "tag": "Coming Soon",
     "desc": "Olive crew socks with white cross.",
-    "stripePriceId": "price_1Tr29oRQ7M5gXs0Ay3veiHt7",
-    "priceId": "price_1Tr29oRQ7M5gXs0Ay3veiHt7",
-    "stripeProductName": "NV33 Olive"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "socks-blue",
@@ -426,13 +409,13 @@
     "price": 15,
     "image": "assets/products/socks-carolina-blue.png",
     "sizes": [
-      "One Size"
+      "Men 6-8 / Women 7-9",
+      "Men 9-12 / Women 10-13"
     ],
-    "tag": "Socks",
+    "tag": "Coming Soon",
     "desc": "Carolina blue crew socks with white cross.",
-    "stripePriceId": "price_1Tr28PRQ7M5gXs0AjoVnNgB1",
-    "priceId": "price_1Tr28PRQ7M5gXs0AjoVnNgB1",
-    "stripeProductName": "Blue NV33 Socks"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "water-bottle",
@@ -443,11 +426,10 @@
     "sizes": [
       "40 oz"
     ],
-    "tag": "Drinkware",
+    "tag": "Coming Soon",
     "desc": "Insulated stainless steel water bottle with Daily Walk QR concept.",
-    "stripePriceId": "price_1Tr20xRQ7M5gXs0AHppoFKWE",
-    "priceId": "price_1Tr20xRQ7M5gXs0AHppoFKWE",
-    "stripeProductName": "NV33 Water Bottle"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "duffle-bag",
@@ -458,11 +440,10 @@
     "sizes": [
       "One Size"
     ],
-    "tag": "Bag",
+    "tag": "Coming Soon",
     "desc": "Premium black duffle with Lion mark and brush cross detail.",
-    "stripePriceId": "price_1Tr234RQ7M5gXs0AYKurlbgo",
-    "priceId": "price_1Tr234RQ7M5gXs0AYKurlbgo",
-    "stripeProductName": "NV33 Duffle Bag"
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "wristband",
@@ -473,10 +454,10 @@
     "sizes": [
       "One Size"
     ],
-    "tag": "Scripture",
+    "tag": "Coming Soon",
     "desc": "Slim silicone wristband with Scripture reference.",
-    "stripePriceId": "",
-    "priceId": ""
+    "status": "coming-soon",
+    "founderFeatured": false
   },
   {
     "id": "daily-walk-kit",
@@ -489,7 +470,7 @@
     ],
     "tag": "Coming Soon",
     "desc": "Bible organizer kit concept with journal, prayer cards, and reading plan.",
-    "stripePriceId": "",
-    "priceId": ""
+    "status": "coming-soon",
+    "founderFeatured": false
   }
 ]
