@@ -1,0 +1,1 @@
+Milestone 1 scaffold for No Vanity 33 Launch Edition. Next step: integrate products, Stripe, Printful, search, wishlist, reviews and SEO.
