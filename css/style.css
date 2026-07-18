@@ -451,3 +451,92 @@ select{
 .shroud-visual{
   background:radial-gradient(circle at 52% 48%, rgba(78,78,78,.72) 0%, rgba(48,48,48,.46) 42%, rgba(10,10,10,0) 72%);
 }
+
+/* ===== NO VANITY 33 VERSION 3 ===== */
+:root{
+  --panel:#111111;
+  --charcoal:#353535;
+  --charcoal-light:#4a4a4a;
+}
+.card{
+  border-radius:12px;
+  padding:16px;
+  background:linear-gradient(180deg,#111 0%,#080808 100%);
+  box-shadow:0 10px 28px rgba(0,0,0,.28);
+}
+.card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 18px 38px rgba(0,0,0,.42),0 0 26px rgba(246,196,66,.10);
+}
+.imgbox{
+  background:radial-gradient(circle at 50% 40%,#555 0%,#414141 48%,#2d2d2d 100%) !important;
+  border:1px solid rgba(255,255,255,.10);
+  min-height:270px;
+}
+.imgbox img{
+  filter:drop-shadow(0 16px 20px rgba(0,0,0,.48));
+}
+.coming-card{
+  background:linear-gradient(180deg,#0d0d0d,#070707);
+  border-color:#4a3a18;
+}
+.coming-card .coming-img{
+  position:relative;
+  background:radial-gradient(circle at 50% 42%,#505050 0%,#383838 55%,#272727 100%) !important;
+}
+.coming-card .coming-img img{
+  filter:brightness(.58) saturate(.72) contrast(1.04);
+  opacity:.72;
+}
+.coming-overlay{
+  position:absolute;
+  inset:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:22px;
+  background:linear-gradient(180deg,rgba(0,0,0,.12),rgba(0,0,0,.72));
+}
+.coming-overlay span{
+  color:var(--gold);
+  text-transform:uppercase;
+  letter-spacing:2.5px;
+  font-size:14px;
+  font-weight:950;
+  text-shadow:0 2px 8px #000;
+}
+.coming-overlay small{
+  margin-top:8px;
+  color:#eee;
+  max-width:190px;
+  line-height:1.4;
+  text-shadow:0 2px 8px #000;
+}
+.waitlist-button{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  background:linear-gradient(#2d2411,#171109);
+  color:#e5c16b;
+  border:1px solid #6e5724;
+}
+.waitlist-button:hover{
+  background:linear-gradient(#ffdf62,#ca8d13);
+  color:#050505;
+}
+.coming-ribbon{
+  letter-spacing:1.6px;
+  box-shadow:0 5px 16px rgba(0,0,0,.55);
+}
+.card h3{min-height:auto;margin-top:7px}
+.desc{min-height:58px}
+.add{transition:transform .15s ease,filter .15s ease}
+.add:hover{filter:brightness(1.07);transform:translateY(-1px)}
+@media(max-width:760px){
+  .card{min-height:auto}
+  .imgbox{height:auto;aspect-ratio:1/1}
+  .founder-grid .imgbox{height:auto}
+}

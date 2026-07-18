@@ -25,7 +25,16 @@ function renderCart(){
 }
 function productCard(p,coming=false){
   const idAttr=p.id==='shroud-tee'?' id="shroud-tee-card"':'';
-  if(coming){return `<article class="card coming-card"${idAttr}><div class="coming-ribbon">COMING SOON</div><div class="imgbox"><img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.src='assets/logos/crown33.png'"></div><h3>${p.name}</h3><p class="desc">${p.desc||'Currently in development.'}</p><button class="add coming-button" disabled>Available Soon</button></article>`;}
+  if(coming){return `<article class="card coming-card"${idAttr}>
+    <div class="coming-ribbon">COMING SOON</div>
+    <div class="imgbox coming-img">
+      <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.src='assets/logos/crown33.png'">
+      <div class="coming-overlay"><span>${p.comingSoonLabel||'In Development'}</span><small>Quality first. Launching when ready.</small></div>
+    </div>
+    <h3>${p.name}</h3>
+    <p class="desc">${p.desc||'Currently in development.'}</p>
+    <a class="add coming-button waitlist-button" href="mailto:novanity2026@gmail.com?subject=Waitlist%20-%20${encodeURIComponent(p.name)}">Join the Waitlist</a>
+  </article>`;}
   return `<article class="card"${idAttr}><span class="badge">${p.tag||'Available'}</span><div class="imgbox"><img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.src='assets/logos/crown33.png'"></div><h3>${p.name}</h3><p class="price">${money(p.price)}</p><p class="desc">${p.desc||'Premium Christian apparel.'}</p><select id="size-${p.id}" aria-label="Choose size for ${p.name}">${(p.sizes||['One Size']).map(s=>`<option>${s}</option>`).join('')}</select><button class="add" onclick="addToCart('${p.id}')">🛒 Add to Cart</button></article>`;
 }
 function renderAvailable(filter='All'){
@@ -39,4 +48,4 @@ function renderAll(){
 }
 document.querySelectorAll('[data-filter]').forEach(btn=>{btn.onclick=()=>{document.querySelectorAll('[data-filter]').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderAvailable(btn.dataset.filter);};});
 cartBtn.onclick=e=>{e.preventDefault();cartBox.classList.toggle('show');};
-fetch('data/products.json?v=stripe-rebuild-20260717').then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();}).then(d=>{products=d;renderAll();}).catch(err=>{console.error(err);grid.innerHTML='<p class="load-error">Product catalog could not load. Please refresh the page.</p>';});
+fetch('data/products.json?v=version3-20260717').then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();}).then(d=>{products=d;renderAll();}).catch(err=>{console.error(err);grid.innerHTML='<p class="load-error">Product catalog could not load. Please refresh the page.</p>';});

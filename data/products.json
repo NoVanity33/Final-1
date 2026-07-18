@@ -75,10 +75,11 @@
       "3XL"
     ],
     "tag": "Coming Soon",
-    "desc": "Black sweatpants with brush cross and Crown 33 mark.",
+    "desc": "Black sweatpants with brush cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1YaRQ7M5gXs0AfJeNAXWc"
+    "stripePriceId": "price_1Tr1YaRQ7M5gXs0AfJeNAXWc",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "socks-black",
@@ -91,10 +92,11 @@
       "Men 9-12 / Women 10-13"
     ],
     "tag": "Coming Soon",
-    "desc": "Black crew socks with clean white cross.",
+    "desc": "Black crew socks with clean white cross. We are sourcing a specialty production partner to meet our quality standard.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH"
+    "stripePriceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "lion-of-judah-tee",
@@ -291,10 +293,11 @@
       "3XL"
     ],
     "tag": "Coming Soon",
-    "desc": "Tan sweatpants with brush cross and Crown 33 mark.",
+    "desc": "Tan sweatpants with brush cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1ZlRQ7M5gXs0A6kDZ58aa"
+    "stripePriceId": "price_1Tr1ZlRQ7M5gXs0A6kDZ58aa",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "charcoal-sweatpants",
@@ -311,10 +314,11 @@
       "3XL"
     ],
     "tag": "Coming Soon",
-    "desc": "Charcoal sweatpants with brush cross and Crown 33 mark.",
+    "desc": "Charcoal sweatpants with brush cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1b4RQ7M5gXs0A4JWZ8961"
+    "stripePriceId": "price_1Tr1b4RQ7M5gXs0A4JWZ8961",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "black-shorts",
@@ -331,10 +335,11 @@
       "3XL"
     ],
     "tag": "Coming Soon",
-    "desc": "Black basketball shorts with cross and Crown 33 mark.",
+    "desc": "Black basketball shorts with cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1svRQ7M5gXs0AcmLFlNmz"
+    "stripePriceId": "price_1Tr1svRQ7M5gXs0AcmLFlNmz",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "red-shorts",
@@ -351,10 +356,11 @@
       "3XL"
     ],
     "tag": "Coming Soon",
-    "desc": "Red basketball shorts with gold cross and Crown 33 mark.",
+    "desc": "Red basketball shorts with gold cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1yERQ7M5gXs0A7gVSXRMQ"
+    "stripePriceId": "price_1Tr1yERQ7M5gXs0A7gVSXRMQ",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "white-shorts",
@@ -371,10 +377,11 @@
       "3XL"
     ],
     "tag": "Coming Soon",
-    "desc": "White basketball shorts with gold cross and Crown 33 mark.",
+    "desc": "White basketball shorts with gold cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1uTRQ7M5gXs0AKiTeTsli"
+    "stripePriceId": "price_1Tr1uTRQ7M5gXs0AKiTeTsli",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "socks-black-red",
@@ -387,10 +394,11 @@
       "Men 9-12 / Women 10-13"
     ],
     "tag": "Coming Soon",
-    "desc": "Black crew socks with red cross.",
+    "desc": "Black crew socks with red cross. We are sourcing a specialty production partner to meet our quality standard.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH"
+    "stripePriceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "socks-gray",
@@ -403,9 +411,10 @@
       "Men 9-12 / Women 10-13"
     ],
     "tag": "Coming Soon",
-    "desc": "Gray crew socks with white cross.",
+    "desc": "Gray crew socks with white cross. We are sourcing a specialty production partner to meet our quality standard.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "socks-olive",
@@ -418,10 +427,11 @@
       "Men 9-12 / Women 10-13"
     ],
     "tag": "Coming Soon",
-    "desc": "Olive crew socks with white cross.",
+    "desc": "Olive crew socks with white cross. We are sourcing a specialty production partner to meet our quality standard.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr29oRQ7M5gXs0Ay3veiHt7"
+    "stripePriceId": "price_1Tr29oRQ7M5gXs0Ay3veiHt7",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "socks-blue",
@@ -434,10 +444,11 @@
       "Men 9-12 / Women 10-13"
     ],
     "tag": "Coming Soon",
-    "desc": "Carolina blue crew socks with white cross.",
+    "desc": "Carolina blue crew socks with white cross. We are sourcing a specialty production partner to meet our quality standard.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr28PRQ7M5gXs0AjoVnNgB1"
+    "stripePriceId": "price_1Tr28PRQ7M5gXs0AjoVnNgB1",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "water-bottle",
@@ -452,7 +463,8 @@
     "desc": "Insulated stainless steel water bottle with Daily Walk QR concept.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr20xRQ7M5gXs0AHppoFKWE"
+    "stripePriceId": "price_1Tr20xRQ7M5gXs0AHppoFKWE",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "duffle-bag",
@@ -467,7 +479,8 @@
     "desc": "Premium black duffle with Lion mark and brush cross detail.",
     "status": "coming-soon",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr234RQ7M5gXs0AYKurlbgo"
+    "stripePriceId": "price_1Tr234RQ7M5gXs0AYKurlbgo",
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "wristband",
@@ -481,7 +494,8 @@
     "tag": "Coming Soon",
     "desc": "Slim silicone wristband with Scripture reference.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "comingSoonLabel": "In Development"
   },
   {
     "id": "daily-walk-kit",
@@ -495,6 +509,7 @@
     "tag": "Coming Soon",
     "desc": "Bible organizer kit concept with journal, prayer cards, and reading plan.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "comingSoonLabel": "In Development"
   }
 ]

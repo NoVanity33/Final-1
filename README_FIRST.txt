@@ -1,44 +1,33 @@
-NO VANITY 33 — FINAL STRIPE + PRODUCT BACKGROUND UPDATE
-Prepared July 17, 2026
+NO VANITY 33 — VERSION 3
+Prepared for the Wisconsin Christian community opportunity.
 
-THIS PACKAGE COMPLETES:
-- The Shroud Tee Stripe mapping
-- Lion of Judah Tee Stripe mapping
-- Lion of Judah Hoodie Stripe mapping
-- All previously verified Stripe mappings
-- Medium-dark charcoal product image backgrounds
-- Softer contrast and drop shadows so black garments remain visible
+INCLUDED
+- Complete verified Stripe mappings for all currently available products
+- Medium-dark charcoal backgrounds for black product mockups supplied
+- Redesigned Coming Soon cards with actual product previews
+- Join the Waitlist buttons
+- Updated language for specialty production partners
+- Improved hover effects, spacing, shadows, product visibility and mobile cards
+- Fresh cache versions for Cloudflare/browser refresh
 
-NEW VERIFIED STRIPE IDs
-The Shroud Tee:
-price_1Tr2dfRQ7M5gXs0ABzOZcDRl
-
-Lion of Judah Tee:
-price_1TuPdURQ7M5gXs0AVgIvdwJ1
-
-Lion of Judah Hoodie:
-price_1Tr2hgRQ7M5gXs0AZK8lSqU4
-
-COPY THESE FILES INTO YOUR WEBSITE PROJECT:
+UPLOAD/REPLACE
+- index.html
+- checkout.html
 - data/products.json
 - js/app.js
-- checkout.html
 - css/style.css
-- index.html
+- assets/products/ (copy all included images and replace matching files)
 
-Replace the existing versions.
+DEPLOY
+1. Copy the files into the matching locations in your website project.
+2. Commit: Launch No Vanity 33 Version 3
+3. Push and let Cloudflare deploy.
+4. Press Ctrl+Shift+R.
+5. Clear the old cart.
+6. Test The Shroud Tee, Lion of Judah Tee and Lion of Judah Hoodie separately.
+7. Confirm product name and amount on Stripe before completing any payment.
 
-DEPLOYMENT:
-1. Copy the five files into the matching locations.
-2. Commit: Final Stripe mappings and charcoal product backgrounds
-3. Push/deploy through GitHub and Cloudflare.
-4. Wait for deployment completion.
-5. Press Ctrl+Shift+R on the live site.
-6. Clear the old cart.
-7. Add The Shroud Tee, Lion of Judah Tee, and Hoodie one at a time.
-8. Confirm each opens Stripe with the correct product and amount.
-
-IMPORTANT:
-The charcoal treatment changes the website image containers. It does not permanently alter
-the original PNG artwork files. This keeps the product assets clean while making every black
-shirt easier to see throughout the store.
+IMPORTANT
+The bottoms and socks remain Coming Soon. The site now explains that specialty production
+partners are being sourced, which protects quality while allowing interested customers to
+join a waitlist.
