@@ -540,3 +540,63 @@ select{
   .imgbox{height:auto;aspect-ratio:1/1}
   .founder-grid .imgbox{height:auto}
 }
+
+/* ===== NO VANITY 33 VERSION 4 ===== */
+.product-card .imgbox{
+  background:#3f3f3f!important;
+}
+.preview-card{
+  border-color:#74591f;
+  background:linear-gradient(180deg,#151515,#090909);
+}
+.preview-card .preview-img{
+  height:auto;
+  min-height:0;
+  aspect-ratio:1/1;
+  padding:0;
+  overflow:hidden;
+  background:#353535!important;
+}
+.preview-card .preview-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  filter:none;
+  transform:none;
+}
+.preview-card:hover .preview-img img{
+  transform:scale(1.015);
+}
+.preview-ribbon{
+  display:inline-block;
+  margin-bottom:10px;
+  padding:7px 11px;
+  border:1px solid #8d6a24;
+  color:#f4c84b;
+  background:linear-gradient(180deg,#31250e,#171006);
+  font-weight:900;
+  font-size:11px;
+  letter-spacing:1.5px;
+}
+.preview-card .desc{
+  min-height:78px;
+}
+.waitlist-button{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  background:linear-gradient(#ffdc57,#bf7e08);
+  color:#050505;
+  border:0;
+}
+@media(min-width:1100px){
+  .coming-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+}
+@media(max-width:1099px) and (min-width:700px){
+  .coming-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}

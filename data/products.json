@@ -61,44 +61,6 @@
     "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp"
   },
   {
-    "id": "black-sweatpants",
-    "name": "Crown 33 Sweatpants - Black",
-    "category": "Sweatpants",
-    "price": 45,
-    "image": "assets/products/black-sweatpants.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Coming Soon",
-    "desc": "Black sweatpants with brush cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
-    "status": "coming-soon",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr1YaRQ7M5gXs0AfJeNAXWc",
-    "comingSoonLabel": "In Development"
-  },
-  {
-    "id": "socks-black",
-    "name": "Cross Socks - Black",
-    "category": "Socks",
-    "price": 15,
-    "image": "assets/products/socks-black.png",
-    "sizes": [
-      "Men 6-8 / Women 7-9",
-      "Men 9-12 / Women 10-13"
-    ],
-    "tag": "Coming Soon",
-    "desc": "Black crew socks with clean white cross. We are sourcing a specialty production partner to meet our quality standard.",
-    "status": "coming-soon",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH",
-    "comingSoonLabel": "In Development"
-  },
-  {
     "id": "lion-of-judah-tee",
     "name": "Lion of Judah Tee",
     "category": "Premium Tees",
@@ -279,53 +241,11 @@
     "stripePriceId": "price_1Tr1hqRQ7M5gXs0AjFGpCWQP"
   },
   {
-    "id": "tan-sweatpants",
-    "name": "Crown 33 Sweatpants - Tan",
-    "category": "Sweatpants",
-    "price": 45,
-    "image": "assets/products/tan-sweatpants.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Coming Soon",
-    "desc": "Tan sweatpants with brush cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
-    "status": "coming-soon",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr1ZlRQ7M5gXs0A6kDZ58aa",
-    "comingSoonLabel": "In Development"
-  },
-  {
-    "id": "charcoal-sweatpants",
-    "name": "Crown 33 Sweatpants - Charcoal",
-    "category": "Sweatpants",
-    "price": 45,
-    "image": "assets/products/charcoal-sweatpants.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Coming Soon",
-    "desc": "Charcoal sweatpants with brush cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
-    "status": "coming-soon",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr1b4RQ7M5gXs0A4JWZ8961",
-    "comingSoonLabel": "In Development"
-  },
-  {
-    "id": "black-shorts",
-    "name": "Crown 33 Basketball Shorts - Black",
-    "category": "Shorts",
+    "id": "simple-cross-tee",
+    "name": "Philippians 4:13 Cross Tee",
+    "category": "Premium Tees",
     "price": 30,
-    "image": "assets/products/black-shorts.png",
+    "image": "assets/products/simple-cross-tee.png",
     "sizes": [
       "S",
       "M",
@@ -334,19 +254,18 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Coming Soon",
-    "desc": "Black basketball shorts with cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
-    "status": "coming-soon",
+    "tag": "New",
+    "desc": "Clean white tee with an ornate gold cross and Philippians 4:13 on the back.",
+    "status": "available",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1svRQ7M5gXs0AcmLFlNmz",
-    "comingSoonLabel": "In Development"
+    "stripePriceId": "price_1Tr2iwRQ7M5gXs0AnNpgoFA0"
   },
   {
-    "id": "red-shorts",
-    "name": "Crown 33 Basketball Shorts - Red",
-    "category": "Shorts",
+    "id": "worthy-lamb-grey-tee",
+    "name": "Worthy Is the Lamb Tee",
+    "category": "Premium Tees",
     "price": 30,
-    "image": "assets/products/red-shorts.png",
+    "image": "assets/products/worthy-lamb-grey-tee.png",
     "sizes": [
       "S",
       "M",
@@ -355,19 +274,18 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Coming Soon",
-    "desc": "Red basketball shorts with gold cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
-    "status": "coming-soon",
+    "tag": "New",
+    "desc": "Heather gray Lamb of God tee with a crown-of-thorns illustration and John 3:16.",
+    "status": "available",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1yERQ7M5gXs0A7gVSXRMQ",
-    "comingSoonLabel": "In Development"
+    "stripePriceId": "price_1Tr2g9RQ7M5gXs0A5icFrGWK"
   },
   {
-    "id": "white-shorts",
-    "name": "Crown 33 Basketball Shorts - White",
-    "category": "Shorts",
+    "id": "crown33-maroon-tee",
+    "name": "Crown 33 Maroon Tee",
+    "category": "Premium Tees",
     "price": 30,
-    "image": "assets/products/white-shorts.png",
+    "image": "assets/products/crown33-maroon-tee.png",
     "sizes": [
       "S",
       "M",
@@ -376,140 +294,82 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Coming Soon",
-    "desc": "White basketball shorts with gold cross and Crown 33 mark. We are sourcing a specialty production partner to meet our quality standard.",
-    "status": "coming-soon",
+    "tag": "New",
+    "desc": "Maroon Crown 33 chest-logo tee featuring John 3:16 on the back.",
+    "status": "available",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1uTRQ7M5gXs0AKiTeTsli",
-    "comingSoonLabel": "In Development"
+    "stripePriceId": "price_1Tr2eeRQ7M5gXs0AcYulj7vX"
   },
   {
-    "id": "socks-black-red",
-    "name": "Cross Socks - Black / Red",
-    "category": "Socks",
-    "price": 15,
-    "image": "assets/products/socks-black-red.png",
-    "sizes": [
-      "Men 6-8 / Women 7-9",
-      "Men 9-12 / Women 10-13"
-    ],
+    "id": "preview-socks",
+    "name": "Cross Crew Socks Collection",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-socks.png",
+    "sizes": [],
     "tag": "Coming Soon",
-    "desc": "Black crew socks with red cross. We are sourcing a specialty production partner to meet our quality standard.",
+    "desc": "Six planned colorways presented together. We are sourcing a specialty sock partner who can meet the quality standard.",
     "status": "coming-soon",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH",
-    "comingSoonLabel": "In Development"
+    "comingSoonLabel": "Founder’s Preview"
   },
   {
-    "id": "socks-gray",
-    "name": "Cross Socks - Gray",
-    "category": "Socks",
-    "price": 15,
-    "image": "assets/products/socks-gray.png",
-    "sizes": [
-      "Men 6-8 / Women 7-9",
-      "Men 9-12 / Women 10-13"
-    ],
+    "id": "preview-shorts",
+    "name": "Performance Shorts Collection",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-shorts.png",
+    "sizes": [],
     "tag": "Coming Soon",
-    "desc": "Gray crew socks with white cross. We are sourcing a specialty production partner to meet our quality standard.",
+    "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
     "status": "coming-soon",
-    "founderFeatured": false,
-    "comingSoonLabel": "In Development"
+    "comingSoonLabel": "Founder’s Preview"
   },
   {
-    "id": "socks-olive",
-    "name": "Cross Socks - Olive",
-    "category": "Socks",
-    "price": 15,
-    "image": "assets/products/socks-olive.png",
-    "sizes": [
-      "Men 6-8 / Women 7-9",
-      "Men 9-12 / Women 10-13"
-    ],
+    "id": "preview-sweatpants",
+    "name": "Premium Sweatpants Collection",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-sweatpants.png",
+    "sizes": [],
     "tag": "Coming Soon",
-    "desc": "Olive crew socks with white cross. We are sourcing a specialty production partner to meet our quality standard.",
+    "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
     "status": "coming-soon",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr29oRQ7M5gXs0Ay3veiHt7",
-    "comingSoonLabel": "In Development"
+    "comingSoonLabel": "Founder’s Preview"
   },
   {
-    "id": "socks-blue",
-    "name": "Cross Socks - Carolina Blue",
-    "category": "Socks",
-    "price": 15,
-    "image": "assets/products/socks-carolina-blue.png",
-    "sizes": [
-      "Men 6-8 / Women 7-9",
-      "Men 9-12 / Women 10-13"
-    ],
-    "tag": "Coming Soon",
-    "desc": "Carolina blue crew socks with white cross. We are sourcing a specialty production partner to meet our quality standard.",
-    "status": "coming-soon",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr28PRQ7M5gXs0AjoVnNgB1",
-    "comingSoonLabel": "In Development"
-  },
-  {
-    "id": "water-bottle",
-    "name": "40oz Scripture Bottle",
-    "category": "Accessories",
-    "price": 35,
-    "image": "assets/products/water-bottle.png",
-    "sizes": [
-      "40 oz"
-    ],
-    "tag": "Coming Soon",
-    "desc": "Insulated stainless steel water bottle with Daily Walk QR concept.",
-    "status": "coming-soon",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr20xRQ7M5gXs0AHppoFKWE",
-    "comingSoonLabel": "In Development"
-  },
-  {
-    "id": "duffle-bag",
+    "id": "preview-duffle",
     "name": "No Vanity 33 Duffle Bag",
-    "category": "Accessories",
-    "price": 60,
-    "image": "assets/products/duffle-bag.png",
-    "sizes": [
-      "One Size"
-    ],
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-duffle.png",
+    "sizes": [],
     "tag": "Coming Soon",
-    "desc": "Premium black duffle with Lion mark and brush cross detail.",
+    "desc": "A purpose-built premium duffle concept for the gym, church, travel, and everyday use.",
     "status": "coming-soon",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr234RQ7M5gXs0AYKurlbgo",
-    "comingSoonLabel": "In Development"
+    "comingSoonLabel": "Founder’s Preview"
   },
   {
-    "id": "wristband",
-    "name": "Scripture Wristband",
-    "category": "Accessories",
-    "price": 5,
-    "image": "assets/products/wristband.png",
-    "sizes": [
-      "One Size"
-    ],
+    "id": "preview-water-bottle",
+    "name": "40oz Scripture Water Bottle",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-water-bottle.png",
+    "sizes": [],
     "tag": "Coming Soon",
-    "desc": "Slim silicone wristband with Scripture reference.",
+    "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
     "status": "coming-soon",
-    "founderFeatured": false,
-    "comingSoonLabel": "In Development"
+    "comingSoonLabel": "Founder’s Preview"
   },
   {
-    "id": "daily-walk-kit",
-    "name": "Daily Walk Bible Kit",
-    "category": "Daily Walk",
-    "price": 80,
-    "image": "assets/logos/lion33.png",
-    "sizes": [
-      "One Size"
-    ],
+    "id": "preview-wristbands",
+    "name": "Scripture Wristband Collection",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-wristbands.png",
+    "sizes": [],
     "tag": "Coming Soon",
-    "desc": "Bible organizer kit concept with journal, prayer cards, and reading plan.",
+    "desc": "Comfortable faith wristbands planned with rotating Scripture references.",
     "status": "coming-soon",
-    "founderFeatured": false,
-    "comingSoonLabel": "In Development"
+    "comingSoonLabel": "Founder’s Preview"
   }
 ]

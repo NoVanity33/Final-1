@@ -1,33 +1,55 @@
-NO VANITY 33 — VERSION 3
-Prepared for the Wisconsin Christian community opportunity.
+NO VANITY 33 — VERSION 4
+Prepared July 18, 2026
 
-INCLUDED
-- Complete verified Stripe mappings for all currently available products
-- Medium-dark charcoal backgrounds for black product mockups supplied
-- Redesigned Coming Soon cards with actual product previews
-- Join the Waitlist buttons
-- Updated language for specialty production partners
-- Improved hover effects, spacing, shadows, product visibility and mobile cards
-- Fresh cache versions for Cloudflare/browser refresh
+WHY VERSION 4
+This is a catalog restructure, not a small patch:
+- All final approved storefront images are included.
+- Three new live $30 shirts were added.
+- The Coming Soon area was rebuilt as six consolidated Founder's Preview cards.
+- Existing Stripe mappings were preserved.
+- New shirt Stripe mappings were added.
+- Old duplicate socks, shorts and sweatpants listings were removed from the storefront.
+- Browser and Cloudflare cache versions were refreshed.
 
-UPLOAD/REPLACE
+NEW LIVE SHIRTS
+1. Philippians 4:13 Cross Tee — $30
+   Stripe: price_1Tr2iwRQ7M5gXs0AnNpgoFA0
+
+2. Worthy Is the Lamb Tee — $30
+   Stripe: price_1Tr2g9RQ7M5gXs0A5icFrGWK
+
+3. Crown 33 Maroon Tee — $30
+   Stripe: price_1Tr2eeRQ7M5gXs0AcYulj7vX
+
+FOUNDER'S PREVIEW CARDS
+- Cross Crew Socks Collection
+- Performance Shorts Collection
+- Premium Sweatpants Collection
+- Duffle Bag
+- 40oz Scripture Water Bottle
+- Scripture Wristbands
+
+AVAILABLE PRODUCTS MISSING STRIPE IDS
+- None
+
+UPLOAD
+Replace these items in the website project:
 - index.html
 - checkout.html
 - data/products.json
 - js/app.js
 - css/style.css
-- assets/products/ (copy all included images and replace matching files)
+- assets/products/  (copy all included files and replace matching files)
 
-DEPLOY
-1. Copy the files into the matching locations in your website project.
-2. Commit: Launch No Vanity 33 Version 3
-3. Push and let Cloudflare deploy.
-4. Press Ctrl+Shift+R.
-5. Clear the old cart.
-6. Test The Shroud Tee, Lion of Judah Tee and Lion of Judah Hoodie separately.
-7. Confirm product name and amount on Stripe before completing any payment.
+DEPLOYMENT
+1. Copy the files into the matching folders.
+2. Commit: Launch No Vanity 33 Version 4
+3. Push/deploy through GitHub and Cloudflare.
+4. Wait for deployment to complete.
+5. Press Ctrl+Shift+R on novanity33.com.
+6. Clear the old cart before testing.
+7. Test the three new shirts individually.
+8. Confirm the correct product name and $30 amount on Stripe.
 
 IMPORTANT
-The bottoms and socks remain Coming Soon. The site now explains that specialty production
-partners are being sourced, which protects quality while allowing interested customers to
-join a waitlist.
+The preview products are not purchasable. Their Notify Me buttons open an email waitlist message.
