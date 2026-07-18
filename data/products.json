@@ -17,7 +17,8 @@
     "status": "available",
     "featured": true,
     "desc": "A black premium tee inspired by the Shroud of Turin, created to point toward the sacrifice and resurrection of Jesus Christ.",
-    "founderFeatured": true
+    "founderFeatured": true,
+    "stripePriceId": "price_1Tr2dfRQ7M5gXs0ABzOZcDRl"
   },
   {
     "id": "lion-of-judah-hoodie",
@@ -36,7 +37,8 @@
     "tag": "Featured",
     "desc": "Premium black hoodie with Lion of Judah front/back artwork.",
     "status": "available",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr2hgRQ7M5gXs0AZK8lSqU4"
   },
   {
     "id": "crown33-tee",
@@ -55,7 +57,8 @@
     "tag": "Featured",
     "desc": "Crown of thorns and 33 design pointing to Christ’s finished work.",
     "status": "available",
-    "founderFeatured": true
+    "founderFeatured": true,
+    "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp"
   },
   {
     "id": "black-sweatpants",
@@ -74,7 +77,8 @@
     "tag": "Coming Soon",
     "desc": "Black sweatpants with brush cross and Crown 33 mark.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1YaRQ7M5gXs0AfJeNAXWc"
   },
   {
     "id": "socks-black",
@@ -89,7 +93,8 @@
     "tag": "Coming Soon",
     "desc": "Black crew socks with clean white cross.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH"
   },
   {
     "id": "lion-of-judah-tee",
@@ -108,7 +113,8 @@
     "tag": "Best Seller",
     "desc": "Revelation 5:5 front/back tee with Lion of Judah artwork.",
     "status": "available",
-    "founderFeatured": true
+    "founderFeatured": true,
+    "stripePriceId": "price_1TuPdURQ7M5gXs0AVgIvdwJ1"
   },
   {
     "id": "prayer-cross-tee",
@@ -127,7 +133,8 @@
     "tag": "Launch",
     "desc": "Prayer Changes Things tee with Scripture and biblical context.",
     "status": "available",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1l2RQ7M5gXs0AsMQ3XtyT"
   },
   {
     "id": "crimson-worm-tee",
@@ -146,7 +153,8 @@
     "tag": "Launch",
     "desc": "Psalm 22 inspired design pointing to sacrifice, redemption, and life.",
     "status": "available",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1dbRQ7M5gXs0AOJ32Ehdg"
   },
   {
     "id": "yahweh-tee",
@@ -165,7 +173,8 @@
     "tag": "Scripture",
     "desc": "Sacred Name design featuring the Hebrew Tetragrammaton and YHWH.",
     "status": "available",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM"
   },
   {
     "id": "armor-of-god-tee",
@@ -184,7 +193,8 @@
     "tag": "Ephesians 6",
     "desc": "Full Armor of God design with Ephesians 6 teaching.",
     "status": "available",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1gERQ7M5gXs0Ay6KDZDZ8"
   },
   {
     "id": "lamb-of-god-tee",
@@ -203,7 +213,8 @@
     "tag": "John 1:29",
     "desc": "The perfect sacrifice design with John 1:29 and Isaiah 53.",
     "status": "available",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A"
   },
   {
     "id": "parting-the-sea-tee",
@@ -222,7 +233,8 @@
     "tag": "Exodus 14",
     "desc": "Stand still and see the salvation of the Lord.",
     "status": "available",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1p9RQ7M5gXs0ADDbEGAOf"
   },
   {
     "id": "living-word-tee",
@@ -241,7 +253,8 @@
     "tag": "Psalm 119",
     "desc": "Open Bible and cross design centered on the Word of God.",
     "status": "available",
-    "founderFeatured": true
+    "founderFeatured": true,
+    "stripePriceId": "price_1Tr1nQRQ7M5gXs0AcCDm8inf"
   },
   {
     "id": "burning-bush-tee",
@@ -260,7 +273,8 @@
     "tag": "Exodus 3",
     "desc": "Burning bush design with biblical context and Daily Walk QR concept.",
     "status": "available",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1hqRQ7M5gXs0AjFGpCWQP"
   },
   {
     "id": "tan-sweatpants",
@@ -279,7 +293,8 @@
     "tag": "Coming Soon",
     "desc": "Tan sweatpants with brush cross and Crown 33 mark.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1ZlRQ7M5gXs0A6kDZ58aa"
   },
   {
     "id": "charcoal-sweatpants",
@@ -298,7 +313,8 @@
     "tag": "Coming Soon",
     "desc": "Charcoal sweatpants with brush cross and Crown 33 mark.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1b4RQ7M5gXs0A4JWZ8961"
   },
   {
     "id": "black-shorts",
@@ -317,7 +333,8 @@
     "tag": "Coming Soon",
     "desc": "Black basketball shorts with cross and Crown 33 mark.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1svRQ7M5gXs0AcmLFlNmz"
   },
   {
     "id": "red-shorts",
@@ -336,7 +353,8 @@
     "tag": "Coming Soon",
     "desc": "Red basketball shorts with gold cross and Crown 33 mark.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1yERQ7M5gXs0A7gVSXRMQ"
   },
   {
     "id": "white-shorts",
@@ -355,7 +373,8 @@
     "tag": "Coming Soon",
     "desc": "White basketball shorts with gold cross and Crown 33 mark.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr1uTRQ7M5gXs0AKiTeTsli"
   },
   {
     "id": "socks-black-red",
@@ -370,7 +389,8 @@
     "tag": "Coming Soon",
     "desc": "Black crew socks with red cross.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr2DBRQ7M5gXs0ANtSmFXYH"
   },
   {
     "id": "socks-gray",
@@ -400,7 +420,8 @@
     "tag": "Coming Soon",
     "desc": "Olive crew socks with white cross.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr29oRQ7M5gXs0Ay3veiHt7"
   },
   {
     "id": "socks-blue",
@@ -415,7 +436,8 @@
     "tag": "Coming Soon",
     "desc": "Carolina blue crew socks with white cross.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr28PRQ7M5gXs0AjoVnNgB1"
   },
   {
     "id": "water-bottle",
@@ -429,7 +451,8 @@
     "tag": "Coming Soon",
     "desc": "Insulated stainless steel water bottle with Daily Walk QR concept.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr20xRQ7M5gXs0AHppoFKWE"
   },
   {
     "id": "duffle-bag",
@@ -443,7 +466,8 @@
     "tag": "Coming Soon",
     "desc": "Premium black duffle with Lion mark and brush cross detail.",
     "status": "coming-soon",
-    "founderFeatured": false
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr234RQ7M5gXs0AYKurlbgo"
   },
   {
     "id": "wristband",

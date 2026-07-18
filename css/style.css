@@ -247,7 +247,7 @@ h2{
   height:240px;
   display:grid;
   place-items:center;
-  background:#050505;
+  background:radial-gradient(circle at 50% 42%, #4a4a4a 0%, #3b3b3b 48%, #2c2c2c 100%);
   border-radius:5px;
   overflow:hidden;
   margin-bottom:12px;
@@ -438,3 +438,16 @@ select{
 .card{min-height:455px}.card .imgbox{height:270px}.card h3{font-size:17px}.founder-grid .imgbox{height:310px}.founder-grid .card{min-height:500px}
 @media(max-width:1000px){.shroud-hero{grid-template-columns:1fr}.shroud-copy{text-align:center;padding:55px 30px 20px}.shroud-copy .lead{margin-left:auto;margin-right:auto}.shroud-copy .btns{justify-content:center}.shroud-visual{height:480px}.mission-section{grid-template-columns:1fr;text-align:center}.mission-mark{font-size:110px}.mission-section h2{text-align:center}.mission-section p:not(.eyebrow){margin-left:auto;margin-right:auto}}
 @media(max-width:760px){.shroud-hero{min-height:auto}.shroud-copy{padding:45px 20px 10px}.shroud-copy h1{font-size:48px}.shroud-visual{height:380px;padding:15px}.shroud-visual img{max-height:360px}.founder-grid .imgbox{height:270px}.notify-panel{flex-direction:column;text-align:center;padding:24px 18px}.mission-section{padding:60px 22px}.mission-mark{font-size:90px}.cartbox{left:12px;right:12px;bottom:12px;width:auto}}
+
+/* ===== Product Image Contrast Upgrade ===== */
+.imgbox{
+  background:radial-gradient(circle at 50% 42%, #4a4a4a 0%, #3b3b3b 48%, #2c2c2c 100%) !important;
+  border:1px solid rgba(255,255,255,.08);
+  box-shadow:inset 0 0 38px rgba(0,0,0,.22);
+}
+.imgbox img{
+  filter:drop-shadow(0 14px 18px rgba(0,0,0,.42));
+}
+.shroud-visual{
+  background:radial-gradient(circle at 52% 48%, rgba(78,78,78,.72) 0%, rgba(48,48,48,.46) 42%, rgba(10,10,10,0) 72%);
+}

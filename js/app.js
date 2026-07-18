@@ -39,4 +39,4 @@ function renderAll(){
 }
 document.querySelectorAll('[data-filter]').forEach(btn=>{btn.onclick=()=>{document.querySelectorAll('[data-filter]').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderAvailable(btn.dataset.filter);};});
 cartBtn.onclick=e=>{e.preventDefault();cartBox.classList.toggle('show');};
-fetch('data/products.json?v=2.0').then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();}).then(d=>{products=d;renderAll();}).catch(err=>{console.error(err);grid.innerHTML='<p class="load-error">Product catalog could not load. Please refresh the page.</p>';});
+fetch('data/products.json?v=stripe-rebuild-20260717').then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();}).then(d=>{products=d;renderAll();}).catch(err=>{console.error(err);grid.innerHTML='<p class="load-error">Product catalog could not load. Please refresh the page.</p>';});
