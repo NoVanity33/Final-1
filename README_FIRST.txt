@@ -53,3 +53,11 @@ DEPLOYMENT
 
 IMPORTANT
 The preview products are not purchasable. Their Notify Me buttons open an email waitlist message.
+
+FINAL DISPLAY PRICING CORRECTION:
+- Shroud Tee $30
+- Lion of Judah Hoodie $50
+- Worthy Is the Lamb Tee $25
+- Crown 33 Maroon Tee $25
+- Simple Cross Tee $25
+- All other available tees $30

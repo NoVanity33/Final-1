@@ -3,7 +3,7 @@
     "id": "shroud-tee",
     "name": "The Shroud Tee",
     "category": "Premium Tees",
-    "price": 37,
+    "price": 30,
     "image": "assets/products/shroud-tee.png",
     "sizes": [
       "S",
@@ -24,7 +24,7 @@
     "id": "lion-of-judah-hoodie",
     "name": "Lion of Judah Hoodie",
     "category": "Hoodies",
-    "price": 55,
+    "price": 50,
     "image": "assets/products/lion-of-judah-hoodie.png",
     "sizes": [
       "S",
@@ -55,7 +55,7 @@
       "3XL"
     ],
     "tag": "Featured",
-    "desc": "Crown of thorns and 33 design pointing to Christ’s finished work.",
+    "desc": "Crown of thorns and 33 design pointing to Christ\u2019s finished work.",
     "status": "available",
     "founderFeatured": true,
     "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp"
@@ -84,7 +84,7 @@
     "id": "prayer-cross-tee",
     "name": "Prayer Cross Tee",
     "category": "Premium Tees",
-    "price": 25,
+    "price": 30,
     "image": "assets/products/prayer-cross-tee.png",
     "sizes": [
       "S",
@@ -104,7 +104,7 @@
     "id": "crimson-worm-tee",
     "name": "Crimson Worm Tee",
     "category": "Premium Tees",
-    "price": 25,
+    "price": 30,
     "image": "assets/products/crimson-worm-tee.png",
     "sizes": [
       "S",
@@ -244,7 +244,7 @@
     "id": "simple-cross-tee",
     "name": "Philippians 4:13 Cross Tee",
     "category": "Premium Tees",
-    "price": 30,
+    "price": 25,
     "image": "assets/products/simple-cross-tee.png",
     "sizes": [
       "S",
@@ -258,13 +258,13 @@
     "desc": "Clean white tee with an ornate gold cross and Philippians 4:13 on the back.",
     "status": "available",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr2iwRQ7M5gXs0AnNpgoFA0"
+    "stripePriceId": "price_1TuReURQ7M5gXs0AywWH5ocX"
   },
   {
     "id": "worthy-lamb-grey-tee",
     "name": "Worthy Is the Lamb Tee",
     "category": "Premium Tees",
-    "price": 30,
+    "price": 25,
     "image": "assets/products/worthy-lamb-grey-tee.png",
     "sizes": [
       "S",
@@ -284,7 +284,7 @@
     "id": "crown33-maroon-tee",
     "name": "Crown 33 Maroon Tee",
     "category": "Premium Tees",
-    "price": 30,
+    "price": 25,
     "image": "assets/products/crown33-maroon-tee.png",
     "sizes": [
       "S",
@@ -310,7 +310,7 @@
     "tag": "Coming Soon",
     "desc": "Six planned colorways presented together. We are sourcing a specialty sock partner who can meet the quality standard.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview"
+    "comingSoonLabel": "Founder\u2019s Preview"
   },
   {
     "id": "preview-shorts",
@@ -322,7 +322,7 @@
     "tag": "Coming Soon",
     "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview"
+    "comingSoonLabel": "Founder\u2019s Preview"
   },
   {
     "id": "preview-sweatpants",
@@ -334,7 +334,7 @@
     "tag": "Coming Soon",
     "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview"
+    "comingSoonLabel": "Founder\u2019s Preview"
   },
   {
     "id": "preview-duffle",
@@ -346,7 +346,7 @@
     "tag": "Coming Soon",
     "desc": "A purpose-built premium duffle concept for the gym, church, travel, and everyday use.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview"
+    "comingSoonLabel": "Founder\u2019s Preview"
   },
   {
     "id": "preview-water-bottle",
@@ -358,7 +358,7 @@
     "tag": "Coming Soon",
     "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview"
+    "comingSoonLabel": "Founder\u2019s Preview"
   },
   {
     "id": "preview-wristbands",
@@ -370,6 +370,6 @@
     "tag": "Coming Soon",
     "desc": "Comfortable faith wristbands planned with rotating Scripture references.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview"
+    "comingSoonLabel": "Founder\u2019s Preview"
   }
 ]
