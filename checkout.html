@@ -1,8 +1,91 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Checkout | No Vanity 33</title><link rel="stylesheet" href="css/style.css?v=version5-20260720-cachefix2"></head><body><header class="header"><a class="logo" href="index.html"><img src="assets/logos/lion33.png" alt="No Vanity 33"><span><strong>NO VANITY 33</strong><small>SECURE CHECKOUT</small></span></a><nav><a href="index.html">Home</a><a href="index.html#shop">Shop</a></nav></header><main class="section"><div class="center"><p class="eyebrow">Secure Checkout</p><h1>REVIEW YOUR ORDER</h1><p class="lead" style="margin:0 auto 28px;">Your order will be processed securely through Stripe.</p></div><div class="callout" style="align-items:flex-start;"><div style="width:100%;"><h3>Your Cart</h3><div id="checkoutItems"></div><p id="checkoutTotal" class="price"></p><button id="checkoutBtn" class="add">Pay Securely with Stripe</button><p id="checkoutMsg" style="color:#f6c442;margin-top:14px;"></p></div></div></main><script>
-const money=v=>'$'+Number(v||0).toFixed(2),msg=document.getElementById('checkoutMsg'),itemsBox=document.getElementById('checkoutItems'),totalBox=document.getElementById('checkoutTotal'),btn=document.getElementById('checkoutBtn');let cart=JSON.parse(localStorage.getItem('nv33cart')||'[]'),products=[];
-function renderCheckout(){if(!cart.length){itemsBox.innerHTML='<p>Your cart is empty.</p><p><a class="btn primary" href="index.html#shop">Return to Shop</a></p>';totalBox.textContent='';btn.style.display='none';return;}const total=cart.reduce((s,i)=>s+Number(i.price||0),0);itemsBox.innerHTML=cart.map(i=>`<div class="cartrow"><span>${i.name}<br><small>${[i.color,i.size].filter(Boolean).join(' · ')}</small></span><b>${money(i.price)}</b></div>`).join('');totalBox.textContent='Total: '+money(total);}
-async function loadProducts(){const res=await fetch('data/products.json?v=version5-20260720-cachefix2');products=await res.json();}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checkout | No Vanity 33</title>
+  <link rel="stylesheet" href="css/style.css?v=version6-fulfillment-1">
+  <style>
+    .checkout-layout{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1050px;margin:0 auto}.checkout-panel{background:#111;border:1px solid #332b18;border-radius:12px;padding:22px}.checkout-fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.checkout-fields .wide{grid-column:1/-1}.checkout-fields label{display:flex;flex-direction:column;gap:6px;font-size:.88rem;color:#e8dfca}.checkout-fields input,.checkout-fields select{width:100%;box-sizing:border-box;background:#080808;border:1px solid #514426;border-radius:7px;color:#fff;padding:12px}.shipping-rate{display:block;border:1px solid #514426;border-radius:8px;padding:12px;margin:10px 0;cursor:pointer}.shipping-rate:has(input:checked){border-color:#f6c442;background:#1b170c}.muted{color:#a99f89;font-size:.88rem}.checkout-summary-line{display:flex;justify-content:space-between;gap:15px;padding:8px 0}.checkout-grand{border-top:1px solid #514426;margin-top:12px;padding-top:14px;font-size:1.15rem}.status-good{color:#8ee39b}.status-error{color:#ff9b9b}@media(max-width:780px){.checkout-layout{grid-template-columns:1fr}.checkout-fields{grid-template-columns:1fr}.checkout-fields .wide{grid-column:auto}}
+  </style>
+</head>
+<body>
+<header class="header"><a class="logo" href="index.html"><img src="assets/logos/lion33.png" alt="No Vanity 33"><span><strong>NO VANITY 33</strong><small>SECURE CHECKOUT</small></span></a><nav><a href="index.html">Home</a><a href="index.html#shop">Shop</a></nav></header>
+<main class="section">
+  <div class="center"><p class="eyebrow">Secure Checkout</p><h1>REVIEW YOUR ORDER</h1><p class="lead" style="margin:0 auto 28px;">Enter your delivery address to calculate Printful shipping before payment.</p></div>
+  <div class="checkout-layout">
+    <section class="checkout-panel">
+      <h2>Delivery Address</h2>
+      <div class="checkout-fields">
+        <label class="wide">Email<input id="email" type="email" autocomplete="email" required></label>
+        <label class="wide">Full name<input id="fullName" autocomplete="name" required></label>
+        <label class="wide">Address<input id="address1" autocomplete="address-line1" required></label>
+        <label class="wide">Apartment, suite, etc. (optional)<input id="address2" autocomplete="address-line2"></label>
+        <label>City<input id="city" autocomplete="address-level2" required></label>
+        <label>State / Province<input id="state" autocomplete="address-level1"></label>
+        <label>Postal code<input id="zip" autocomplete="postal-code" required></label>
+        <label>Country code<input id="country" value="US" maxlength="2" autocomplete="country" required placeholder="US"></label>
+      </div>
+      <p class="muted">Use the two-letter country code, such as US, CA, GB, AU, DE, or JP. International customers may owe customs or import fees charged by their country.</p>
+      <button id="quoteBtn" class="add">Calculate Shipping</button>
+      <div id="shippingRates"></div>
+    </section>
+    <section class="checkout-panel">
+      <h2>Your Cart</h2>
+      <div id="checkoutItems"></div>
+      <div id="subtotalLine" class="checkout-summary-line"></div>
+      <div id="shippingLine" class="checkout-summary-line"></div>
+      <div id="checkoutTotal" class="checkout-summary-line checkout-grand"></div>
+      <button id="checkoutBtn" class="add" disabled>Pay Securely with Stripe</button>
+      <p id="checkoutMsg" style="margin-top:14px;"></p>
+    </section>
+  </div>
+</main>
+<script>
+const money=v=>'$'+Number(v||0).toFixed(2);
+const msg=document.getElementById('checkoutMsg'),itemsBox=document.getElementById('checkoutItems'),subtotalLine=document.getElementById('subtotalLine'),shippingLine=document.getElementById('shippingLine'),totalBox=document.getElementById('checkoutTotal'),btn=document.getElementById('checkoutBtn'),quoteBtn=document.getElementById('quoteBtn'),ratesBox=document.getElementById('shippingRates');
+let cart=JSON.parse(localStorage.getItem('nv33cart')||'[]'),products=[],selectedShipping=null;
+
+function renderCheckout(){
+  if(!cart.length){itemsBox.innerHTML='<p>Your cart is empty.</p><p><a class="btn primary" href="index.html#shop">Return to Shop</a></p>';btn.style.display='none';quoteBtn.disabled=true;return;}
+  const subtotal=cart.reduce((s,i)=>s+Number(i.price||0),0);
+  itemsBox.innerHTML=cart.map(i=>`<div class="cartrow"><span>${i.name}<br><small>${[i.color,i.size].filter(Boolean).join(' · ')}</small></span><b>${money(i.price)}</b></div>`).join('');
+  subtotalLine.innerHTML=`<span>Subtotal</span><strong>${money(subtotal)}</strong>`;
+  shippingLine.innerHTML=`<span>Shipping</span><strong>${selectedShipping?money(selectedShipping.rate):'Calculate below'}</strong>`;
+  totalBox.innerHTML=`<span>Total before tax</span><strong>${money(subtotal+(selectedShipping?.rate||0))}</strong>`;
+  btn.disabled=!selectedShipping;
+}
+async function loadProducts(){const res=await fetch('data/products.json?v=version6-fulfillment-1');if(!res.ok)throw new Error('Could not load products.');products=await res.json();}
 function findProduct(cartItem){return products.find(p=>(cartItem.id&&p.id===cartItem.id)||(cartItem.name&&p.name===cartItem.name));}
-async function startCheckout(){if(!cart.length)return;if(!products.length)await loadProducts();const lineItems=[],missing=[];for(const item of cart){const p=findProduct(item);const stripePriceId=item.stripePriceId||item.priceId||p?.stripePriceId||p?.priceId||'';const dynamicCheckout=Boolean(item.dynamicCheckout||p?.dynamicCheckout);if(!stripePriceId&&!dynamicCheckout){missing.push(item.name);continue;}lineItems.push({price:stripePriceId,quantity:1,productId:item.id||p?.id||'',size:item.size||'',color:item.color||''});}if(missing.length){msg.textContent='These items are not connected to Stripe yet: '+missing.join(', ');return;}btn.disabled=true;btn.textContent='Opening secure checkout...';msg.textContent='';try{const res=await fetch('/api/create-checkout-session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({items:lineItems})});const data=await res.json().catch(()=>({}));if(data.url){window.location.href=data.url;}else{msg.textContent=data.error||'Checkout could not start.';btn.disabled=false;btn.textContent='Pay Securely with Stripe';}}catch(err){console.error(err);msg.textContent='Checkout could not start. Please contact novanity2026@gmail.com.';btn.disabled=false;btn.textContent='Pay Securely with Stripe';}}
-btn.addEventListener('click',startCheckout);loadProducts().catch(e=>{console.error(e);msg.textContent='Could not load product data.';});renderCheckout();
-</script></body></html>
+function recipient(){return {email:email.value.trim(),name:fullName.value.trim(),address1:address1.value.trim(),address2:address2.value.trim(),city:city.value.trim(),state_code:state.value.trim(),zip:zip.value.trim(),country_code:country.value.trim().toUpperCase()};}
+function validRecipient(r){return r.email&&r.name&&r.address1&&r.city&&r.zip&&r.country_code.length===2;}
+function fulfillmentItems(){return cart.map(item=>{const p=findProduct(item);return {productId:item.id||p?.id||'',name:p?.printfulName||item.name||p?.name||'',size:item.size||'',color:item.color||'',quantity:1,value:item.price||p?.price||0};});}
+
+async function calculateShipping(){
+  if(!products.length)await loadProducts();
+  const r=recipient();
+  if(!validRecipient(r)){msg.className='status-error';msg.textContent='Please complete the required address fields first.';return;}
+  quoteBtn.disabled=true;quoteBtn.textContent='Calculating shipping...';msg.textContent='';ratesBox.innerHTML='';selectedShipping=null;renderCheckout();
+  try{
+    const res=await fetch('/api/printful-shipping-rates',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({recipient:r,items:fulfillmentItems()})});
+    const data=await res.json().catch(()=>({}));
+    if(!res.ok||!data.rates?.length)throw new Error(data.error||'No shipping methods are available for this address.');
+    ratesBox.innerHTML='<h3>Choose Shipping</h3>'+data.rates.map((rate,index)=>`<label class="shipping-rate"><input type="radio" name="shipping" value="${index}"> <strong>${rate.name}</strong> — ${money(rate.rate)}${rate.minDeliveryDays?`<br><span class="muted">Estimated ${rate.minDeliveryDays}${rate.maxDeliveryDays&&rate.maxDeliveryDays!==rate.minDeliveryDays?'–'+rate.maxDeliveryDays:''} business days</span>`:''}</label>`).join('');
+    ratesBox.querySelectorAll('input[name="shipping"]').forEach(input=>input.addEventListener('change',()=>{selectedShipping=data.rates[Number(input.value)];renderCheckout();msg.className='status-good';msg.textContent='Shipping selected. Continue to secure payment.';}));
+  }catch(err){msg.className='status-error';msg.textContent=err.message||'Could not calculate shipping.';}
+  finally{quoteBtn.disabled=false;quoteBtn.textContent='Recalculate Shipping';}
+}
+
+async function startCheckout(){
+  if(!cart.length||!selectedShipping)return;
+  if(!products.length)await loadProducts();
+  const lineItems=[],missing=[];
+  for(const item of cart){const p=findProduct(item);const stripePriceId=item.stripePriceId||item.priceId||p?.stripePriceId||p?.priceId||'';if(!stripePriceId){missing.push(item.name);continue;}lineItems.push({price:stripePriceId,quantity:1,productId:item.id||p?.id||'',name:p?.printfulName||item.name||p?.name||'',size:item.size||'',color:item.color||''});}
+  if(missing.length){msg.className='status-error';msg.textContent='These items are not connected to Stripe yet: '+missing.join(', ');return;}
+  btn.disabled=true;btn.textContent='Opening secure checkout...';msg.textContent='';
+  try{const res=await fetch('/api/create-checkout-session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({items:lineItems,shipping:selectedShipping,recipient:recipient()})});const data=await res.json().catch(()=>({}));if(data.url){window.location.href=data.url;}else{throw new Error(data.error||'Checkout could not start.');}}
+  catch(err){msg.className='status-error';msg.textContent=err.message||'Checkout could not start.';btn.disabled=false;btn.textContent='Pay Securely with Stripe';}
+}
+quoteBtn.addEventListener('click',calculateShipping);btn.addEventListener('click',startCheckout);loadProducts().catch(e=>{console.error(e);msg.textContent='Could not load product data.';});renderCheckout();
+</script>
+</body></html>
