@@ -68,7 +68,7 @@ document.querySelectorAll('[data-filter]').forEach(btn=>{
   };
 });
 cartBtn.onclick=e=>{e.preventDefault();cartBox.classList.toggle('show');};
-fetch('data/products.json?v=version4-20260718')
+fetch('data/products.json?v=version5-20260720-cachefix2')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=d;renderAll();})
   .catch(err=>{
