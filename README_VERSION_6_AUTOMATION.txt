@@ -1,4 +1,4 @@
-NO VANITY 33 — VERSION 6 AUTOMATION
+NO VANITY 33 — VERSION 6.1 AUTOMATION
 ====================================
 
 WHAT THIS BUILD ADDS
@@ -6,10 +6,11 @@ WHAT THIS BUILD ADDS
 1. Automatic Printful catalog/variant sync through the Printful API.
 2. Printful live shipping quotes before Stripe Checkout.
 3. Customer-paid shipping added to Stripe Checkout.
-4. International address support using two-letter country codes.
-5. Stripe webhook fulfillment: successful payments create DRAFT orders in Printful.
-6. Draft orders are not automatically charged/confirmed; Luke reviews and confirms them in Printful.
-7. Private admin sync page: /admin/printful-sync.html
+4. Stripe Automatic Tax enabled at Checkout.
+5. International address support using two-letter country codes.
+6. Stripe webhook fulfillment: successful payments create DRAFT orders in Printful.
+7. Draft orders are not automatically charged/confirmed; Luke reviews and confirms them in Printful.
+8. Private admin sync page: /admin/printful-sync.html
 
 EXISTING SECRETS USED
 ---------------------

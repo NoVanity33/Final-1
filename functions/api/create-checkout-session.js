@@ -13,6 +13,7 @@ export async function onRequestPost(context) {
     const origin = env.SITE_URL || new URL(request.url).origin;
     const params = new URLSearchParams();
     params.set('mode', 'payment');
+    params.set('automatic_tax[enabled]', 'true');
     params.set('success_url', `${origin}/success.html?session_id={CHECKOUT_SESSION_ID}`);
     params.set('cancel_url', `${origin}/cancel.html`);
     params.set('phone_number_collection[enabled]', 'true');
