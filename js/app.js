@@ -9,11 +9,16 @@ let cart=JSON.parse(localStorage.getItem('nv33cart')||'[]');
 const money=v=>'$'+Number(v||0).toFixed(2);
 
 function save(){localStorage.setItem('nv33cart',JSON.stringify(cart));renderCart();}
+function selectedColor(id){
+  const checked=document.querySelector(`input[name="color-${id}"]:checked`);
+  return checked?.value||'Default';
+}
 function addToCart(id){
   const p=products.find(x=>x.id===id);
   if(!p||p.status==='coming-soon'||!p.stripePriceId)return;
   const size=document.getElementById('size-'+id)?.value||'One Size';
-  cart.push({id:p.id,name:p.name,price:p.price,size,stripePriceId:p.stripePriceId});
+  const color=selectedColor(id);
+  cart.push({id:p.id,name:p.name,price:p.price,size,color,stripePriceId:p.stripePriceId});
   save();
   cartBox.classList.add('show');
 }
@@ -25,26 +30,55 @@ function renderCart(){
   const total=cart.reduce((s,i)=>s+Number(i.price||0),0);
   cartBox.innerHTML=`<button class="cart-close" onclick="closeCart()" aria-label="Close cart">×</button>
     <h3>Your Cart</h3>
-    ${cart.length?cart.map((i,idx)=>`<div class="cartrow"><span>${i.name}<br><small>${i.size}</small></span><b>${money(i.price)}</b><button class="remove" onclick="removeCartItem(${idx})" aria-label="Remove item">×</button></div>`).join(''):'<p>Your cart is empty.</p>'}
+    ${cart.length?cart.map((i,idx)=>`<div class="cartrow"><span>${i.name}<br><small>${i.color||''}${i.color?' • ':''}${i.size}</small></span><b>${money(i.price)}</b><button class="remove" onclick="removeCartItem(${idx})" aria-label="Remove item">×</button></div>`).join(''):'<p>Your cart is empty.</p>'}
     <p class="cart-total"><b>Total: ${money(total)}</b></p>
     <button class="add dark-button" onclick="clearCart()">Clear Cart</button>
     <a class="btn primary checkout-link" href="checkout.html">Secure Checkout →</a>`;
 }
+function colorChoices(p){
+  if(!p.colors?.length)return '';
+  return `<div class="color-picker" aria-label="Choose color for ${p.name}">${p.colors.map((c,i)=>`
+    <label class="color-option" title="${c.name}">
+      <input type="radio" name="color-${p.id}" value="${c.name}" ${i===0?'checked':''} onchange="swapProductImage('${p.id}','${c.image}',this)">
+      <span class="color-dot" style="--swatch:${swatchColor(c.name)}"></span><small>${c.name}</small>
+    </label>`).join('')}</div>`;
+}
+function swatchColor(name){
+  const map={'Black':'#111','White':'#fff','Sand':'#c8b18f','Military Green':'#6d7658','Cardinal':'#8e1538','Red':'#d51f3f','Tropical Blue':'#08a9bc','Light Blue':'#8bc8e8','Royal Blue':'#1f5fd3'};
+  return map[name]||'#c7a75b';
+}
+function swapProductImage(id,image,input){
+  const img=document.getElementById('img-'+id);
+  if(img)img.src=image;
+  document.querySelectorAll(`input[name="color-${id}"]`).forEach(el=>el.closest('label')?.classList.toggle('selected',el.checked));
+}
+function openImage(src,alt){
+  let modal=document.getElementById('imageModal');
+  if(!modal){
+    modal=document.createElement('div');modal.id='imageModal';modal.className='image-modal';
+    modal.innerHTML='<button aria-label="Close image">×</button><img alt="">';
+    modal.onclick=e=>{if(e.target===modal||e.target.tagName==='BUTTON')modal.classList.remove('show');};
+    document.body.appendChild(modal);
+  }
+  modal.querySelector('img').src=src;modal.querySelector('img').alt=alt;modal.classList.add('show');
+}
 function liveCard(p){
-  return `<article class="card product-card">
+  const purchasable=!!p.stripePriceId;
+  return `<article class="card product-card" id="${p.id}-card">
     <span class="badge">${p.tag||'Available'}</span>
-    <div class="imgbox"><img src="${p.image}" alt="${p.name}" loading="lazy"></div>
+    <div class="imgbox clickable" onclick="openImage(document.getElementById('img-${p.id}').src,'${p.name}')" title="Click to enlarge"><img id="img-${p.id}" src="${p.image}" alt="${p.name}" loading="lazy"></div>
     <h3>${p.name}</h3>
     <p class="price">${money(p.price)}</p>
     <p class="desc">${p.desc||'Premium Christian apparel.'}</p>
+    ${colorChoices(p)}
     <select id="size-${p.id}" aria-label="Choose size for ${p.name}">${(p.sizes||['One Size']).map(s=>`<option>${s}</option>`).join('')}</select>
-    <button class="add" onclick="addToCart('${p.id}')">🛒 Add to Cart</button>
+    ${purchasable?`<button class="add" onclick="addToCart('${p.id}')">🛒 Add to Cart</button>`:`<a class="add waitlist-button" href="mailto:novanity2026@gmail.com?subject=V8%20Product%20Interest%20-%20${encodeURIComponent(p.name)}">Printful Setup Pending</a>`}
   </article>`;
 }
 function previewCard(p){
   return `<article class="card preview-card">
     <div class="preview-ribbon">FOUNDER'S PREVIEW</div>
-    <div class="imgbox preview-img"><img src="${p.image}" alt="${p.name}" loading="lazy"></div>
+    <div class="imgbox preview-img clickable" onclick="openImage('${p.image}','${p.name}')"><img src="${p.image}" alt="${p.name}" loading="lazy"></div>
     <h3>${p.name}</h3>
     <p class="desc">${p.desc}</p>
     <a class="add waitlist-button" href="mailto:novanity2026@gmail.com?subject=Waitlist%20-%20${encodeURIComponent(p.name)}">Notify Me</a>
@@ -68,7 +102,7 @@ document.querySelectorAll('[data-filter]').forEach(btn=>{
   };
 });
 cartBtn.onclick=e=>{e.preventDefault();cartBox.classList.toggle('show');};
-fetch('data/products.json?v=version7-20260720')
+fetch('data/products.json?v=version8-20260725')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=d;renderAll();})
   .catch(err=>{

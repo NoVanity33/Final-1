@@ -600,3 +600,18 @@ select{
     grid-template-columns:repeat(2,minmax(0,1fr));
   }
 }
+
+/* Version 8 catalog upgrades */
+.clickable{cursor:zoom-in}
+.color-picker{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 14px}
+.color-option{display:flex;align-items:center;gap:5px;border:1px solid #3a3325;border-radius:999px;padding:5px 8px;cursor:pointer;background:#0d0d0d;font-size:11px;color:#ddd}
+.color-option input{position:absolute;opacity:0;pointer-events:none}
+.color-option.selected,.color-option:has(input:checked){border-color:#d7b55b;box-shadow:0 0 0 1px #d7b55b33}
+.color-dot{width:15px;height:15px;border-radius:50%;background:var(--swatch);border:1px solid #777;display:inline-block}
+.color-option small{white-space:nowrap}
+.image-modal{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;padding:28px;z-index:9999}
+.image-modal.show{display:flex}
+.image-modal img{max-width:min(92vw,1400px);max-height:90vh;object-fit:contain}
+.image-modal button{position:absolute;top:18px;right:24px;border:0;background:transparent;color:#fff;font-size:44px;cursor:pointer}
+.product-card .waitlist-button{display:block;text-align:center;background:linear-gradient(135deg,#8b6b24,#c7a75b);color:#050505}
+@media(max-width:700px){.color-option small{display:none}.color-option{padding:7px}.color-dot{width:19px;height:19px}}

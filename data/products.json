@@ -22,6 +22,242 @@
     "printfulName": "The Shroud Tee"
   },
   {
+    "id": "king-of-kings-tee",
+    "name": "King of Kings Tee",
+    "category": "Everyday Tees",
+    "price": 18.99,
+    "image": "assets/products/king-of-kings-black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A bold gold declaration of Christ’s sovereign reign, crowned above the words King of Kings.",
+    "founderFeatured": true,
+    "printfulName": "King of Kings Tee",
+    "checkoutPending": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/king-of-kings-black.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/king-of-kings-white.png"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/products/king-of-kings-brown.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/king-of-kings-military-green.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/king-of-kings-cardinal.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/king-of-kings-red.png"
+      },
+      {
+        "name": "Tropical Blue",
+        "image": "assets/products/king-of-kings-tropical-blue.png"
+      }
+    ]
+  },
+  {
+    "id": "jesus-is-king-tee",
+    "name": "Jesus Is King Tee",
+    "category": "Everyday Tees",
+    "price": 18.99,
+    "image": "assets/products/jesus-is-king-white.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A clean cross-shaped typography design declaring Jesus is King, anchored by Philippians 2:11.",
+    "founderFeatured": true,
+    "printfulName": "Jesus Is King Tee",
+    "checkoutPending": true,
+    "colors": [
+      {
+        "name": "White",
+        "image": "assets/products/jesus-is-king-white.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/jesus-is-king-blue.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/jesus-is-king-cardinal.png"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/products/jesus-is-king-light-blue.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/jesus-is-king-red.png"
+      },
+      {
+        "name": "Tropical Blue",
+        "image": "assets/products/jesus-is-king-tropical-blue.png"
+      }
+    ]
+  },
+  {
+    "id": "every-knee-will-bow-tee",
+    "name": "Every Knee Will Bow Tee",
+    "category": "Everyday Tees",
+    "price": 18.99,
+    "image": "assets/products/every-knee-black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Bold distressed typography proclaiming the promise that every knee will bow before Christ.",
+    "founderFeatured": false,
+    "printfulName": "Every Knee Will Bow Tee",
+    "checkoutPending": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/every-knee-black.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/every-knee-white.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/every-knee-military-green.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/every-knee-cardinal.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/every-knee-red.png"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/products/every-knee-light-blue.png"
+      },
+      {
+        "name": "Tropical Blue",
+        "image": "assets/products/every-knee-tropical-blue.png"
+      }
+    ]
+  },
+  {
+    "id": "disciple-tee",
+    "name": "Disciple Tee",
+    "category": "Everyday Tees",
+    "price": 18.99,
+    "image": "assets/products/disciple-brown.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": false,
+    "desc": "A clean collegiate-style statement inspired by Matthew 4:19—an everyday reminder to follow Christ.",
+    "founderFeatured": false,
+    "printfulName": "Disciple Tee",
+    "checkoutPending": true,
+    "colors": [
+      {
+        "name": "Sand",
+        "image": "assets/products/disciple-brown.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/disciple-white.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/disciple-military-green.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/disciple-cardinal.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/disciple-red.png"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/products/disciple-light-blue.png"
+      },
+      {
+        "name": "Tropical Blue",
+        "image": "assets/products/disciple-tropical-blue.png"
+      }
+    ]
+  },
+  {
+    "id": "satisfied-tee",
+    "name": "Satisfied — Matthew 14:20 Tee",
+    "category": "Premium Tees",
+    "price": 30,
+    "image": "assets/products/satisfied-white.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "Vintage engraved artwork of the loaves and fish miracle: “They all ate and were satisfied.”",
+    "founderFeatured": true,
+    "printfulName": "Satisfied Matthew 14:20 Tee",
+    "checkoutPending": true,
+    "colors": [
+      {
+        "name": "White",
+        "image": "assets/products/satisfied-white.png"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/products/satisfied-brown.png"
+      }
+    ]
+  },
+  {
     "id": "lion-of-judah-hoodie",
     "name": "Lion of Judah Hoodie",
     "category": "Hoodies",
@@ -57,7 +293,7 @@
       "3XL"
     ],
     "tag": "Featured",
-    "desc": "Crown of thorns and 33 design pointing to Christ\u2019s finished work.",
+    "desc": "Crown of thorns and 33 design pointing to Christ’s finished work.",
     "status": "available",
     "founderFeatured": true,
     "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
@@ -325,7 +561,7 @@
     "tag": "Coming Soon",
     "desc": "Six planned colorways presented together. We are sourcing a specialty sock partner who can meet the quality standard.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Cross Crew Socks Collection"
   },
   {
@@ -338,7 +574,7 @@
     "tag": "Coming Soon",
     "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Performance Shorts Collection"
   },
   {
@@ -351,7 +587,7 @@
     "tag": "Coming Soon",
     "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Premium Sweatpants Collection"
   },
   {
@@ -364,7 +600,7 @@
     "tag": "Coming Soon",
     "desc": "A purpose-built premium duffle concept for the gym, church, travel, and everyday use.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "No Vanity 33 Duffle Bag"
   },
   {
@@ -377,7 +613,7 @@
     "tag": "Coming Soon",
     "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "40oz Scripture Water Bottle"
   },
   {
@@ -390,7 +626,7 @@
     "tag": "Coming Soon",
     "desc": "Comfortable faith wristbands planned with rotating Scripture references.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Scripture Wristband Collection"
   }
 ]
