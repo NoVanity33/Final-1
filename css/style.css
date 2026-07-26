@@ -615,3 +615,9 @@ select{
 .image-modal button{position:absolute;top:18px;right:24px;border:0;background:transparent;color:#fff;font-size:44px;cursor:pointer}
 .product-card .waitlist-button{display:block;text-align:center;background:linear-gradient(135deg,#8b6b24,#c7a75b);color:#050505}
 @media(max-width:700px){.color-option small{display:none}.color-option{padding:7px}.color-dot{width:19px;height:19px}}
+
+/* Version 8.3 shipping and image consistency */
+.free-shipping-badge{margin:7px 0 9px;padding:7px 9px;border-radius:5px;background:linear-gradient(180deg,#ffd84d,#d89a13);color:#090909;font-size:.72rem;font-weight:950;letter-spacing:.45px;text-align:center}
+.shipping-note{margin:4px 0 8px;color:#a99f89;font-size:.72rem}
+.product-card .imgbox,.shroud-visual{background:#c4c4c4}
+.product-card .imgbox img{width:100%;height:100%;object-fit:contain;object-position:center}

@@ -39,7 +39,7 @@ export async function onRequestPost(context) {
     params.set('shipping_options[0][shipping_rate_data][type]', 'fixed_amount');
     params.set('shipping_options[0][shipping_rate_data][fixed_amount][amount]', String(amount));
     params.set('shipping_options[0][shipping_rate_data][fixed_amount][currency]', String(shipping.currency || 'USD').toLowerCase());
-    params.set('shipping_options[0][shipping_rate_data][display_name]', shipping.name || 'Standard Shipping');
+    params.set('shipping_options[0][shipping_rate_data][display_name]', Number(shipping.rate)===0 ? 'FREE U.S. Shipping' : (shipping.name || 'Standard Shipping'));
     if (shipping.minDeliveryDays) params.set('shipping_options[0][shipping_rate_data][delivery_estimate][minimum][unit]', 'business_day');
     if (shipping.minDeliveryDays) params.set('shipping_options[0][shipping_rate_data][delivery_estimate][minimum][value]', String(shipping.minDeliveryDays));
     if (shipping.maxDeliveryDays) params.set('shipping_options[0][shipping_rate_data][delivery_estimate][maximum][unit]', 'business_day');

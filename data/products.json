@@ -19,7 +19,8 @@
     "desc": "A black premium tee inspired by the Shroud of Turin, created to point toward the sacrifice and resurrection of Jesus Christ.",
     "founderFeatured": true,
     "stripePriceId": "price_1Tr2dfRQ7M5gXs0ABzOZcDRl",
-    "printfulName": "The Shroud Tee"
+    "printfulName": "The Shroud Tee",
+    "shippingIncluded": false
   },
   {
     "id": "king-of-kings-tee",
@@ -38,7 +39,7 @@
     "tag": "New Release",
     "status": "available",
     "featured": true,
-    "desc": "A bold gold declaration of Christ\u2019s sovereign reign, crowned above the words King of Kings.",
+    "desc": "A bold gold declaration of Christ’s sovereign reign, crowned above the words King of Kings.",
     "founderFeatured": true,
     "printfulName": "King of Kings Tee",
     "checkoutPending": true,
@@ -71,7 +72,8 @@
         "name": "Tropical Blue",
         "image": "assets/products/king-of-kings-tropical-blue.png"
       }
-    ]
+    ],
+    "shippingIncluded": true
   },
   {
     "id": "every-knee-will-bow-tee",
@@ -123,7 +125,8 @@
         "name": "Tropical Blue",
         "image": "assets/products/every-knee-tropical-blue.png"
       }
-    ]
+    ],
+    "shippingIncluded": true
   },
   {
     "id": "disciple-tee",
@@ -142,7 +145,7 @@
     "tag": "New Release",
     "status": "available",
     "featured": false,
-    "desc": "A clean collegiate-style statement inspired by Matthew 4:19\u2014an everyday reminder to follow Christ.",
+    "desc": "A clean collegiate-style statement inspired by Matthew 4:19—an everyday reminder to follow Christ.",
     "founderFeatured": false,
     "printfulName": "Disciple Tee",
     "checkoutPending": true,
@@ -175,11 +178,12 @@
         "name": "Tropical Blue",
         "image": "assets/products/disciple-tropical-blue.png"
       }
-    ]
+    ],
+    "shippingIncluded": true
   },
   {
     "id": "satisfied-tee",
-    "name": "Satisfied \u2014 Matthew 14:20 Tee",
+    "name": "Satisfied — Matthew 14:20 Tee",
     "category": "Premium Tees",
     "price": 30,
     "image": "assets/products/satisfied-white.png",
@@ -194,7 +198,7 @@
     "tag": "New Premium",
     "status": "available",
     "featured": true,
-    "desc": "Vintage engraved artwork of the loaves and fish miracle: \u201cThey all ate and were satisfied.\u201d",
+    "desc": "Vintage engraved artwork of the loaves and fish miracle: “They all ate and were satisfied.”",
     "founderFeatured": true,
     "printfulName": "Satisfied Matthew 14:20 Tee",
     "checkoutPending": true,
@@ -207,7 +211,8 @@
         "name": "Sand",
         "image": "assets/products/satisfied-brown.png"
       }
-    ]
+    ],
+    "shippingIncluded": false
   },
   {
     "id": "lion-of-judah-hoodie",
@@ -228,7 +233,8 @@
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1Tr2hgRQ7M5gXs0AZK8lSqU4",
-    "printfulName": "Lion of Judah Hoodie"
+    "printfulName": "Lion of Judah Hoodie",
+    "shippingIncluded": false
   },
   {
     "id": "crown33-tee",
@@ -245,11 +251,12 @@
       "3XL"
     ],
     "tag": "Featured",
-    "desc": "Crown of thorns and 33 design pointing to Christ\u2019s finished work.",
+    "desc": "Crown of thorns and 33 design pointing to Christ’s finished work.",
     "status": "available",
     "founderFeatured": true,
     "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
-    "printfulName": "Crown 33 Tee"
+    "printfulName": "Crown 33 Tee",
+    "shippingIncluded": false
   },
   {
     "id": "lion-of-judah-tee",
@@ -270,7 +277,8 @@
     "status": "available",
     "founderFeatured": true,
     "stripePriceId": "price_1TuPdURQ7M5gXs0AVgIvdwJ1",
-    "printfulName": "Lion of Judah Tee"
+    "printfulName": "Lion of Judah Tee",
+    "shippingIncluded": false
   },
   {
     "id": "prayer-cross-tee",
@@ -291,7 +299,8 @@
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1l2RQ7M5gXs0AsMQ3XtyT",
-    "printfulName": "Prayer Cross Tee"
+    "printfulName": "Prayer Cross Tee",
+    "shippingIncluded": false
   },
   {
     "id": "crimson-worm-tee",
@@ -312,7 +321,8 @@
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1dbRQ7M5gXs0AOJ32Ehdg",
-    "printfulName": "Crimson Worm Tee"
+    "printfulName": "Crimson Worm Tee",
+    "shippingIncluded": false
   },
   {
     "id": "yahweh-tee",
@@ -333,7 +343,8 @@
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM",
-    "printfulName": "YHWH Tee"
+    "printfulName": "YHWH Tee",
+    "shippingIncluded": false
   },
   {
     "id": "armor-of-god-tee",
@@ -354,7 +365,8 @@
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1gERQ7M5gXs0Ay6KDZDZ8",
-    "printfulName": "Armor of God Tee"
+    "printfulName": "Armor of God Tee",
+    "shippingIncluded": false
   },
   {
     "id": "lamb-of-god-tee",
@@ -375,7 +387,8 @@
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A",
-    "printfulName": "Lamb of God Tee"
+    "printfulName": "Lamb of God Tee",
+    "shippingIncluded": false
   },
   {
     "id": "parting-the-sea-tee",
@@ -396,7 +409,8 @@
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1p9RQ7M5gXs0ADDbEGAOf",
-    "printfulName": "Parting the Sea Tee"
+    "printfulName": "Parting the Sea Tee",
+    "shippingIncluded": false
   },
   {
     "id": "living-word-tee",
@@ -417,7 +431,8 @@
     "status": "available",
     "founderFeatured": true,
     "stripePriceId": "price_1Tr1nQRQ7M5gXs0AcCDm8inf",
-    "printfulName": "The Living Word Tee"
+    "printfulName": "The Living Word Tee",
+    "shippingIncluded": false
   },
   {
     "id": "burning-bush-tee",
@@ -438,7 +453,8 @@
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1hqRQ7M5gXs0AjFGpCWQP",
-    "printfulName": "Burning Bush Tee"
+    "printfulName": "Burning Bush Tee",
+    "shippingIncluded": false
   },
   {
     "id": "simple-cross-tee",
@@ -459,7 +475,8 @@
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1TuReURQ7M5gXs0AywWH5ocX",
-    "printfulName": "Philippians 4:13 Cross Tee"
+    "printfulName": "Philippians 4:13 Cross Tee",
+    "shippingIncluded": false
   },
   {
     "id": "worthy-lamb-grey-tee",
@@ -480,7 +497,8 @@
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1Tr2g9RQ7M5gXs0A5icFrGWK",
-    "printfulName": "Worthy Is the Lamb Tee"
+    "printfulName": "Worthy Is the Lamb Tee",
+    "shippingIncluded": false
   },
   {
     "id": "crown33-maroon-tee",
@@ -501,7 +519,8 @@
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1Tr2eeRQ7M5gXs0AcYulj7vX",
-    "printfulName": "Maroon Crown 33 Tee"
+    "printfulName": "Maroon Crown 33 Tee",
+    "shippingIncluded": false
   },
   {
     "id": "preview-socks",
@@ -513,8 +532,9 @@
     "tag": "Coming Soon",
     "desc": "Six planned colorways presented together. We are sourcing a specialty sock partner who can meet the quality standard.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
-    "printfulName": "Cross Crew Socks Collection"
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "Cross Crew Socks Collection",
+    "shippingIncluded": false
   },
   {
     "id": "preview-shorts",
@@ -526,8 +546,9 @@
     "tag": "Coming Soon",
     "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
-    "printfulName": "Performance Shorts Collection"
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "Performance Shorts Collection",
+    "shippingIncluded": false
   },
   {
     "id": "preview-sweatpants",
@@ -539,8 +560,9 @@
     "tag": "Coming Soon",
     "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
-    "printfulName": "Premium Sweatpants Collection"
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "Premium Sweatpants Collection",
+    "shippingIncluded": false
   },
   {
     "id": "preview-duffle",
@@ -552,8 +574,9 @@
     "tag": "Coming Soon",
     "desc": "A purpose-built premium duffle concept for the gym, church, travel, and everyday use.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
-    "printfulName": "No Vanity 33 Duffle Bag"
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "No Vanity 33 Duffle Bag",
+    "shippingIncluded": false
   },
   {
     "id": "preview-water-bottle",
@@ -565,8 +588,9 @@
     "tag": "Coming Soon",
     "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
-    "printfulName": "40oz Scripture Water Bottle"
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "40oz Scripture Water Bottle",
+    "shippingIncluded": false
   },
   {
     "id": "preview-wristbands",
@@ -578,7 +602,8 @@
     "tag": "Coming Soon",
     "desc": "Comfortable faith wristbands planned with rotating Scripture references.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
-    "printfulName": "Scripture Wristband Collection"
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "Scripture Wristband Collection",
+    "shippingIncluded": false
   }
 ]
