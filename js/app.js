@@ -10,6 +10,8 @@ const money=v=>'$'+Number(v||0).toFixed(2);
 
 function save(){localStorage.setItem('nv33cart',JSON.stringify(cart));renderCart();}
 function selectedColor(id){
+  const select=document.querySelector(`select[name="color-${id}"]`);
+  if(select)return select.value;
   const checked=document.querySelector(`input[name="color-${id}"]:checked`);
   return checked?.value||'Default';
 }
@@ -37,6 +39,15 @@ function renderCart(){
 }
 function colorChoices(p){
   if(!p.colors?.length)return '';
+  if(p.id==='lion-of-judah-hoodie'){
+    return `<div class="hoodie-color-control">
+      <label for="hoodie-color-${p.id}">Hoodie Color</label>
+      <select id="hoodie-color-${p.id}" class="hoodie-color-select" name="color-${p.id}" onchange="swapHoodieColor('${p.id}',this)">
+        ${p.colors.map(c=>`<option value="${c.name}" data-image="${c.image}">${c.name}</option>`).join('')}
+      </select>
+      <div class="hoodie-color-key">${p.colors.map((c,i)=>`<span class="hoodie-color-chip ${i===0?'selected':''}" data-color="${c.name}"><i style="--swatch:${swatchColor(c.name)}"></i>${c.name}</span>`).join('')}</div>
+    </div>`;
+  }
   return `<div class="color-picker" aria-label="Choose color for ${p.name}">${p.colors.map((c,i)=>`
     <label class="color-option" title="${c.name}">
       <input type="radio" name="color-${p.id}" value="${c.name}" ${i===0?'checked':''} onchange="swapProductImage('${p.id}','${c.image}',this)">
@@ -52,6 +63,15 @@ function swapProductImage(id,image,input){
   if(img)img.src=image;
   document.querySelectorAll(`input[name="color-${id}"]`).forEach(el=>el.closest('label')?.classList.toggle('selected',el.checked));
 }
+
+function swapHoodieColor(id,select){
+  const option=select.options[select.selectedIndex];
+  const image=option?.dataset.image;
+  const img=document.getElementById('img-'+id);
+  if(img&&image)img.src=image;
+  document.querySelectorAll(`#${id}-card .hoodie-color-chip`).forEach(chip=>chip.classList.toggle('selected',chip.dataset.color===select.value));
+}
+
 function openImage(src,alt){
   let modal=document.getElementById('imageModal');
   if(!modal){
@@ -86,7 +106,9 @@ function previewCard(p){
   </article>`;
 }
 function renderAvailable(filter='All'){
-  const items=products.filter(p=>p.status==='available'&&(filter==='All'||p.category===filter));
+  // Products shown in Founder's Collection are intentionally excluded here
+  // so customers do not see duplicate cards on the same page.
+  const items=products.filter(p=>p.status==='available'&&!p.founderFeatured&&(filter==='All'||p.category===filter));
   grid.innerHTML=items.map(liveCard).join('');
 }
 function renderAll(){
@@ -103,7 +125,7 @@ document.querySelectorAll('[data-filter]').forEach(btn=>{
   };
 });
 cartBtn.onclick=e=>{e.preventDefault();cartBox.classList.toggle('show');};
-fetch('data/products.json?v=version8-5-20260725')
+fetch('data/products.json?v=version8-6-20260726')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=d;renderAll();})
   .catch(err=>{
