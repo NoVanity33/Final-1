@@ -44,7 +44,7 @@ function colorChoices(p){
     </label>`).join('')}</div>`;
 }
 function swatchColor(name){
-  const map={'Black':'#111','White':'#fff','Sand':'#c8b18f','Military Green':'#6d7658','Cardinal':'#8e1538','Red':'#d51f3f','Tropical Blue':'#08a9bc','Light Blue':'#8bc8e8','Royal Blue':'#1f5fd3'};
+  const map={'Black':'#111','White':'#fff','Sand':'#c8b18f','Military Green':'#6d7658','Cardinal':'#8e1538','Red':'#d51f3f','Tropical Blue':'#08a9bc','Light Blue':'#8bc8e8','Royal Blue':'#1f5fd3','Athletic Heather':'#c9c9c9','Navy':'#17243a','Cream':'#eee3c7'};
   return map[name]||'#c7a75b';
 }
 function swapProductImage(id,image,input){
@@ -103,7 +103,7 @@ document.querySelectorAll('[data-filter]').forEach(btn=>{
   };
 });
 cartBtn.onclick=e=>{e.preventDefault();cartBox.classList.toggle('show');};
-fetch('data/products.json?v=version8-4-20260725')
+fetch('data/products.json?v=version8-5-20260725')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=d;renderAll();})
   .catch(err=>{

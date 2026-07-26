@@ -40,7 +40,7 @@
     "tag": "New Release",
     "status": "available",
     "featured": true,
-    "desc": "A bold gold declaration of Christ’s sovereign reign, crowned above the words King of Kings.",
+    "desc": "A bold gold declaration of Christ\u2019s sovereign reign, crowned above the words King of Kings.",
     "founderFeatured": true,
     "printfulName": "King of Kings Tee",
     "checkoutPending": false,
@@ -146,7 +146,7 @@
     "tag": "New Release",
     "status": "available",
     "featured": false,
-    "desc": "A clean collegiate-style statement inspired by Matthew 4:19—an everyday reminder to follow Christ.",
+    "desc": "A clean collegiate-style statement inspired by Matthew 4:19\u2014an everyday reminder to follow Christ.",
     "founderFeatured": false,
     "printfulName": "Disciple Tee",
     "checkoutPending": false,
@@ -184,7 +184,7 @@
   },
   {
     "id": "satisfied-tee",
-    "name": "Satisfied — Matthew 14:20 Tee",
+    "name": "Satisfied \u2014 Matthew 14:20 Tee",
     "category": "Premium Tees",
     "price": 24.99,
     "image": "assets/products/satisfied-white.png",
@@ -199,7 +199,7 @@
     "tag": "Free Shipping",
     "status": "available",
     "featured": true,
-    "desc": "Vintage engraved artwork of the loaves and fish miracle: “They all ate and were satisfied.”",
+    "desc": "Vintage engraved artwork of the loaves and fish miracle: \u201cThey all ate and were satisfied.\u201d",
     "founderFeatured": true,
     "printfulName": "Satisfied Matthew 14:20 Tee",
     "checkoutPending": false,
@@ -220,7 +220,7 @@
     "name": "Lion of Judah Hoodie",
     "category": "Hoodies",
     "price": 50,
-    "image": "assets/products/lion-of-judah-hoodie.png",
+    "image": "assets/products/lion-of-judah-hoodie-black.png",
     "sizes": [
       "S",
       "M",
@@ -230,13 +230,35 @@
       "3XL"
     ],
     "tag": "Featured",
-    "desc": "Premium black hoodie with Lion of Judah front/back artwork.",
+    "desc": "Premium heavyweight Lion of Judah hoodie with front artwork and Revelation 5:5 biblical context on the back.",
     "status": "available",
     "founderFeatured": false,
     "stripePriceId": "price_1Tr2hgRQ7M5gXs0AZK8lSqU4",
     "printfulName": "Lion of Judah Hoodie",
     "shippingIncluded": false,
-    "checkoutPending": false
+    "checkoutPending": false,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/lion-of-judah-hoodie-black.png"
+      },
+      {
+        "name": "Athletic Heather",
+        "image": "assets/products/lion-of-judah-hoodie-heather.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/lion-of-judah-hoodie-white.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/lion-of-judah-hoodie-navy.png"
+      },
+      {
+        "name": "Cream",
+        "image": "assets/products/lion-of-judah-hoodie-cream.png"
+      }
+    ]
   },
   {
     "id": "crown33-tee",
@@ -253,7 +275,7 @@
       "3XL"
     ],
     "tag": "Featured",
-    "desc": "Crown of thorns and 33 design pointing to Christ’s finished work.",
+    "desc": "Crown of thorns and 33 design pointing to Christ\u2019s finished work.",
     "status": "available",
     "founderFeatured": true,
     "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
@@ -547,7 +569,7 @@
     "tag": "Coming Soon",
     "desc": "Six planned colorways presented together. We are sourcing a specialty sock partner who can meet the quality standard.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Cross Crew Socks Collection",
     "shippingIncluded": false
   },
@@ -561,7 +583,7 @@
     "tag": "Coming Soon",
     "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Performance Shorts Collection",
     "shippingIncluded": false
   },
@@ -575,7 +597,7 @@
     "tag": "Coming Soon",
     "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Premium Sweatpants Collection",
     "shippingIncluded": false
   },
@@ -589,7 +611,7 @@
     "tag": "Coming Soon",
     "desc": "A purpose-built premium duffle concept for the gym, church, travel, and everyday use.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "No Vanity 33 Duffle Bag",
     "shippingIncluded": false
   },
@@ -603,7 +625,7 @@
     "tag": "Coming Soon",
     "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "40oz Scripture Water Bottle",
     "shippingIncluded": false
   },
@@ -617,7 +639,7 @@
     "tag": "Coming Soon",
     "desc": "Comfortable faith wristbands planned with rotating Scripture references.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Scripture Wristband Collection",
     "shippingIncluded": false
   }
