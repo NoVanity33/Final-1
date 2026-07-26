@@ -25,7 +25,7 @@
     "id": "king-of-kings-tee",
     "name": "King of Kings Tee",
     "category": "Everyday Tees",
-    "price": 18.99,
+    "price": 24.99,
     "image": "assets/products/king-of-kings-black.png",
     "sizes": [
       "S",
@@ -77,7 +77,7 @@
     "id": "jesus-is-king-tee",
     "name": "Jesus Is King Tee",
     "category": "Everyday Tees",
-    "price": 18.99,
+    "price": 24.99,
     "image": "assets/products/jesus-is-king-white.png",
     "sizes": [
       "S",
@@ -125,7 +125,7 @@
     "id": "every-knee-will-bow-tee",
     "name": "Every Knee Will Bow Tee",
     "category": "Everyday Tees",
-    "price": 18.99,
+    "price": 24.99,
     "image": "assets/products/every-knee-black.png",
     "sizes": [
       "S",
@@ -177,7 +177,7 @@
     "id": "disciple-tee",
     "name": "Disciple Tee",
     "category": "Everyday Tees",
-    "price": 18.99,
+    "price": 24.99,
     "image": "assets/products/disciple-brown.png",
     "sizes": [
       "S",
