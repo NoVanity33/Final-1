@@ -15,10 +15,10 @@ function selectedColor(id){
 }
 function addToCart(id){
   const p=products.find(x=>x.id===id);
-  if(!p||p.status==='coming-soon'||!p.stripePriceId)return;
+  if(!p||p.status==='coming-soon')return;
   const size=document.getElementById('size-'+id)?.value||'One Size';
   const color=selectedColor(id);
-  cart.push({id:p.id,name:p.name,price:p.price,size,color,stripePriceId:p.stripePriceId,shippingIncluded:!!p.shippingIncluded});
+  cart.push({id:p.id,name:p.name,price:p.price,size,color,stripePriceId:p.stripePriceId||'',shippingIncluded:!!p.shippingIncluded});
   save();
   cartBox.classList.add('show');
 }
@@ -63,7 +63,7 @@ function openImage(src,alt){
   modal.querySelector('img').src=src;modal.querySelector('img').alt=alt;modal.classList.add('show');
 }
 function liveCard(p){
-  const purchasable=!!p.stripePriceId;
+  const purchasable=p.status==='available';
   return `<article class="card product-card" id="${p.id}-card">
     <span class="badge">${p.tag||'Available'}</span>
     <div class="imgbox clickable" onclick="openImage(document.getElementById('img-${p.id}').src,'${p.name}')" title="Click to enlarge"><img id="img-${p.id}" src="${p.image}" alt="${p.name}" loading="lazy"></div>
@@ -103,7 +103,7 @@ document.querySelectorAll('[data-filter]').forEach(btn=>{
   };
 });
 cartBtn.onclick=e=>{e.preventDefault();cartBox.classList.toggle('show');};
-fetch('data/products.json?v=version8-3-20260725')
+fetch('data/products.json?v=version8-4-20260725')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=d;renderAll();})
   .catch(err=>{

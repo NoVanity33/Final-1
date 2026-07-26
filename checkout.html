@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Checkout | No Vanity 33</title>
-  <link rel="stylesheet" href="css/style.css?v=version8-3-20260725">
+  <link rel="stylesheet" href="css/style.css?v=version8-4-20260725">
   <style>
     .checkout-layout{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1050px;margin:0 auto}.checkout-panel{background:#111;border:1px solid #332b18;border-radius:12px;padding:22px}.checkout-fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.checkout-fields .wide{grid-column:1/-1}.checkout-fields label{display:flex;flex-direction:column;gap:6px;font-size:.88rem;color:#e8dfca}.checkout-fields input,.checkout-fields select{width:100%;box-sizing:border-box;background:#080808;border:1px solid #514426;border-radius:7px;color:#fff;padding:12px}.shipping-rate{display:block;border:1px solid #514426;border-radius:8px;padding:12px;margin:10px 0;cursor:pointer}.shipping-rate:has(input:checked){border-color:#f6c442;background:#1b170c}.muted{color:#a99f89;font-size:.88rem}.checkout-summary-line{display:flex;justify-content:space-between;gap:15px;padding:8px 0}.checkout-grand{border-top:1px solid #514426;margin-top:12px;padding-top:14px;font-size:1.15rem}.status-good{color:#8ee39b}.status-error{color:#ff9b9b}@media(max-width:780px){.checkout-layout{grid-template-columns:1fr}.checkout-fields{grid-template-columns:1fr}.checkout-fields .wide{grid-column:auto}}
   </style>
@@ -56,7 +56,7 @@ function renderCheckout(){
   totalBox.innerHTML=`<span>Total before tax</span><strong>${money(subtotal+(selectedShipping?.rate||0))}</strong>`;
   btn.disabled=!selectedShipping;
 }
-async function loadProducts(){const res=await fetch('data/products.json?v=version8-3-20260725');if(!res.ok)throw new Error('Could not load products.');products=await res.json();}
+async function loadProducts(){const res=await fetch('data/products.json?v=version8-4-20260725');if(!res.ok)throw new Error('Could not load products.');products=await res.json();}
 function findProduct(cartItem){return products.find(p=>(cartItem.id&&p.id===cartItem.id)||(cartItem.name&&p.name===cartItem.name));}
 function recipient(){return {email:email.value.trim(),name:fullName.value.trim(),address1:address1.value.trim(),address2:address2.value.trim(),city:city.value.trim(),state_code:state.value.trim(),zip:zip.value.trim(),country_code:country.value.trim().toUpperCase()};}
 function validRecipient(r){return r.email&&r.name&&r.address1&&r.city&&r.zip&&r.country_code.length===2;}
@@ -87,8 +87,7 @@ async function startCheckout(){
   if(!cart.length||!selectedShipping)return;
   if(!products.length)await loadProducts();
   const lineItems=[],missing=[];
-  for(const item of cart){const p=findProduct(item);const stripePriceId=item.stripePriceId||item.priceId||p?.stripePriceId||p?.priceId||'';if(!stripePriceId){missing.push(item.name);continue;}lineItems.push({price:stripePriceId,quantity:1,productId:item.id||p?.id||'',name:p?.printfulName||item.name||p?.name||'',size:item.size||'',color:item.color||''});}
-  if(missing.length){msg.className='status-error';msg.textContent='These items are not connected to Stripe yet: '+missing.join(', ');return;}
+  for(const item of cart){const p=findProduct(item);const stripePriceId=item.stripePriceId||item.priceId||p?.stripePriceId||p?.priceId||'';lineItems.push({price:stripePriceId,unitAmount:Math.round(Number(item.price||p?.price||0)*100),quantity:1,productId:item.id||p?.id||'',name:p?.printfulName||item.name||p?.name||'',displayName:item.name||p?.name||'No Vanity 33 Product',size:item.size||'',color:item.color||''});}
   btn.disabled=true;btn.textContent='Opening secure checkout...';msg.textContent='';
   try{const res=await fetch('/api/create-checkout-session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({items:lineItems,shipping:selectedShipping,recipient:recipient()})});const data=await res.json().catch(()=>({}));if(data.url){window.location.href=data.url;}else{throw new Error(data.error||'Checkout could not start.');}}
   catch(err){msg.className='status-error';msg.textContent=err.message||'Checkout could not start.';btn.disabled=false;btn.textContent='Pay Securely with Stripe';}

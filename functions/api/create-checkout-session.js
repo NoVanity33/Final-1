@@ -25,8 +25,15 @@ export async function onRequestPost(context) {
     if (recipient?.email) params.set('customer_email', recipient.email);
 
     items.forEach((item, index) => {
-      if (!item.price) throw new Error(`Missing Stripe Price ID for ${item.productId || 'product'}.`);
-      params.set(`line_items[${index}][price]`, item.price);
+      if (item.price) {
+        params.set(`line_items[${index}][price]`, item.price);
+      } else {
+        const unitAmount = Math.round(Number(item.unitAmount || 0));
+        if (!Number.isFinite(unitAmount) || unitAmount < 50) throw new Error(`Invalid price for ${item.productId || 'product'}.`);
+        params.set(`line_items[${index}][price_data][currency]`, 'usd');
+        params.set(`line_items[${index}][price_data][unit_amount]`, String(unitAmount));
+        params.set(`line_items[${index}][price_data][product_data][name]`, String(item.displayName || item.name || 'No Vanity 33 Product'));
+      }
       params.set(`line_items[${index}][quantity]`, String(item.quantity || 1));
       if (item.productId) params.set(`metadata[product_${index}_id]`, item.productId);
       if (item.name) params.set(`metadata[product_${index}_name]`, item.name);

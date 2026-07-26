@@ -20,7 +20,8 @@
     "founderFeatured": true,
     "stripePriceId": "price_1Tr2dfRQ7M5gXs0ABzOZcDRl",
     "printfulName": "The Shroud Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "king-of-kings-tee",
@@ -42,7 +43,7 @@
     "desc": "A bold gold declaration of Christ’s sovereign reign, crowned above the words King of Kings.",
     "founderFeatured": true,
     "printfulName": "King of Kings Tee",
-    "checkoutPending": true,
+    "checkoutPending": false,
     "colors": [
       {
         "name": "Black",
@@ -95,7 +96,7 @@
     "desc": "Bold distressed typography proclaiming the promise that every knee will bow before Christ.",
     "founderFeatured": false,
     "printfulName": "Every Knee Will Bow Tee",
-    "checkoutPending": true,
+    "checkoutPending": false,
     "colors": [
       {
         "name": "Black",
@@ -148,7 +149,7 @@
     "desc": "A clean collegiate-style statement inspired by Matthew 4:19—an everyday reminder to follow Christ.",
     "founderFeatured": false,
     "printfulName": "Disciple Tee",
-    "checkoutPending": true,
+    "checkoutPending": false,
     "colors": [
       {
         "name": "Sand",
@@ -185,7 +186,7 @@
     "id": "satisfied-tee",
     "name": "Satisfied — Matthew 14:20 Tee",
     "category": "Premium Tees",
-    "price": 30,
+    "price": 24.99,
     "image": "assets/products/satisfied-white.png",
     "sizes": [
       "S",
@@ -195,13 +196,13 @@
       "2XL",
       "3XL"
     ],
-    "tag": "New Premium",
+    "tag": "Free Shipping",
     "status": "available",
     "featured": true,
     "desc": "Vintage engraved artwork of the loaves and fish miracle: “They all ate and were satisfied.”",
     "founderFeatured": true,
     "printfulName": "Satisfied Matthew 14:20 Tee",
-    "checkoutPending": true,
+    "checkoutPending": false,
     "colors": [
       {
         "name": "White",
@@ -212,7 +213,7 @@
         "image": "assets/products/satisfied-brown.png"
       }
     ],
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "lion-of-judah-hoodie",
@@ -234,7 +235,8 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr2hgRQ7M5gXs0AZK8lSqU4",
     "printfulName": "Lion of Judah Hoodie",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "crown33-tee",
@@ -256,7 +258,8 @@
     "founderFeatured": true,
     "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
     "printfulName": "Crown 33 Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "lion-of-judah-tee",
@@ -278,7 +281,8 @@
     "founderFeatured": true,
     "stripePriceId": "price_1TuPdURQ7M5gXs0AVgIvdwJ1",
     "printfulName": "Lion of Judah Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "prayer-cross-tee",
@@ -300,7 +304,8 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1l2RQ7M5gXs0AsMQ3XtyT",
     "printfulName": "Prayer Cross Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "crimson-worm-tee",
@@ -322,7 +327,8 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1dbRQ7M5gXs0AOJ32Ehdg",
     "printfulName": "Crimson Worm Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "yahweh-tee",
@@ -344,7 +350,8 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM",
     "printfulName": "YHWH Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "armor-of-god-tee",
@@ -366,7 +373,8 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1gERQ7M5gXs0Ay6KDZDZ8",
     "printfulName": "Armor of God Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "lamb-of-god-tee",
@@ -388,7 +396,8 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A",
     "printfulName": "Lamb of God Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "parting-the-sea-tee",
@@ -410,7 +419,8 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1p9RQ7M5gXs0ADDbEGAOf",
     "printfulName": "Parting the Sea Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "living-word-tee",
@@ -432,7 +442,8 @@
     "founderFeatured": true,
     "stripePriceId": "price_1Tr1nQRQ7M5gXs0AcCDm8inf",
     "printfulName": "The Living Word Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "burning-bush-tee",
@@ -454,7 +465,8 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1hqRQ7M5gXs0AjFGpCWQP",
     "printfulName": "Burning Bush Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "simple-cross-tee",
@@ -476,7 +488,8 @@
     "founderFeatured": false,
     "stripePriceId": "price_1TuReURQ7M5gXs0AywWH5ocX",
     "printfulName": "Philippians 4:13 Cross Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "worthy-lamb-grey-tee",
@@ -498,7 +511,8 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr2g9RQ7M5gXs0A5icFrGWK",
     "printfulName": "Worthy Is the Lamb Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "crown33-maroon-tee",
@@ -520,7 +534,8 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr2eeRQ7M5gXs0AcYulj7vX",
     "printfulName": "Maroon Crown 33 Tee",
-    "shippingIncluded": false
+    "shippingIncluded": false,
+    "checkoutPending": false
   },
   {
     "id": "preview-socks",
