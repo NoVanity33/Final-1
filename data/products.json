@@ -38,7 +38,7 @@
     "tag": "New Release",
     "status": "available",
     "featured": true,
-    "desc": "A bold gold declaration of Christ’s sovereign reign, crowned above the words King of Kings.",
+    "desc": "A bold gold declaration of Christ\u2019s sovereign reign, crowned above the words King of Kings.",
     "founderFeatured": true,
     "printfulName": "King of Kings Tee",
     "checkoutPending": true,
@@ -70,54 +70,6 @@
       {
         "name": "Tropical Blue",
         "image": "assets/products/king-of-kings-tropical-blue.png"
-      }
-    ]
-  },
-  {
-    "id": "jesus-is-king-tee",
-    "name": "Jesus Is King Tee",
-    "category": "Everyday Tees",
-    "price": 24.99,
-    "image": "assets/products/jesus-is-king-white.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "A clean cross-shaped typography design declaring Jesus is King, anchored by Philippians 2:11.",
-    "founderFeatured": true,
-    "printfulName": "Jesus Is King Tee",
-    "checkoutPending": true,
-    "colors": [
-      {
-        "name": "White",
-        "image": "assets/products/jesus-is-king-white.png"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/jesus-is-king-blue.png"
-      },
-      {
-        "name": "Cardinal",
-        "image": "assets/products/jesus-is-king-cardinal.png"
-      },
-      {
-        "name": "Light Blue",
-        "image": "assets/products/jesus-is-king-light-blue.png"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/jesus-is-king-red.png"
-      },
-      {
-        "name": "Tropical Blue",
-        "image": "assets/products/jesus-is-king-tropical-blue.png"
       }
     ]
   },
@@ -190,7 +142,7 @@
     "tag": "New Release",
     "status": "available",
     "featured": false,
-    "desc": "A clean collegiate-style statement inspired by Matthew 4:19—an everyday reminder to follow Christ.",
+    "desc": "A clean collegiate-style statement inspired by Matthew 4:19\u2014an everyday reminder to follow Christ.",
     "founderFeatured": false,
     "printfulName": "Disciple Tee",
     "checkoutPending": true,
@@ -227,7 +179,7 @@
   },
   {
     "id": "satisfied-tee",
-    "name": "Satisfied — Matthew 14:20 Tee",
+    "name": "Satisfied \u2014 Matthew 14:20 Tee",
     "category": "Premium Tees",
     "price": 30,
     "image": "assets/products/satisfied-white.png",
@@ -242,7 +194,7 @@
     "tag": "New Premium",
     "status": "available",
     "featured": true,
-    "desc": "Vintage engraved artwork of the loaves and fish miracle: “They all ate and were satisfied.”",
+    "desc": "Vintage engraved artwork of the loaves and fish miracle: \u201cThey all ate and were satisfied.\u201d",
     "founderFeatured": true,
     "printfulName": "Satisfied Matthew 14:20 Tee",
     "checkoutPending": true,
@@ -293,7 +245,7 @@
       "3XL"
     ],
     "tag": "Featured",
-    "desc": "Crown of thorns and 33 design pointing to Christ’s finished work.",
+    "desc": "Crown of thorns and 33 design pointing to Christ\u2019s finished work.",
     "status": "available",
     "founderFeatured": true,
     "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
@@ -561,7 +513,7 @@
     "tag": "Coming Soon",
     "desc": "Six planned colorways presented together. We are sourcing a specialty sock partner who can meet the quality standard.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Cross Crew Socks Collection"
   },
   {
@@ -574,7 +526,7 @@
     "tag": "Coming Soon",
     "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Performance Shorts Collection"
   },
   {
@@ -587,7 +539,7 @@
     "tag": "Coming Soon",
     "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Premium Sweatpants Collection"
   },
   {
@@ -600,7 +552,7 @@
     "tag": "Coming Soon",
     "desc": "A purpose-built premium duffle concept for the gym, church, travel, and everyday use.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "No Vanity 33 Duffle Bag"
   },
   {
@@ -613,7 +565,7 @@
     "tag": "Coming Soon",
     "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "40oz Scripture Water Bottle"
   },
   {
@@ -626,7 +578,7 @@
     "tag": "Coming Soon",
     "desc": "Comfortable faith wristbands planned with rotating Scripture references.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
+    "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Scripture Wristband Collection"
   }
 ]
