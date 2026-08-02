@@ -632,9 +632,21 @@ select{
 .hoodie-color-chip i{display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--swatch);border:1px solid #aaa}
 .hoodie-color-chip.selected{border-color:#d7b55b;color:#fff;box-shadow:0 0 0 1px #d7b55b33}
 
-/* NV33 V8.7 standardized gray mockups */
-.product-card img,
-.product-image,
-.product-gallery img {
-  background-color: #e1e1e1 !important;
-}
+
+/* ===== No Vanity 33 V9 Catalog + Ambassador ===== */
+.selected-color{font-size:12px;color:#cfcfcf;margin-top:6px}
+.selected-color strong{color:#fff}
+.swatches{display:flex;flex-wrap:wrap;gap:10px;margin:10px 2px 8px;min-height:28px}
+.swatch-wrap{display:inline-flex;margin:0;cursor:pointer}
+.swatch-wrap input{position:absolute;opacity:0;pointer-events:none}
+.swatch{display:block;width:25px;height:25px;border-radius:50%;background:var(--swatch);border:2px solid #777;box-shadow:inset 0 0 0 1px rgba(0,0,0,.35)}
+.swatch.active{outline:2px solid var(--gold);outline-offset:3px;border-color:#fff}
+.ambassador-cart-note,.referral-banner{border:1px solid var(--gold);background:#181204;color:#f7e7a8;padding:10px 12px;border-radius:7px;font-size:12px;margin:10px 0}
+.ambassador-hero{max-width:1100px;margin:45px auto;padding:44px;background:linear-gradient(135deg,#0c0c0c,#181204);border:1px solid #5c4616;border-radius:14px}
+.ambassador-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.ambassador-card{background:#090909;border:1px solid #332b18;border-radius:12px;padding:22px}
+.ambassador-form{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ambassador-form .wide{grid-column:1/-1}
+.ambassador-form label{display:flex;flex-direction:column;gap:6px;color:#e8dfca;font-size:13px}
+.ambassador-form input,.ambassador-form textarea{background:#050505;border:1px solid #514426;border-radius:7px;color:#fff;padding:12px}
+@media(max-width:760px){.ambassador-grid,.ambassador-form{grid-template-columns:1fr}.ambassador-form .wide{grid-column:auto}}

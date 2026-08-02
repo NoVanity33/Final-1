@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Michael McCallister",
+    "code": "MICHAEL10",
+    "slug": "michael",
+    "discountPercent": 10,
+    "commissionRate": "pending agreement",
+    "active": true
+  }
+]

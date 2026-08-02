@@ -7,6 +7,17 @@ export async function onRequestPost(context) {
     const items = Array.isArray(body.items) ? body.items : [];
     const shipping = body.shipping || null;
     const recipient = body.recipient || null;
+    const ambassadorCode = String(body.ambassadorCode || '').trim().toUpperCase();
+    let ambassador = null;
+    if (ambassadorCode) {
+      try {
+        const ambassadorRes = await fetch(new URL('/data/ambassadors.json', request.url));
+        const ambassadors = await ambassadorRes.json();
+        ambassador = ambassadors.find(a => a.active && String(a.code).toUpperCase() === ambassadorCode) || null;
+      } catch (_) {
+        ambassador = null;
+      }
+    }
     if (!items.length) return json({ error: 'Cart is empty.' }, 400);
     if (!shipping || !Number.isFinite(Number(shipping.rate))) return json({ error: 'Select a shipping rate.' }, 400);
 
@@ -25,14 +36,22 @@ export async function onRequestPost(context) {
     if (recipient?.email) params.set('customer_email', recipient.email);
 
     items.forEach((item, index) => {
-      if (item.price) {
+      const originalUnitAmount = Math.round(Number(item.unitAmount || 0));
+      const discountedUnitAmount = ambassador ? Math.round(originalUnitAmount * 0.90) : originalUnitAmount;
+
+      // Ambassador orders use dynamic price_data so the 10% discount is guaranteed.
+      if (!ambassador && item.price) {
         params.set(`line_items[${index}][price]`, item.price);
       } else {
-        const unitAmount = Math.round(Number(item.unitAmount || 0));
-        if (!Number.isFinite(unitAmount) || unitAmount < 50) throw new Error(`Invalid price for ${item.productId || 'product'}.`);
+        if (!Number.isFinite(discountedUnitAmount) || discountedUnitAmount < 50) {
+          throw new Error(`Invalid price for ${item.productId || 'product'}.`);
+        }
         params.set(`line_items[${index}][price_data][currency]`, 'usd');
-        params.set(`line_items[${index}][price_data][unit_amount]`, String(unitAmount));
+        params.set(`line_items[${index}][price_data][unit_amount]`, String(discountedUnitAmount));
         params.set(`line_items[${index}][price_data][product_data][name]`, String(item.displayName || item.name || 'No Vanity 33 Product'));
+        if (ambassador) {
+          params.set(`line_items[${index}][price_data][product_data][description]`, `10% ambassador discount — ${ambassador.code}`);
+        }
       }
       params.set(`line_items[${index}][quantity]`, String(item.quantity || 1));
       if (item.productId) params.set(`metadata[product_${index}_id]`, item.productId);
@@ -41,6 +60,11 @@ export async function onRequestPost(context) {
       if (item.color) params.set(`metadata[product_${index}_color]`, item.color);
       params.set(`metadata[product_${index}_quantity]`, String(item.quantity || 1));
     });
+    if (ambassador) {
+      params.set('metadata[ambassador_code]', ambassador.code);
+      params.set('metadata[ambassador_name]', ambassador.name);
+      params.set('metadata[ambassador_discount_percent]', '10');
+    }
 
     const amount = Math.round(Number(shipping.rate) * 100);
     params.set('shipping_options[0][shipping_rate_data][type]', 'fixed_amount');
