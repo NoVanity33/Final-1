@@ -631,3 +631,10 @@ select{
 .hoodie-color-chip{display:flex;align-items:center;gap:5px;border:1px solid #3a3325;border-radius:999px;padding:4px 7px;font-size:10px;color:#bbb;background:#0d0d0d}
 .hoodie-color-chip i{display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--swatch);border:1px solid #aaa}
 .hoodie-color-chip.selected{border-color:#d7b55b;color:#fff;box-shadow:0 0 0 1px #d7b55b33}
+
+/* NV33 V8.7 standardized gray mockups */
+.product-card img,
+.product-image,
+.product-gallery img {
+  background-color: #e1e1e1 !important;
+}

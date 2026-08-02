@@ -24,11 +24,11 @@
     "checkoutPending": false
   },
   {
-    "id": "king-of-kings-tee",
-    "name": "King of Kings Tee",
+    "id": "faith-over-fear-tee",
+    "name": "Faith Over Fear Tee",
     "category": "Everyday Tees",
     "price": 24.99,
-    "image": "assets/products/king-of-kings-black.png",
+    "image": "assets/products/faith-over-fear-baby-blue.png",
     "sizes": [
       "S",
       "M",
@@ -40,38 +40,278 @@
     "tag": "New Release",
     "status": "available",
     "featured": true,
-    "desc": "A bold gold declaration of Christ\u2019s sovereign reign, crowned above the words King of Kings.",
-    "founderFeatured": true,
-    "printfulName": "King of Kings Tee",
+    "desc": "A clean, bold reminder to trust God over fear, inspired by 2 Timothy 1:7.",
+    "founderFeatured": false,
+    "printfulName": "Faith Over Fear Tee",
+    "checkoutPending": false,
+    "colors": [
+      {
+        "name": "Baby Blue",
+        "image": "assets/products/faith-over-fear-baby-blue.png"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/products/faith-over-fear-brown.png"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/faith-over-fear-charcoal.png"
+      },
+      {
+        "name": "Graphite",
+        "image": "assets/products/faith-over-fear-graphite.png"
+      },
+      {
+        "name": "Haze",
+        "image": "assets/products/faith-over-fear-haze.png"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/products/faith-over-fear-light-blue.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/faith-over-fear-red.png"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/products/faith-over-fear-sand.png"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/faith-over-fear-teal.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/faith-over-fear-white.png"
+      }
+    ],
+    "shippingIncluded": true
+  },
+  {
+    "id": "faithful-servant-tee",
+    "name": "Faithful Servant Tee",
+    "category": "Everyday Tees",
+    "price": 24.99,
+    "image": "assets/products/faithful-servant-black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Inspired by Matthew 25:21, this design reflects the words every believer longs to hear: well done, faithful servant.",
+    "founderFeatured": false,
+    "printfulName": "Faithful Servant Tee",
     "checkoutPending": false,
     "colors": [
       {
         "name": "Black",
-        "image": "assets/products/king-of-kings-black.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/king-of-kings-white.png"
-      },
-      {
-        "name": "Sand",
-        "image": "assets/products/king-of-kings-brown.png"
-      },
-      {
-        "name": "Military Green",
-        "image": "assets/products/king-of-kings-military-green.png"
+        "image": "assets/products/faithful-servant-black.png"
       },
       {
         "name": "Cardinal",
-        "image": "assets/products/king-of-kings-cardinal.png"
+        "image": "assets/products/faithful-servant-cardinal.png"
+      },
+      {
+        "name": "Carolina Blue",
+        "image": "assets/products/faithful-servant-carolina-blue.png"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/faithful-servant-charcoal.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/faithful-servant-heather-grey.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/faithful-servant-maroon.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/faithful-servant-military-green.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/faithful-servant-navy.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/faithful-servant-purple.png"
       },
       {
         "name": "Red",
-        "image": "assets/products/king-of-kings-red.png"
+        "image": "assets/products/faithful-servant-red.png"
+      }
+    ],
+    "shippingIncluded": true
+  },
+  {
+    "id": "child-of-god-tee",
+    "name": "Child of God Tee",
+    "category": "Everyday Tees",
+    "price": 24.99,
+    "image": "assets/products/child-of-god-black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A bold everyday declaration of identity in Christ, featuring expressive gold brush lettering and a cross.",
+    "founderFeatured": false,
+    "printfulName": "Child of God Tee",
+    "checkoutPending": false,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/child-of-god-black.png"
       },
       {
-        "name": "Tropical Blue",
-        "image": "assets/products/king-of-kings-tropical-blue.png"
+        "name": "Charcoal",
+        "image": "assets/products/child-of-god-charcoal.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/child-of-god-heather-grey.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/child-of-god-maroon.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/child-of-god-navy.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/child-of-god-purple.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/child-of-god-red.png"
+      }
+    ],
+    "shippingIncluded": true
+  },
+  {
+    "id": "every-knee-will-bow-tee",
+    "name": "Every Knee Will Bow Tee",
+    "category": "Everyday Tees",
+    "price": 24.99,
+    "image": "assets/products/every-knee-will-bow-black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Bold distressed typography proclaiming the promise that every knee will bow before Jesus Christ.",
+    "founderFeatured": false,
+    "printfulName": "Every Knee Will Bow Tee",
+    "checkoutPending": false,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/every-knee-will-bow-black.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/every-knee-will-bow-cardinal.png"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/products/every-knee-will-bow-light-blue.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/every-knee-will-bow-military-green.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/every-knee-will-bow-red.png"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/every-knee-will-bow-teal.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/every-knee-will-bow-white.png"
+      }
+    ],
+    "shippingIncluded": true
+  },
+  {
+    "id": "disciple-tee",
+    "name": "Disciple Tee",
+    "category": "Everyday Tees",
+    "price": 24.99,
+    "image": "assets/products/disciple-black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A collegiate-style statement inspired by Matthew 4:19—a clear reminder to follow Christ.",
+    "founderFeatured": false,
+    "printfulName": "Disciple Tee",
+    "checkoutPending": false,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/disciple-black.png"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/products/disciple-sand.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/disciple-cardinal.png"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/products/disciple-light-blue.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/disciple-military-green.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/disciple-red.png"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/disciple-teal.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/disciple-white.png"
       }
     ],
     "shippingIncluded": true
@@ -146,7 +386,7 @@
     "tag": "New Release",
     "status": "available",
     "featured": false,
-    "desc": "A clean collegiate-style statement inspired by Matthew 4:19\u2014an everyday reminder to follow Christ.",
+    "desc": "A clean collegiate-style statement inspired by Matthew 4:19—an everyday reminder to follow Christ.",
     "founderFeatured": false,
     "printfulName": "Disciple Tee",
     "checkoutPending": false,
@@ -184,7 +424,7 @@
   },
   {
     "id": "satisfied-tee",
-    "name": "Satisfied \u2014 Matthew 14:20 Tee",
+    "name": "Satisfied — Matthew 14:20 Tee",
     "category": "Premium Tees",
     "price": 24.99,
     "image": "assets/products/satisfied-white.png",
@@ -199,7 +439,7 @@
     "tag": "Free Shipping",
     "status": "available",
     "featured": true,
-    "desc": "Vintage engraved artwork of the loaves and fish miracle: \u201cThey all ate and were satisfied.\u201d",
+    "desc": "Vintage engraved artwork of the loaves and fish miracle: “They all ate and were satisfied.”",
     "founderFeatured": true,
     "printfulName": "Satisfied Matthew 14:20 Tee",
     "checkoutPending": false,
@@ -275,7 +515,7 @@
       "3XL"
     ],
     "tag": "Featured",
-    "desc": "Crown of thorns and 33 design pointing to Christ\u2019s finished work.",
+    "desc": "Crown of thorns and 33 design pointing to Christ’s finished work.",
     "status": "available",
     "founderFeatured": true,
     "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
@@ -284,11 +524,11 @@
     "checkoutPending": false
   },
   {
-    "id": "lion-of-judah-tee",
-    "name": "Lion of Judah Tee",
+    "id": "crimson-worm-tee",
+    "name": "Crimson Worm Tee",
     "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/lion-of-judah-tee.png",
+    "price": 30.0,
+    "image": "assets/products/crimson-worm-black.png",
     "sizes": [
       "S",
       "M",
@@ -297,14 +537,49 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Best Seller",
-    "desc": "Revelation 5:5 front/back tee with Lion of Judah artwork.",
+    "tag": "Premium",
     "status": "available",
-    "founderFeatured": true,
-    "stripePriceId": "price_1TuPdURQ7M5gXs0AVgIvdwJ1",
-    "printfulName": "Lion of Judah Tee",
+    "featured": true,
+    "desc": "A detailed front-and-back biblical design exploring the crimson worm imagery and redemption through the blood of Christ.",
+    "founderFeatured": false,
+    "printfulName": "Crimson Worm Tee",
+    "checkoutPending": false,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/crimson-worm-black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/crimson-worm-royal-blue.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/crimson-worm-cardinal.png"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/products/crimson-worm-chocolate.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/crimson-worm-military-green.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/crimson-worm-maroon.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/crimson-worm-navy.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/crimson-worm-purple.png"
+      }
+    ],
     "shippingIncluded": false,
-    "checkoutPending": false
+    "stripePriceId": "price_1TuPdURQ7M5gXs0AVgIvdwJ1"
   },
   {
     "id": "prayer-cross-tee",
@@ -353,11 +628,11 @@
     "checkoutPending": false
   },
   {
-    "id": "yahweh-tee",
-    "name": "YHWH Tee",
+    "id": "armor-of-god-tee",
+    "name": "Armor of God Tee",
     "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/yahweh-tee.png",
+    "price": 30.0,
+    "image": "assets/products/armor-of-god-black.png",
     "sizes": [
       "S",
       "M",
@@ -366,14 +641,49 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Scripture",
-    "desc": "Sacred Name design featuring the Hebrew Tetragrammaton and YHWH.",
+    "tag": "Premium",
     "status": "available",
+    "featured": true,
+    "desc": "A premium front-and-back design inspired by Ephesians 6:10–18, calling believers to put on the full armor of God.",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM",
-    "printfulName": "YHWH Tee",
+    "printfulName": "Armor of God Tee",
+    "checkoutPending": false,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/armor-of-god-black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/armor-of-god-royal-blue.png"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/products/armor-of-god-sand.png"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/armor-of-god-charcoal.png"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/products/armor-of-god-chocolate.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/armor-of-god-maroon.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/armor-of-god-navy.png"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/armor-of-god-teal.png"
+      }
+    ],
     "shippingIncluded": false,
-    "checkoutPending": false
+    "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM"
   },
   {
     "id": "armor-of-god-tee",
@@ -569,7 +879,7 @@
     "tag": "Coming Soon",
     "desc": "Six planned colorways presented together. We are sourcing a specialty sock partner who can meet the quality standard.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Cross Crew Socks Collection",
     "shippingIncluded": false
   },
@@ -583,7 +893,7 @@
     "tag": "Coming Soon",
     "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Performance Shorts Collection",
     "shippingIncluded": false
   },
@@ -597,7 +907,7 @@
     "tag": "Coming Soon",
     "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Premium Sweatpants Collection",
     "shippingIncluded": false
   },
@@ -611,7 +921,7 @@
     "tag": "Coming Soon",
     "desc": "A purpose-built premium duffle concept for the gym, church, travel, and everyday use.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "No Vanity 33 Duffle Bag",
     "shippingIncluded": false
   },
@@ -625,7 +935,7 @@
     "tag": "Coming Soon",
     "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "40oz Scripture Water Bottle",
     "shippingIncluded": false
   },
@@ -639,7 +949,7 @@
     "tag": "Coming Soon",
     "desc": "Comfortable faith wristbands planned with rotating Scripture references.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Scripture Wristband Collection",
     "shippingIncluded": false
   }

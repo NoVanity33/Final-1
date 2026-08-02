@@ -55,7 +55,7 @@ function colorChoices(p){
     </label>`).join('')}</div>`;
 }
 function swatchColor(name){
-  const map={'Black':'#111','White':'#fff','Sand':'#c8b18f','Military Green':'#6d7658','Cardinal':'#8e1538','Red':'#d51f3f','Tropical Blue':'#08a9bc','Light Blue':'#8bc8e8','Royal Blue':'#1f5fd3','Athletic Heather':'#c9c9c9','Navy':'#17243a','Cream':'#eee3c7'};
+  const map={'Black':'#111','White':'#fff','Sand':'#c8b18f','Brown':'#7a563f','Chocolate':'#4b2e22','Military Green':'#66704f','Cardinal':'#861f3a','Red':'#c92127','Maroon':'#651c32','Teal':'#147c7d','Tropical Blue':'#08a9bc','Light Blue':'#9ecde5','Baby Blue':'#b9dff2','Carolina Blue':'#7baed1','Royal Blue':'#244d9b','Navy':'#17243a','Purple':'#5d3b78','Charcoal':'#454545','Dark Heather':'#3d3d3f','Graphite':'#55575a','Heather Grey':'#b9b9b7','Athletic Heather':'#c9c9c9','Haze':'#b7aaa7','Cream':'#eee3c7'};
   return map[name]||'#c7a75b';
 }
 function swapProductImage(id,image,input){
