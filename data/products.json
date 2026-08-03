@@ -119,8 +119,7 @@
         "name": "Teal",
         "image": "assets/products/armor-of-god-teal.png"
       }
-    ],
-    "stripePriceId": "price_1Tr1gERQ7M5gXs0Ay6KDZDZ8"
+    ]
   },
   {
     "id": "burning-bush-tee",
@@ -181,8 +180,7 @@
         "name": "Royal Blue",
         "image": "assets/products/burning-bush-royal-blue.png"
       }
-    ],
-    "stripePriceId": "price_1Tr1hqRQ7M5gXs0AjFGpCWQP"
+    ]
   },
   {
     "id": "child-of-god-tee",
@@ -304,8 +302,7 @@
         "name": "Purple",
         "image": "assets/products/crimson-worm-purple.jpg"
       }
-    ],
-    "stripePriceId": "price_1Tr1dbRQ7M5gXs0AOJ32Ehdg"
+    ]
   },
   {
     "id": "crown33-tee",
@@ -374,8 +371,7 @@
         "name": "White",
         "image": "assets/products/crown33-white.png"
       }
-    ],
-    "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp"
+    ]
   },
   {
     "id": "disciple-tee",
@@ -695,7 +691,7 @@
     "name": "Lamb of God Tee",
     "category": "Premium Tees",
     "price": 30.0,
-    "image": "assets/products/lamb-of-god-pink.png",
+    "image": "assets/products/lamb-of-god-black.png",
     "sizes": [
       "S",
       "M",
@@ -757,8 +753,7 @@
         "name": "White",
         "image": "assets/products/lamb-of-god-white.png"
       }
-    ],
-    "stripePriceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A"
+    ]
   },
   {
     "id": "lion-of-judah-tee",
@@ -815,8 +810,125 @@
         "name": "Teal",
         "image": "assets/products/lion-of-judah-teal.png"
       }
+    ]
+  },
+  {
+    "id": "love-thy-neighbor-tee",
+    "name": "Love Thy Neighbor Tee",
+    "category": "Everyday Tees",
+    "price": 24.99,
+    "image": "assets/products/love-thy-neighbor-maroon.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
     ],
-    "stripePriceId": "price_1TuPdURQ7M5gXs0AVgIvdwJ1"
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A bold reminder of Christ’s command to love your neighbor as yourself. Not every message has to shout—some are meant to be discovered.",
+    "founderFeatured": false,
+    "printfulName": "Love Thy Neighbor Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Baby Blue",
+        "image": "assets/products/love-thy-neighbor-baby-blue.png"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/products/love-thy-neighbor-brown.png"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/love-thy-neighbor-charcoal.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/love-thy-neighbor-military-green.png"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/products/love-thy-neighbor-light-blue.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/love-thy-neighbor-maroon.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/love-thy-neighbor-navy.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/love-thy-neighbor-red.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/love-thy-neighbor-royal-blue.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/love-thy-neighbor-white.png"
+      }
+    ]
+  },
+  {
+    "id": "parting-the-seas-tee",
+    "name": "Parting the Seas Tee",
+    "category": "Premium Tees",
+    "price": 30.0,
+    "image": "assets/products/parting-the-seas-navy.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "Premium front-and-back artwork inspired by Exodus 14:14 and the God who makes a way when the path looks impossible.",
+    "founderFeatured": false,
+    "printfulName": "Parting the Seas Tee",
+    "checkoutPending": false,
+    "shippingIncluded": false,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/parting-the-seas-black.png"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/products/parting-the-seas-sand.png"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/parting-the-seas-charcoal.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/parting-the-seas-maroon.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/parting-the-seas-navy.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/parting-the-seas-royal-blue.png"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/parting-the-seas-teal.png"
+      }
+    ]
   },
   {
     "id": "philippians-4-13-tee",
@@ -938,15 +1050,79 @@
         "name": "Teal",
         "image": "assets/products/prayer-cross-teal.png"
       }
-    ],
-    "stripePriceId": "price_1Tr1l2RQ7M5gXs0AsMQ3XtyT"
+    ]
   },
   {
-    "id": "parting-the-seas-tee",
-    "name": "Parting the Seas Tee",
+    "id": "protected-by-the-blood-tee",
+    "name": "Protected by the Blood Tee",
+    "category": "Everyday Tees",
+    "price": 24.99,
+    "image": "assets/products/protected-by-the-blood-red.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A bold front-only declaration of protection through the blood of Jesus Christ.",
+    "founderFeatured": false,
+    "printfulName": "Protected by the Blood Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/protected-by-the-blood-black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/protected-by-the-blood-royal-blue.png"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/protected-by-the-blood-charcoal.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/protected-by-the-blood-heather-grey.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/protected-by-the-blood-maroon.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/protected-by-the-blood-military-green.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/protected-by-the-blood-navy.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/protected-by-the-blood-red.png"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/protected-by-the-blood-teal.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/protected-by-the-blood-white.png"
+      }
+    ]
+  },
+  {
+    "id": "shroud-tee",
+    "name": "The Shroud Tee",
     "category": "Premium Tees",
     "price": 30.0,
-    "image": "assets/products/parting-the-seas-navy.png",
+    "image": "assets/products/shroud-black.png",
     "sizes": [
       "S",
       "M",
@@ -958,39 +1134,55 @@
     "tag": "Premium",
     "status": "available",
     "featured": true,
-    "desc": "Premium front-and-back artwork inspired by Exodus 14:14 and the God who makes a way when the path looks impossible.",
+    "desc": "A premium front-and-back design inspired by the image long associated with the burial cloth of Christ and Isaiah 53:5.",
     "founderFeatured": false,
-    "printfulName": "Parting the Seas Tee",
+    "printfulName": "The Shroud Tee",
     "checkoutPending": false,
     "shippingIncluded": false,
     "colors": [
       {
-        "name": "Black",
-        "image": "assets/products/parting-the-seas-black.png"
+        "name": "Teal",
+        "image": "assets/products/shroud-teal.png"
       },
       {
-        "name": "Sand",
-        "image": "assets/products/parting-the-seas-sand.png"
+        "name": "Black",
+        "image": "assets/products/shroud-black.png"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/products/shroud-brown.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/shroud-cardinal.png"
       },
       {
         "name": "Charcoal",
-        "image": "assets/products/parting-the-seas-charcoal.png"
+        "image": "assets/products/shroud-charcoal.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/shroud-heather-grey.png"
       },
       {
         "name": "Maroon",
-        "image": "assets/products/parting-the-seas-maroon.png"
+        "image": "assets/products/shroud-maroon.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/shroud-military-green.png"
       },
       {
         "name": "Navy",
-        "image": "assets/products/parting-the-seas-navy.png"
+        "image": "assets/products/shroud-navy.png"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/shroud-pink.png"
       },
       {
         "name": "Royal Blue",
-        "image": "assets/products/parting-the-seas-royal-blue.png"
-      },
-      {
-        "name": "Teal",
-        "image": "assets/products/parting-the-seas-teal.png"
+        "image": "assets/products/shroud-royal-blue.png"
       }
     ]
   },
@@ -1017,10 +1209,6 @@
     "checkoutPending": false,
     "shippingIncluded": false,
     "colors": [
-      {
-        "name": "Azalea",
-        "image": "assets/products/worthy-is-the-lamb-azalea.png"
-      },
       {
         "name": "Brown Savana",
         "image": "assets/products/worthy-is-the-lamb-brown-savana.png"
@@ -1072,11 +1260,11 @@
     ]
   },
   {
-    "id": "shroud-tee",
-    "name": "The Shroud Tee",
+    "id": "yahweh-tee",
+    "name": "YAHWEH Tee",
     "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/shroud-tee.png",
+    "price": 30.0,
+    "image": "assets/products/yahweh-sand.png",
     "sizes": [
       "S",
       "M",
@@ -1085,101 +1273,64 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Flagship",
+    "tag": "Premium",
     "status": "available",
     "featured": true,
-    "desc": "A black premium tee inspired by the Shroud of Turin, created to point toward the sacrifice and resurrection of Jesus Christ.",
-    "founderFeatured": true,
-    "stripePriceId": "price_1Tr2dfRQ7M5gXs0ABzOZcDRl",
-    "printfulName": "The Shroud Tee",
-    "shippingIncluded": false,
-    "checkoutPending": false
-  },
-  {
-    "id": "king-of-kings-tee",
-    "name": "King of Kings Tee",
-    "category": "Everyday Tees",
-    "price": 24.99,
-    "image": "assets/products/king-of-kings-black.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "A bold gold declaration of Christ’s sovereign reign, crowned above the words King of Kings.",
-    "founderFeatured": true,
-    "printfulName": "King of Kings Tee",
+    "desc": "A premium front-and-back design centered on the sacred Name revealed in Exodus 3:14: I AM THAT I AM.",
+    "founderFeatured": false,
+    "printfulName": "YAHWEH Tee",
     "checkoutPending": false,
+    "shippingIncluded": false,
     "colors": [
       {
         "name": "Black",
-        "image": "assets/products/king-of-kings-black.png"
+        "image": "assets/products/yahweh-black.png"
       },
       {
-        "name": "White",
-        "image": "assets/products/king-of-kings-white.png"
+        "name": "Royal Blue",
+        "image": "assets/products/yahweh-royal-blue.png"
       },
       {
-        "name": "Sand",
-        "image": "assets/products/king-of-kings-brown.png"
-      },
-      {
-        "name": "Military Green",
-        "image": "assets/products/king-of-kings-military-green.png"
+        "name": "Brown",
+        "image": "assets/products/yahweh-brown.png"
       },
       {
         "name": "Cardinal",
-        "image": "assets/products/king-of-kings-cardinal.png"
+        "image": "assets/products/yahweh-cardinal.png"
       },
       {
-        "name": "Red",
-        "image": "assets/products/king-of-kings-red.png"
+        "name": "Chocolate",
+        "image": "assets/products/yahweh-chocolate.png"
       },
       {
-        "name": "Tropical Blue",
-        "image": "assets/products/king-of-kings-tropical-blue.png"
-      }
-    ],
-    "shippingIncluded": true
-  },
-  {
-    "id": "satisfied-tee",
-    "name": "Satisfied — Matthew 14:20 Tee",
-    "category": "Premium Tees",
-    "price": 24.99,
-    "image": "assets/products/satisfied-white.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Free Shipping",
-    "status": "available",
-    "featured": true,
-    "desc": "Vintage engraved artwork of the loaves and fish miracle: “They all ate and were satisfied.”",
-    "founderFeatured": true,
-    "printfulName": "Satisfied Matthew 14:20 Tee",
-    "checkoutPending": false,
-    "colors": [
+        "name": "Graphite",
+        "image": "assets/products/yahweh-graphite.png"
+      },
       {
-        "name": "White",
-        "image": "assets/products/satisfied-white.png"
+        "name": "Heather Grey",
+        "image": "assets/products/yahweh-heather-grey.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/yahweh-maroon.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/yahweh-military-green.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/yahweh-navy.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/yahweh-purple.png"
       },
       {
         "name": "Sand",
-        "image": "assets/products/satisfied-brown.png"
+        "image": "assets/products/yahweh-sand.png"
       }
-    ],
-    "shippingIncluded": true
+    ]
   },
   {
     "id": "lion-of-judah-hoodie",
@@ -1225,144 +1376,6 @@
         "image": "assets/products/lion-of-judah-hoodie-cream.png"
       }
     ]
-  },
-  {
-    "id": "yahweh-tee",
-    "name": "YHWH Tee",
-    "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/yahweh-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Scripture",
-    "desc": "Sacred Name design featuring the Hebrew Tetragrammaton and YHWH.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM",
-    "printfulName": "YHWH Tee",
-    "shippingIncluded": false,
-    "checkoutPending": false
-  },
-  {
-    "id": "parting-the-sea-tee",
-    "name": "Parting the Sea Tee",
-    "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/parting-the-sea-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Exodus 14",
-    "desc": "Stand still and see the salvation of the Lord.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr1p9RQ7M5gXs0ADDbEGAOf",
-    "printfulName": "Parting the Sea Tee",
-    "shippingIncluded": false,
-    "checkoutPending": false
-  },
-  {
-    "id": "living-word-tee",
-    "name": "The Living Word Tee",
-    "category": "Premium Tees",
-    "price": 30,
-    "image": "assets/products/living-word-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Psalm 119",
-    "desc": "Open Bible and cross design centered on the Word of God.",
-    "status": "available",
-    "founderFeatured": true,
-    "stripePriceId": "price_1Tr1nQRQ7M5gXs0AcCDm8inf",
-    "printfulName": "The Living Word Tee",
-    "shippingIncluded": false,
-    "checkoutPending": false
-  },
-  {
-    "id": "simple-cross-tee",
-    "name": "Philippians 4:13 Cross Tee",
-    "category": "Premium Tees",
-    "price": 25,
-    "image": "assets/products/simple-cross-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New",
-    "desc": "Clean white tee with an ornate gold cross and Philippians 4:13 on the back.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1TuReURQ7M5gXs0AywWH5ocX",
-    "printfulName": "Philippians 4:13 Cross Tee",
-    "shippingIncluded": false,
-    "checkoutPending": false
-  },
-  {
-    "id": "worthy-lamb-grey-tee",
-    "name": "Worthy Is the Lamb Tee",
-    "category": "Premium Tees",
-    "price": 25,
-    "image": "assets/products/worthy-lamb-grey-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New",
-    "desc": "Heather gray Lamb of God tee with a crown-of-thorns illustration and John 3:16.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr2g9RQ7M5gXs0A5icFrGWK",
-    "printfulName": "Worthy Is the Lamb Tee",
-    "shippingIncluded": false,
-    "checkoutPending": false
-  },
-  {
-    "id": "crown33-maroon-tee",
-    "name": "Crown 33 Maroon Tee",
-    "category": "Premium Tees",
-    "price": 25,
-    "image": "assets/products/crown33-maroon-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New",
-    "desc": "Maroon Crown 33 chest-logo tee featuring John 3:16 on the back.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr2eeRQ7M5gXs0AcYulj7vX",
-    "printfulName": "Maroon Crown 33 Tee",
-    "shippingIncluded": false,
-    "checkoutPending": false
   },
   {
     "id": "preview-socks",

@@ -1,10 +1,9 @@
 [
   {
-    "name": "Michael McCallister",
-    "code": "MICHAEL10",
-    "slug": "michael",
+    "name": "Michael McAllister",
+    "code": "M2-10",
     "discountPercent": 10,
-    "commissionRate": "pending agreement",
+    "commissionPerShirt": 3.5,
     "active": true
   }
 ]

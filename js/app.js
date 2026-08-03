@@ -7,9 +7,7 @@ const cartBox=document.getElementById('cartBox');
 let products=[];
 let cart=JSON.parse(localStorage.getItem('nv33cart')||'[]');
 const referralFromUrl=new URLSearchParams(location.search).get('ref');
-if(referralFromUrl){
-  localStorage.setItem('nv33ambassador',referralFromUrl.trim().toUpperCase());
-}
+if(referralFromUrl){localStorage.setItem('nv33ambassador',referralFromUrl.trim().toUpperCase());}
 const ambassadorCode=localStorage.getItem('nv33ambassador')||'';
 const money=v=>'$'+Number(v||0).toFixed(2);
 
@@ -36,7 +34,7 @@ function renderCart(){
   cartCount.textContent=cart.length;
   const total=cart.reduce((s,i)=>s+Number(i.price||0),0);
   cartBox.innerHTML=`<button class="cart-close" onclick="closeCart()" aria-label="Close cart">×</button>
-    <h3>Your Cart</h3>${ambassadorCode?`<div class="ambassador-cart-note">Ambassador code: <strong>${ambassadorCode}</strong> — 10% discount will be applied at checkout.</div>`:''}
+    <h3>Your Cart</h3>
     ${cart.length?cart.map((i,idx)=>`<div class="cartrow"><span>${i.name}<br><small>${i.color||''}${i.color?' • ':''}${i.size}</small></span><b>${money(i.price)}</b><button class="remove" onclick="removeCartItem(${idx})" aria-label="Remove item">×</button></div>`).join(''):'<p>Your cart is empty.</p>'}
     <p class="cart-total"><b>Total: ${money(total)}</b></p>
     <button class="add dark-button" onclick="clearCart()">Clear Cart</button>
@@ -45,37 +43,31 @@ function renderCart(){
 function colorChoices(p){
   if(!p.colors?.length)return '';
   return `<div class="selected-color" id="selected-color-${p.id}">Color: <strong>${p.colors[0].name}</strong></div>
-    <div class="swatches" role="radiogroup" aria-label="Choose color for ${p.name}">
-      ${p.colors.map((c,i)=>`<label class="swatch-wrap" title="${c.name}">
-        <input type="radio" name="color-${p.id}" value="${c.name}" ${i===0?'checked':''}
-          onchange="swapProductImage('${p.id}','${c.image}',this)">
-        <span class="swatch ${i===0?'active':''}" style="--swatch:${swatchColor(c.name)}" aria-hidden="true"></span>
-      </label>`).join('')}
-    </div>`;
+  <div class="swatches" role="radiogroup" aria-label="Choose color for ${p.name}">
+    ${p.colors.map((c,i)=>`<label class="swatch-wrap" title="${c.name}">
+      <input type="radio" name="color-${p.id}" value="${c.name}" ${i===0?'checked':''}
+        onchange="swapProductImage('${p.id}','${c.image}',this)">
+      <span class="swatch ${i===0?'active':''}" style="--swatch:${swatchColor(c.name)}"></span>
+    </label>`).join('')}
+  </div>`;
 }
 function swatchColor(name){
-  const map={
-    'Black':'#111111','White':'#ffffff','Sand':'#c8b18f','Natural':'#dfd2b6','Brown':'#7a563f',
-    'Brown Savana':'#84684f','Chocolate':'#4b2e22','Military Green':'#66704f','Cardinal':'#861f3a',
-    'Red':'#c92127','Maroon':'#651c32','Teal':'#147c7d','Tropical Blue':'#08a9bc',
-    'Light Blue':'#9ecde5','Baby Blue':'#b9dff2','Carolina Blue':'#7baed1','Sky Blue':'#87ceeb',
-    'Royal Blue':'#244d9b','Navy':'#17243a','Purple':'#5d3b78','Azalea':'#ef77a5','Pink':'#ef9fba',
-    'Orange':'#e77725','Charcoal':'#454545','Dark Heather':'#3d3d3f','Graphite':'#55575a',
-    'Graphite Heather':'#606266','Heather Grey':'#b9b9b7','Sport Grey':'#c3c3c1','Ice Grey':'#d9dcdd',
-    'Haze':'#b7aaa7','Sapphire':'#126b9a','Cream':'#eee3c7'
-  };
+  const map={'Black':'#111','White':'#fff','Sand':'#c8b18f','Natural':'#dfd2b6','Brown':'#7a563f','Brown Savana':'#84684f','Chocolate':'#4b2e22','Military Green':'#66704f','Cardinal':'#861f3a','Red':'#c92127','Maroon':'#651c32','Teal':'#147c7d','Tropical Blue':'#08a9bc','Light Blue':'#9ecde5','Baby Blue':'#b9dff2','Carolina Blue':'#7baed1','Sky Blue':'#87ceeb','Royal Blue':'#244d9b','Navy':'#17243a','Purple':'#5d3b78','Pink':'#ef9fba','Orange':'#e77725','Charcoal':'#454545','Dark Heather':'#3d3d3f','Graphite':'#55575a','Graphite Heather':'#606266','Heather Grey':'#b9b9b7','Sport Grey':'#c3c3c1','Ice Grey':'#d9dcdd','Haze':'#b7aaa7','Sapphire':'#126b9a'};
   return map[name]||'#c7a75b';
 }
 function swapProductImage(id,image,input){
   const img=document.getElementById('img-'+id);
   if(img)img.src=image;
-  document.querySelectorAll(`input[name="color-${id}"]`).forEach(el=>{
-    el.closest('label')?.querySelector('.swatch')?.classList.toggle('active',el.checked);
-  });
-  const label=document.querySelector(`#selected-color-${id} strong`);
-  if(label)label.textContent=input.value;
+  document.querySelectorAll(`input[name="color-${id}"]`).forEach(el=>el.closest('label')?.classList.toggle('selected',el.checked));
 }
 
+function swapHoodieColor(id,select){
+  const option=select.options[select.selectedIndex];
+  const image=option?.dataset.image;
+  const img=document.getElementById('img-'+id);
+  if(img&&image)img.src=image;
+  document.querySelectorAll(`#${id}-card .hoodie-color-chip`).forEach(chip=>chip.classList.toggle('selected',chip.dataset.color===select.value));
+}
 
 function openImage(src,alt){
   let modal=document.getElementById('imageModal');
@@ -130,7 +122,7 @@ document.querySelectorAll('[data-filter]').forEach(btn=>{
   };
 });
 cartBtn.onclick=e=>{e.preventDefault();cartBox.classList.toggle('show');};
-fetch('data/products.json?v=version9-ambassador')
+fetch('data/products.json?v=version9-final')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=d;renderAll();})
   .catch(err=>{
