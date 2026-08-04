@@ -52,7 +52,7 @@ function colorChoices(p){
     </div>`;
   }
   return `<div class="color-picker" aria-label="Choose color for ${p.name}">${p.colors.map((c,i)=>`
-    <label class="color-option ${i===0?'selected':''}" title="${c.name}">
+    <label class="color-option" title="${c.name}">
       <input type="radio" name="color-${p.id}" value="${c.name}" ${i===0?'checked':''} onchange="swapProductImage('${p.id}','${c.image}',this)">
       <span class="color-dot" style="--swatch:${swatchColor(c.name)}"></span><small>${c.name}</small>
     </label>`).join('')}</div>`;
@@ -128,7 +128,7 @@ document.querySelectorAll('[data-filter]').forEach(btn=>{
   };
 });
 cartBtn.onclick=e=>{e.preventDefault();cartBox.classList.toggle('show');};
-fetch('data/products.json?v=launch-candidate-1')
+fetch('data/products.json?v=version8-6-20260726')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=d;renderAll();})
   .catch(err=>{

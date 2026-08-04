@@ -642,19 +642,3 @@ select{
 /* Version 10 launch polish */
 .product-card img,.product-image,.product-gallery img{background:#cfcfcf!important}
 .filters button[data-filter="Women's Tees"]{border-color:#d2a9bd}
-
-
-/* ===== NV33 Launch Candidate Final Overrides ===== */
-.product-card .imgbox,
-.founder-grid .product-card .imgbox{
-  background:#b8b8b8 !important;
-}
-.product-card .imgbox img{
-  object-fit:contain;
-  object-position:center;
-}
-.color-option.selected,
-.color-option:has(input:checked){
-  border-color:var(--gold);
-  box-shadow:0 0 0 2px rgba(246,196,66,.28);
-}
