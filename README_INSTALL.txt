@@ -1,18 +1,22 @@
-NO VANITY 33 — SEO ESSENTIALS
+NO VANITY 33 — LAUNCH CATALOG PATCH
 
-1. Copy sitemap.xml and robots.txt into the root of your Final-1 repository,
-   beside index.html.
+Replace these files in Final-1:
+- data/products.json
+- js/app.js
+- css/style.css
+- index.html
+- checkout.html
 
-2. In GitHub Desktop, commit with:
-   Add sitemap and robots files
+What this fixes:
+- Removes duplicate product IDs.
+- Preserves Stripe IDs from duplicate records where possible.
+- Applies approved default colors.
+- Removes approved unwanted colors.
+- Moves each default color to the first swatch position.
+- Makes the selected swatch match the displayed default image.
+- Darkens product mockup backgrounds.
+- Keeps hero size and ribbon badges unchanged.
+- Uses cache-busting version strings so Cloudflare/browser loads the new files.
 
-3. Push origin and wait for Cloudflare to deploy.
-
-4. Hard-refresh or open an Incognito window, then verify:
-   https://novanity33.com/sitemap.xml
-   https://novanity33.com/robots.txt
-
-5. In Google Search Console, submit:
-   sitemap.xml
-
-Do not place these files inside assets, css, data, functions, or js.
+Commit message:
+Launch candidate catalog cleanup and approved color defaults
