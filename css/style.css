@@ -642,3 +642,19 @@ select{
 /* Version 10 launch polish */
 .product-card img,.product-image,.product-gallery img{background:#cfcfcf!important}
 .filters button[data-filter="Women's Tees"]{border-color:#d2a9bd}
+
+
+/* ===== NV33 LAUNCH DAY FINAL OVERRIDES ===== */
+.product-card .imgbox{
+  background:#3a3a3a !important;
+}
+.color-option.selected,
+.color-option:has(input:checked){
+  border-color:#f6c442 !important;
+  box-shadow:0 0 0 2px rgba(246,196,66,.28) !important;
+}
+/* Hide empty/broken image cards instead of showing gray launch-day placeholders. */
+.product-card .imgbox img[src=""],
+.preview-card .imgbox img[src=""]{
+  display:none;
+}
