@@ -1,22 +1,22 @@
-NO VANITY 33 — FINAL RUNTIME FIX
+NO VANITY 33 — LAUNCH CATALOG PATCH
 
-Replace only these three files in the TOP LEVEL of Final-1:
-1. index.html
-2. js/app.js
-3. css/style.css
+Replace these files in Final-1:
+- data/products.json
+- js/app.js
+- css/style.css
+- index.html
+- checkout.html
 
-Do not place the extracted folder itself inside Final-1.
-Open the ZIP, then copy the three items into their matching existing locations.
+What this fixes:
+- Removes duplicate product IDs.
+- Preserves Stripe IDs from duplicate records where possible.
+- Applies approved default colors.
+- Removes approved unwanted colors.
+- Moves each default color to the first swatch position.
+- Makes the selected swatch match the displayed default image.
+- Darkens product mockup backgrounds.
+- Keeps hero size and ribbon badges unchanged.
+- Uses cache-busting version strings so Cloudflare/browser loads the new files.
 
-This fix:
-- Applies approved defaults every time products load.
-- Removes Orange from Jesus Is King.
-- Removes all other approved unwanted colors.
-- Places the approved default color first.
-- Makes the first swatch visibly selected.
-- Removes duplicate product IDs at runtime.
-- Forces new browser/Cloudflare cache versions.
-- Keeps hero sizing and gold ribbons unchanged.
-
-Commit:
-Launch day final runtime color fix
+Commit message:
+Launch candidate catalog cleanup and approved color defaults

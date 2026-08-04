@@ -128,85 +128,9 @@ document.querySelectorAll('[data-filter]').forEach(btn=>{
   };
 });
 cartBtn.onclick=e=>{e.preventDefault();cartBox.classList.toggle('show');};
-
-/* ===== NV33 LAUNCH DAY RUNTIME CATALOG FIX =====
-   This runs after products.json loads, so approved defaults/removals
-   apply even when an older catalog file is cached or contains duplicates.
-*/
-function nv33Key(value){
-  return String(value || '').trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-}
-
-const NV33_LAUNCH_COLOR_RULES = [
-  {match:['crimson-worm-tee','crimson-worm'], default:['navy'], remove:[]},
-  {match:['crown33-tee','crown-33-tee','crown-33'], default:['graphite','dark-grey','dark-gray','charcoal'], remove:['heather-grey','light-grey','light-gray']},
-  {match:['disciple-tee','disciple'], default:['military-green'], remove:[]},
-  {match:['every-knee-will-bow-tee','every-knee-will-bow'], default:['black'], remove:['white']},
-  {match:['faith-over-fear-tee','faith-over-fear'], default:['brown'], remove:[]},
-  {match:['faithful-servant-tee','faithful-servant'], default:['navy'], remove:[]},
-  {match:['jesus-is-king-tee','jesus-is-king'], default:['black'], remove:['orange']},
-  {match:['lamb-of-god-tee','lamb-of-god'], default:['black'], remove:['pink']},
-  {match:['lion-of-judah-tee','lion-of-judah'], default:['black'], remove:[]},
-  {match:['love-thy-neighbor-tee','love-thy-neighbor'], default:['royal-blue','royal'], remove:['navy']},
-  {match:['parting-the-sea-tee','parting-the-seas-tee','parting-the-sea','parting-the-seas'], default:['black'], remove:[]},
-  {match:['philippians-4-13-tee','simple-cross-tee','philippians-4-13'], default:['black'], remove:[]},
-  {match:['prayer-cross-tee','prayer-cross'], default:['black'], remove:[]},
-  {match:['protected-by-the-blood-tee','protected-by-the-blood'], default:['navy'], remove:[]},
-  {match:['shroud-tee','the-shroud-tee','shroud'], default:['black'], remove:[]},
-  {match:['worthy-is-the-lamb-tee','worthy-lamb-grey-tee','worthy-is-the-lamb'], default:['natural','cream'], remove:['purple','maroon']},
-  {match:['yahweh-tee','yahweh'], default:['black'], remove:[]}
-];
-
-function nv33FindRule(product){
-  const candidates = [nv33Key(product.id), nv33Key(product.name)];
-  return NV33_LAUNCH_COLOR_RULES.find(rule =>
-    rule.match.some(m => candidates.some(c => c === m || c.includes(m)))
-  );
-}
-
-function nv33NormalizeCatalog(input){
-  const seen = new Set();
-  const output = [];
-
-  for(const original of Array.isArray(input) ? input : []){
-    if(!original || !original.id) continue;
-
-    /* Keep the first rich entry for each ID; skip later legacy duplicates. */
-    const id = String(original.id);
-    if(seen.has(id)) continue;
-    seen.add(id);
-
-    const product = {...original};
-    const rule = nv33FindRule(product);
-
-    if(rule && Array.isArray(product.colors) && product.colors.length){
-      const removed = new Set(rule.remove);
-      let colors = product.colors.filter(c => !removed.has(nv33Key(c.name)));
-
-      let selected = null;
-      for(const preferred of rule.default){
-        selected = colors.find(c => nv33Key(c.name) === preferred);
-        if(selected) break;
-      }
-
-      if(selected){
-        colors = [selected, ...colors.filter(c => c !== selected)];
-        product.image = selected.image;
-      }else if(colors[0]?.image){
-        product.image = colors[0].image;
-      }
-
-      product.colors = colors;
-    }
-
-    output.push(product);
-  }
-  return output;
-}
-
-fetch('data/products.json?v=launch-day-final-20260804-1')
+fetch('data/products.json?v=launch-candidate-1')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
-  .then(d=>{products=nv33NormalizeCatalog(d);renderAll();})
+  .then(d=>{products=d;renderAll();})
   .catch(err=>{
     console.error(err);
     grid.innerHTML='<p class="load-error">Product catalog could not load. Please refresh the page.</p>';
