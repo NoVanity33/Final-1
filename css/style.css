@@ -650,3 +650,12 @@ select{
 .ambassador-form label{display:flex;flex-direction:column;gap:6px;color:#e8dfca;font-size:13px}
 .ambassador-form input,.ambassador-form textarea{background:#050505;border:1px solid #514426;border-radius:7px;color:#fff;padding:12px}
 @media(max-width:760px){.ambassador-grid,.ambassador-form{grid-template-columns:1fr}.ambassador-form .wide{grid-column:auto}}
+
+/* NV33 Women's Collection patch */
+.filters button[data-filter="Women's Tees"]{
+  border-color:#d2a9bd;
+}
+.filters button[data-filter="Women's Tees"].active{
+  background:#d2a9bd;
+  color:#111;
+}

@@ -1333,6 +1333,344 @@
     ]
   },
   {
+    "id": "womens-faith-over-fear-tee",
+    "name": "Women's Faith Over Fear Tee",
+    "category": "Women's Tees",
+    "price": 24.99,
+    "image": "assets/products/womens/womens-faith-over-fear-tee/pink.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Women's Collection",
+    "status": "available",
+    "featured": true,
+    "desc": "Elegant faith-centered typography inspired by 2 Timothy 1:7, created for everyday confidence and comfort.",
+    "founderFeatured": false,
+    "printfulName": "Women's Faith Over Fear Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/royal-blue.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/kelly-green.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/heather-grey.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/navy.png"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/pink.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/purple.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/red.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/white.png"
+      }
+    ]
+  },
+  {
+    "id": "womens-grace-upon-grace-tee",
+    "name": "Women's Grace Upon Grace Tee",
+    "category": "Women's Tees",
+    "price": 24.99,
+    "image": "assets/products/womens/womens-grace-upon-grace-tee/purple.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Women's Collection",
+    "status": "available",
+    "featured": true,
+    "desc": "A bold but elegant front design inspired by John 1:16 and the endless grace received through Christ.",
+    "founderFeatured": false,
+    "printfulName": "Women's Grace Upon Grace Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/royal-blue.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/kelly-green.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/heather-grey.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/navy.png"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/pink.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/purple.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/red.png"
+      }
+    ]
+  },
+  {
+    "id": "womens-grace-through-strength-tee",
+    "name": "Women's Grace Through Strength Tee",
+    "category": "Women's Tees",
+    "price": 24.99,
+    "image": "assets/products/womens/womens-grace-through-strength-tee/royal-blue.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Women's Collection",
+    "status": "available",
+    "featured": true,
+    "desc": "Expressive brush-script artwork and a cross reflect the strength that is found through God's grace.",
+    "founderFeatured": false,
+    "printfulName": "Women's Grace Through Strength Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/royal-blue.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/kelly-green.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/heather-grey.png"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/pink.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/purple.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/red.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/white.png"
+      }
+    ]
+  },
+  {
+    "id": "womens-guidance-faith-peace-tee",
+    "name": "Women's Guidance Faith Peace Tee",
+    "category": "Women's Tees",
+    "price": 24.99,
+    "image": "assets/products/womens/womens-guidance-faith-peace-tee/pink.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Women's Collection",
+    "status": "available",
+    "featured": true,
+    "desc": "A graceful design inspired by Psalm 46:5, centered on God's guidance, enduring faith, and perfect peace.",
+    "founderFeatured": false,
+    "printfulName": "Women's Guidance Faith Peace Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/royal-blue.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/kelly-green.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/heather-grey.png"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/pink.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/purple.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/red.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/white.png"
+      }
+    ]
+  },
+  {
+    "id": "womens-pray-without-ceasing-tee",
+    "name": "Women's Pray Without Ceasing Tee",
+    "category": "Women's Tees",
+    "price": 24.99,
+    "image": "assets/products/womens/womens-pray-without-ceasing-tee/navy.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Women's Collection",
+    "status": "available",
+    "featured": true,
+    "desc": "A refined reminder of 1 Thessalonians 5:17: remain prayerful, faithful, and close to God in every season.",
+    "founderFeatured": false,
+    "printfulName": "Women's Pray Without Ceasing Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/royal-blue.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/kelly-green.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/heather-grey.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/white.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/navy.png"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/pink.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/red.png"
+      }
+    ]
+  },
+  {
+    "id": "womens-worth-more-than-rubies-tee",
+    "name": "Women's Worth More Than Rubies Tee",
+    "category": "Women's Tees",
+    "price": 24.99,
+    "image": "assets/products/womens/womens-worth-more-than-rubies-tee/white.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Women's Collection",
+    "status": "available",
+    "featured": true,
+    "desc": "Inspired by Proverbs 31:10, this elegant teal design is a reminder of God-given worth beyond earthly treasure.",
+    "founderFeatured": false,
+    "printfulName": "Women's Worth More Than Rubies Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/pink.png"
+      },
+      {
+        "name": "Black",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/black.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/kelly-green.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/navy.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/red.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/royal-blue.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/heather-grey.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/white.png"
+      }
+    ]
+  },
+  {
     "id": "lion-of-judah-hoodie",
     "name": "Lion of Judah Hoodie",
     "category": "Hoodies",
