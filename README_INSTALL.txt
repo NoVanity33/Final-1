@@ -1,12 +1,32 @@
-NO VANITY 33 UPDATE
-Included: $27 Everyday/Women's tees, $35 Premium tees, $44 shorts, sitewide FREE U.S. SHIPPING messaging, Shorts filter, Young Disciple Wear page, duplicate catalog IDs removed, and five shorts mockups.
+NO VANITY 33 — CORRECTIVE CATALOG PATCH
+
+This patch restores the correct/new mockups and color selectors for:
+- The Living Word Tee
+- Parting the Sea Tee
+- Prayer Cross Tee
+- Philippians 4:13 Cross Tee
+- Crown 33 Tee
+- Jesus Is King Tee
+- Protected by the Blood Tee
+- King of Kings Tee
+- 99 for 1 Tee
+
+It preserves:
+- Everyday/Women's tees at $27
+- Premium tees at $35
+- Shorts at $44
+- FREE U.S. SHIPPING on all available products
+- Existing shorts and Young Disciple Wear work from the previous update
 
 INSTALL
 1. Extract this ZIP.
-2. Copy all contents into Final-1.
-3. Choose Replace.
-4. Commit and push.
+2. Copy the data folder and assets folder into Final-1.
+3. Choose Replace/Merge when Windows asks.
+4. Commit: Restore new shirt mockups and missing products
+5. Push origin and wait for Cloudflare to redeploy.
+6. Hard refresh the live site with Ctrl+F5.
 
 IMPORTANT
-checkout.html was not supplied. If it contains old $24.99-only free-shipping logic or hard-coded Stripe Price IDs, it still must be updated before checkout is fully aligned.
-Actual youth products are not marked available until youth-specific Printful products are created and mapped.
+This patch does not modify checkout.html or Stripe Price IDs.
+The website catalog will show the correct prices, but checkout must still be updated
+if it uses hard-coded Stripe prices or old shipping rules.
