@@ -1,18 +1,23 @@
-NV33 DUPLICATE CLEANUP PATCH
+NV33 FINAL ORDER + COLOR CORRECTION
 
-This patch fixes the issue where new corrected products were added but legacy cards remained.
+Restores the approved earlier mockups and color selectors for:
+- Worthy Is the Lamb (12 colors)
+- Burning Bush (9 colors)
+- Lamb of God (11 colors)
+- The Shroud (11 colors)
+- Satisfied (White and Sand)
 
-It:
-- Deduplicates by design name/alias, not only exact product ID.
-- Prefers the corrected mockup set with the full color selector.
-- Removes the old standalone Crown 33 Maroon card.
-- Keeps one Parting the Sea, one Living Word, one Prayer Cross, etc.
-- Forces a new browser cache version for products.json and app.js.
+Order:
+- Shroud remains the single featured product.
+- 99 for 1 is first in the regular shop.
+- Front-only/everyday products appear next.
+- Hoodies, shorts and women’s products follow.
+- Dual-side premium prints are grouped at the bottom.
 
 INSTALL
-1. Extract the ZIP.
-2. Copy index.html, data, and js into the root of Final-1.
+1. Extract.
+2. Copy index.html plus data, js and assets into Final-1.
 3. Choose Replace/Merge.
 4. Commit and push.
-5. Wait for Cloudflare deployment.
-6. Open the site and press Ctrl+Shift+R.
+5. Wait for Cloudflare.
+6. Hard refresh with Ctrl+Shift+R.

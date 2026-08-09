@@ -4,7 +4,7 @@
     "name": "The Shroud Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/products/shroud-tee.png",
+    "image": "assets/products/shroud-black.webp",
     "sizes": [
       "S",
       "M",
@@ -13,16 +13,125 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Flagship",
+    "tag": "Premium",
     "status": "available",
     "featured": true,
-    "desc": "A black premium tee inspired by the Shroud of Turin, created to point toward the sacrifice and resurrection of Jesus Christ.",
+    "desc": "A premium front-and-back design inspired by the image long associated with the burial cloth of Christ and Isaiah 53:5.",
     "founderFeatured": true,
-    "stripePriceId": "price_1Tr2dfRQ7M5gXs0ABzOZcDRl",
     "printfulName": "The Shroud Tee",
-    "shippingIncluded": true,
     "checkoutPending": false,
-    "colors": []
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Teal",
+        "image": "assets/products/shroud-teal.webp"
+      },
+      {
+        "name": "Black",
+        "image": "assets/products/shroud-black.webp"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/products/shroud-brown.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/shroud-cardinal.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/shroud-charcoal.webp"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/shroud-heather-grey.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/shroud-maroon.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/shroud-military-green.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/shroud-navy.webp"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/shroud-pink.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/shroud-royal-blue.webp"
+      }
+    ]
+  },
+  {
+    "id": "ninety-nine-for-one-tee",
+    "name": "99 for 1 Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/products/corrected/ninety-nine-for-one-tee/black.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Inspired by the shepherd who leaves the ninety-nine to seek the one, this design reflects the pursuing love of Christ.",
+    "founderFeatured": false,
+    "printfulName": "99 for 1 Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/corrected/ninety-nine-for-one-tee/black.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/corrected/ninety-nine-for-one-tee/cardinal.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/corrected/ninety-nine-for-one-tee/charcoal.webp"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/products/corrected/ninety-nine-for-one-tee/chocolate.webp"
+      },
+      {
+        "name": "Dark Heather",
+        "image": "assets/products/corrected/ninety-nine-for-one-tee/dark-heather.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/corrected/ninety-nine-for-one-tee/military-green.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/corrected/ninety-nine-for-one-tee/maroon.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/corrected/ninety-nine-for-one-tee/navy.webp"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/corrected/ninety-nine-for-one-tee/red.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/corrected/ninety-nine-for-one-tee/white.webp"
+      }
+    ]
   },
   {
     "id": "faith-over-fear-tee",
@@ -159,7 +268,7 @@
     "name": "Child of God Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/products/child-of-god-black.png",
+    "image": "assets/products/child-of-god-black.webp",
     "sizes": [
       "S",
       "M",
@@ -178,15 +287,15 @@
     "colors": [
       {
         "name": "Black",
-        "image": "assets/products/child-of-god-black.png"
+        "image": "assets/products/child-of-god-black.webp"
       },
       {
         "name": "Charcoal",
-        "image": "assets/products/child-of-god-charcoal.png"
+        "image": "assets/products/child-of-god-charcoal.webp"
       },
       {
         "name": "Heather Grey",
-        "image": "assets/products/child-of-god-heather-grey.png"
+        "image": "assets/products/child-of-god-heather-grey.webp"
       },
       {
         "name": "Maroon",
@@ -312,1106 +421,6 @@
       }
     ],
     "shippingIncluded": true
-  },
-  {
-    "id": "satisfied-tee",
-    "name": "Satisfied — Matthew 14:20 Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/satisfied-white.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Free Shipping",
-    "status": "available",
-    "featured": true,
-    "desc": "Vintage engraved artwork of the loaves and fish miracle: “They all ate and were satisfied.”",
-    "founderFeatured": true,
-    "printfulName": "Satisfied Matthew 14:20 Tee",
-    "checkoutPending": false,
-    "colors": [
-      {
-        "name": "White",
-        "image": "assets/products/satisfied-white.png"
-      },
-      {
-        "name": "Sand",
-        "image": "assets/products/satisfied-brown.png"
-      }
-    ],
-    "shippingIncluded": true
-  },
-  {
-    "id": "lion-of-judah-hoodie",
-    "name": "Lion of Judah Hoodie",
-    "category": "Hoodies",
-    "price": 50,
-    "image": "assets/products/lion-of-judah-hoodie-black.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Featured",
-    "desc": "Premium heavyweight Lion of Judah hoodie with front artwork and Revelation 5:5 biblical context on the back.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr2hgRQ7M5gXs0AZK8lSqU4",
-    "printfulName": "Lion of Judah Hoodie",
-    "shippingIncluded": true,
-    "checkoutPending": false,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/lion-of-judah-hoodie-black.png"
-      },
-      {
-        "name": "Athletic Heather",
-        "image": "assets/products/lion-of-judah-hoodie-heather.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/lion-of-judah-hoodie-white.png"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/lion-of-judah-hoodie-navy.png"
-      },
-      {
-        "name": "Cream",
-        "image": "assets/products/lion-of-judah-hoodie-cream.png"
-      }
-    ]
-  },
-  {
-    "id": "crimson-worm-tee",
-    "name": "Crimson Worm Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/crimson-worm-navy.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Premium",
-    "status": "available",
-    "featured": true,
-    "desc": "A detailed front-and-back biblical design exploring the crimson worm imagery and redemption through the blood of Christ.",
-    "founderFeatured": false,
-    "printfulName": "Crimson Worm Tee",
-    "checkoutPending": false,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/crimson-worm-black.png"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/crimson-worm-royal-blue.png"
-      },
-      {
-        "name": "Cardinal",
-        "image": "assets/products/crimson-worm-cardinal.png"
-      },
-      {
-        "name": "Chocolate",
-        "image": "assets/products/crimson-worm-chocolate.png"
-      },
-      {
-        "name": "Military Green",
-        "image": "assets/products/crimson-worm-military-green.png"
-      },
-      {
-        "name": "Maroon",
-        "image": "assets/products/crimson-worm-maroon.png"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/crimson-worm-navy.png"
-      },
-      {
-        "name": "Purple",
-        "image": "assets/products/crimson-worm-purple.png"
-      }
-    ],
-    "shippingIncluded": true,
-    "stripePriceId": "price_1TuPdURQ7M5gXs0AVgIvdwJ1"
-  },
-  {
-    "id": "armor-of-god-tee",
-    "name": "Armor of God Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/armor-of-god-black.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Premium",
-    "status": "available",
-    "featured": true,
-    "desc": "A premium front-and-back design inspired by Ephesians 6:10–18, calling believers to put on the full armor of God.",
-    "founderFeatured": false,
-    "printfulName": "Armor of God Tee",
-    "checkoutPending": false,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/armor-of-god-black.png"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/armor-of-god-royal-blue.png"
-      },
-      {
-        "name": "Sand",
-        "image": "assets/products/armor-of-god-sand.png"
-      },
-      {
-        "name": "Charcoal",
-        "image": "assets/products/armor-of-god-charcoal.png"
-      },
-      {
-        "name": "Chocolate",
-        "image": "assets/products/armor-of-god-chocolate.png"
-      },
-      {
-        "name": "Maroon",
-        "image": "assets/products/armor-of-god-maroon.png"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/armor-of-god-navy.png"
-      },
-      {
-        "name": "Teal",
-        "image": "assets/products/armor-of-god-teal.png"
-      }
-    ],
-    "shippingIncluded": true,
-    "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM"
-  },
-  {
-    "id": "lamb-of-god-tee",
-    "name": "Lamb of God Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/lamb-of-god-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "John 1:29",
-    "desc": "The perfect sacrifice design with John 1:29 and Isaiah 53.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A",
-    "printfulName": "Lamb of God Tee",
-    "shippingIncluded": true,
-    "checkoutPending": false,
-    "colors": []
-  },
-  {
-    "id": "burning-bush-tee",
-    "name": "Burning Bush Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/burning-bush-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Exodus 3",
-    "desc": "Burning bush design with biblical context and Daily Walk QR concept.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr1hqRQ7M5gXs0AjFGpCWQP",
-    "printfulName": "Burning Bush Tee",
-    "shippingIncluded": true,
-    "checkoutPending": false
-  },
-  {
-    "id": "worthy-lamb-grey-tee",
-    "name": "Worthy Is the Lamb Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/worthy-lamb-grey-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New",
-    "desc": "Heather gray Lamb of God tee with a crown-of-thorns illustration and John 3:16.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr2g9RQ7M5gXs0A5icFrGWK",
-    "printfulName": "Worthy Is the Lamb Tee",
-    "shippingIncluded": true,
-    "checkoutPending": false
-  },
-  {
-    "id": "crown33-tee",
-    "name": "Crown 33 Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/corrected/crown33-tee/graphite.webp",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Premium",
-    "status": "available",
-    "featured": true,
-    "desc": "A premium Crown 33 front-and-back tee featuring the crown of thorns and John 3:16, pointing directly to Christ’s sacrifice and love.",
-    "founderFeatured": false,
-    "printfulName": "Crown 33 Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/corrected/crown33-tee/black.webp"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/corrected/crown33-tee/royal-blue.webp"
-      },
-      {
-        "name": "Brown",
-        "image": "assets/products/corrected/crown33-tee/brown.webp"
-      },
-      {
-        "name": "Cardinal",
-        "image": "assets/products/corrected/crown33-tee/cardinal.webp"
-      },
-      {
-        "name": "Chocolate",
-        "image": "assets/products/corrected/crown33-tee/chocolate.webp"
-      },
-      {
-        "name": "Graphite",
-        "image": "assets/products/corrected/crown33-tee/graphite.webp"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/corrected/crown33-tee/heather-grey.webp"
-      },
-      {
-        "name": "Maroon",
-        "image": "assets/products/corrected/crown33-tee/maroon.webp"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/corrected/crown33-tee/navy.webp"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/corrected/crown33-tee/red.webp"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/corrected/crown33-tee/white.webp"
-      }
-    ]
-  },
-  {
-    "id": "preview-socks",
-    "name": "Cross Crew Socks Collection",
-    "category": "Founder's Preview",
-    "price": 0,
-    "image": "assets/products/preview-socks.png",
-    "sizes": [],
-    "tag": "Coming Soon",
-    "desc": "Six planned colorways presented together. We are sourcing a specialty sock partner who can meet the quality standard.",
-    "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
-    "printfulName": "Cross Crew Socks Collection",
-    "shippingIncluded": false
-  },
-  {
-    "id": "preview-shorts",
-    "name": "Performance Shorts Collection",
-    "category": "Founder's Preview",
-    "price": 0,
-    "image": "assets/products/preview-shorts.png",
-    "sizes": [],
-    "tag": "Coming Soon",
-    "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
-    "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
-    "printfulName": "Performance Shorts Collection",
-    "shippingIncluded": false
-  },
-  {
-    "id": "preview-sweatpants",
-    "name": "Premium Sweatpants Collection",
-    "category": "Founder's Preview",
-    "price": 0,
-    "image": "assets/products/preview-sweatpants.png",
-    "sizes": [],
-    "tag": "Coming Soon",
-    "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
-    "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
-    "printfulName": "Premium Sweatpants Collection",
-    "shippingIncluded": false
-  },
-  {
-    "id": "preview-duffle",
-    "name": "No Vanity 33 Duffle Bag",
-    "category": "Founder's Preview",
-    "price": 0,
-    "image": "assets/products/preview-duffle.png",
-    "sizes": [],
-    "tag": "Coming Soon",
-    "desc": "A purpose-built premium duffle concept for the gym, church, travel, and everyday use.",
-    "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
-    "printfulName": "No Vanity 33 Duffle Bag",
-    "shippingIncluded": false
-  },
-  {
-    "id": "preview-water-bottle",
-    "name": "40oz Scripture Water Bottle",
-    "category": "Founder's Preview",
-    "price": 0,
-    "image": "assets/products/preview-water-bottle.png",
-    "sizes": [],
-    "tag": "Coming Soon",
-    "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
-    "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
-    "printfulName": "40oz Scripture Water Bottle",
-    "shippingIncluded": false
-  },
-  {
-    "id": "preview-wristbands",
-    "name": "Scripture Wristband Collection",
-    "category": "Founder's Preview",
-    "price": 0,
-    "image": "assets/products/preview-wristbands.png",
-    "sizes": [],
-    "tag": "Coming Soon",
-    "desc": "Comfortable faith wristbands planned with rotating Scripture references.",
-    "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
-    "printfulName": "Scripture Wristband Collection",
-    "shippingIncluded": false
-  },
-  {
-    "id": "womens-faith-over-fear-tee",
-    "name": "Women's Faith Over Fear Tee",
-    "category": "Women's Tees",
-    "price": 27,
-    "image": "assets/products/womens/womens-faith-over-fear-tee/pink.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "Elegant faith-centered typography inspired by 2 Timothy 1:7.",
-    "founderFeatured": false,
-    "printfulName": "Women's Faith Over Fear Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/womens/womens-faith-over-fear-tee/black.png"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/womens/womens-faith-over-fear-tee/royal-blue.png"
-      },
-      {
-        "name": "Kelly Green",
-        "image": "assets/products/womens/womens-faith-over-fear-tee/kelly-green.png"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/womens/womens-faith-over-fear-tee/heather-grey.png"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/womens/womens-faith-over-fear-tee/navy.png"
-      },
-      {
-        "name": "Pink",
-        "image": "assets/products/womens/womens-faith-over-fear-tee/pink.png"
-      },
-      {
-        "name": "Purple",
-        "image": "assets/products/womens/womens-faith-over-fear-tee/purple.png"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/womens/womens-faith-over-fear-tee/red.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/womens/womens-faith-over-fear-tee/white.png"
-      }
-    ]
-  },
-  {
-    "id": "womens-grace-upon-grace-tee",
-    "name": "Women's Grace Upon Grace Tee",
-    "category": "Women's Tees",
-    "price": 27,
-    "image": "assets/products/womens/womens-grace-upon-grace-tee/purple.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "A bold but elegant front design inspired by John 1:16.",
-    "founderFeatured": false,
-    "printfulName": "Women's Grace Upon Grace Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/womens/womens-grace-upon-grace-tee/black.png"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/womens/womens-grace-upon-grace-tee/royal-blue.png"
-      },
-      {
-        "name": "Kelly Green",
-        "image": "assets/products/womens/womens-grace-upon-grace-tee/kelly-green.png"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/womens/womens-grace-upon-grace-tee/heather-grey.png"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/womens/womens-grace-upon-grace-tee/navy.png"
-      },
-      {
-        "name": "Pink",
-        "image": "assets/products/womens/womens-grace-upon-grace-tee/pink.png"
-      },
-      {
-        "name": "Purple",
-        "image": "assets/products/womens/womens-grace-upon-grace-tee/purple.png"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/womens/womens-grace-upon-grace-tee/red.png"
-      }
-    ]
-  },
-  {
-    "id": "womens-grace-through-strength-tee",
-    "name": "Women's Grace Through Strength Tee",
-    "category": "Women's Tees",
-    "price": 27,
-    "image": "assets/products/womens/womens-grace-through-strength-tee/royal-blue.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "Expressive brush-script artwork and a cross reflect strength through God's grace.",
-    "founderFeatured": false,
-    "printfulName": "Women's Grace Through Strength Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/womens/womens-grace-through-strength-tee/royal-blue.png"
-      },
-      {
-        "name": "Kelly Green",
-        "image": "assets/products/womens/womens-grace-through-strength-tee/kelly-green.png"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/womens/womens-grace-through-strength-tee/heather-grey.png"
-      },
-      {
-        "name": "Pink",
-        "image": "assets/products/womens/womens-grace-through-strength-tee/pink.png"
-      },
-      {
-        "name": "Purple",
-        "image": "assets/products/womens/womens-grace-through-strength-tee/purple.png"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/womens/womens-grace-through-strength-tee/red.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/womens/womens-grace-through-strength-tee/white.png"
-      }
-    ]
-  },
-  {
-    "id": "womens-guidance-faith-peace-tee",
-    "name": "Women's Guidance Faith Peace Tee",
-    "category": "Women's Tees",
-    "price": 27,
-    "image": "assets/products/womens/womens-guidance-faith-peace-tee/pink.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "A graceful Psalm 46:5 design centered on guidance, faith, and peace.",
-    "founderFeatured": false,
-    "printfulName": "Women's Guidance Faith Peace Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/womens/womens-guidance-faith-peace-tee/black.png"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/womens/womens-guidance-faith-peace-tee/royal-blue.png"
-      },
-      {
-        "name": "Kelly Green",
-        "image": "assets/products/womens/womens-guidance-faith-peace-tee/kelly-green.png"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/womens/womens-guidance-faith-peace-tee/heather-grey.png"
-      },
-      {
-        "name": "Pink",
-        "image": "assets/products/womens/womens-guidance-faith-peace-tee/pink.png"
-      },
-      {
-        "name": "Purple",
-        "image": "assets/products/womens/womens-guidance-faith-peace-tee/purple.png"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/womens/womens-guidance-faith-peace-tee/red.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/womens/womens-guidance-faith-peace-tee/white.png"
-      }
-    ]
-  },
-  {
-    "id": "womens-pray-without-ceasing-tee",
-    "name": "Women's Pray Without Ceasing Tee",
-    "category": "Women's Tees",
-    "price": 27,
-    "image": "assets/products/womens/womens-pray-without-ceasing-tee/navy.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "A refined reminder of 1 Thessalonians 5:17.",
-    "founderFeatured": false,
-    "printfulName": "Women's Pray Without Ceasing Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/womens/womens-pray-without-ceasing-tee/royal-blue.png"
-      },
-      {
-        "name": "Kelly Green",
-        "image": "assets/products/womens/womens-pray-without-ceasing-tee/kelly-green.png"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/womens/womens-pray-without-ceasing-tee/heather-grey.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/womens/womens-pray-without-ceasing-tee/white.png"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/womens/womens-pray-without-ceasing-tee/navy.png"
-      },
-      {
-        "name": "Pink",
-        "image": "assets/products/womens/womens-pray-without-ceasing-tee/pink.png"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/womens/womens-pray-without-ceasing-tee/red.png"
-      }
-    ]
-  },
-  {
-    "id": "womens-worth-more-than-rubies-tee",
-    "name": "Women's Worth More Than Rubies Tee",
-    "category": "Women's Tees",
-    "price": 27,
-    "image": "assets/products/womens/womens-worth-more-than-rubies-tee/white.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "Inspired by Proverbs 31:10, a reminder of God-given worth beyond earthly treasure.",
-    "founderFeatured": false,
-    "printfulName": "Women's Worth More Than Rubies Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Pink",
-        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/pink.png"
-      },
-      {
-        "name": "Black",
-        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/black.png"
-      },
-      {
-        "name": "Kelly Green",
-        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/kelly-green.png"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/navy.png"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/red.png"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/royal-blue.png"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/heather-grey.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/white.png"
-      }
-    ]
-  },
-  {
-    "id": "womens-love-of-god-tee",
-    "name": "Women's Love of God Tee",
-    "category": "Women's Tees",
-    "price": 27,
-    "image": "assets/products/womens/womens-love-of-god-tee/purple.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "A graceful reminder that there is no love like the love of God.",
-    "founderFeatured": false,
-    "printfulName": "Women's Love of God Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/womens/womens-love-of-god-tee/black.png"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/womens/womens-love-of-god-tee/royal-blue.png"
-      },
-      {
-        "name": "Kelly Green",
-        "image": "assets/products/womens/womens-love-of-god-tee/kelly-green.png"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/womens/womens-love-of-god-tee/heather-grey.png"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/womens/womens-love-of-god-tee/navy.png"
-      },
-      {
-        "name": "Purple",
-        "image": "assets/products/womens/womens-love-of-god-tee/purple.png"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/womens/womens-love-of-god-tee/red.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/womens/womens-love-of-god-tee/white.png"
-      }
-    ]
-  },
-  {
-    "id": "crown-33-shorts",
-    "name": "Crown 33 Shorts",
-    "category": "Shorts",
-    "price": 44,
-    "image": "assets/products/shorts/crown-33-shorts-black.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "Comfortable Christian athletic shorts featuring the Crown 33 mark—a simple reminder of Christ’s sacrifice and finished work.",
-    "founderFeatured": false,
-    "printfulName": "Crown 33 Shorts",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/shorts/crown-33-shorts-black.png"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/shorts/crown-33-shorts-grey.png"
-      }
-    ]
-  },
-  {
-    "id": "red-cross-shorts",
-    "name": "Red Cross Shorts",
-    "category": "Shorts",
-    "price": 44,
-    "image": "assets/products/shorts/red-cross-shorts-black.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "Clean athletic shorts with a bold red cross—faith-forward everyday wear made to keep Christ at the center.",
-    "founderFeatured": false,
-    "printfulName": "Red Cross Shorts",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/shorts/red-cross-shorts-black.png"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/shorts/red-cross-shorts-grey.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/shorts/red-cross-shorts-white.png"
-      }
-    ]
-  },
-  {
-    "id": "living-word-tee",
-    "name": "The Living Word Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/corrected/living-word-tee/black.webp",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Premium",
-    "status": "available",
-    "featured": true,
-    "desc": "A premium front-and-back design centered on the living Word of God, featuring an open Bible, cross, and Scripture-inspired artwork.",
-    "founderFeatured": false,
-    "printfulName": "The Living Word Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/corrected/living-word-tee/black.webp"
-      },
-      {
-        "name": "Cardinal",
-        "image": "assets/products/corrected/living-word-tee/cardinal.webp"
-      },
-      {
-        "name": "Charcoal",
-        "image": "assets/products/corrected/living-word-tee/charcoal.webp"
-      },
-      {
-        "name": "Maroon",
-        "image": "assets/products/corrected/living-word-tee/maroon.webp"
-      },
-      {
-        "name": "Military Green",
-        "image": "assets/products/corrected/living-word-tee/military-green.webp"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/corrected/living-word-tee/navy.webp"
-      },
-      {
-        "name": "Teal",
-        "image": "assets/products/corrected/living-word-tee/teal.webp"
-      }
-    ]
-  },
-  {
-    "id": "parting-the-sea-tee",
-    "name": "Parting the Sea Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/corrected/parting-the-sea-tee/black.webp",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Premium",
-    "status": "available",
-    "featured": true,
-    "desc": "A premium front-and-back design inspired by Exodus 14 and the command to stand still and see the salvation of the Lord.",
-    "founderFeatured": false,
-    "printfulName": "Parting the Sea Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/corrected/parting-the-sea-tee/black.webp"
-      },
-      {
-        "name": "Brown",
-        "image": "assets/products/corrected/parting-the-sea-tee/brown.webp"
-      },
-      {
-        "name": "Charcoal",
-        "image": "assets/products/corrected/parting-the-sea-tee/charcoal.webp"
-      },
-      {
-        "name": "Maroon",
-        "image": "assets/products/corrected/parting-the-sea-tee/maroon.webp"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/corrected/parting-the-sea-tee/navy.webp"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/corrected/parting-the-sea-tee/royal-blue.webp"
-      },
-      {
-        "name": "Teal",
-        "image": "assets/products/corrected/parting-the-sea-tee/teal.webp"
-      }
-    ]
-  },
-  {
-    "id": "prayer-cross-tee",
-    "name": "Prayer Cross Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/corrected/prayer-cross-tee/black.webp",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Premium",
-    "status": "available",
-    "featured": true,
-    "desc": "A premium front-and-back Prayer Changes Things design created as a bold reminder of the power of prayer and faith in Christ.",
-    "founderFeatured": false,
-    "printfulName": "Prayer Cross Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/corrected/prayer-cross-tee/black.webp"
-      },
-      {
-        "name": "Charcoal",
-        "image": "assets/products/corrected/prayer-cross-tee/charcoal.webp"
-      },
-      {
-        "name": "Dark Heather",
-        "image": "assets/products/corrected/prayer-cross-tee/dark-heather.webp"
-      },
-      {
-        "name": "Maroon",
-        "image": "assets/products/corrected/prayer-cross-tee/maroon.webp"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/corrected/prayer-cross-tee/navy.webp"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/corrected/prayer-cross-tee/royal-blue.webp"
-      }
-    ]
-  },
-  {
-    "id": "simple-cross-tee",
-    "name": "Philippians 4:13 Cross Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/corrected/simple-cross-tee/black.webp",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Premium",
-    "status": "available",
-    "featured": true,
-    "desc": "A premium front-and-back design with an ornate cross and Philippians 4:13—a wearable reminder that strength comes through Christ.",
-    "founderFeatured": false,
-    "printfulName": "Philippians 4:13 Cross Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/corrected/simple-cross-tee/black.webp"
-      },
-      {
-        "name": "Cardinal",
-        "image": "assets/products/corrected/simple-cross-tee/cardinal.webp"
-      },
-      {
-        "name": "Charcoal",
-        "image": "assets/products/corrected/simple-cross-tee/charcoal.webp"
-      },
-      {
-        "name": "Military Green",
-        "image": "assets/products/corrected/simple-cross-tee/military-green.webp"
-      },
-      {
-        "name": "Maroon",
-        "image": "assets/products/corrected/simple-cross-tee/maroon.webp"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/corrected/simple-cross-tee/navy.webp"
-      },
-      {
-        "name": "Purple",
-        "image": "assets/products/corrected/simple-cross-tee/purple.webp"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/corrected/simple-cross-tee/royal-blue.webp"
-      },
-      {
-        "name": "Teal",
-        "image": "assets/products/corrected/simple-cross-tee/teal.webp"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/corrected/simple-cross-tee/white.webp"
-      }
-    ]
   },
   {
     "id": "jesus-is-king-tee",
@@ -1585,11 +594,11 @@
     ]
   },
   {
-    "id": "ninety-nine-for-one-tee",
-    "name": "99 for 1 Tee",
+    "id": "satisfied-tee",
+    "name": "Satisfied — Matthew 14:20 Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/products/corrected/ninety-nine-for-one-tee/black.webp",
+    "image": "assets/products/satisfied-white.webp",
     "sizes": [
       "S",
       "M",
@@ -1601,52 +610,1220 @@
     "tag": "New Release",
     "status": "available",
     "featured": true,
-    "desc": "Inspired by the shepherd who leaves the ninety-nine to seek the one, this design reflects the pursuing love of Christ.",
+    "desc": "Vintage engraved artwork inspired by the loaves and fishes miracle: “They all ate and were satisfied.”",
     "founderFeatured": false,
-    "printfulName": "99 for 1 Tee",
+    "printfulName": "Satisfied Matthew 14:20 Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "White",
+        "image": "assets/products/satisfied-white.webp"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/products/satisfied-brown.webp"
+      }
+    ]
+  },
+  {
+    "id": "lion-of-judah-hoodie",
+    "name": "Lion of Judah Hoodie",
+    "category": "Hoodies",
+    "price": 50,
+    "image": "assets/products/lion-of-judah-hoodie-black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Featured",
+    "desc": "Premium heavyweight Lion of Judah hoodie with front artwork and Revelation 5:5 biblical context on the back.",
+    "status": "available",
+    "founderFeatured": false,
+    "stripePriceId": "price_1Tr2hgRQ7M5gXs0AZK8lSqU4",
+    "printfulName": "Lion of Judah Hoodie",
+    "shippingIncluded": true,
+    "checkoutPending": false,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/lion-of-judah-hoodie-black.png"
+      },
+      {
+        "name": "Athletic Heather",
+        "image": "assets/products/lion-of-judah-hoodie-heather.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/lion-of-judah-hoodie-white.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/lion-of-judah-hoodie-navy.png"
+      },
+      {
+        "name": "Cream",
+        "image": "assets/products/lion-of-judah-hoodie-cream.png"
+      }
+    ]
+  },
+  {
+    "id": "crown-33-shorts",
+    "name": "Crown 33 Shorts",
+    "category": "Shorts",
+    "price": 44,
+    "image": "assets/products/shorts/crown-33-shorts-black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Comfortable Christian athletic shorts featuring the Crown 33 mark—a simple reminder of Christ’s sacrifice and finished work.",
+    "founderFeatured": false,
+    "printfulName": "Crown 33 Shorts",
     "checkoutPending": false,
     "shippingIncluded": true,
     "colors": [
       {
         "name": "Black",
-        "image": "assets/products/corrected/ninety-nine-for-one-tee/black.webp"
+        "image": "assets/products/shorts/crown-33-shorts-black.png"
       },
       {
-        "name": "Cardinal",
-        "image": "assets/products/corrected/ninety-nine-for-one-tee/cardinal.webp"
+        "name": "Heather Grey",
+        "image": "assets/products/shorts/crown-33-shorts-grey.png"
+      }
+    ]
+  },
+  {
+    "id": "red-cross-shorts",
+    "name": "Red Cross Shorts",
+    "category": "Shorts",
+    "price": 44,
+    "image": "assets/products/shorts/red-cross-shorts-black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Clean athletic shorts with a bold red cross—faith-forward everyday wear made to keep Christ at the center.",
+    "founderFeatured": false,
+    "printfulName": "Red Cross Shorts",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/shorts/red-cross-shorts-black.png"
       },
       {
-        "name": "Charcoal",
-        "image": "assets/products/corrected/ninety-nine-for-one-tee/charcoal.webp"
-      },
-      {
-        "name": "Chocolate",
-        "image": "assets/products/corrected/ninety-nine-for-one-tee/chocolate.webp"
-      },
-      {
-        "name": "Dark Heather",
-        "image": "assets/products/corrected/ninety-nine-for-one-tee/dark-heather.webp"
-      },
-      {
-        "name": "Military Green",
-        "image": "assets/products/corrected/ninety-nine-for-one-tee/military-green.webp"
-      },
-      {
-        "name": "Maroon",
-        "image": "assets/products/corrected/ninety-nine-for-one-tee/maroon.webp"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/corrected/ninety-nine-for-one-tee/navy.webp"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/corrected/ninety-nine-for-one-tee/red.webp"
+        "name": "Heather Grey",
+        "image": "assets/products/shorts/red-cross-shorts-grey.png"
       },
       {
         "name": "White",
-        "image": "assets/products/corrected/ninety-nine-for-one-tee/white.webp"
+        "image": "assets/products/shorts/red-cross-shorts-white.png"
       }
     ]
+  },
+  {
+    "id": "womens-faith-over-fear-tee",
+    "name": "Women's Faith Over Fear Tee",
+    "category": "Women's Tees",
+    "price": 27,
+    "image": "assets/products/womens/womens-faith-over-fear-tee/pink.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Elegant faith-centered typography inspired by 2 Timothy 1:7.",
+    "founderFeatured": false,
+    "printfulName": "Women's Faith Over Fear Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/royal-blue.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/kelly-green.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/heather-grey.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/navy.png"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/pink.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/purple.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/red.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/womens/womens-faith-over-fear-tee/white.png"
+      }
+    ]
+  },
+  {
+    "id": "womens-grace-through-strength-tee",
+    "name": "Women's Grace Through Strength Tee",
+    "category": "Women's Tees",
+    "price": 27,
+    "image": "assets/products/womens/womens-grace-through-strength-tee/royal-blue.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Expressive brush-script artwork and a cross reflect strength through God's grace.",
+    "founderFeatured": false,
+    "printfulName": "Women's Grace Through Strength Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/royal-blue.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/kelly-green.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/heather-grey.png"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/pink.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/purple.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/red.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/womens/womens-grace-through-strength-tee/white.png"
+      }
+    ]
+  },
+  {
+    "id": "womens-grace-upon-grace-tee",
+    "name": "Women's Grace Upon Grace Tee",
+    "category": "Women's Tees",
+    "price": 27,
+    "image": "assets/products/womens/womens-grace-upon-grace-tee/purple.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A bold but elegant front design inspired by John 1:16.",
+    "founderFeatured": false,
+    "printfulName": "Women's Grace Upon Grace Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/royal-blue.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/kelly-green.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/heather-grey.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/navy.png"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/pink.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/purple.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-grace-upon-grace-tee/red.png"
+      }
+    ]
+  },
+  {
+    "id": "womens-guidance-faith-peace-tee",
+    "name": "Women's Guidance Faith Peace Tee",
+    "category": "Women's Tees",
+    "price": 27,
+    "image": "assets/products/womens/womens-guidance-faith-peace-tee/pink.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A graceful Psalm 46:5 design centered on guidance, faith, and peace.",
+    "founderFeatured": false,
+    "printfulName": "Women's Guidance Faith Peace Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/royal-blue.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/kelly-green.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/heather-grey.png"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/pink.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/purple.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/red.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/womens/womens-guidance-faith-peace-tee/white.png"
+      }
+    ]
+  },
+  {
+    "id": "womens-love-of-god-tee",
+    "name": "Women's Love of God Tee",
+    "category": "Women's Tees",
+    "price": 27,
+    "image": "assets/products/womens/womens-love-of-god-tee/purple.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A graceful reminder that there is no love like the love of God.",
+    "founderFeatured": false,
+    "printfulName": "Women's Love of God Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/womens/womens-love-of-god-tee/black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-love-of-god-tee/royal-blue.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-love-of-god-tee/kelly-green.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-love-of-god-tee/heather-grey.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/womens/womens-love-of-god-tee/navy.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/womens/womens-love-of-god-tee/purple.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-love-of-god-tee/red.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/womens/womens-love-of-god-tee/white.png"
+      }
+    ]
+  },
+  {
+    "id": "womens-pray-without-ceasing-tee",
+    "name": "Women's Pray Without Ceasing Tee",
+    "category": "Women's Tees",
+    "price": 27,
+    "image": "assets/products/womens/womens-pray-without-ceasing-tee/navy.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A refined reminder of 1 Thessalonians 5:17.",
+    "founderFeatured": false,
+    "printfulName": "Women's Pray Without Ceasing Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/royal-blue.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/kelly-green.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/heather-grey.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/white.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/navy.png"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/pink.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-pray-without-ceasing-tee/red.png"
+      }
+    ]
+  },
+  {
+    "id": "womens-worth-more-than-rubies-tee",
+    "name": "Women's Worth More Than Rubies Tee",
+    "category": "Women's Tees",
+    "price": 27,
+    "image": "assets/products/womens/womens-worth-more-than-rubies-tee/white.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Inspired by Proverbs 31:10, a reminder of God-given worth beyond earthly treasure.",
+    "founderFeatured": false,
+    "printfulName": "Women's Worth More Than Rubies Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Pink",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/pink.png"
+      },
+      {
+        "name": "Black",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/black.png"
+      },
+      {
+        "name": "Kelly Green",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/kelly-green.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/navy.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/red.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/royal-blue.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/heather-grey.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/womens/womens-worth-more-than-rubies-tee/white.png"
+      }
+    ]
+  },
+  {
+    "id": "armor-of-god-tee",
+    "name": "Armor of God Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/armor-of-god-black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium front-and-back design inspired by Ephesians 6:10–18, calling believers to put on the full armor of God.",
+    "founderFeatured": false,
+    "printfulName": "Armor of God Tee",
+    "checkoutPending": false,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/armor-of-god-black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/armor-of-god-royal-blue.png"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/products/armor-of-god-sand.png"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/armor-of-god-charcoal.png"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/products/armor-of-god-chocolate.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/armor-of-god-maroon.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/armor-of-god-navy.png"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/armor-of-god-teal.webp"
+      }
+    ],
+    "shippingIncluded": true,
+    "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM"
+  },
+  {
+    "id": "burning-bush-tee",
+    "name": "Burning Bush Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/burning-bush-sand.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "Premium front-and-back artwork inspired by Exodus 3 and God’s call to Moses from the burning bush.",
+    "founderFeatured": false,
+    "printfulName": "Burning Bush Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/burning-bush-black.webp"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/products/burning-bush-sand.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/burning-bush-cardinal.webp"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/products/burning-bush-chocolate.webp"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/burning-bush-heather-grey.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/burning-bush-maroon.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/burning-bush-navy.webp"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/burning-bush-red.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/burning-bush-royal-blue.webp"
+      }
+    ]
+  },
+  {
+    "id": "crimson-worm-tee",
+    "name": "Crimson Worm Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/crimson-worm-navy.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A detailed front-and-back biblical design exploring the crimson worm imagery and redemption through the blood of Christ.",
+    "founderFeatured": false,
+    "printfulName": "Crimson Worm Tee",
+    "checkoutPending": false,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/crimson-worm-black.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/crimson-worm-royal-blue.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/crimson-worm-cardinal.png"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/products/crimson-worm-chocolate.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/crimson-worm-military-green.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/crimson-worm-maroon.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/crimson-worm-navy.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/crimson-worm-purple.png"
+      }
+    ],
+    "shippingIncluded": true,
+    "stripePriceId": "price_1TuPdURQ7M5gXs0AVgIvdwJ1"
+  },
+  {
+    "id": "crown33-tee",
+    "name": "Crown 33 Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/corrected/crown33-tee/graphite.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium Crown 33 front-and-back tee featuring the crown of thorns and John 3:16, pointing directly to Christ’s sacrifice and love.",
+    "founderFeatured": false,
+    "printfulName": "Crown 33 Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/corrected/crown33-tee/black.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/corrected/crown33-tee/royal-blue.webp"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/products/corrected/crown33-tee/brown.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/corrected/crown33-tee/cardinal.webp"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/products/corrected/crown33-tee/chocolate.webp"
+      },
+      {
+        "name": "Graphite",
+        "image": "assets/products/corrected/crown33-tee/graphite.webp"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/corrected/crown33-tee/heather-grey.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/corrected/crown33-tee/maroon.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/corrected/crown33-tee/navy.webp"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/corrected/crown33-tee/red.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/corrected/crown33-tee/white.webp"
+      }
+    ]
+  },
+  {
+    "id": "lamb-of-god-tee",
+    "name": "Lamb of God Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/lamb-of-god-black.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "Premium front-and-back artwork inspired by John 1:29, proclaiming Christ as the Lamb who takes away the sin of the world.",
+    "founderFeatured": false,
+    "printfulName": "Lamb of God Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/lamb-of-god-black.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/lamb-of-god-royal-blue.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/lamb-of-god-cardinal.webp"
+      },
+      {
+        "name": "Graphite",
+        "image": "assets/products/lamb-of-god-graphite.webp"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/lamb-of-god-heather-grey.webp"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/products/lamb-of-god-light-blue.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/lamb-of-god-maroon.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/lamb-of-god-navy.webp"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/products/lamb-of-god-pink.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/lamb-of-god-teal.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/lamb-of-god-white.webp"
+      }
+    ]
+  },
+  {
+    "id": "parting-the-sea-tee",
+    "name": "Parting the Sea Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/corrected/parting-the-sea-tee/black.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium front-and-back design inspired by Exodus 14 and the command to stand still and see the salvation of the Lord.",
+    "founderFeatured": false,
+    "printfulName": "Parting the Sea Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/corrected/parting-the-sea-tee/black.webp"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/products/corrected/parting-the-sea-tee/brown.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/corrected/parting-the-sea-tee/charcoal.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/corrected/parting-the-sea-tee/maroon.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/corrected/parting-the-sea-tee/navy.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/corrected/parting-the-sea-tee/royal-blue.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/corrected/parting-the-sea-tee/teal.webp"
+      }
+    ]
+  },
+  {
+    "id": "simple-cross-tee",
+    "name": "Philippians 4:13 Cross Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/corrected/simple-cross-tee/black.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium front-and-back design with an ornate cross and Philippians 4:13—a wearable reminder that strength comes through Christ.",
+    "founderFeatured": false,
+    "printfulName": "Philippians 4:13 Cross Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/corrected/simple-cross-tee/black.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/corrected/simple-cross-tee/cardinal.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/corrected/simple-cross-tee/charcoal.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/corrected/simple-cross-tee/military-green.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/corrected/simple-cross-tee/maroon.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/corrected/simple-cross-tee/navy.webp"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/corrected/simple-cross-tee/purple.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/corrected/simple-cross-tee/royal-blue.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/corrected/simple-cross-tee/teal.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/corrected/simple-cross-tee/white.webp"
+      }
+    ]
+  },
+  {
+    "id": "prayer-cross-tee",
+    "name": "Prayer Cross Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/corrected/prayer-cross-tee/black.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium front-and-back Prayer Changes Things design created as a bold reminder of the power of prayer and faith in Christ.",
+    "founderFeatured": false,
+    "printfulName": "Prayer Cross Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/corrected/prayer-cross-tee/black.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/corrected/prayer-cross-tee/charcoal.webp"
+      },
+      {
+        "name": "Dark Heather",
+        "image": "assets/products/corrected/prayer-cross-tee/dark-heather.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/corrected/prayer-cross-tee/maroon.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/corrected/prayer-cross-tee/navy.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/corrected/prayer-cross-tee/royal-blue.webp"
+      }
+    ]
+  },
+  {
+    "id": "living-word-tee",
+    "name": "The Living Word Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/corrected/living-word-tee/black.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium front-and-back design centered on the living Word of God, featuring an open Bible, cross, and Scripture-inspired artwork.",
+    "founderFeatured": false,
+    "printfulName": "The Living Word Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/corrected/living-word-tee/black.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/corrected/living-word-tee/cardinal.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/corrected/living-word-tee/charcoal.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/corrected/living-word-tee/maroon.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/corrected/living-word-tee/military-green.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/corrected/living-word-tee/navy.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/corrected/living-word-tee/teal.webp"
+      }
+    ]
+  },
+  {
+    "id": "worthy-is-the-lamb-tee",
+    "name": "Worthy Is the Lamb Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/worthy-is-the-lamb-natural.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "Premium front-and-back Gospel artwork featuring the Lamb and the complete message of John 3:16.",
+    "founderFeatured": false,
+    "printfulName": "Worthy Is the Lamb Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Brown Savana",
+        "image": "assets/products/worthy-is-the-lamb-brown-savana.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/worthy-is-the-lamb-cardinal.webp"
+      },
+      {
+        "name": "Dark Heather",
+        "image": "assets/products/worthy-is-the-lamb-dark-heather.webp"
+      },
+      {
+        "name": "Graphite Heather",
+        "image": "assets/products/worthy-is-the-lamb-graphite-heather.webp"
+      },
+      {
+        "name": "Ice Grey",
+        "image": "assets/products/worthy-is-the-lamb-ice-grey.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/worthy-is-the-lamb-maroon.webp"
+      },
+      {
+        "name": "Natural",
+        "image": "assets/products/worthy-is-the-lamb-natural.webp"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/worthy-is-the-lamb-purple.webp"
+      },
+      {
+        "name": "Sapphire",
+        "image": "assets/products/worthy-is-the-lamb-sapphire.webp"
+      },
+      {
+        "name": "Sport Grey",
+        "image": "assets/products/worthy-is-the-lamb-sport-grey.webp"
+      },
+      {
+        "name": "Tropical Blue",
+        "image": "assets/products/worthy-is-the-lamb-tropical-blue.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/worthy-is-the-lamb-white.webp"
+      }
+    ]
+  },
+  {
+    "id": "preview-water-bottle",
+    "name": "40oz Scripture Water Bottle",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-water-bottle.webp",
+    "sizes": [],
+    "tag": "Coming Soon",
+    "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
+    "status": "coming-soon",
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "40oz Scripture Water Bottle",
+    "shippingIncluded": false
+  },
+  {
+    "id": "preview-socks",
+    "name": "Cross Crew Socks Collection",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-socks.png",
+    "sizes": [],
+    "tag": "Coming Soon",
+    "desc": "Six planned colorways presented together. We are sourcing a specialty sock partner who can meet the quality standard.",
+    "status": "coming-soon",
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "Cross Crew Socks Collection",
+    "shippingIncluded": false
+  },
+  {
+    "id": "preview-duffle",
+    "name": "No Vanity 33 Duffle Bag",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-duffle.png",
+    "sizes": [],
+    "tag": "Coming Soon",
+    "desc": "A purpose-built premium duffle concept for the gym, church, travel, and everyday use.",
+    "status": "coming-soon",
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "No Vanity 33 Duffle Bag",
+    "shippingIncluded": false
+  },
+  {
+    "id": "preview-shorts",
+    "name": "Performance Shorts Collection",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-shorts.png",
+    "sizes": [],
+    "tag": "Coming Soon",
+    "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
+    "status": "coming-soon",
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "Performance Shorts Collection",
+    "shippingIncluded": false
+  },
+  {
+    "id": "preview-sweatpants",
+    "name": "Premium Sweatpants Collection",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-sweatpants.webp",
+    "sizes": [],
+    "tag": "Coming Soon",
+    "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
+    "status": "coming-soon",
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "Premium Sweatpants Collection",
+    "shippingIncluded": false
+  },
+  {
+    "id": "preview-wristbands",
+    "name": "Scripture Wristband Collection",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-wristbands.webp",
+    "sizes": [],
+    "tag": "Coming Soon",
+    "desc": "Comfortable faith wristbands planned with rotating Scripture references.",
+    "status": "coming-soon",
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "Scripture Wristband Collection",
+    "shippingIncluded": false
   }
 ]

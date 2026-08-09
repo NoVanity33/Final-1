@@ -108,10 +108,24 @@ function previewCard(p){
     <a class="add waitlist-button" href="mailto:novanity2026@gmail.com?subject=Waitlist%20-%20${encodeURIComponent(p.name)}">Notify Me</a>
   </article>`;
 }
+
+function nv33StorefrontOrder(product){
+  const id=nv33CanonicalProductKey(product);
+  const everyday=['99-for-1','faith-over-fear','faithful-servant','child-of-god','every-knee-will-bow','disciple','jesus-is-king','protected-by-the-blood','king-of-kings','love-thy-neighbor','satisfied'];
+  const premium=['armor-of-god','burning-bush','crimson-worm','crown-33','lamb-of-god','lion-of-judah','parting-the-sea','philippians-4-13','prayer-cross','living-word','worthy-is-the-lamb','yahweh'];
+  if(product?.id==='shroud-tee')return 0;
+  if(product?.category==='Everyday Tees')return 100+(everyday.indexOf(id)>=0?everyday.indexOf(id):90);
+  if(product?.category==='Hoodies')return 300;
+  if(product?.category==='Shorts')return 400;
+  if(product?.category==="Women's Tees")return 500;
+  if(product?.category==='Premium Tees')return 700+(premium.indexOf(id)>=0?premium.indexOf(id):90);
+  return 900;
+}
+
 function renderAvailable(filter='All'){
   // Products shown in Founder's Collection are intentionally excluded here
   // so customers do not see duplicate cards on the same page.
-  const items=products.filter(p=>p.status==='available'&&!p.founderFeatured&&(filter==='All'||p.category===filter));
+  const items=products.filter(p=>p.status==='available'&&!p.founderFeatured&&(filter==='All'||p.category===filter)).sort((a,b)=>nv33StorefrontOrder(a)-nv33StorefrontOrder(b));
   grid.innerHTML=items.map(liveCard).join('');
 }
 function renderAll(){
@@ -236,7 +250,7 @@ function nv33NormalizeCatalog(input){
   });
 }
 
-fetch('data/products.json?v=nv33-dedupe-corrected-20260809-2')
+fetch('data/products.json?v=nv33-final-order-colors-20260809-3')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=nv33NormalizeCatalog(d);renderAll();})
   .catch(err=>{
