@@ -164,47 +164,79 @@ function nv33FindRule(product){
   );
 }
 
-function nv33NormalizeCatalog(input){
-  const seen = new Set();
-  const output = [];
-
-  for(const original of Array.isArray(input) ? input : []){
-    if(!original || !original.id) continue;
-
-    /* Keep the first rich entry for each ID; skip later legacy duplicates. */
-    const id = String(original.id);
-    if(seen.has(id)) continue;
-    seen.add(id);
-
-    const product = {...original};
-    const rule = nv33FindRule(product);
-
-    if(rule && Array.isArray(product.colors) && product.colors.length){
-      const removed = new Set(rule.remove);
-      let colors = product.colors.filter(c => !removed.has(nv33Key(c.name)));
-
-      let selected = null;
-      for(const preferred of rule.default){
-        selected = colors.find(c => nv33Key(c.name) === preferred);
-        if(selected) break;
-      }
-
-      if(selected){
-        colors = [selected, ...colors.filter(c => c !== selected)];
-        product.image = selected.image;
-      }else if(colors[0]?.image){
-        product.image = colors[0].image;
-      }
-
-      product.colors = colors;
-    }
-
-    output.push(product);
-  }
-  return output;
+function nv33CanonicalProductKey(product){
+  const text=nv33Key(`${product?.id||''}-${product?.name||''}`);
+  const aliases=[
+    {terms:['parting-the-sea','parting-seas'],key:'parting-the-sea'},
+    {terms:['living-word'],key:'living-word'},
+    {terms:['prayer-cross','prayer-changes-things'],key:'prayer-cross'},
+    {terms:['philippians-4-13','phillipians-4-13','simple-cross'],key:'philippians-4-13'},
+    {terms:['crown-33-maroon','crown33-maroon','crown-33-tee','crown33-tee'],key:'crown-33'},
+    {terms:['jesus-is-king'],key:'jesus-is-king'},
+    {terms:['protected-by-the-blood'],key:'protected-by-the-blood'},
+    {terms:['king-of-kings'],key:'king-of-kings'},
+    {terms:['99-for-1','ninety-nine-for-one'],key:'99-for-1'},
+    {terms:['crimson-worm'],key:'crimson-worm'},
+    {terms:['armor-of-god'],key:'armor-of-god'},
+    {terms:['every-knee-will-bow'],key:'every-knee-will-bow'},
+    {terms:['disciple-tee'],key:'disciple'}
+  ];
+  const match=aliases.find(group=>group.terms.some(term=>text.includes(term)));
+  return match?.key||String(product?.id||text);
 }
 
-fetch('data/products.json?v=nv33-pricing-shorts-youth-20260809-1')
+function nv33CatalogScore(product){
+  const image=String(product?.image||'');
+  const colors=Array.isArray(product?.colors)?product.colors.length:0;
+  return (image.includes('/corrected/')?1000:0)
+    +(product?.status==='available'?200:0)
+    +(colors?100:0)+colors
+    +(product?.featured?20:0)
+    +String(product?.desc||'').length/1000;
+}
+
+function nv33NormalizeCatalog(input){
+  const chosen=new Map();
+  const order=[];
+
+  for(const original of Array.isArray(input)?input:[]){
+    if(!original||!original.id)continue;
+    const product={...original};
+    const key=nv33CanonicalProductKey(product);
+    if(!chosen.has(key)){
+      chosen.set(key,product);
+      order.push(key);
+    }else if(nv33CatalogScore(product)>nv33CatalogScore(chosen.get(key))){
+      chosen.set(key,product);
+    }
+  }
+
+  return order.map(key=>chosen.get(key)).filter(product=>{
+    /* Remove legacy standalone Crown 33 Maroon card now represented as a color variant. */
+    return product.id!=='crown33-maroon-tee';
+  }).map(product=>{
+    const rule=nv33FindRule(product);
+    if(rule&&Array.isArray(product.colors)&&product.colors.length){
+      const removed=new Set(rule.remove);
+      let colors=product.colors.filter(c=>!removed.has(nv33Key(c.name)));
+      let selected=null;
+      for(const preferred of rule.default){
+        selected=colors.find(c=>nv33Key(c.name)===preferred);
+        if(selected)break;
+      }
+      if(selected){
+        colors=[selected,...colors.filter(c=>c!==selected)];
+        product.image=selected.image;
+      }else if(colors[0]?.image){
+        product.image=colors[0].image;
+      }
+      product.colors=colors;
+    }
+    return product;
+  });
+}
+
+fetch('data/products.json?v=nv33-dedupe-corrected-20260809-2')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=nv33NormalizeCatalog(d);renderAll();})
   .catch(err=>{

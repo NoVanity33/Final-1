@@ -578,11 +578,11 @@
     "checkoutPending": false
   },
   {
-    "id": "crown33-maroon-tee",
-    "name": "Crown 33 Maroon Tee",
+    "id": "crown33-tee",
+    "name": "Crown 33 Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/products/crown33-maroon-tee.png",
+    "image": "assets/products/corrected/crown33-tee/graphite.webp",
     "sizes": [
       "S",
       "M",
@@ -591,14 +591,60 @@
       "2XL",
       "3XL"
     ],
-    "tag": "New",
-    "desc": "Maroon Crown 33 chest-logo tee featuring John 3:16 on the back.",
+    "tag": "Premium",
     "status": "available",
+    "featured": true,
+    "desc": "A premium Crown 33 front-and-back tee featuring the crown of thorns and John 3:16, pointing directly to Christ’s sacrifice and love.",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr2eeRQ7M5gXs0AcYulj7vX",
-    "printfulName": "Maroon Crown 33 Tee",
+    "printfulName": "Crown 33 Tee",
+    "checkoutPending": false,
     "shippingIncluded": true,
-    "checkoutPending": false
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/corrected/crown33-tee/black.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/corrected/crown33-tee/royal-blue.webp"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/products/corrected/crown33-tee/brown.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/corrected/crown33-tee/cardinal.webp"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/products/corrected/crown33-tee/chocolate.webp"
+      },
+      {
+        "name": "Graphite",
+        "image": "assets/products/corrected/crown33-tee/graphite.webp"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/corrected/crown33-tee/heather-grey.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/corrected/crown33-tee/maroon.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/corrected/crown33-tee/navy.webp"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/corrected/crown33-tee/red.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/corrected/crown33-tee/white.webp"
+      }
+    ]
   },
   {
     "id": "preview-socks",
@@ -1364,75 +1410,6 @@
       {
         "name": "White",
         "image": "assets/products/corrected/simple-cross-tee/white.webp"
-      }
-    ]
-  },
-  {
-    "id": "crown33-tee",
-    "name": "Crown 33 Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/corrected/crown33-tee/graphite.webp",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Premium",
-    "status": "available",
-    "featured": true,
-    "desc": "A premium Crown 33 front-and-back tee featuring the crown of thorns and John 3:16, pointing directly to Christ’s sacrifice and love.",
-    "founderFeatured": false,
-    "printfulName": "Crown 33 Tee",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/corrected/crown33-tee/black.webp"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/corrected/crown33-tee/royal-blue.webp"
-      },
-      {
-        "name": "Brown",
-        "image": "assets/products/corrected/crown33-tee/brown.webp"
-      },
-      {
-        "name": "Cardinal",
-        "image": "assets/products/corrected/crown33-tee/cardinal.webp"
-      },
-      {
-        "name": "Chocolate",
-        "image": "assets/products/corrected/crown33-tee/chocolate.webp"
-      },
-      {
-        "name": "Graphite",
-        "image": "assets/products/corrected/crown33-tee/graphite.webp"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/corrected/crown33-tee/heather-grey.webp"
-      },
-      {
-        "name": "Maroon",
-        "image": "assets/products/corrected/crown33-tee/maroon.webp"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/corrected/crown33-tee/navy.webp"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/corrected/crown33-tee/red.webp"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/corrected/crown33-tee/white.webp"
       }
     ]
   },
