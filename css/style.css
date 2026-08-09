@@ -658,3 +658,8 @@ select{
 .preview-card .imgbox img[src=""]{
   display:none;
 }
+
+.young-disciple-hero{min-height:420px;display:grid;place-items:center;text-align:center;padding:70px 24px;border-bottom:1px solid var(--line);background:radial-gradient(circle at 50% 35%,rgba(246,196,66,.20),transparent 38%),linear-gradient(180deg,#080603,#020202)}
+.young-disciple-hero .inner{max-width:850px}.young-disciple-hero h1{font-size:clamp(44px,7vw,84px);margin:8px 0 16px}.young-disciple-hero p{color:#d5d5d5;line-height:1.7;font-size:18px}
+.young-disciple-panel{max-width:950px;margin:45px auto;padding:34px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(180deg,#111,#070707);text-align:center}
+.young-disciple-panel h2{font-size:30px}.young-disciple-panel p{color:#cfcfcf;line-height:1.7}.sitewide-shipping-note{color:var(--gold);font-weight:950;letter-spacing:.7px}

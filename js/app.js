@@ -23,7 +23,7 @@ function addToCart(id){
   if(!p||p.status==='coming-soon')return;
   const size=document.getElementById('size-'+id)?.value||'One Size';
   const color=selectedColor(id);
-  cart.push({id:p.id,name:p.name,price:p.price,size,color,stripePriceId:p.stripePriceId||'',shippingIncluded:!!p.shippingIncluded});
+  cart.push({id:p.id,name:p.name,price:p.price,size,color,stripePriceId:p.stripePriceId||'',shippingIncluded:true});
   save();
   cartBox.classList.add('show');
 }
@@ -92,7 +92,7 @@ function liveCard(p){
     <div class="imgbox clickable" onclick="openImage(document.getElementById('img-${p.id}').src,'${p.name}')" title="Click to enlarge"><img id="img-${p.id}" src="${p.image}" alt="${p.name}" loading="lazy"></div>
     <h3>${p.name}</h3>
     <p class="price">${money(p.price)}</p>
-    ${p.shippingIncluded?'<div class="free-shipping-badge">🚚 FREE U.S. SHIPPING</div>':'<div class="shipping-note">Shipping calculated at checkout</div>'}
+    <div class="free-shipping-badge">🚚 FREE U.S. SHIPPING</div>
     <p class="desc">${p.desc||'Premium Christian apparel.'}</p>
     ${colorChoices(p)}
     <select id="size-${p.id}" aria-label="Choose size for ${p.name}">${(p.sizes||['One Size']).map(s=>`<option>${s}</option>`).join('')}</select>
@@ -204,7 +204,7 @@ function nv33NormalizeCatalog(input){
   return output;
 }
 
-fetch('data/products.json?v=launch-day-final-20260804-1')
+fetch('data/products.json?v=nv33-pricing-shorts-youth-20260809-1')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=nv33NormalizeCatalog(d);renderAll();})
   .catch(err=>{
