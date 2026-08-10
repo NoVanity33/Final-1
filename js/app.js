@@ -67,10 +67,10 @@ function nv33ViewImage(c,view){
 }
 function swapProductImage(id,image,input){
   document.querySelectorAll(`input[name="color-${id}"]`).forEach(el=>el.closest('label')?.classList.toggle('selected',el.checked));
-  const view=nv33ViewState[id]||'Front';
+  nv33ViewState[id]='Front';
   const c=nv33SelectedColorObject(id);
   const img=document.getElementById('img-'+id);
-  if(img)img.src=nv33ViewImage(c,view)||image;
+  if(img)img.src=c?.image||image;
 }
 function setProductView(id,view,button){
   nv33ViewState[id]=view;
@@ -86,27 +86,41 @@ function viewChoices(p){
 
 
 
-function openImage(src,alt){
+function openImageForProduct(id){
+  const p=products.find(x=>x.id===id);
+  if(!p)return;
+  const c=nv33SelectedColorObject(id)||p.colors?.[0]||{image:p.image};
+  const views=[];
+  if(c.image)views.push({label:'Front',src:c.image});
+  if(c.backImage)views.push({label:'Back',src:c.backImage});
+  if(c.bottomImage)views.push({label:'Bottom',src:c.bottomImage});
+  openProductGallery(p.name,views.length?views:[{label:'View',src:p.image}]);
+}
+function openProductGallery(alt,views){
   let modal=document.getElementById('imageModal');
   if(!modal){
     modal=document.createElement('div');modal.id='imageModal';modal.className='image-modal';
-    modal.innerHTML='<button aria-label="Close image">×</button><img alt="">';
-    modal.onclick=e=>{if(e.target===modal||e.target.tagName==='BUTTON')modal.classList.remove('show');};
+    modal.innerHTML='<button class="modal-close" aria-label="Close image">×</button><div class="modal-inner"><img alt=""><div class="modal-views"></div></div>';
+    modal.onclick=e=>{if(e.target===modal||e.target.classList.contains('modal-close'))modal.classList.remove('show');};
     document.body.appendChild(modal);
   }
-  modal.querySelector('img').src=src;modal.querySelector('img').alt=alt;modal.classList.add('show');
+  const img=modal.querySelector('img');
+  const controls=modal.querySelector('.modal-views');
+  const setView=(idx)=>{img.src=views[idx].src;img.alt=`${alt} — ${views[idx].label}`;controls.querySelectorAll('button').forEach((b,i)=>b.classList.toggle('selected',i===idx));};
+  controls.innerHTML=views.length>1?views.map((v,i)=>`<button type="button" data-index="${i}">${v.label}</button>`).join(''):'';
+  controls.querySelectorAll('button').forEach((b,i)=>b.onclick=()=>setView(i));
+  setView(0);modal.classList.add('show');
 }
 function liveCard(p){
   const purchasable=p.status==='available';
   return `<article class="card product-card" id="${p.id}-card">
     <span class="badge">${p.tag||'Available'}</span>
-    <div class="imgbox clickable" onclick="openImage(document.getElementById('img-${p.id}').src,'${p.name}')" title="Click to enlarge"><img id="img-${p.id}" src="${p.image}" alt="${p.name}" loading="lazy"></div>
+    <div class="imgbox clickable" onclick="openImageForProduct('${p.id}')" title="Click to enlarge"><img id="img-${p.id}" src="${p.image}" alt="${p.name}" loading="lazy"></div>
     <h3>${p.name}</h3>
     <p class="price">${money(p.price)}</p>
     <div class="free-shipping-badge">🚚 FREE U.S. SHIPPING</div>
     <p class="desc">${p.desc||'Premium Christian apparel.'}</p>
     ${colorChoices(p)}
-    ${viewChoices(p)}
     <select id="size-${p.id}" aria-label="Choose size for ${p.name}">${(p.sizes||['One Size']).map(s=>`<option>${s}</option>`).join('')}</select>
     ${purchasable?`<button class="add" onclick="addToCart('${p.id}')">🛒 Add to Cart</button>`:`<a class="add waitlist-button" href="mailto:novanity2026@gmail.com?subject=V8%20Product%20Interest%20-%20${encodeURIComponent(p.name)}">Printful Setup Pending</a>`}
   </article>`;
@@ -263,7 +277,7 @@ function nv33NormalizeCatalog(input){
   });
 }
 
-fetch('data/products.json?v=nv33-final-wrap-20260809-2')
+fetch('data/products.json?v=nv33-corrected-20260809-2116')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=nv33NormalizeCatalog(d);renderAll();})
   .catch(err=>{

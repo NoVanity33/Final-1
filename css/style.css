@@ -676,3 +676,19 @@ select{
   width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;
 }
 .hoodie-color-control{display:none!important}
+
+/* FINAL NV33 catalog presentation */
+.product-card .imgbox,.founder-grid .imgbox{background:#c9c9c9!important;background-image:none!important;border-color:#aaa!important;}
+.product-card .imgbox img,.founder-grid .imgbox img{background:transparent!important;}
+.product-card select[name^="color-"]{display:none!important;}
+
+/* ===== NV33 FINAL CATALOG PRESENTATION FIX 2026-08-09 ===== */
+.product-card .imgbox,.founder-grid .imgbox{background:#c9c9c9!important;background-image:none!important;}
+.product-card .imgbox img,.founder-grid .imgbox img{background:#c9c9c9!important;}
+.view-picker{display:none!important;}
+.image-modal .modal-inner{display:flex;flex-direction:column;align-items:center;gap:14px;max-width:94vw;max-height:94vh;}
+.image-modal .modal-inner img{max-width:min(92vw,1200px);max-height:82vh;object-fit:contain;background:#c9c9c9;}
+.image-modal .modal-views{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;}
+.image-modal .modal-views button{position:static;font-size:14px;border:1px solid #c7a75b;background:#111;color:#fff;padding:8px 15px;border-radius:999px;cursor:pointer;}
+.image-modal .modal-views button.selected{background:#c7a75b;color:#111;font-weight:800;}
+.image-modal .modal-close{position:absolute;top:18px;right:24px;}
