@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>No Vanity 33 Ambassador Program</title>
+  <meta name="description" content="Join the No Vanity 33 Ambassador Program, share Christ-centered apparel, give your audience 10% off, and earn commission on qualifying sales.">
+  <link rel="stylesheet" href="css/style.css?v=version9-ambassador">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="index.html"><img src="assets/logos/lion33.png" alt="No Vanity 33"><span><strong>NO VANITY 33</strong><small>AMBASSADOR PROGRAM</small></span></a>
+  <nav><a href="index.html">Home</a><a href="index.html#shop">Shop</a><a href="prayer-wall.html">Prayer Wall</a></nav>
+</header>
+<main class="section">
+<section class="ambassador-hero">
+  <p class="eyebrow">Share the Mission</p>
+  <h1>Become a No Vanity 33 Ambassador</h1>
+  <p class="lead">Wear the Word. Live the Gospel. Spread the Word. Approved ambassadors receive a personal referral link and promo code that gives their audience 10% off qualifying orders.</p>
+  <div class="ambassador-grid">
+    <article class="ambassador-card">
+      <h2>How It Works</h2>
+      <p><b class="gold">1.</b> Apply below.</p>
+      <p><b class="gold">2.</b> Receive your personal code and referral link.</p>
+      <p><b class="gold">3.</b> Share No Vanity 33 with your community.</p>
+      <p><b class="gold">4.</b> Earn commission on qualifying tracked sales.</p>
+      <h3>Ambassador Benefits</h3>
+      <p>• 10% off for your audience<br>• Personal referral link<br>• Commission tracking<br>• Early access to releases<br>• Opportunities to represent the mission</p>
+    </article>
+    <article class="ambassador-card">
+      <h2>Apply</h2>
+      <form id="ambassadorForm" class="ambassador-form">
+        <label>Name<input id="aName" required></label>
+        <label>Email<input id="aEmail" type="email" required></label>
+        <label>Phone<input id="aPhone"></label>
+        <label>Follower count<input id="aFollowers"></label>
+        <label>Instagram<input id="aInstagram"></label>
+        <label>TikTok<input id="aTiktok"></label>
+        <label>Facebook<input id="aFacebook"></label>
+        <label>Church (optional)<input id="aChurch"></label>
+        <label class="wide">Why do you want to represent No Vanity 33?<textarea id="aWhy" rows="5" required></textarea></label>
+        <button class="add wide" type="submit">Submit Ambassador Application</button>
+      </form>
+      <p id="aStatus"></p>
+    </article>
+  </div>
+</section>
+</main>
+<script>
+document.getElementById('ambassadorForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const vals={
+    Name:aName.value,Email:aEmail.value,Phone:aPhone.value,Followers:aFollowers.value,
+    Instagram:aInstagram.value,TikTok:aTiktok.value,Facebook:aFacebook.value,
+    Church:aChurch.value,Reason:aWhy.value
+  };
+  const body=Object.entries(vals).map(([k,v])=>`${k}: ${v}`).join('\n');
+  location.href=`mailto:novanity2026@gmail.com?subject=${encodeURIComponent('No Vanity 33 Ambassador Application — '+vals.Name)}&body=${encodeURIComponent(body)}`;
+  aStatus.className='status-good';
+  aStatus.textContent='Your email app is opening with the completed application.';
+});
+</script>
+</body></html>

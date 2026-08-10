@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ambassador Code Generator | NV33</title><link rel="stylesheet" href="../css/style.css?v=version9-ambassador"></head>
+<body><main class="section"><div class="ambassador-card" style="max-width:760px;margin:auto">
+<h1>Ambassador Code Generator</h1><p>Create a suggested unique code, then paste the generated JSON object into <code>data/ambassadors.json</code>.</p>
+<label>Name<input id="name" style="width:100%;padding:12px"></label>
+<label>Preferred code (optional)<input id="preferred" style="width:100%;padding:12px"></label>
+<button class="add" onclick="generate()">Generate</button><pre id="output" style="white-space:pre-wrap;background:#050505;padding:18px;border:1px solid #514426"></pre>
+</div></main><script>
+function generate(){
+ const n=name.value.trim(); if(!n)return;
+ const base=(preferred.value.trim()||n.split(/\s+/)[0]+'10').toUpperCase().replace(/[^A-Z0-9]/g,'');
+ output.textContent=JSON.stringify({name:n,code:base,slug:n.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),discountPercent:10,commissionRate:'pending agreement',active:true},null,2);
+}
+</script></body></html>
