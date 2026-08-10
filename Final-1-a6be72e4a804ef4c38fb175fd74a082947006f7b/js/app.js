@@ -1,0 +1,213 @@
+const NV33_VALID_PROMO_CODES={'M2-10':{discount:10,ambassador:'Michael McAllister'}};
+function validateNv33Promo(code){return NV33_VALID_PROMO_CODES[String(code||'').trim().toUpperCase()]||null;}
+
+const grid=document.getElementById('grid');
+const founderGrid=document.getElementById('founderGrid');
+const comingGrid=document.getElementById('comingGrid');
+const cartBtn=document.getElementById('cartBtn');
+const cartCount=document.getElementById('cartCount');
+const cartBox=document.getElementById('cartBox');
+let products=[];
+let cart=JSON.parse(localStorage.getItem('nv33cart')||'[]');
+const money=v=>'$'+Number(v||0).toFixed(2);
+
+function save(){localStorage.setItem('nv33cart',JSON.stringify(cart));renderCart();}
+function selectedColor(id){
+  const select=document.querySelector(`select[name="color-${id}"]`);
+  if(select)return select.value;
+  const checked=document.querySelector(`input[name="color-${id}"]:checked`);
+  return checked?.value||'Default';
+}
+function addToCart(id){
+  const p=products.find(x=>x.id===id);
+  if(!p||p.status==='coming-soon')return;
+  const size=document.getElementById('size-'+id)?.value||'One Size';
+  const color=selectedColor(id);
+  cart.push({id:p.id,name:p.name,price:p.price,size,color,stripePriceId:p.stripePriceId||'',shippingIncluded:!!p.shippingIncluded});
+  save();
+  cartBox.classList.add('show');
+}
+function removeCartItem(index){cart.splice(index,1);save();}
+function closeCart(){cartBox.classList.remove('show');}
+function clearCart(){cart=[];save();}
+function renderCart(){
+  cartCount.textContent=cart.length;
+  const total=cart.reduce((s,i)=>s+Number(i.price||0),0);
+  cartBox.innerHTML=`<button class="cart-close" onclick="closeCart()" aria-label="Close cart">×</button>
+    <h3>Your Cart</h3>
+    ${cart.length?cart.map((i,idx)=>`<div class="cartrow"><span>${i.name}<br><small>${i.color||''}${i.color?' • ':''}${i.size}</small></span><b>${money(i.price)}</b><button class="remove" onclick="removeCartItem(${idx})" aria-label="Remove item">×</button></div>`).join(''):'<p>Your cart is empty.</p>'}
+    <p class="cart-total"><b>Total: ${money(total)}</b></p>
+    <button class="add dark-button" onclick="clearCart()">Clear Cart</button>
+    <a class="btn primary checkout-link" href="checkout.html">Secure Checkout →</a>`;
+}
+function colorChoices(p){
+  if(!p.colors?.length)return '';
+  if(p.id==='lion-of-judah-hoodie'){
+    return `<div class="hoodie-color-control">
+      <label for="hoodie-color-${p.id}">Hoodie Color</label>
+      <select id="hoodie-color-${p.id}" class="hoodie-color-select" name="color-${p.id}" onchange="swapHoodieColor('${p.id}',this)">
+        ${p.colors.map(c=>`<option value="${c.name}" data-image="${c.image}">${c.name}</option>`).join('')}
+      </select>
+      <div class="hoodie-color-key">${p.colors.map((c,i)=>`<span class="hoodie-color-chip ${i===0?'selected':''}" data-color="${c.name}"><i style="--swatch:${swatchColor(c.name)}"></i>${c.name}</span>`).join('')}</div>
+    </div>`;
+  }
+  return `<div class="color-picker" aria-label="Choose color for ${p.name}">${p.colors.map((c,i)=>`
+    <label class="color-option ${i===0?'selected':''}" title="${c.name}">
+      <input type="radio" name="color-${p.id}" value="${c.name}" ${i===0?'checked':''} onchange="swapProductImage('${p.id}','${c.image}',this)">
+      <span class="color-dot" style="--swatch:${swatchColor(c.name)}"></span><small>${c.name}</small>
+    </label>`).join('')}</div>`;
+}
+function swatchColor(name){
+  const map={'Black':'#111','White':'#fff','Sand':'#c8b18f','Brown':'#7a563f','Chocolate':'#4b2e22','Military Green':'#66704f','Cardinal':'#861f3a','Red':'#c92127','Maroon':'#651c32','Teal':'#147c7d','Tropical Blue':'#08a9bc','Light Blue':'#9ecde5','Baby Blue':'#b9dff2','Carolina Blue':'#7baed1','Royal Blue':'#244d9b','Navy':'#17243a','Purple':'#5d3b78','Charcoal':'#454545','Dark Heather':'#3d3d3f','Graphite':'#55575a','Heather Grey':'#b9b9b7','Athletic Heather':'#c9c9c9','Haze':'#b7aaa7','Cream':'#eee3c7'};
+  return map[name]||'#c7a75b';
+}
+function swapProductImage(id,image,input){
+  const img=document.getElementById('img-'+id);
+  if(img)img.src=image;
+  document.querySelectorAll(`input[name="color-${id}"]`).forEach(el=>el.closest('label')?.classList.toggle('selected',el.checked));
+}
+
+function swapHoodieColor(id,select){
+  const option=select.options[select.selectedIndex];
+  const image=option?.dataset.image;
+  const img=document.getElementById('img-'+id);
+  if(img&&image)img.src=image;
+  document.querySelectorAll(`#${id}-card .hoodie-color-chip`).forEach(chip=>chip.classList.toggle('selected',chip.dataset.color===select.value));
+}
+
+function openImage(src,alt){
+  let modal=document.getElementById('imageModal');
+  if(!modal){
+    modal=document.createElement('div');modal.id='imageModal';modal.className='image-modal';
+    modal.innerHTML='<button aria-label="Close image">×</button><img alt="">';
+    modal.onclick=e=>{if(e.target===modal||e.target.tagName==='BUTTON')modal.classList.remove('show');};
+    document.body.appendChild(modal);
+  }
+  modal.querySelector('img').src=src;modal.querySelector('img').alt=alt;modal.classList.add('show');
+}
+function liveCard(p){
+  const purchasable=p.status==='available';
+  return `<article class="card product-card" id="${p.id}-card">
+    <span class="badge">${p.tag||'Available'}</span>
+    <div class="imgbox clickable" onclick="openImage(document.getElementById('img-${p.id}').src,'${p.name}')" title="Click to enlarge"><img id="img-${p.id}" src="${p.image}" alt="${p.name}" loading="lazy"></div>
+    <h3>${p.name}</h3>
+    <p class="price">${money(p.price)}</p>
+    ${p.shippingIncluded?'<div class="free-shipping-badge">🚚 FREE U.S. SHIPPING</div>':'<div class="shipping-note">Shipping calculated at checkout</div>'}
+    <p class="desc">${p.desc||'Premium Christian apparel.'}</p>
+    ${colorChoices(p)}
+    <select id="size-${p.id}" aria-label="Choose size for ${p.name}">${(p.sizes||['One Size']).map(s=>`<option>${s}</option>`).join('')}</select>
+    ${purchasable?`<button class="add" onclick="addToCart('${p.id}')">🛒 Add to Cart</button>`:`<a class="add waitlist-button" href="mailto:novanity2026@gmail.com?subject=V8%20Product%20Interest%20-%20${encodeURIComponent(p.name)}">Printful Setup Pending</a>`}
+  </article>`;
+}
+function previewCard(p){
+  return `<article class="card preview-card">
+    <div class="preview-ribbon">FOUNDER'S PREVIEW</div>
+    <div class="imgbox preview-img clickable" onclick="openImage('${p.image}','${p.name}')"><img src="${p.image}" alt="${p.name}" loading="lazy"></div>
+    <h3>${p.name}</h3>
+    <p class="desc">${p.desc}</p>
+    <a class="add waitlist-button" href="mailto:novanity2026@gmail.com?subject=Waitlist%20-%20${encodeURIComponent(p.name)}">Notify Me</a>
+  </article>`;
+}
+function renderAvailable(filter='All'){
+  // Products shown in Founder's Collection are intentionally excluded here
+  // so customers do not see duplicate cards on the same page.
+  const items=products.filter(p=>p.status==='available'&&!p.founderFeatured&&(filter==='All'||p.category===filter));
+  grid.innerHTML=items.map(liveCard).join('');
+}
+function renderAll(){
+  founderGrid.innerHTML=products.filter(p=>p.founderFeatured&&p.status==='available').map(liveCard).join('');
+  comingGrid.innerHTML=products.filter(p=>p.status==='coming-soon').map(previewCard).join('');
+  renderAvailable();
+  renderCart();
+}
+document.querySelectorAll('[data-filter]').forEach(btn=>{
+  btn.onclick=()=>{
+    document.querySelectorAll('[data-filter]').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    renderAvailable(btn.dataset.filter);
+  };
+});
+cartBtn.onclick=e=>{e.preventDefault();cartBox.classList.toggle('show');};
+
+/* ===== NV33 LAUNCH DAY RUNTIME CATALOG FIX =====
+   This runs after products.json loads, so approved defaults/removals
+   apply even when an older catalog file is cached or contains duplicates.
+*/
+function nv33Key(value){
+  return String(value || '').trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+}
+
+const NV33_LAUNCH_COLOR_RULES = [
+  {match:['crimson-worm-tee','crimson-worm'], default:['navy'], remove:[]},
+  {match:['crown33-tee','crown-33-tee','crown-33'], default:['graphite','dark-grey','dark-gray','charcoal'], remove:['heather-grey','light-grey','light-gray']},
+  {match:['disciple-tee','disciple'], default:['military-green'], remove:[]},
+  {match:['every-knee-will-bow-tee','every-knee-will-bow'], default:['black'], remove:['white']},
+  {match:['faith-over-fear-tee','faith-over-fear'], default:['brown'], remove:[]},
+  {match:['faithful-servant-tee','faithful-servant'], default:['navy'], remove:[]},
+  {match:['jesus-is-king-tee','jesus-is-king'], default:['black'], remove:['orange']},
+  {match:['lamb-of-god-tee','lamb-of-god'], default:['black'], remove:['pink']},
+  {match:['lion-of-judah-tee','lion-of-judah'], default:['black'], remove:[]},
+  {match:['love-thy-neighbor-tee','love-thy-neighbor'], default:['royal-blue','royal'], remove:['navy']},
+  {match:['parting-the-sea-tee','parting-the-seas-tee','parting-the-sea','parting-the-seas'], default:['black'], remove:[]},
+  {match:['philippians-4-13-tee','simple-cross-tee','philippians-4-13'], default:['black'], remove:[]},
+  {match:['prayer-cross-tee','prayer-cross'], default:['black'], remove:[]},
+  {match:['protected-by-the-blood-tee','protected-by-the-blood'], default:['navy'], remove:[]},
+  {match:['shroud-tee','the-shroud-tee','shroud'], default:['black'], remove:[]},
+  {match:['worthy-is-the-lamb-tee','worthy-lamb-grey-tee','worthy-is-the-lamb'], default:['natural','cream'], remove:['purple','maroon']},
+  {match:['yahweh-tee','yahweh'], default:['black'], remove:[]}
+];
+
+function nv33FindRule(product){
+  const candidates = [nv33Key(product.id), nv33Key(product.name)];
+  return NV33_LAUNCH_COLOR_RULES.find(rule =>
+    rule.match.some(m => candidates.some(c => c === m || c.includes(m)))
+  );
+}
+
+function nv33NormalizeCatalog(input){
+  const seen = new Set();
+  const output = [];
+
+  for(const original of Array.isArray(input) ? input : []){
+    if(!original || !original.id) continue;
+
+    /* Keep the first rich entry for each ID; skip later legacy duplicates. */
+    const id = String(original.id);
+    if(seen.has(id)) continue;
+    seen.add(id);
+
+    const product = {...original};
+    const rule = nv33FindRule(product);
+
+    if(rule && Array.isArray(product.colors) && product.colors.length){
+      const removed = new Set(rule.remove);
+      let colors = product.colors.filter(c => !removed.has(nv33Key(c.name)));
+
+      let selected = null;
+      for(const preferred of rule.default){
+        selected = colors.find(c => nv33Key(c.name) === preferred);
+        if(selected) break;
+      }
+
+      if(selected){
+        colors = [selected, ...colors.filter(c => c !== selected)];
+        product.image = selected.image;
+      }else if(colors[0]?.image){
+        product.image = colors[0].image;
+      }
+
+      product.colors = colors;
+    }
+
+    output.push(product);
+  }
+  return output;
+}
+
+fetch('data/products.json?v=launch-day-final-20260804-1')
+  .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
+  .then(d=>{products=nv33NormalizeCatalog(d);renderAll();})
+  .catch(err=>{
+    console.error(err);
+    grid.innerHTML='<p class="load-error">Product catalog could not load. Please refresh the page.</p>';
+  });

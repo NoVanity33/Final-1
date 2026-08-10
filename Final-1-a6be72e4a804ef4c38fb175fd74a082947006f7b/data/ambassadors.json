@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Michael McAllister",
+    "code": "M2-10",
+    "discountPercent": 10,
+    "commissionPerShirt": 3.5,
+    "active": true
+  }
+]
