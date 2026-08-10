@@ -272,7 +272,7 @@ function nv33NormalizeCatalog(input){
   });
 }
 
-fetch('data/products.json?v=nv33-final-uploaded-mockups-20260809')
+fetch('data/products.json?v=nv33-retry-20260810')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=nv33NormalizeCatalog(d);renderAll();})
   .catch(err=>{

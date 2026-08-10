@@ -222,43 +222,51 @@
     "colors": [
       {
         "name": "Black",
-        "image": "assets/catalog-final/faithful-servant-black-c2e562.webp"
+        "image": "assets/catalog-final/faithful-servant-fixed-black.webp"
       },
       {
         "name": "Cardinal",
-        "image": "assets/catalog-final/faithful-servant-cardinal-9bdd0c.webp"
+        "image": "assets/catalog-final/faithful-servant-fixed-cardinal.webp"
       },
       {
         "name": "Carolina Blue",
-        "image": "assets/catalog-final/faithful-servant-carolina-blue-026688.webp"
+        "image": "assets/catalog-final/faithful-servant-fixed-carolina-blue.webp"
       },
       {
         "name": "Charcoal",
-        "image": "assets/catalog-final/faithful-servant-charcoal-5fcb4d.webp"
+        "image": "assets/catalog-final/faithful-servant-fixed-charcoal.webp"
       },
       {
         "name": "Heather Grey",
-        "image": "assets/catalog-final/faithful-servant-heather-grey-590f79.webp"
+        "image": "assets/catalog-final/faithful-servant-fixed-heather-grey.webp"
       },
       {
         "name": "Maroon",
-        "image": "assets/catalog-final/faithful-servant-maroon-b7f2fb.webp"
+        "image": "assets/catalog-final/faithful-servant-fixed-maroon.webp"
       },
       {
         "name": "Military Green",
-        "image": "assets/catalog-final/faithful-servant-military-green-3ec9f0.webp"
+        "image": "assets/catalog-final/faithful-servant-fixed-military-green.webp"
       },
       {
         "name": "Navy",
-        "image": "assets/catalog-final/faithful-servant-navy-384ebc.webp"
+        "image": "assets/catalog-final/faithful-servant-fixed-navy.webp"
       },
       {
         "name": "Purple",
-        "image": "assets/catalog-final/faithful-servant-purple-8511a4.webp"
+        "image": "assets/catalog-final/faithful-servant-fixed-purple.webp"
       },
       {
         "name": "Red",
-        "image": "assets/catalog-final/faithful-servant-red-396f00.webp"
+        "image": "assets/catalog-final/faithful-servant-fixed-red.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/faithful-servant-fixed-royal-blue.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/catalog-final/faithful-servant-fixed-white.webp"
       }
     ],
     "shippingIncluded": true
@@ -621,7 +629,7 @@
         "image": "assets/catalog-final/satisfied-white-135a0b.webp"
       },
       {
-        "name": "Sand",
+        "name": "Brown",
         "image": "assets/catalog-final/satisfied-brown-fa7d84.webp"
       }
     ]
@@ -1686,7 +1694,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "40oz Scripture Water Bottle",
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "preview-socks",
@@ -1700,7 +1708,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Cross Crew Socks Collection",
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "preview-duffle",
@@ -1714,7 +1722,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "No Vanity 33 Duffle Bag",
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "preview-shorts",
@@ -1728,7 +1736,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Performance Shorts Collection",
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "preview-sweatpants",
@@ -1742,7 +1750,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Premium Sweatpants Collection",
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "preview-wristbands",
@@ -1756,7 +1764,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder\u2019s Preview",
     "printfulName": "Scripture Wristband Collection",
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "crown-33-shorts",
