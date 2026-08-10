@@ -665,3 +665,14 @@ select{
 .young-disciple-panel h2{font-size:30px}.young-disciple-panel p{color:#cfcfcf;line-height:1.7}.sitewide-shipping-note{color:var(--gold);font-weight:950;letter-spacing:.7px}
 
 .view-picker{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:10px 0}.view-button{border:1px solid #9f843d;background:#111;color:#fff;padding:7px 12px;border-radius:999px;cursor:pointer}.view-button.selected{background:#c7a75b;color:#111;font-weight:700}
+
+/* ===== NV33 FINAL VISUAL STANDARD ===== */
+.product-card .imgbox,.founder-grid .imgbox,.preview-card .imgbox{
+  background:#cfcfcf!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  overflow:hidden!important;
+}
+.product-card .imgbox img,.founder-grid .imgbox img,.preview-card .imgbox img{
+  width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;
+}
+.hoodie-color-control{display:none!important}

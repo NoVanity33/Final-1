@@ -382,7 +382,7 @@
     "tag": "New Release",
     "status": "available",
     "featured": true,
-    "desc": "A collegiate-style statement inspired by Matthew 4:19\u2014a clear reminder to follow Christ.",
+    "desc": "A collegiate-style statement inspired by Matthew 4:19—a clear reminder to follow Christ.",
     "founderFeatured": false,
     "printfulName": "Disciple Tee",
     "checkoutPending": false,
@@ -595,7 +595,7 @@
   },
   {
     "id": "satisfied-tee",
-    "name": "Satisfied \u2014 Matthew 14:20 Tee",
+    "name": "Satisfied — Matthew 14:20 Tee",
     "category": "Everyday Tees",
     "price": 27,
     "image": "assets/products/satisfied-white.webp",
@@ -610,7 +610,7 @@
     "tag": "New Release",
     "status": "available",
     "featured": true,
-    "desc": "Vintage engraved artwork inspired by the loaves and fishes miracle: \u201cThey all ate and were satisfied.\u201d",
+    "desc": "Vintage engraved artwork inspired by the loaves and fishes miracle: “They all ate and were satisfied.”",
     "founderFeatured": false,
     "printfulName": "Satisfied Matthew 14:20 Tee",
     "checkoutPending": false,
@@ -1083,7 +1083,7 @@
     "tag": "Premium",
     "status": "available",
     "featured": true,
-    "desc": "A premium front-and-back design inspired by Ephesians 6:10\u201318, calling believers to put on the full armor of God.",
+    "desc": "A premium front-and-back design inspired by Ephesians 6:10–18, calling believers to put on the full armor of God.",
     "founderFeatured": false,
     "printfulName": "Armor of God Tee",
     "checkoutPending": false,
@@ -1141,7 +1141,7 @@
     "tag": "Premium",
     "status": "available",
     "featured": true,
-    "desc": "Premium front-and-back artwork inspired by Exodus 3 and God\u2019s call to Moses from the burning bush.",
+    "desc": "Premium front-and-back artwork inspired by Exodus 3 and God’s call to Moses from the burning bush.",
     "founderFeatured": false,
     "printfulName": "Burning Bush Tee",
     "checkoutPending": false,
@@ -1260,7 +1260,7 @@
     "tag": "Premium",
     "status": "available",
     "featured": true,
-    "desc": "A premium Crown 33 front-and-back tee featuring the crown of thorns and John 3:16, pointing directly to Christ\u2019s sacrifice and love.",
+    "desc": "A premium Crown 33 front-and-back tee featuring the crown of thorns and John 3:16, pointing directly to Christ’s sacrifice and love.",
     "founderFeatured": false,
     "printfulName": "Crown 33 Tee",
     "checkoutPending": false,
@@ -1451,7 +1451,7 @@
     "tag": "Premium",
     "status": "available",
     "featured": true,
-    "desc": "A premium front-and-back design with an ornate cross and Philippians 4:13\u2014a wearable reminder that strength comes through Christ.",
+    "desc": "A premium front-and-back design with an ornate cross and Philippians 4:13—a wearable reminder that strength comes through Christ.",
     "founderFeatured": false,
     "printfulName": "Philippians 4:13 Cross Tee",
     "checkoutPending": false,
@@ -1684,7 +1684,7 @@
     "tag": "Coming Soon",
     "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "40oz Scripture Water Bottle",
     "shippingIncluded": false
   },
@@ -1698,7 +1698,7 @@
     "tag": "Coming Soon",
     "desc": "Six planned colorways presented together. We are sourcing a specialty sock partner who can meet the quality standard.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Cross Crew Socks Collection",
     "shippingIncluded": false
   },
@@ -1712,7 +1712,7 @@
     "tag": "Coming Soon",
     "desc": "A purpose-built premium duffle concept for the gym, church, travel, and everyday use.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "No Vanity 33 Duffle Bag",
     "shippingIncluded": false
   },
@@ -1726,7 +1726,7 @@
     "tag": "Coming Soon",
     "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Performance Shorts Collection",
     "shippingIncluded": false
   },
@@ -1740,7 +1740,7 @@
     "tag": "Coming Soon",
     "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Premium Sweatpants Collection",
     "shippingIncluded": false
   },
@@ -1754,7 +1754,7 @@
     "tag": "Coming Soon",
     "desc": "Comfortable faith wristbands planned with rotating Scripture references.",
     "status": "coming-soon",
-    "comingSoonLabel": "Founder\u2019s Preview",
+    "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Scripture Wristband Collection",
     "shippingIncluded": false
   },
@@ -1792,7 +1792,7 @@
     "name": "Red Cross Shorts",
     "category": "Shorts",
     "price": 44,
-    "image": "assets/products/shorts/red-cross-shorts-black.png",
+    "image": "assets/products/shorts/red-cross-shorts-white.png",
     "sizes": [
       "S",
       "M",
@@ -1803,9 +1803,13 @@
     "tag": "New Release",
     "status": "available",
     "featured": true,
-    "desc": "Clean athletic shorts with a bold red cross\u2014faith-forward everyday wear.",
+    "desc": "Clean athletic shorts with a bold red cross—faith-forward everyday wear.",
     "shippingIncluded": true,
     "colors": [
+      {
+        "name": "White",
+        "image": "assets/products/shorts/red-cross-shorts-white.png"
+      },
       {
         "name": "Black",
         "image": "assets/products/shorts/red-cross-shorts-black.png"
@@ -1813,10 +1817,6 @@
       {
         "name": "Heather Grey",
         "image": "assets/products/shorts/red-cross-shorts-grey.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/shorts/red-cross-shorts-white.png"
       }
     ]
   },
@@ -1824,7 +1824,7 @@
     "id": "disciple-sb",
     "name": "Disciple Snapback",
     "category": "Headwear",
-    "price": 30,
+    "price": 35,
     "image": "assets/products/headwear/Disciple SB Front Grey.png",
     "sizes": [
       "One Size"
@@ -1832,7 +1832,7 @@
     "tag": "New Release",
     "status": "available",
     "featured": true,
-    "desc": "DISCIPLE \u2014 Matthew 4:19 structured snapback.",
+    "desc": "DISCIPLE — Matthew 4:19 structured snapback.",
     "shippingIncluded": true,
     "colors": [
       {
@@ -1860,7 +1860,7 @@
     "id": "repent-sb",
     "name": "Repent Snapback",
     "category": "Headwear",
-    "price": 30,
+    "price": 35,
     "image": "assets/products/headwear/Repent SB Front Black.png",
     "sizes": [
       "One Size"
@@ -1868,7 +1868,7 @@
     "tag": "New Release",
     "status": "available",
     "featured": true,
-    "desc": "REPENT \u2014 Acts 3:19 structured snapback.",
+    "desc": "REPENT — Acts 3:19 structured snapback.",
     "shippingIncluded": true,
     "colors": [
       {
@@ -1894,6 +1894,222 @@
       "Front",
       "Back",
       "Bottom"
+    ]
+  },
+  {
+    "id": "repent-tee",
+    "name": "Repent Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/products/final-restored/repent-tee/black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Available",
+    "status": "available",
+    "featured": true,
+    "desc": "A bold REPENT — Acts 3:19 design with Luke 13:3 on the back, created as a direct call to turn to Christ and walk in repentance.",
+    "founderFeatured": false,
+    "printfulName": "Repent Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/final-restored/repent-tee/black.png"
+      }
+    ]
+  },
+  {
+    "id": "yahweh-tee",
+    "name": "YAHWEH Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/final-restored/yahweh-tee/black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium YAHWEH design centered on Exodus 3:14 and the name of God, created to point every conversation back to Scripture.",
+    "founderFeatured": false,
+    "printfulName": "YAHWEH Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/final-restored/yahweh-tee/black.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/final-restored/yahweh-tee/cardinal.png"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/products/final-restored/yahweh-tee/chocolate.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/final-restored/yahweh-tee/heather-grey.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/final-restored/yahweh-tee/maroon.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/final-restored/yahweh-tee/military-green.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/final-restored/yahweh-tee/navy.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/final-restored/yahweh-tee/purple.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/final-restored/yahweh-tee/royal-blue.png"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/products/final-restored/yahweh-tee/sand.png"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/products/final-restored/yahweh-tee/brown.png"
+      },
+      {
+        "name": "Graphite",
+        "image": "assets/products/final-restored/yahweh-tee/graphite.png"
+      }
+    ]
+  },
+  {
+    "id": "love-thy-neighbor-tee",
+    "name": "Love Thy Neighbor Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/products/final-restored/love-thy-neighbor-tee/royal-blue.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Available",
+    "status": "available",
+    "featured": true,
+    "desc": "A simple Gospel-centered reminder to love your neighbor as Christ commands—made for everyday wear and everyday witness.",
+    "founderFeatured": false,
+    "printfulName": "Love Thy Neighbor Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/royal-blue.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/red.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/military-green.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/maroon.png"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/charcoal.png"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/light-blue.png"
+      },
+      {
+        "name": "Baby Blue",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/baby-blue.png"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/brown.png"
+      }
+    ]
+  },
+  {
+    "id": "lion-of-judah-tee",
+    "name": "Lion of Judah Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/final-restored/lion-of-judah-tee/black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium Lion of Judah design inspired by Revelation 5:5, honoring Christ as the Lion of the tribe of Judah and the Root of David.",
+    "founderFeatured": false,
+    "printfulName": "Lion of Judah Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/final-restored/lion-of-judah-tee/black.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/final-restored/lion-of-judah-tee/cardinal.png"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/final-restored/lion-of-judah-tee/charcoal.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/final-restored/lion-of-judah-tee/maroon.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/final-restored/lion-of-judah-tee/military-green.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/final-restored/lion-of-judah-tee/navy.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/final-restored/lion-of-judah-tee/red.png"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/final-restored/lion-of-judah-tee/teal.png"
+      }
     ]
   }
 ]

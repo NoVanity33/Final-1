@@ -43,15 +43,6 @@ function renderCart(){
 }
 function colorChoices(p){
   if(!p.colors?.length)return '';
-  if(p.id==='lion-of-judah-hoodie'){
-    return `<div class="hoodie-color-control">
-      <label for="hoodie-color-${p.id}">Hoodie Color</label>
-      <select id="hoodie-color-${p.id}" class="hoodie-color-select" name="color-${p.id}" onchange="swapHoodieColor('${p.id}',this)">
-        ${p.colors.map(c=>`<option value="${c.name}" data-image="${c.image}">${c.name}</option>`).join('')}
-      </select>
-      <div class="hoodie-color-key">${p.colors.map((c,i)=>`<span class="hoodie-color-chip ${i===0?'selected':''}" data-color="${c.name}"><i style="--swatch:${swatchColor(c.name)}"></i>${c.name}</span>`).join('')}</div>
-    </div>`;
-  }
   return `<div class="color-picker" aria-label="Choose color for ${p.name}">${p.colors.map((c,i)=>`
     <label class="color-option ${i===0?'selected':''}" title="${c.name}">
       <input type="radio" name="color-${p.id}" value="${c.name}" ${i===0?'checked':''} onchange="swapProductImage('${p.id}','${c.image}',this)">
@@ -94,13 +85,6 @@ function viewChoices(p){
 }
 
 
-function swapHoodieColor(id,select){
-  const option=select.options[select.selectedIndex];
-  const image=option?.dataset.image;
-  const img=document.getElementById('img-'+id);
-  if(img&&image)img.src=image;
-  document.querySelectorAll(`#${id}-card .hoodie-color-chip`).forEach(chip=>chip.classList.toggle('selected',chip.dataset.color===select.value));
-}
 
 function openImage(src,alt){
   let modal=document.getElementById('imageModal');
@@ -139,12 +123,13 @@ function previewCard(p){
 
 function nv33StorefrontOrder(product){
   const id=nv33CanonicalProductKey(product);
-  const everyday=['99-for-1','faith-over-fear','faithful-servant','child-of-god','every-knee-will-bow','disciple','jesus-is-king','protected-by-the-blood','king-of-kings','love-thy-neighbor','satisfied'];
+  const everyday=['99-for-1','faith-over-fear','faithful-servant','child-of-god','every-knee-will-bow','disciple','repent','jesus-is-king','protected-by-the-blood','king-of-kings','love-thy-neighbor','satisfied'];
   const premium=['armor-of-god','burning-bush','crimson-worm','crown-33','lamb-of-god','lion-of-judah','parting-the-sea','philippians-4-13','prayer-cross','living-word','worthy-is-the-lamb','yahweh'];
   if(product?.id==='shroud-tee')return 0;
   if(product?.category==='Everyday Tees')return 100+(everyday.indexOf(id)>=0?everyday.indexOf(id):90);
   if(product?.category==='Hoodies')return 300;
   if(product?.category==='Shorts')return 400;
+  if(product?.category==='Headwear')return 450;
   if(product?.category==="Women's Tees")return 500;
   if(product?.category==='Premium Tees')return 700+(premium.indexOf(id)>=0?premium.indexOf(id):90);
   return 900;
@@ -278,7 +263,7 @@ function nv33NormalizeCatalog(input){
   });
 }
 
-fetch('data/products.json?v=nv33-final-order-colors-20260809-3')
+fetch('data/products.json?v=nv33-final-wrap-20260809-2')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=nv33NormalizeCatalog(d);renderAll();})
   .catch(err=>{
