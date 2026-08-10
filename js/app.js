@@ -113,9 +113,10 @@ function openProductGallery(alt,views){
 }
 function liveCard(p){
   const purchasable=p.status==='available';
+  const initialImage=(p.colors&&p.colors.length&&p.colors[0].image)?p.colors[0].image:p.image;
   return `<article class="card product-card" id="${p.id}-card">
     <span class="badge">${p.tag||'Available'}</span>
-    <div class="imgbox clickable" onclick="openImageForProduct('${p.id}')" title="Click to enlarge"><img id="img-${p.id}" src="${p.image}" alt="${p.name}" loading="lazy"></div>
+    <div class="imgbox clickable" onclick="openImageForProduct('${p.id}')" title="Click to enlarge"><img id="img-${p.id}" src="${initialImage}" alt="${p.name}" loading="lazy"></div>
     <h3>${p.name}</h3>
     <p class="price">${money(p.price)}</p>
     <div class="free-shipping-badge">🚚 FREE U.S. SHIPPING</div>
@@ -272,7 +273,7 @@ function nv33NormalizeCatalog(input){
   });
 }
 
-fetch('data/products.json?v=nv33-retry-20260810')
+fetch('data/products.json?v=nv33-finalfix-20260809-2326')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=nv33NormalizeCatalog(d);renderAll();})
   .catch(err=>{
