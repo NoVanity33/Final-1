@@ -4,7 +4,7 @@
     "name": "The Shroud Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/shroud-black-fe016f.webp",
+    "image": "assets/catalog-featured/shroud-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -73,7 +73,7 @@
     "name": "99 for 1 Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/corrected__ninety-nine-for-one-tee__black-d6065d.webp",
+    "image": "assets/catalog-featured/ninety-nine-for-one-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -138,7 +138,7 @@
     "name": "Faith Over Fear Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/faith-over-fear-brown-94941b.webp",
+    "image": "assets/catalog-featured/faith-over-fear-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -203,7 +203,7 @@
     "name": "Faithful Servant Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/faithful-servant-navy-384ebc.webp",
+    "image": "assets/catalog-featured/faithful-servant-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -268,7 +268,7 @@
     "name": "Child of God Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/child-of-god-black-8a04ec.webp",
+    "image": "assets/catalog-featured/child-of-god-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -321,7 +321,7 @@
     "name": "Every Knee Will Bow Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/every-knee-will-bow-black-908be4.webp",
+    "image": "assets/catalog-featured/every-knee-will-bow-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -370,7 +370,7 @@
     "name": "Disciple Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/disciple-military-green-569db6.webp",
+    "image": "assets/catalog-featured/disciple-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -427,7 +427,7 @@
     "name": "Jesus Is King Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/corrected__jesus-is-king-tee__black-5ea5d2.webp",
+    "image": "assets/catalog-featured/jesus-is-king-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -480,7 +480,7 @@
     "name": "Protected by the Blood Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/corrected__protected-by-the-blood-tee__navy-7a5abf.webp",
+    "image": "assets/catalog-featured/protected-by-the-blood-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -545,7 +545,7 @@
     "name": "King of Kings Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/corrected__king-of-kings-tee__black-a6ffd7.webp",
+    "image": "assets/catalog-featured/king-of-kings-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -598,7 +598,7 @@
     "name": "Satisfied \u2014 Matthew 14:20 Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/satisfied-white-135a0b.webp",
+    "image": "assets/catalog-featured/satisfied-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -676,7 +676,7 @@
     "name": "Women's Faith Over Fear Tee",
     "category": "Women's Tees",
     "price": 27,
-    "image": "assets/catalog-final/womens__womens-faith-over-fear-tee__pink-7d9c05.webp",
+    "image": "assets/catalog-featured/womens-faith-over-fear-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -737,7 +737,7 @@
     "name": "Women's Grace Through Strength Tee",
     "category": "Women's Tees",
     "price": 27,
-    "image": "assets/catalog-final/womens__womens-grace-through-strength-tee__royal-blue-9f54ac.webp",
+    "image": "assets/catalog-featured/womens-grace-through-strength-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -790,7 +790,7 @@
     "name": "Women's Grace Upon Grace Tee",
     "category": "Women's Tees",
     "price": 27,
-    "image": "assets/catalog-final/womens__womens-grace-upon-grace-tee__purple-e1d89f.webp",
+    "image": "assets/catalog-featured/womens-grace-upon-grace-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -904,7 +904,7 @@
     "name": "Women's Love of God Tee",
     "category": "Women's Tees",
     "price": 27,
-    "image": "assets/catalog-final/womens__womens-love-of-god-tee__purple-6913c2.webp",
+    "image": "assets/catalog-featured/womens-love-of-god-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -961,7 +961,7 @@
     "name": "Women's Pray Without Ceasing Tee",
     "category": "Women's Tees",
     "price": 27,
-    "image": "assets/catalog-final/womens__womens-pray-without-ceasing-tee__navy-aa91c5.webp",
+    "image": "assets/catalog-featured/womens-pray-without-ceasing-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1014,7 +1014,7 @@
     "name": "Women's Worth More Than Rubies Tee",
     "category": "Women's Tees",
     "price": 27,
-    "image": "assets/catalog-final/womens__womens-worth-more-than-rubies-tee__white-be3730.webp",
+    "image": "assets/catalog-featured/womens-worth-more-than-rubies-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1071,7 +1071,7 @@
     "name": "Armor of God Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/armor-of-god-black-e8fb15.webp",
+    "image": "assets/catalog-featured/armor-of-god-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1129,7 +1129,7 @@
     "name": "Burning Bush Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/burning-bush-sand-d9c07b.webp",
+    "image": "assets/catalog-featured/burning-bush-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1190,7 +1190,7 @@
     "name": "Crimson Worm Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/crimson-worm-navy-fe2513.webp",
+    "image": "assets/catalog-featured/crimson-worm-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1248,7 +1248,7 @@
     "name": "Crown 33 Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/corrected__crown33-tee__graphite-7141dc.webp",
+    "image": "assets/catalog-featured/crown33-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1317,7 +1317,7 @@
     "name": "Lamb of God Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/lamb-of-god-black-dc7707.webp",
+    "image": "assets/catalog-featured/lamb-of-god-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1386,7 +1386,7 @@
     "name": "Parting the Sea Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/corrected__parting-the-sea-tee__black-01bd7d.webp",
+    "image": "assets/catalog-featured/parting-the-sea-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1439,7 +1439,7 @@
     "name": "Philippians 4:13 Cross Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/corrected__simple-cross-tee__black-d2e263.webp",
+    "image": "assets/catalog-featured/simple-cross-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1504,7 +1504,7 @@
     "name": "Prayer Cross Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/corrected__prayer-cross-tee__black-8540af.webp",
+    "image": "assets/catalog-featured/prayer-cross-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1553,7 +1553,7 @@
     "name": "The Living Word Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/corrected__living-word-tee__black-fceb6a.webp",
+    "image": "assets/catalog-featured/living-word-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1606,7 +1606,7 @@
     "name": "Worthy Is the Lamb Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/worthy-is-the-lamb-natural-ed3349.webp",
+    "image": "assets/catalog-featured/worthy-is-the-lamb-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1763,7 +1763,7 @@
     "name": "Crown 33 Shorts",
     "category": "Shorts",
     "price": 44,
-    "image": "assets/catalog-final/final-20260809__crown-33-shorts__black-738f5c.webp",
+    "image": "assets/catalog-featured/crown-33-shorts.webp",
     "sizes": [
       "S",
       "M",
@@ -1792,7 +1792,7 @@
     "name": "Red Cross Shorts",
     "category": "Shorts",
     "price": 44,
-    "image": "assets/catalog-final/final-20260809__red-cross-shorts__white-e7140f.webp",
+    "image": "assets/catalog-featured/red-cross-shorts.webp",
     "sizes": [
       "S",
       "M",
@@ -1825,7 +1825,7 @@
     "name": "Disciple Snapback",
     "category": "Headwear",
     "price": 35,
-    "image": "assets/catalog-final/final-20260809__disciple-sb__grey-navy-front-6cb2f7.webp",
+    "image": "assets/catalog-featured/disciple-sb.webp",
     "sizes": [
       "One Size"
     ],
@@ -1901,7 +1901,7 @@
     "name": "Repent Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/final-20260809__repent-tee__black-8e3622.webp",
+    "image": "assets/catalog-featured/repent-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -1970,7 +1970,7 @@
     "name": "YAHWEH Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/final-20260809__yahweh-tee__black-50edb2.webp",
+    "image": "assets/catalog-featured/yahweh-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -2043,7 +2043,7 @@
     "name": "Love Thy Neighbor Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-final/final-20260809__love-thy-neighbor-tee__royal-blue-452b19.webp",
+    "image": "assets/catalog-featured/love-thy-neighbor-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -2100,7 +2100,7 @@
     "name": "Lion of Judah Tee",
     "category": "Premium Tees",
     "price": 35,
-    "image": "assets/catalog-final/final-20260809__lion-of-judah-tee__black-afa1cf.webp",
+    "image": "assets/catalog-featured/lion-of-judah-tee.webp",
     "sizes": [
       "S",
       "M",

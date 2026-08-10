@@ -265,19 +265,14 @@ function nv33NormalizeCatalog(input){
         selected=colors.find(c=>nv33Key(c.name)===preferred);
         if(selected)break;
       }
-      if(selected){
-        colors=[selected,...colors.filter(c=>c!==selected)];
-        product.image=selected.image;
-      }else if(colors[0]?.image){
-        product.image=colors[0].image;
-      }
+      if(selected){ colors=[selected,...colors.filter(c=>c!==selected)]; }
       product.colors=colors;
     }
     return product;
   });
 }
 
-fetch('data/products.json?v=nv33-corrected-20260809-2116')
+fetch('data/products.json?v=nv33-final-uploaded-mockups-20260809')
   .then(r=>{if(!r.ok)throw new Error('Catalog failed to load');return r.json();})
   .then(d=>{products=nv33NormalizeCatalog(d);renderAll();})
   .catch(err=>{
