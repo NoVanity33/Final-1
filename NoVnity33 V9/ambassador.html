@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>No Vanity 33 Ambassador Program</title><link rel="stylesheet" href="css/style.css?v=version9-final"></head>
+<body><header class="header"><a class="logo" href="index.html"><img src="assets/logos/lion33.png" alt="No Vanity 33"><span><strong>NO VANITY 33</strong><small>AMBASSADOR PROGRAM</small></span></a>
+<nav><a href="index.html">Home</a><a href="index.html#shop">Shop</a><a href="prayer-wall.html">Prayer Wall</a></nav></header>
+<main class="section"><section class="ambassador-hero"><h1>Become a No Vanity 33 Ambassador</h1>
+<p>Approved ambassadors receive a personal code that gives customers 10% off and earns the ambassador $3.50 for each eligible shirt sold.</p>
+<div class="ambassador-grid"><article class="ambassador-card"><h2>How It Works</h2><p>1. Apply.<br>2. Get approved.<br>3. Receive your code and referral link.<br>4. Share the mission.<br>5. Earn $3.50 per eligible paid shirt.</p></article>
+<article class="ambassador-card"><h2>Apply</h2><form id="ambassadorForm" class="ambassador-form">
+<label>Name<input id="aName" required></label><label>Email<input id="aEmail" type="email" required></label>
+<label>Phone<input id="aPhone"></label><label>Follower count<input id="aFollowers"></label>
+<label>Instagram<input id="aInstagram"></label><label>TikTok<input id="aTiktok"></label>
+<label>Facebook<input id="aFacebook"></label><label>Church (optional)<input id="aChurch"></label>
+<label class="wide">Why do you want to represent No Vanity 33?<textarea id="aWhy" rows="5" required></textarea></label>
+<button class="add wide" type="submit">Submit Application</button></form></article></div></section></main>
+<script>ambassadorForm.addEventListener('submit',e=>{e.preventDefault();const v={Name:aName.value,Email:aEmail.value,Phone:aPhone.value,Followers:aFollowers.value,Instagram:aInstagram.value,TikTok:aTiktok.value,Facebook:aFacebook.value,Church:aChurch.value,Reason:aWhy.value};const b=Object.entries(v).map(([k,x])=>`${k}: ${x}`).join('\n');location.href=`mailto:novanity2026@gmail.com?subject=${encodeURIComponent('No Vanity 33 Ambassador Application — '+v.Name)}&body=${encodeURIComponent(b)}`;});</script>
+</body></html>
