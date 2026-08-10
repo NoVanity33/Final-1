@@ -1,23 +1,23 @@
-NV33 FINAL ORDER + COLOR CORRECTION
+NO VANITY 33 — NEW MASTER CATALOG UPDATE
 
-Restores the approved earlier mockups and color selectors for:
-- Worthy Is the Lamb (12 colors)
-- Burning Bush (9 colors)
-- Lamb of God (11 colors)
-- The Shroud (11 colors)
-- Satisfied (White and Sand)
+COPY THE CONTENTS OF THIS ZIP INTO: NoVanity33/Final-1
+Choose REPLACE when prompted, then commit and push.
 
-Order:
-- Shroud remains the single featured product.
-- 99 for 1 is first in the regular shop.
-- Front-only/everyday products appear next.
-- Hoodies, shorts and women’s products follow.
-- Dual-side premium prints are grouped at the bottom.
+INCLUDED IN THIS UPDATE
+- Preserves corrected catalog ordering/colors and duplicate cleanup.
+- Everyday tees: $27.
+- Premium tees: $35.
+- Shorts: $44.
+- FREE U.S. SHIPPING messaging/rules retained for current catalog items.
+- Ambassador page + ambassador generator/data retained.
+- Young Disciple Wear page retained.
+- Crown 33 Shorts: Black + Heather Grey.
+- Red Cross Shorts: Black + Heather Grey + White.
+- NEW Disciple Snapback: Grey/Navy, Khaki/Black, Natural/Black; Front + Back views.
+- NEW Repent Snapback: complete Black, Blue, White sets; Front + Back + Bottom views.
+- Additional supplied Repent mockups are included in assets/headwear for later color completion.
+- Headwear filter added.
+- Product view buttons added so Front/Back/Bottom can be switched without creating duplicate products.
 
-INSTALL
-1. Extract.
-2. Copy index.html plus data, js and assets into Final-1.
-3. Choose Replace/Merge.
-4. Commit and push.
-5. Wait for Cloudflare.
-6. Hard refresh with Ctrl+Shift+R.
+IMPORTANT
+Disciple and Repent snapback catalog price is currently set to $30 in this build.

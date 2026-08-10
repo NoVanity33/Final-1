@@ -672,74 +672,6 @@
     ]
   },
   {
-    "id": "crown-33-shorts",
-    "name": "Crown 33 Shorts",
-    "category": "Shorts",
-    "price": 44,
-    "image": "assets/products/shorts/crown-33-shorts-black.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "Comfortable Christian athletic shorts featuring the Crown 33 mark—a simple reminder of Christ’s sacrifice and finished work.",
-    "founderFeatured": false,
-    "printfulName": "Crown 33 Shorts",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/shorts/crown-33-shorts-black.png"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/shorts/crown-33-shorts-grey.png"
-      }
-    ]
-  },
-  {
-    "id": "red-cross-shorts",
-    "name": "Red Cross Shorts",
-    "category": "Shorts",
-    "price": 44,
-    "image": "assets/products/shorts/red-cross-shorts-black.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "Clean athletic shorts with a bold red cross—faith-forward everyday wear made to keep Christ at the center.",
-    "founderFeatured": false,
-    "printfulName": "Red Cross Shorts",
-    "checkoutPending": false,
-    "shippingIncluded": true,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/shorts/red-cross-shorts-black.png"
-      },
-      {
-        "name": "Heather Grey",
-        "image": "assets/products/shorts/red-cross-shorts-grey.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/shorts/red-cross-shorts-white.png"
-      }
-    ]
-  },
-  {
     "id": "womens-faith-over-fear-tee",
     "name": "Women's Faith Over Fear Tee",
     "category": "Women's Tees",
@@ -1825,5 +1757,359 @@
     "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Scripture Wristband Collection",
     "shippingIncluded": false
+  },
+  {
+    "id": "crown-33-shorts",
+    "name": "Crown 33 Shorts",
+    "category": "Shorts",
+    "price": 44,
+    "image": "assets/products/shorts/crown-33-shorts-black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Comfortable Christian athletic shorts featuring the Crown 33 mark.",
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/shorts/crown-33-shorts-black.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/shorts/crown-33-shorts-grey.png"
+      }
+    ]
+  },
+  {
+    "id": "red-cross-shorts",
+    "name": "Red Cross Shorts",
+    "category": "Shorts",
+    "price": 44,
+    "image": "assets/products/shorts/red-cross-shorts-white.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Clean athletic shorts with a bold red cross—faith-forward everyday wear.",
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "White",
+        "image": "assets/products/shorts/red-cross-shorts-white.png"
+      },
+      {
+        "name": "Black",
+        "image": "assets/products/shorts/red-cross-shorts-black.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/shorts/red-cross-shorts-grey.png"
+      }
+    ]
+  },
+  {
+    "id": "disciple-sb",
+    "name": "Disciple Snapback",
+    "category": "Headwear",
+    "price": 35,
+    "image": "assets/products/headwear/Disciple SB Front Grey.png",
+    "sizes": [
+      "One Size"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "DISCIPLE — Matthew 4:19 structured snapback.",
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Grey / Navy",
+        "image": "assets/products/headwear/Disciple SB Front Grey.png",
+        "backImage": "assets/products/headwear/Disciple SB Back Grey.png"
+      },
+      {
+        "name": "Khaki / Black",
+        "image": "assets/products/headwear/Disciple SB FrontKhaki.png",
+        "backImage": "assets/products/headwear/Disciple SB Back Khaki.png"
+      },
+      {
+        "name": "Natural / Black",
+        "image": "assets/products/headwear/Disciple SB Front Natural.png",
+        "backImage": "assets/products/headwear/Disciple SB Back Natural.png"
+      }
+    ],
+    "views": [
+      "Front",
+      "Back"
+    ]
+  },
+  {
+    "id": "repent-sb",
+    "name": "Repent Snapback",
+    "category": "Headwear",
+    "price": 35,
+    "image": "assets/products/headwear/Repent SB Front Black.png",
+    "sizes": [
+      "One Size"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "REPENT — Acts 3:19 structured snapback.",
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/headwear/Repent SB Front Black.png",
+        "backImage": "assets/products/headwear/Repent SB Back Black.png",
+        "bottomImage": "assets/products/headwear/Repent SB Bottom Black.png"
+      },
+      {
+        "name": "Blue",
+        "image": "assets/products/headwear/Repent SB Front Blue.png",
+        "backImage": "assets/products/headwear/Repent SB Back Blue.png",
+        "bottomImage": "assets/products/headwear/Repent SB Bottom Blue.png"
+      },
+      {
+        "name": "White",
+        "image": "assets/products/headwear/Repent SB Front White.png",
+        "backImage": "assets/products/headwear/Repent SB Back White.png",
+        "bottomImage": "assets/products/headwear/Repent SB Bottom White.png"
+      }
+    ],
+    "views": [
+      "Front",
+      "Back",
+      "Bottom"
+    ]
+  },
+  {
+    "id": "repent-tee",
+    "name": "Repent Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/products/final-restored/repent-tee/black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Available",
+    "status": "available",
+    "featured": true,
+    "desc": "A bold REPENT — Acts 3:19 design with Luke 13:3 on the back, created as a direct call to turn to Christ and walk in repentance.",
+    "founderFeatured": false,
+    "printfulName": "Repent Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/final-restored/repent-tee/black.png"
+      }
+    ]
+  },
+  {
+    "id": "yahweh-tee",
+    "name": "YAHWEH Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/final-restored/yahweh-tee/black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium YAHWEH design centered on Exodus 3:14 and the name of God, created to point every conversation back to Scripture.",
+    "founderFeatured": false,
+    "printfulName": "YAHWEH Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/final-restored/yahweh-tee/black.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/final-restored/yahweh-tee/cardinal.png"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/products/final-restored/yahweh-tee/chocolate.png"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/products/final-restored/yahweh-tee/heather-grey.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/final-restored/yahweh-tee/maroon.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/final-restored/yahweh-tee/military-green.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/final-restored/yahweh-tee/navy.png"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/products/final-restored/yahweh-tee/purple.png"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/final-restored/yahweh-tee/royal-blue.png"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/products/final-restored/yahweh-tee/sand.png"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/products/final-restored/yahweh-tee/brown.png"
+      },
+      {
+        "name": "Graphite",
+        "image": "assets/products/final-restored/yahweh-tee/graphite.png"
+      }
+    ]
+  },
+  {
+    "id": "love-thy-neighbor-tee",
+    "name": "Love Thy Neighbor Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/products/final-restored/love-thy-neighbor-tee/royal-blue.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Available",
+    "status": "available",
+    "featured": true,
+    "desc": "A simple Gospel-centered reminder to love your neighbor as Christ commands—made for everyday wear and everyday witness.",
+    "founderFeatured": false,
+    "printfulName": "Love Thy Neighbor Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Royal Blue",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/royal-blue.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/red.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/military-green.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/maroon.png"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/charcoal.png"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/light-blue.png"
+      },
+      {
+        "name": "Baby Blue",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/baby-blue.png"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/products/final-restored/love-thy-neighbor-tee/brown.png"
+      }
+    ]
+  },
+  {
+    "id": "lion-of-judah-tee",
+    "name": "Lion of Judah Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/products/final-restored/lion-of-judah-tee/black.png",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium Lion of Judah design inspired by Revelation 5:5, honoring Christ as the Lion of the tribe of Judah and the Root of David.",
+    "founderFeatured": false,
+    "printfulName": "Lion of Judah Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/products/final-restored/lion-of-judah-tee/black.png"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/products/final-restored/lion-of-judah-tee/cardinal.png"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/products/final-restored/lion-of-judah-tee/charcoal.png"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/products/final-restored/lion-of-judah-tee/maroon.png"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/products/final-restored/lion-of-judah-tee/military-green.png"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/products/final-restored/lion-of-judah-tee/navy.png"
+      },
+      {
+        "name": "Red",
+        "image": "assets/products/final-restored/lion-of-judah-tee/red.png"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/products/final-restored/lion-of-judah-tee/teal.png"
+      }
+    ]
   }
 ]
