@@ -3,8 +3,8 @@
     "id": "shroud-tee",
     "name": "The Shroud Tee",
     "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/shroud-tee.png",
+    "price": 35,
+    "image": "assets/catalog-featured/shroud-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -13,22 +13,132 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Flagship",
+    "tag": "Premium",
     "status": "available",
     "featured": true,
-    "desc": "A black premium tee inspired by the Shroud of Turin, created to point toward the sacrifice and resurrection of Jesus Christ.",
+    "desc": "A premium front-and-back design inspired by the image long associated with the burial cloth of Christ and Isaiah 53:5.",
     "founderFeatured": true,
-    "stripePriceId": "price_1Tr2dfRQ7M5gXs0ABzOZcDRl",
     "printfulName": "The Shroud Tee",
+    "checkoutPending": false,
     "shippingIncluded": true,
-    "checkoutPending": false
+    "colors": [
+      {
+        "name": "Teal",
+        "image": "assets/catalog-final/shroud-teal-b754c5.webp"
+      },
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/shroud-black-fe016f.webp"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/catalog-final/shroud-brown-ca1bbd.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/shroud-cardinal-26e2d1.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/catalog-final/shroud-charcoal-2700e9.webp"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/catalog-final/shroud-heather-grey-704d75.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/shroud-maroon-4b21df.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/catalog-final/shroud-military-green-042b02.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/shroud-navy-4396a7.webp"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/catalog-final/shroud-pink-1fc315.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/shroud-royal-blue-6daa5f.webp"
+      }
+    ]
+  },
+  {
+    "id": "ninety-nine-for-one-tee",
+    "name": "99 for 1 Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/catalog-featured/ninety-nine-for-one-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Inspired by the shepherd who leaves the ninety-nine to seek the one, this design reflects the pursuing love of Christ.",
+    "founderFeatured": false,
+    "printfulName": "99 for 1 Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/corrected__ninety-nine-for-one-tee__black-d6065d.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/corrected__ninety-nine-for-one-tee__cardinal-7571db.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/catalog-final/corrected__ninety-nine-for-one-tee__charcoal-8eee57.webp"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/catalog-final/corrected__ninety-nine-for-one-tee__chocolate-b60e63.webp"
+      },
+      {
+        "name": "Dark Heather",
+        "image": "assets/catalog-final/corrected__ninety-nine-for-one-tee__dark-heather-9b7e35.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/catalog-final/corrected__ninety-nine-for-one-tee__military-green-8af950.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/corrected__ninety-nine-for-one-tee__maroon-98f9df.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/corrected__ninety-nine-for-one-tee__navy-efc77f.webp"
+      },
+      {
+        "name": "Red",
+        "image": "assets/catalog-final/corrected__ninety-nine-for-one-tee__red-24bf28.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/catalog-final/corrected__ninety-nine-for-one-tee__white-8adc4a.webp"
+      }
+    ]
   },
   {
     "id": "faith-over-fear-tee",
     "name": "Faith Over Fear Tee",
     "category": "Everyday Tees",
-    "price": 27.0,
-    "image": "assets/products/faith-over-fear-baby-blue.png",
+    "price": 27,
+    "image": "assets/catalog-featured/faith-over-fear-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -47,43 +157,43 @@
     "colors": [
       {
         "name": "Baby Blue",
-        "image": "assets/products/faith-over-fear-baby-blue.png"
+        "image": "assets/catalog-final/faith-over-fear-baby-blue-807ca9.webp"
       },
       {
         "name": "Brown",
-        "image": "assets/products/faith-over-fear-brown.png"
+        "image": "assets/catalog-final/faith-over-fear-brown-94941b.webp"
       },
       {
         "name": "Charcoal",
-        "image": "assets/products/faith-over-fear-charcoal.png"
+        "image": "assets/catalog-final/faith-over-fear-charcoal-7152c5.webp"
       },
       {
         "name": "Graphite",
-        "image": "assets/products/faith-over-fear-graphite.png"
+        "image": "assets/catalog-final/faith-over-fear-graphite-442de9.webp"
       },
       {
         "name": "Haze",
-        "image": "assets/products/faith-over-fear-haze.png"
+        "image": "assets/catalog-final/faith-over-fear-haze-0cd0b0.webp"
       },
       {
         "name": "Light Blue",
-        "image": "assets/products/faith-over-fear-light-blue.png"
+        "image": "assets/catalog-final/faith-over-fear-light-blue-9462ef.webp"
       },
       {
         "name": "Red",
-        "image": "assets/products/faith-over-fear-red.png"
+        "image": "assets/catalog-final/faith-over-fear-red-2b9cf5.webp"
       },
       {
         "name": "Sand",
-        "image": "assets/products/faith-over-fear-sand.png"
+        "image": "assets/catalog-final/faith-over-fear-sand-9d4a4a.webp"
       },
       {
         "name": "Teal",
-        "image": "assets/products/faith-over-fear-teal.png"
+        "image": "assets/catalog-final/faith-over-fear-teal-d66424.webp"
       },
       {
         "name": "White",
-        "image": "assets/products/faith-over-fear-white.png"
+        "image": "assets/catalog-final/faith-over-fear-white-70a94e.webp"
       }
     ],
     "shippingIncluded": true
@@ -92,8 +202,8 @@
     "id": "faithful-servant-tee",
     "name": "Faithful Servant Tee",
     "category": "Everyday Tees",
-    "price": 27.0,
-    "image": "assets/products/faithful-servant-black.png",
+    "price": 27,
+    "image": "assets/catalog-featured/faithful-servant-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -112,43 +222,43 @@
     "colors": [
       {
         "name": "Black",
-        "image": "assets/products/faithful-servant-black.png"
+        "image": "assets/catalog-final/faithful-servant-black-c2e562.webp"
       },
       {
         "name": "Cardinal",
-        "image": "assets/products/faithful-servant-cardinal.png"
+        "image": "assets/catalog-final/faithful-servant-cardinal-9bdd0c.webp"
       },
       {
         "name": "Carolina Blue",
-        "image": "assets/products/faithful-servant-carolina-blue.png"
+        "image": "assets/catalog-final/faithful-servant-carolina-blue-026688.webp"
       },
       {
         "name": "Charcoal",
-        "image": "assets/products/faithful-servant-charcoal.png"
+        "image": "assets/catalog-final/faithful-servant-charcoal-5fcb4d.webp"
       },
       {
         "name": "Heather Grey",
-        "image": "assets/products/faithful-servant-heather-grey.png"
+        "image": "assets/catalog-final/faithful-servant-heather-grey-590f79.webp"
       },
       {
         "name": "Maroon",
-        "image": "assets/products/faithful-servant-maroon.png"
+        "image": "assets/catalog-final/faithful-servant-maroon-b7f2fb.webp"
       },
       {
         "name": "Military Green",
-        "image": "assets/products/faithful-servant-military-green.png"
+        "image": "assets/catalog-final/faithful-servant-military-green-3ec9f0.webp"
       },
       {
         "name": "Navy",
-        "image": "assets/products/faithful-servant-navy.png"
+        "image": "assets/catalog-final/faithful-servant-navy-384ebc.webp"
       },
       {
         "name": "Purple",
-        "image": "assets/products/faithful-servant-purple.png"
+        "image": "assets/catalog-final/faithful-servant-purple-8511a4.webp"
       },
       {
         "name": "Red",
-        "image": "assets/products/faithful-servant-red.png"
+        "image": "assets/catalog-final/faithful-servant-red-396f00.webp"
       }
     ],
     "shippingIncluded": true
@@ -157,8 +267,8 @@
     "id": "child-of-god-tee",
     "name": "Child of God Tee",
     "category": "Everyday Tees",
-    "price": 27.0,
-    "image": "assets/products/child-of-god-black.png",
+    "price": 27,
+    "image": "assets/catalog-featured/child-of-god-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -177,31 +287,31 @@
     "colors": [
       {
         "name": "Black",
-        "image": "assets/products/child-of-god-black.png"
+        "image": "assets/catalog-final/child-of-god-black-8a04ec.webp"
       },
       {
         "name": "Charcoal",
-        "image": "assets/products/child-of-god-charcoal.png"
+        "image": "assets/catalog-final/child-of-god-charcoal-38f835.webp"
       },
       {
         "name": "Heather Grey",
-        "image": "assets/products/child-of-god-heather-grey.png"
+        "image": "assets/catalog-final/child-of-god-heather-grey-5583a5.webp"
       },
       {
         "name": "Maroon",
-        "image": "assets/products/child-of-god-maroon.png"
+        "image": "assets/catalog-final/child-of-god-maroon-94b1ac.webp"
       },
       {
         "name": "Navy",
-        "image": "assets/products/child-of-god-navy.png"
+        "image": "assets/catalog-final/child-of-god-navy-b1bd66.webp"
       },
       {
         "name": "Purple",
-        "image": "assets/products/child-of-god-purple.png"
+        "image": "assets/catalog-final/child-of-god-purple-be7f5d.webp"
       },
       {
         "name": "Red",
-        "image": "assets/products/child-of-god-red.png"
+        "image": "assets/catalog-final/child-of-god-red-564fce.webp"
       }
     ],
     "shippingIncluded": true
@@ -210,8 +320,8 @@
     "id": "every-knee-will-bow-tee",
     "name": "Every Knee Will Bow Tee",
     "category": "Everyday Tees",
-    "price": 27.0,
-    "image": "assets/products/every-knee-will-bow-black.png",
+    "price": 27,
+    "image": "assets/catalog-featured/every-knee-will-bow-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -230,31 +340,27 @@
     "colors": [
       {
         "name": "Black",
-        "image": "assets/products/every-knee-will-bow-black.png"
+        "image": "assets/catalog-final/every-knee-will-bow-black-908be4.webp"
       },
       {
         "name": "Cardinal",
-        "image": "assets/products/every-knee-will-bow-cardinal.png"
+        "image": "assets/catalog-final/every-knee-will-bow-cardinal-c8c6fd.webp"
       },
       {
         "name": "Light Blue",
-        "image": "assets/products/every-knee-will-bow-light-blue.png"
+        "image": "assets/catalog-final/every-knee-will-bow-light-blue-495a44.webp"
       },
       {
         "name": "Military Green",
-        "image": "assets/products/every-knee-will-bow-military-green.png"
+        "image": "assets/catalog-final/every-knee-will-bow-military-green-f8a776.webp"
       },
       {
         "name": "Red",
-        "image": "assets/products/every-knee-will-bow-red.png"
+        "image": "assets/catalog-final/every-knee-will-bow-red-fa9cce.webp"
       },
       {
         "name": "Teal",
-        "image": "assets/products/every-knee-will-bow-teal.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/every-knee-will-bow-white.png"
+        "image": "assets/catalog-final/every-knee-will-bow-teal-b6cc6c.webp"
       }
     ],
     "shippingIncluded": true
@@ -263,8 +369,8 @@
     "id": "disciple-tee",
     "name": "Disciple Tee",
     "category": "Everyday Tees",
-    "price": 27.0,
-    "image": "assets/products/disciple-black.png",
+    "price": 27,
+    "image": "assets/catalog-featured/disciple-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -283,45 +389,45 @@
     "colors": [
       {
         "name": "Black",
-        "image": "assets/products/disciple-black.png"
+        "image": "assets/catalog-final/disciple-black-9fb1b4.webp"
       },
       {
         "name": "Sand",
-        "image": "assets/products/disciple-sand.png"
+        "image": "assets/catalog-final/disciple-sand-7a3992.webp"
       },
       {
         "name": "Cardinal",
-        "image": "assets/products/disciple-cardinal.png"
+        "image": "assets/catalog-final/disciple-cardinal-1da9f9.webp"
       },
       {
         "name": "Light Blue",
-        "image": "assets/products/disciple-light-blue.png"
+        "image": "assets/catalog-final/disciple-light-blue-75046d.webp"
       },
       {
         "name": "Military Green",
-        "image": "assets/products/disciple-military-green.png"
+        "image": "assets/catalog-final/disciple-military-green-569db6.webp"
       },
       {
         "name": "Red",
-        "image": "assets/products/disciple-red.png"
+        "image": "assets/catalog-final/disciple-red-239833.webp"
       },
       {
         "name": "Teal",
-        "image": "assets/products/disciple-teal.png"
+        "image": "assets/catalog-final/disciple-teal-e453d2.webp"
       },
       {
         "name": "White",
-        "image": "assets/products/disciple-white.png"
+        "image": "assets/catalog-final/disciple-white-cc9b4f.webp"
       }
     ],
     "shippingIncluded": true
   },
   {
-    "id": "satisfied-tee",
-    "name": "Satisfied — Matthew 14:20 Tee",
-    "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/satisfied-white.png",
+    "id": "jesus-is-king-tee",
+    "name": "Jesus Is King Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/catalog-featured/jesus-is-king-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -330,31 +436,202 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Free Shipping",
+    "tag": "New Release",
     "status": "available",
     "featured": true,
-    "desc": "Vintage engraved artwork of the loaves and fish miracle: “They all ate and were satisfied.”",
-    "founderFeatured": true,
+    "desc": "A bold everyday declaration that Jesus Christ is King, designed to spark conversation and share the Gospel.",
+    "founderFeatured": false,
+    "printfulName": "Jesus Is King Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/corrected__jesus-is-king-tee__black-5ea5d2.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/catalog-final/corrected__jesus-is-king-tee__charcoal-f6d9d2.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/corrected__jesus-is-king-tee__maroon-87d540.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/corrected__jesus-is-king-tee__royal-blue-364e1f.webp"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "assets/catalog-final/corrected__jesus-is-king-tee__sky-blue-9cc893.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/catalog-final/corrected__jesus-is-king-tee__teal-084710.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/catalog-final/corrected__jesus-is-king-tee__white-5c0cb5.webp"
+      }
+    ]
+  },
+  {
+    "id": "protected-by-the-blood-tee",
+    "name": "Protected by the Blood Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/catalog-featured/protected-by-the-blood-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A strong front-design tee declaring protection through the blood of Jesus Christ.",
+    "founderFeatured": false,
+    "printfulName": "Protected by the Blood Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/corrected__protected-by-the-blood-tee__black-a41d47.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/corrected__protected-by-the-blood-tee__royal-blue-4bf629.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/catalog-final/corrected__protected-by-the-blood-tee__charcoal-dafec4.webp"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/catalog-final/corrected__protected-by-the-blood-tee__heather-grey-4edbd9.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/corrected__protected-by-the-blood-tee__maroon-cc7460.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/catalog-final/corrected__protected-by-the-blood-tee__military-green-101be9.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/corrected__protected-by-the-blood-tee__navy-7a5abf.webp"
+      },
+      {
+        "name": "Red",
+        "image": "assets/catalog-final/corrected__protected-by-the-blood-tee__red-642835.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/catalog-final/corrected__protected-by-the-blood-tee__teal-af6030.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/catalog-final/corrected__protected-by-the-blood-tee__white-ed24c2.webp"
+      }
+    ]
+  },
+  {
+    "id": "king-of-kings-tee",
+    "name": "King of Kings Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/catalog-featured/king-of-kings-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "A bold King of Kings design honoring Jesus Christ as Lord over all.",
+    "founderFeatured": false,
+    "printfulName": "King of Kings Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/corrected__king-of-kings-tee__black-a6ffd7.webp"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/catalog-final/corrected__king-of-kings-tee__brown-8ca3fb.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/corrected__king-of-kings-tee__cardinal-80c420.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/catalog-final/corrected__king-of-kings-tee__military-green-559cc0.webp"
+      },
+      {
+        "name": "Red",
+        "image": "assets/catalog-final/corrected__king-of-kings-tee__red-d13c08.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/catalog-final/corrected__king-of-kings-tee__teal-c9b1f7.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/catalog-final/corrected__king-of-kings-tee__white-20080c.webp"
+      }
+    ]
+  },
+  {
+    "id": "satisfied-tee",
+    "name": "Satisfied — Matthew 14:20 Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/catalog-featured/satisfied-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": true,
+    "desc": "Vintage engraved artwork inspired by the loaves and fishes miracle: “They all ate and were satisfied.”",
+    "founderFeatured": false,
     "printfulName": "Satisfied Matthew 14:20 Tee",
     "checkoutPending": false,
+    "shippingIncluded": true,
     "colors": [
       {
         "name": "White",
-        "image": "assets/products/satisfied-white.png"
+        "image": "assets/catalog-final/satisfied-white-135a0b.webp"
       },
       {
         "name": "Sand",
-        "image": "assets/products/satisfied-brown.png"
+        "image": "assets/catalog-final/satisfied-brown-fa7d84.webp"
       }
-    ],
-    "shippingIncluded": true
+    ]
   },
   {
     "id": "lion-of-judah-hoodie",
     "name": "Lion of Judah Hoodie",
     "category": "Hoodies",
     "price": 50,
-    "image": "assets/products/lion-of-judah-hoodie-black.png",
+    "image": "assets/catalog-final/lion-of-judah-hoodie-black-9cbec4.webp",
     "sizes": [
       "S",
       "M",
@@ -374,136 +651,32 @@
     "colors": [
       {
         "name": "Black",
-        "image": "assets/products/lion-of-judah-hoodie-black.png"
+        "image": "assets/catalog-final/lion-of-judah-hoodie-black-9cbec4.webp"
       },
       {
         "name": "Athletic Heather",
-        "image": "assets/products/lion-of-judah-hoodie-heather.png"
+        "image": "assets/catalog-final/lion-of-judah-hoodie-heather-d4f16c.webp"
       },
       {
         "name": "White",
-        "image": "assets/products/lion-of-judah-hoodie-white.png"
+        "image": "assets/catalog-final/lion-of-judah-hoodie-white-c8944f.webp"
       },
       {
         "name": "Navy",
-        "image": "assets/products/lion-of-judah-hoodie-navy.png"
+        "image": "assets/catalog-final/lion-of-judah-hoodie-navy-5ef84b.webp"
       },
       {
         "name": "Cream",
-        "image": "assets/products/lion-of-judah-hoodie-cream.png"
+        "image": "assets/catalog-final/lion-of-judah-hoodie-cream-309d53.webp"
       }
     ]
-  },
-  {
-    "id": "crown33-tee",
-    "name": "Crown 33 Tee",
-    "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/crown33-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Featured",
-    "desc": "Crown of thorns and 33 design pointing to Christ’s finished work.",
-    "status": "available",
-    "founderFeatured": true,
-    "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
-    "printfulName": "Crown 33 Tee",
-    "shippingIncluded": true,
-    "checkoutPending": false
-  },
-  {
-    "id": "crimson-worm-tee",
-    "name": "Crimson Worm Tee",
-    "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/crimson-worm-black.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Premium",
-    "status": "available",
-    "featured": true,
-    "desc": "A detailed front-and-back biblical design exploring the crimson worm imagery and redemption through the blood of Christ.",
-    "founderFeatured": false,
-    "printfulName": "Crimson Worm Tee",
-    "checkoutPending": false,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/crimson-worm-black.png"
-      },
-      {
-        "name": "Royal Blue",
-        "image": "assets/products/crimson-worm-royal-blue.png"
-      },
-      {
-        "name": "Cardinal",
-        "image": "assets/products/crimson-worm-cardinal.png"
-      },
-      {
-        "name": "Chocolate",
-        "image": "assets/products/crimson-worm-chocolate.png"
-      },
-      {
-        "name": "Military Green",
-        "image": "assets/products/crimson-worm-military-green.png"
-      },
-      {
-        "name": "Maroon",
-        "image": "assets/products/crimson-worm-maroon.png"
-      },
-      {
-        "name": "Navy",
-        "image": "assets/products/crimson-worm-navy.png"
-      },
-      {
-        "name": "Purple",
-        "image": "assets/products/crimson-worm-purple.png"
-      }
-    ],
-    "shippingIncluded": true,
-    "stripePriceId": "price_1TuPdURQ7M5gXs0AVgIvdwJ1"
-  },
-  {
-    "id": "prayer-cross-tee",
-    "name": "Prayer Cross Tee",
-    "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/prayer-cross-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Launch",
-    "desc": "Prayer Changes Things tee with Scripture and biblical context.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr1l2RQ7M5gXs0AsMQ3XtyT",
-    "printfulName": "Prayer Cross Tee",
-    "shippingIncluded": true,
-    "checkoutPending": false
   },
   {
     "id": "armor-of-god-tee",
     "name": "Armor of God Tee",
     "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/armor-of-god-black.png",
+    "price": 35,
+    "image": "assets/catalog-featured/armor-of-god-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -522,46 +695,46 @@
     "colors": [
       {
         "name": "Black",
-        "image": "assets/products/armor-of-god-black.png"
+        "image": "assets/catalog-final/armor-of-god-black-e8fb15.webp"
       },
       {
         "name": "Royal Blue",
-        "image": "assets/products/armor-of-god-royal-blue.png"
+        "image": "assets/catalog-final/armor-of-god-royal-blue-7fbc93.webp"
       },
       {
         "name": "Sand",
-        "image": "assets/products/armor-of-god-sand.png"
+        "image": "assets/catalog-final/armor-of-god-sand-8d83fd.webp"
       },
       {
         "name": "Charcoal",
-        "image": "assets/products/armor-of-god-charcoal.png"
+        "image": "assets/catalog-final/armor-of-god-charcoal-21bb06.webp"
       },
       {
         "name": "Chocolate",
-        "image": "assets/products/armor-of-god-chocolate.png"
+        "image": "assets/catalog-final/armor-of-god-chocolate-ed3468.webp"
       },
       {
         "name": "Maroon",
-        "image": "assets/products/armor-of-god-maroon.png"
+        "image": "assets/catalog-final/armor-of-god-maroon-57b445.webp"
       },
       {
         "name": "Navy",
-        "image": "assets/products/armor-of-god-navy.png"
+        "image": "assets/catalog-final/armor-of-god-navy-6fc86a.webp"
       },
       {
         "name": "Teal",
-        "image": "assets/products/armor-of-god-teal.png"
+        "image": "assets/catalog-final/armor-of-god-teal-995465.webp"
       }
     ],
     "shippingIncluded": true,
     "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM"
   },
   {
-    "id": "lamb-of-god-tee",
-    "name": "Lamb of God Tee",
+    "id": "burning-bush-tee",
+    "name": "Burning Bush Tee",
     "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/lamb-of-god-tee.png",
+    "price": 35,
+    "image": "assets/catalog-featured/burning-bush-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -570,21 +743,255 @@
       "2XL",
       "3XL"
     ],
-    "tag": "John 1:29",
-    "desc": "The perfect sacrifice design with John 1:29 and Isaiah 53.",
+    "tag": "Premium",
     "status": "available",
+    "featured": true,
+    "desc": "Premium front-and-back artwork inspired by Exodus 3 and God’s call to Moses from the burning bush.",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A",
-    "printfulName": "Lamb of God Tee",
+    "printfulName": "Burning Bush Tee",
+    "checkoutPending": false,
     "shippingIncluded": true,
-    "checkoutPending": false
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/burning-bush-black-a6270a.webp"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/catalog-final/burning-bush-sand-d9c07b.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/burning-bush-cardinal-027a72.webp"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/catalog-final/burning-bush-chocolate-3553d1.webp"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/catalog-final/burning-bush-heather-grey-fa2580.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/burning-bush-maroon-6e193f.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/burning-bush-navy-882792.webp"
+      },
+      {
+        "name": "Red",
+        "image": "assets/catalog-final/burning-bush-red-3339ce.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/burning-bush-royal-blue-bd6ccd.webp"
+      }
+    ]
+  },
+  {
+    "id": "crimson-worm-tee",
+    "name": "Crimson Worm Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/catalog-featured/crimson-worm-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A detailed front-and-back biblical design exploring the crimson worm imagery and redemption through the blood of Christ.",
+    "founderFeatured": false,
+    "printfulName": "Crimson Worm Tee",
+    "checkoutPending": false,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/crimson-worm-black-cf19d9.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/crimson-worm-royal-blue-568a0e.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/crimson-worm-cardinal-bb909c.webp"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/catalog-final/crimson-worm-chocolate-b90543.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/catalog-final/crimson-worm-military-green-abbced.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/crimson-worm-maroon-473f15.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/crimson-worm-navy-fe2513.webp"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/catalog-final/crimson-worm-purple-bdf99e.webp"
+      }
+    ],
+    "shippingIncluded": true,
+    "stripePriceId": "price_1TuPdURQ7M5gXs0AVgIvdwJ1"
+  },
+  {
+    "id": "crown33-tee",
+    "name": "Crown 33 Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/catalog-featured/crown33-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium Crown 33 front-and-back tee featuring the crown of thorns and John 3:16, pointing directly to Christ’s sacrifice and love.",
+    "founderFeatured": false,
+    "printfulName": "Crown 33 Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/corrected__crown33-tee__black-e5e6f5.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/corrected__crown33-tee__royal-blue-9f405e.webp"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/catalog-final/corrected__crown33-tee__brown-ce1ad7.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/corrected__crown33-tee__cardinal-03fb4d.webp"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/catalog-final/corrected__crown33-tee__chocolate-2c8212.webp"
+      },
+      {
+        "name": "Graphite",
+        "image": "assets/catalog-final/corrected__crown33-tee__graphite-7141dc.webp"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/catalog-final/corrected__crown33-tee__heather-grey-eb5559.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/corrected__crown33-tee__maroon-7480ad.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/corrected__crown33-tee__navy-055b93.webp"
+      },
+      {
+        "name": "Red",
+        "image": "assets/catalog-final/corrected__crown33-tee__red-7cb99d.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/catalog-final/corrected__crown33-tee__white-c541c9.webp"
+      }
+    ]
+  },
+  {
+    "id": "lamb-of-god-tee",
+    "name": "Lamb of God Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/catalog-featured/lamb-of-god-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "Premium front-and-back artwork inspired by John 1:29, proclaiming Christ as the Lamb who takes away the sin of the world.",
+    "founderFeatured": false,
+    "printfulName": "Lamb of God Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/lamb-of-god-black-dc7707.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/lamb-of-god-royal-blue-991003.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/lamb-of-god-cardinal-8e7f51.webp"
+      },
+      {
+        "name": "Graphite",
+        "image": "assets/catalog-final/lamb-of-god-graphite-62b837.webp"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/catalog-final/lamb-of-god-heather-grey-8578de.webp"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/catalog-final/lamb-of-god-light-blue-92ce30.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/lamb-of-god-maroon-13ad6d.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/lamb-of-god-navy-6baeff.webp"
+      },
+      {
+        "name": "Pink",
+        "image": "assets/catalog-final/lamb-of-god-pink-2dbab2.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/catalog-final/lamb-of-god-teal-1eb63b.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/catalog-final/lamb-of-god-white-3fb78c.webp"
+      }
+    ]
   },
   {
     "id": "parting-the-sea-tee",
     "name": "Parting the Sea Tee",
     "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/parting-the-sea-tee.png",
+    "price": 35,
+    "image": "assets/catalog-featured/parting-the-sea-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -593,67 +1000,51 @@
       "2XL",
       "3XL"
     ],
-    "tag": "Exodus 14",
-    "desc": "Stand still and see the salvation of the Lord.",
+    "tag": "Premium",
     "status": "available",
+    "featured": true,
+    "desc": "A premium front-and-back design inspired by Exodus 14 and the command to stand still and see the salvation of the Lord.",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr1p9RQ7M5gXs0ADDbEGAOf",
     "printfulName": "Parting the Sea Tee",
+    "checkoutPending": false,
     "shippingIncluded": true,
-    "checkoutPending": false
-  },
-  {
-    "id": "living-word-tee",
-    "name": "The Living Word Tee",
-    "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/living-word-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Psalm 119",
-    "desc": "Open Bible and cross design centered on the Word of God.",
-    "status": "available",
-    "founderFeatured": true,
-    "stripePriceId": "price_1Tr1nQRQ7M5gXs0AcCDm8inf",
-    "printfulName": "The Living Word Tee",
-    "shippingIncluded": true,
-    "checkoutPending": false
-  },
-  {
-    "id": "burning-bush-tee",
-    "name": "Burning Bush Tee",
-    "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/burning-bush-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Exodus 3",
-    "desc": "Burning bush design with biblical context and Daily Walk QR concept.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr1hqRQ7M5gXs0AjFGpCWQP",
-    "printfulName": "Burning Bush Tee",
-    "shippingIncluded": true,
-    "checkoutPending": false
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/corrected__parting-the-sea-tee__black-01bd7d.webp"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/catalog-final/corrected__parting-the-sea-tee__brown-fcd934.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/catalog-final/corrected__parting-the-sea-tee__charcoal-4c0693.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/corrected__parting-the-sea-tee__maroon-d322e3.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/corrected__parting-the-sea-tee__navy-2e6aef.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/corrected__parting-the-sea-tee__royal-blue-f0cd63.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/catalog-final/corrected__parting-the-sea-tee__teal-5c007d.webp"
+      }
+    ]
   },
   {
     "id": "simple-cross-tee",
     "name": "Philippians 4:13 Cross Tee",
     "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/simple-cross-tee.png",
+    "price": 35,
+    "image": "assets/catalog-featured/simple-cross-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -662,21 +1053,165 @@
       "2XL",
       "3XL"
     ],
-    "tag": "New",
-    "desc": "Clean white tee with an ornate gold cross and Philippians 4:13 on the back.",
+    "tag": "Premium",
     "status": "available",
+    "featured": true,
+    "desc": "A premium front-and-back design with an ornate cross and Philippians 4:13—a wearable reminder that strength comes through Christ.",
     "founderFeatured": false,
-    "stripePriceId": "price_1TuReURQ7M5gXs0AywWH5ocX",
     "printfulName": "Philippians 4:13 Cross Tee",
+    "checkoutPending": false,
     "shippingIncluded": true,
-    "checkoutPending": false
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/corrected__simple-cross-tee__black-d2e263.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/corrected__simple-cross-tee__cardinal-dbb660.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/catalog-final/corrected__simple-cross-tee__charcoal-b2749e.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/catalog-final/corrected__simple-cross-tee__military-green-86a049.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/corrected__simple-cross-tee__maroon-523eee.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/corrected__simple-cross-tee__navy-ce9871.webp"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/catalog-final/corrected__simple-cross-tee__purple-ac09b4.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/corrected__simple-cross-tee__royal-blue-330554.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/catalog-final/corrected__simple-cross-tee__teal-dc680f.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/catalog-final/corrected__simple-cross-tee__white-04f273.webp"
+      }
+    ]
   },
   {
-    "id": "worthy-lamb-grey-tee",
+    "id": "prayer-cross-tee",
+    "name": "Prayer Cross Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/catalog-featured/prayer-cross-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium front-and-back Prayer Changes Things design created as a bold reminder of the power of prayer and faith in Christ.",
+    "founderFeatured": false,
+    "printfulName": "Prayer Cross Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/corrected__prayer-cross-tee__black-8540af.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/catalog-final/corrected__prayer-cross-tee__charcoal-2b8f62.webp"
+      },
+      {
+        "name": "Dark Heather",
+        "image": "assets/catalog-final/corrected__prayer-cross-tee__dark-heather-007276.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/corrected__prayer-cross-tee__maroon-b68a89.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/corrected__prayer-cross-tee__navy-f0a4a2.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/corrected__prayer-cross-tee__royal-blue-ddf7e9.webp"
+      }
+    ]
+  },
+  {
+    "id": "living-word-tee",
+    "name": "The Living Word Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/catalog-featured/living-word-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium front-and-back design centered on the living Word of God, featuring an open Bible, cross, and Scripture-inspired artwork.",
+    "founderFeatured": false,
+    "printfulName": "The Living Word Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/corrected__living-word-tee__black-fceb6a.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/corrected__living-word-tee__cardinal-ea119d.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/catalog-final/corrected__living-word-tee__charcoal-024877.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/corrected__living-word-tee__maroon-060094.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/catalog-final/corrected__living-word-tee__military-green-ee8399.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/corrected__living-word-tee__navy-dd9a4d.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/catalog-final/corrected__living-word-tee__teal-7a0037.webp"
+      }
+    ]
+  },
+  {
+    "id": "worthy-is-the-lamb-tee",
     "name": "Worthy Is the Lamb Tee",
     "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/worthy-lamb-grey-tee.png",
+    "price": 35,
+    "image": "assets/catalog-featured/worthy-is-the-lamb-tee.webp",
     "sizes": [
       "S",
       "M",
@@ -685,37 +1220,78 @@
       "2XL",
       "3XL"
     ],
-    "tag": "New",
-    "desc": "Heather gray Lamb of God tee with a crown-of-thorns illustration and John 3:16.",
+    "tag": "Premium",
     "status": "available",
+    "featured": true,
+    "desc": "Premium front-and-back Gospel artwork featuring the Lamb and the complete message of John 3:16.",
     "founderFeatured": false,
-    "stripePriceId": "price_1Tr2g9RQ7M5gXs0A5icFrGWK",
     "printfulName": "Worthy Is the Lamb Tee",
+    "checkoutPending": false,
     "shippingIncluded": true,
-    "checkoutPending": false
+    "colors": [
+      {
+        "name": "Brown Savana",
+        "image": "assets/catalog-final/worthy-is-the-lamb-brown-savana-daa15c.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/worthy-is-the-lamb-cardinal-828876.webp"
+      },
+      {
+        "name": "Dark Heather",
+        "image": "assets/catalog-final/worthy-is-the-lamb-dark-heather-a0c4ff.webp"
+      },
+      {
+        "name": "Graphite Heather",
+        "image": "assets/catalog-final/worthy-is-the-lamb-graphite-heather-78208e.webp"
+      },
+      {
+        "name": "Ice Grey",
+        "image": "assets/catalog-final/worthy-is-the-lamb-ice-grey-3b77ff.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/worthy-is-the-lamb-maroon-82814f.webp"
+      },
+      {
+        "name": "Natural",
+        "image": "assets/catalog-final/worthy-is-the-lamb-natural-ed3349.webp"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/catalog-final/worthy-is-the-lamb-purple-81a3ff.webp"
+      },
+      {
+        "name": "Sapphire",
+        "image": "assets/catalog-final/worthy-is-the-lamb-sapphire-59cecf.webp"
+      },
+      {
+        "name": "Sport Grey",
+        "image": "assets/catalog-final/worthy-is-the-lamb-sport-grey-2ac308.webp"
+      },
+      {
+        "name": "Tropical Blue",
+        "image": "assets/catalog-final/worthy-is-the-lamb-tropical-blue-2f9a50.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/catalog-final/worthy-is-the-lamb-white-c5cef3.webp"
+      }
+    ]
   },
   {
-    "id": "crown33-maroon-tee",
-    "name": "Crown 33 Maroon Tee",
-    "category": "Premium Tees",
-    "price": 35.0,
-    "image": "assets/products/crown33-maroon-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New",
-    "desc": "Maroon Crown 33 chest-logo tee featuring John 3:16 on the back.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr2eeRQ7M5gXs0AcYulj7vX",
-    "printfulName": "Maroon Crown 33 Tee",
-    "shippingIncluded": true,
-    "checkoutPending": false
+    "id": "preview-water-bottle",
+    "name": "40oz Scripture Water Bottle",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-water-bottle.webp",
+    "sizes": [],
+    "tag": "Coming Soon",
+    "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
+    "status": "coming-soon",
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "40oz Scripture Water Bottle",
+    "shippingIncluded": false
   },
   {
     "id": "preview-socks",
@@ -729,35 +1305,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Cross Crew Socks Collection",
-    "shippingIncluded": true
-  },
-  {
-    "id": "preview-shorts",
-    "name": "Performance Shorts Collection",
-    "category": "Founder's Preview",
-    "price": 0,
-    "image": "assets/products/preview-shorts.png",
-    "sizes": [],
-    "tag": "Coming Soon",
-    "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
-    "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
-    "printfulName": "Performance Shorts Collection",
-    "shippingIncluded": true
-  },
-  {
-    "id": "preview-sweatpants",
-    "name": "Premium Sweatpants Collection",
-    "category": "Founder's Preview",
-    "price": 0,
-    "image": "assets/products/preview-sweatpants.png",
-    "sizes": [],
-    "tag": "Coming Soon",
-    "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
-    "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
-    "printfulName": "Premium Sweatpants Collection",
-    "shippingIncluded": true
+    "shippingIncluded": false
   },
   {
     "id": "preview-duffle",
@@ -771,34 +1319,304 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder’s Preview",
     "printfulName": "No Vanity 33 Duffle Bag",
-    "shippingIncluded": true
+    "shippingIncluded": false
   },
   {
-    "id": "preview-water-bottle",
-    "name": "40oz Scripture Water Bottle",
+    "id": "preview-shorts",
+    "name": "Performance Shorts Collection",
     "category": "Founder's Preview",
     "price": 0,
-    "image": "assets/products/preview-water-bottle.png",
+    "image": "assets/products/preview-shorts.png",
     "sizes": [],
     "tag": "Coming Soon",
-    "desc": "Insulated stainless-steel bottle concept with laser engraving and a Daily Walk QR feature.",
+    "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
     "status": "coming-soon",
     "comingSoonLabel": "Founder’s Preview",
-    "printfulName": "40oz Scripture Water Bottle",
-    "shippingIncluded": true
+    "printfulName": "Performance Shorts Collection",
+    "shippingIncluded": false
+  },
+  {
+    "id": "preview-sweatpants",
+    "name": "Premium Sweatpants Collection",
+    "category": "Founder's Preview",
+    "price": 0,
+    "image": "assets/products/preview-sweatpants.webp",
+    "sizes": [],
+    "tag": "Coming Soon",
+    "desc": "Heavyweight fleece concepts in black, charcoal, heather gray, and sand.",
+    "status": "coming-soon",
+    "comingSoonLabel": "Founder’s Preview",
+    "printfulName": "Premium Sweatpants Collection",
+    "shippingIncluded": false
   },
   {
     "id": "preview-wristbands",
     "name": "Scripture Wristband Collection",
     "category": "Founder's Preview",
     "price": 0,
-    "image": "assets/products/preview-wristbands.png",
+    "image": "assets/products/preview-wristbands.webp",
     "sizes": [],
     "tag": "Coming Soon",
     "desc": "Comfortable faith wristbands planned with rotating Scripture references.",
     "status": "coming-soon",
     "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Scripture Wristband Collection",
-    "shippingIncluded": true
+    "shippingIncluded": false
+  },
+  {
+    "id": "repent-tee",
+    "name": "Repent Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/catalog-featured/repent-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Available",
+    "status": "available",
+    "featured": true,
+    "desc": "REPENT — Acts 3:19. A direct, Scripture-centered call to turn to Christ and walk in repentance.",
+    "founderFeatured": false,
+    "printfulName": "Repent Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/final-20260809__repent-tee__black-8e3622.webp"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/catalog-final/final-20260809__repent-tee__brown-16d266.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/catalog-final/final-20260809__repent-tee__charcoal-6611b6.webp"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/catalog-final/final-20260809__repent-tee__chocolate-e84025.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/final-20260809__repent-tee__maroon-167084.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/final-20260809__repent-tee__navy-67a01b.webp"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/catalog-final/final-20260809__repent-tee__purple-e43fb1.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/final-20260809__repent-tee__royal-blue-fb51eb.webp"
+      },
+      {
+        "name": "Sapphire",
+        "image": "assets/catalog-final/final-20260809__repent-tee__sapphire-ff782e.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/catalog-final/final-20260809__repent-tee__teal-81e76a.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/catalog-final/final-20260809__repent-tee__white-190eff.webp"
+      }
+    ]
+  },
+  {
+    "id": "yahweh-tee",
+    "name": "YAHWEH Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/catalog-featured/yahweh-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium YAHWEH design centered on Exodus 3:14 and the name of God, created to point every conversation back to Scripture.",
+    "founderFeatured": false,
+    "printfulName": "YAHWEH Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__black-50edb2.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__cardinal-9f34df.webp"
+      },
+      {
+        "name": "Chocolate",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__chocolate-91b8d3.webp"
+      },
+      {
+        "name": "Heather Grey",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__heather-grey-cd9e29.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__maroon-1e78e8.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__military-green-731674.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__navy-964729.webp"
+      },
+      {
+        "name": "Purple",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__purple-bcc0a1.webp"
+      },
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__royal-blue-922db2.webp"
+      },
+      {
+        "name": "Sand",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__sand-50b7c8.webp"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__brown-987c14.webp"
+      },
+      {
+        "name": "Graphite",
+        "image": "assets/catalog-final/final-20260809__yahweh-tee__graphite-928c1a.webp"
+      }
+    ]
+  },
+  {
+    "id": "love-thy-neighbor-tee",
+    "name": "Love Thy Neighbor Tee",
+    "category": "Everyday Tees",
+    "price": 27,
+    "image": "assets/catalog-featured/love-thy-neighbor-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Available",
+    "status": "available",
+    "featured": true,
+    "desc": "A simple Gospel-centered reminder to love your neighbor as Christ commands—made for everyday wear and everyday witness.",
+    "founderFeatured": false,
+    "printfulName": "Love Thy Neighbor Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Royal Blue",
+        "image": "assets/catalog-final/final-20260809__love-thy-neighbor-tee__royal-blue-452b19.webp"
+      },
+      {
+        "name": "Red",
+        "image": "assets/catalog-final/final-20260809__love-thy-neighbor-tee__red-2f723b.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/catalog-final/final-20260809__love-thy-neighbor-tee__military-green-3c3439.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/final-20260809__love-thy-neighbor-tee__maroon-a90fa3.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/catalog-final/final-20260809__love-thy-neighbor-tee__charcoal-bcf238.webp"
+      },
+      {
+        "name": "Light Blue",
+        "image": "assets/catalog-final/final-20260809__love-thy-neighbor-tee__light-blue-4f3bc4.webp"
+      },
+      {
+        "name": "Baby Blue",
+        "image": "assets/catalog-final/final-20260809__love-thy-neighbor-tee__baby-blue-0e11d9.webp"
+      },
+      {
+        "name": "Brown",
+        "image": "assets/catalog-final/final-20260809__love-thy-neighbor-tee__brown-4e9fd6.webp"
+      }
+    ]
+  },
+  {
+    "id": "lion-of-judah-tee",
+    "name": "Lion of Judah Tee",
+    "category": "Premium Tees",
+    "price": 35,
+    "image": "assets/catalog-featured/lion-of-judah-tee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "Premium",
+    "status": "available",
+    "featured": true,
+    "desc": "A premium Lion of Judah design inspired by Revelation 5:5, honoring Christ as the Lion of the tribe of Judah and the Root of David.",
+    "founderFeatured": false,
+    "printfulName": "Lion of Judah Tee",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/final-20260809__lion-of-judah-tee__black-afa1cf.webp"
+      },
+      {
+        "name": "Cardinal",
+        "image": "assets/catalog-final/final-20260809__lion-of-judah-tee__cardinal-7f5f50.webp"
+      },
+      {
+        "name": "Charcoal",
+        "image": "assets/catalog-final/final-20260809__lion-of-judah-tee__charcoal-bfae7a.webp"
+      },
+      {
+        "name": "Maroon",
+        "image": "assets/catalog-final/final-20260809__lion-of-judah-tee__maroon-ad955d.webp"
+      },
+      {
+        "name": "Military Green",
+        "image": "assets/catalog-final/final-20260809__lion-of-judah-tee__military-green-28ce1b.webp"
+      },
+      {
+        "name": "Navy",
+        "image": "assets/catalog-final/final-20260809__lion-of-judah-tee__navy-b03ed3.webp"
+      },
+      {
+        "name": "Red",
+        "image": "assets/catalog-final/final-20260809__lion-of-judah-tee__red-0a0d7c.webp"
+      },
+      {
+        "name": "Teal",
+        "image": "assets/catalog-final/final-20260809__lion-of-judah-tee__teal-11ea84.webp"
+      }
+    ]
   }
 ]
