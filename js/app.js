@@ -126,7 +126,7 @@ function openImage(src,alt){
 function liveCard(p){
   const purchasable=p.status==='available';
   const firstColor=Array.isArray(p.colors)&&p.colors.length?p.colors[0]:null;
-  const displayImage=(firstColor&&firstColor.image)||p.image||'';
+  const displayImage=p.image||((firstColor&&firstColor.image)||'');
   return `<article class="card product-card" id="${p.id}-card">
     <span class="badge">${p.tag||'Available'}</span>
     <div class="imgbox clickable" onclick="openImage(document.getElementById('img-${p.id}').src,'${p.name}')" title="Click to enlarge">
@@ -191,7 +191,7 @@ if(cartBtn&&cartBox){
 async function loadCatalog(){
   try{
     // New URL + no-store prevents Cloudflare/browser from reusing the old broken JSON.
-    const response=await fetch('data/products.json?v=clean-rewrite-20260810-1',{cache:'no-store'});
+    const response=await fetch('data/products.json?v=mockup-main-fix-20260811-1',{cache:'no-store'});
     if(!response.ok)throw new Error(`Catalog request failed: HTTP ${response.status}`);
     const data=await response.json();
     if(!Array.isArray(data))throw new Error('Catalog is not an array');
