@@ -191,7 +191,7 @@ if(cartBtn&&cartBox){
 async function loadCatalog(){
   try{
     // New URL + no-store prevents Cloudflare/browser from reusing the old broken JSON.
-    const response=await fetch('data/products.json?v=mockup-main-fix-20260811-1',{cache:'no-store'});
+    const response=await fetch('data/products.json?v=founders-restore-20260811-2',{cache:'no-store'});
     if(!response.ok)throw new Error(`Catalog request failed: HTTP ${response.status}`);
     const data=await response.json();
     if(!Array.isArray(data))throw new Error('Catalog is not an array');
