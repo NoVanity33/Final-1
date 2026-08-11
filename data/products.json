@@ -475,7 +475,7 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr2hgRQ7M5gXs0AZK8lSqU4",
     "printfulName": "Lion of Judah Hoodie",
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "checkoutPending": false,
     "colors": [
       {
@@ -520,7 +520,7 @@
     "founderFeatured": true,
     "stripePriceId": "price_1Tr1e3RQ7M5gXs0AWsn5NoAp",
     "printfulName": "Crown 33 Tee",
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "checkoutPending": false
   },
   {
@@ -578,7 +578,7 @@
         "image": "assets/products/crimson-worm-purple.png"
       }
     ],
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "stripePriceId": "price_1TuPdURQ7M5gXs0AVgIvdwJ1"
   },
   {
@@ -601,7 +601,7 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1l2RQ7M5gXs0AsMQ3XtyT",
     "printfulName": "Prayer Cross Tee",
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "checkoutPending": false
   },
   {
@@ -682,7 +682,7 @@
         "image": "assets/products/armor-of-god-teal.png"
       }
     ],
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM"
   },
   {
@@ -705,7 +705,7 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1gERQ7M5gXs0Ay6KDZDZ8",
     "printfulName": "Armor of God Tee",
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "checkoutPending": false
   },
   {
@@ -728,7 +728,7 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1jRRQ7M5gXs0APGz4lp0A",
     "printfulName": "Lamb of God Tee",
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "checkoutPending": false
   },
   {
@@ -750,7 +750,7 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1p9RQ7M5gXs0ADDbEGAOf",
     "printfulName": "Parting the Sea Tee",
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "checkoutPending": false
   },
   {
@@ -773,7 +773,7 @@
     "founderFeatured": true,
     "stripePriceId": "price_1Tr1nQRQ7M5gXs0AcCDm8inf",
     "printfulName": "The Living Word Tee",
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "checkoutPending": false
   },
   {
@@ -796,7 +796,7 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr1hqRQ7M5gXs0AjFGpCWQP",
     "printfulName": "Burning Bush Tee",
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "checkoutPending": false
   },
   {
@@ -819,7 +819,7 @@
     "founderFeatured": false,
     "stripePriceId": "price_1TuReURQ7M5gXs0AywWH5ocX",
     "printfulName": "Philippians 4:13 Cross Tee",
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "checkoutPending": false
   },
   {
@@ -842,7 +842,7 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr2g9RQ7M5gXs0A5icFrGWK",
     "printfulName": "Worthy Is the Lamb Tee",
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "checkoutPending": false
   },
   {
@@ -865,7 +865,7 @@
     "founderFeatured": false,
     "stripePriceId": "price_1Tr2eeRQ7M5gXs0AcYulj7vX",
     "printfulName": "Maroon Crown 33 Tee",
-    "shippingIncluded": True,
+    "shippingIncluded": true,
     "checkoutPending": false
   },
   {
