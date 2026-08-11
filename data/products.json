@@ -3,7 +3,7 @@
     "id": "shroud-tee",
     "name": "The Shroud Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 35.0,
     "image": "assets/products/shroud-tee.png",
     "sizes": [
       "S",
@@ -27,7 +27,7 @@
     "id": "faith-over-fear-tee",
     "name": "Faith Over Fear Tee",
     "category": "Everyday Tees",
-    "price": 27,
+    "price": 27.0,
     "image": "assets/products/faith-over-fear-baby-blue.png",
     "sizes": [
       "S",
@@ -92,7 +92,7 @@
     "id": "faithful-servant-tee",
     "name": "Faithful Servant Tee",
     "category": "Everyday Tees",
-    "price": 27,
+    "price": 27.0,
     "image": "assets/products/faithful-servant-black.png",
     "sizes": [
       "S",
@@ -157,7 +157,7 @@
     "id": "child-of-god-tee",
     "name": "Child of God Tee",
     "category": "Everyday Tees",
-    "price": 27,
+    "price": 27.0,
     "image": "assets/products/child-of-god-black.png",
     "sizes": [
       "S",
@@ -210,7 +210,7 @@
     "id": "every-knee-will-bow-tee",
     "name": "Every Knee Will Bow Tee",
     "category": "Everyday Tees",
-    "price": 27,
+    "price": 27.0,
     "image": "assets/products/every-knee-will-bow-black.png",
     "sizes": [
       "S",
@@ -263,7 +263,7 @@
     "id": "disciple-tee",
     "name": "Disciple Tee",
     "category": "Everyday Tees",
-    "price": 27,
+    "price": 27.0,
     "image": "assets/products/disciple-black.png",
     "sizes": [
       "S",
@@ -317,116 +317,10 @@
     "shippingIncluded": true
   },
   {
-    "id": "every-knee-will-bow-tee",
-    "name": "Every Knee Will Bow Tee",
-    "category": "Everyday Tees",
-    "price": 27,
-    "image": "assets/products/every-knee-black.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": true,
-    "desc": "Bold distressed typography proclaiming the promise that every knee will bow before Christ.",
-    "founderFeatured": false,
-    "printfulName": "Every Knee Will Bow Tee",
-    "checkoutPending": false,
-    "colors": [
-      {
-        "name": "Black",
-        "image": "assets/products/every-knee-black.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/every-knee-white.png"
-      },
-      {
-        "name": "Military Green",
-        "image": "assets/products/every-knee-military-green.png"
-      },
-      {
-        "name": "Cardinal",
-        "image": "assets/products/every-knee-cardinal.png"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/every-knee-red.png"
-      },
-      {
-        "name": "Light Blue",
-        "image": "assets/products/every-knee-light-blue.png"
-      },
-      {
-        "name": "Tropical Blue",
-        "image": "assets/products/every-knee-tropical-blue.png"
-      }
-    ],
-    "shippingIncluded": true
-  },
-  {
-    "id": "disciple-tee",
-    "name": "Disciple Tee",
-    "category": "Everyday Tees",
-    "price": 27,
-    "image": "assets/products/disciple-brown.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "New Release",
-    "status": "available",
-    "featured": false,
-    "desc": "A clean collegiate-style statement inspired by Matthew 4:19—an everyday reminder to follow Christ.",
-    "founderFeatured": false,
-    "printfulName": "Disciple Tee",
-    "checkoutPending": false,
-    "colors": [
-      {
-        "name": "Sand",
-        "image": "assets/products/disciple-brown.png"
-      },
-      {
-        "name": "White",
-        "image": "assets/products/disciple-white.png"
-      },
-      {
-        "name": "Military Green",
-        "image": "assets/products/disciple-military-green.png"
-      },
-      {
-        "name": "Cardinal",
-        "image": "assets/products/disciple-cardinal.png"
-      },
-      {
-        "name": "Red",
-        "image": "assets/products/disciple-red.png"
-      },
-      {
-        "name": "Light Blue",
-        "image": "assets/products/disciple-light-blue.png"
-      },
-      {
-        "name": "Tropical Blue",
-        "image": "assets/products/disciple-tropical-blue.png"
-      }
-    ],
-    "shippingIncluded": true
-  },
-  {
     "id": "satisfied-tee",
     "name": "Satisfied — Matthew 14:20 Tee",
     "category": "Premium Tees",
-    "price": 27,
+    "price": 35.0,
     "image": "assets/products/satisfied-white.png",
     "sizes": [
       "S",
@@ -459,7 +353,7 @@
     "id": "lion-of-judah-hoodie",
     "name": "Lion of Judah Hoodie",
     "category": "Hoodies",
-    "price": 55,
+    "price": 50,
     "image": "assets/products/lion-of-judah-hoodie-black.png",
     "sizes": [
       "S",
@@ -504,7 +398,7 @@
     "id": "crown33-tee",
     "name": "Crown 33 Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 35.0,
     "image": "assets/products/crown33-tee.png",
     "sizes": [
       "S",
@@ -527,7 +421,7 @@
     "id": "crimson-worm-tee",
     "name": "Crimson Worm Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 35.0,
     "image": "assets/products/crimson-worm-black.png",
     "sizes": [
       "S",
@@ -585,7 +479,7 @@
     "id": "prayer-cross-tee",
     "name": "Prayer Cross Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 35.0,
     "image": "assets/products/prayer-cross-tee.png",
     "sizes": [
       "S",
@@ -605,33 +499,10 @@
     "checkoutPending": false
   },
   {
-    "id": "crimson-worm-tee",
-    "name": "Crimson Worm Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/crimson-worm-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Launch",
-    "desc": "Psalm 22 inspired design pointing to sacrifice, redemption, and life.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr1dbRQ7M5gXs0AOJ32Ehdg",
-    "printfulName": "Crimson Worm Tee",
-    "shippingIncluded": false,
-    "checkoutPending": false
-  },
-  {
     "id": "armor-of-god-tee",
     "name": "Armor of God Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 35.0,
     "image": "assets/products/armor-of-god-black.png",
     "sizes": [
       "S",
@@ -686,33 +557,10 @@
     "stripePriceId": "price_1Tr1rHRQ7M5gXs0AYGOyGjsM"
   },
   {
-    "id": "armor-of-god-tee",
-    "name": "Armor of God Tee",
-    "category": "Premium Tees",
-    "price": 35,
-    "image": "assets/products/armor-of-god-tee.png",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tag": "Ephesians 6",
-    "desc": "Full Armor of God design with Ephesians 6 teaching.",
-    "status": "available",
-    "founderFeatured": false,
-    "stripePriceId": "price_1Tr1gERQ7M5gXs0Ay6KDZDZ8",
-    "printfulName": "Armor of God Tee",
-    "shippingIncluded": true,
-    "checkoutPending": false
-  },
-  {
     "id": "lamb-of-god-tee",
     "name": "Lamb of God Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 35.0,
     "image": "assets/products/lamb-of-god-tee.png",
     "sizes": [
       "S",
@@ -734,7 +582,8 @@
   {
     "id": "parting-the-sea-tee",
     "name": "Parting the Sea Tee",
-    "category"35,
+    "category": "Premium Tees",
+    "price": 35.0,
     "image": "assets/products/parting-the-sea-tee.png",
     "sizes": [
       "S",
@@ -757,7 +606,7 @@
     "id": "living-word-tee",
     "name": "The Living Word Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 35.0,
     "image": "assets/products/living-word-tee.png",
     "sizes": [
       "S",
@@ -780,7 +629,7 @@
     "id": "burning-bush-tee",
     "name": "Burning Bush Tee",
     "category": "Premium Tees",
-    "price": 35,
+    "price": 35.0,
     "image": "assets/products/burning-bush-tee.png",
     "sizes": [
       "S",
@@ -803,7 +652,7 @@
     "id": "simple-cross-tee",
     "name": "Philippians 4:13 Cross Tee",
     "category": "Premium Tees",
-    "price": 27,
+    "price": 35.0,
     "image": "assets/products/simple-cross-tee.png",
     "sizes": [
       "S",
@@ -826,7 +675,7 @@
     "id": "worthy-lamb-grey-tee",
     "name": "Worthy Is the Lamb Tee",
     "category": "Premium Tees",
-    "price": 27,
+    "price": 35.0,
     "image": "assets/products/worthy-lamb-grey-tee.png",
     "sizes": [
       "S",
@@ -849,7 +698,7 @@
     "id": "crown33-maroon-tee",
     "name": "Crown 33 Maroon Tee",
     "category": "Premium Tees",
-    "price": 25,
+    "price": 35.0,
     "image": "assets/products/crown33-maroon-tee.png",
     "sizes": [
       "S",
@@ -880,7 +729,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Cross Crew Socks Collection",
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "preview-shorts",
@@ -894,7 +743,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Performance Shorts Collection",
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "preview-sweatpants",
@@ -908,7 +757,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Premium Sweatpants Collection",
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "preview-duffle",
@@ -922,7 +771,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder’s Preview",
     "printfulName": "No Vanity 33 Duffle Bag",
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "preview-water-bottle",
@@ -936,7 +785,7 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder’s Preview",
     "printfulName": "40oz Scripture Water Bottle",
-    "shippingIncluded": false
+    "shippingIncluded": true
   },
   {
     "id": "preview-wristbands",
@@ -950,6 +799,6 @@
     "status": "coming-soon",
     "comingSoonLabel": "Founder’s Preview",
     "printfulName": "Scripture Wristband Collection",
-    "shippingIncluded": false
+    "shippingIncluded": true
   }
 ]
