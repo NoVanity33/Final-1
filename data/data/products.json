@@ -545,7 +545,7 @@
     "name": "King of Kings Tee",
     "category": "Everyday Tees",
     "price": 27,
-    "image": "assets/catalog-featured/king-of-kings-tee.webp",
+    "image": "assets/catalog-featured/king-of-kings-tee-corrected.webp",
     "sizes": [
       "S",
       "M",
@@ -630,8 +630,8 @@
     "id": "lion-of-judah-hoodie",
     "name": "Lion of Judah Hoodie",
     "category": "Hoodies",
-    "price": 50,
-    "image": "assets/catalog-final/lion-of-judah-hoodie-black-9cbec4.webp",
+    "price": 45.0,
+    "image": "assets/catalog-featured/lion-of-judah-hoodie-navy-main.webp",
     "sizes": [
       "S",
       "M",
@@ -651,23 +651,23 @@
     "colors": [
       {
         "name": "Black",
-        "image": "assets/catalog-final/lion-of-judah-hoodie-black-9cbec4.webp"
+        "image": "assets/catalog-final/lion-of-judah-hoodie-black-20260816.webp"
       },
       {
         "name": "Athletic Heather",
-        "image": "assets/catalog-final/lion-of-judah-hoodie-heather-d4f16c.webp"
+        "image": "assets/catalog-final/lion-of-judah-hoodie-athletic-heather-20260816.webp"
       },
       {
         "name": "White",
-        "image": "assets/catalog-final/lion-of-judah-hoodie-white-c8944f.webp"
+        "image": "assets/catalog-final/lion-of-judah-hoodie-white-20260816.webp"
       },
       {
         "name": "Navy",
-        "image": "assets/catalog-final/lion-of-judah-hoodie-navy-5ef84b.webp"
+        "image": "assets/catalog-final/lion-of-judah-hoodie-navy-20260816.webp"
       },
       {
         "name": "Cream",
-        "image": "assets/catalog-final/lion-of-judah-hoodie-cream-309d53.webp"
+        "image": "assets/catalog-final/lion-of-judah-hoodie-cream-20260816.webp"
       }
     ]
   },
@@ -1322,20 +1322,6 @@
     "shippingIncluded": false
   },
   {
-    "id": "preview-shorts",
-    "name": "Performance Shorts Collection",
-    "category": "Founder's Preview",
-    "price": 0,
-    "image": "assets/products/preview-shorts.png",
-    "sizes": [],
-    "tag": "Coming Soon",
-    "desc": "A five-color athletic collection planned for training, everyday wear, and ministry.",
-    "status": "coming-soon",
-    "comingSoonLabel": "Founder’s Preview",
-    "printfulName": "Performance Shorts Collection",
-    "shippingIncluded": false
-  },
-  {
     "id": "preview-sweatpants",
     "name": "Premium Sweatpants Collection",
     "category": "Founder's Preview",
@@ -1616,6 +1602,140 @@
       {
         "name": "Teal",
         "image": "assets/catalog-final/final-20260809__lion-of-judah-tee__teal-11ea84.webp"
+      }
+    ]
+  },
+  {
+    "id": "disciple-snapback-hat",
+    "name": "Disciple — Matthew 4:19 Snapback",
+    "category": "Hats",
+    "price": 33.0,
+    "image": "assets/catalog-featured/disciple-snapback-hat.webp",
+    "sizes": [
+      "One Size"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": false,
+    "desc": "Disciple snapback featuring Matthew 4:19.",
+    "founderFeatured": false,
+    "printfulName": "Disciple — Matthew 4:19 Snapback",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Grey / Navy",
+        "image": "assets/catalog-final/disciple-snapback-grey-navy.webp"
+      },
+      {
+        "name": "Khaki / Black",
+        "image": "assets/catalog-final/disciple-snapback-khaki-black.webp"
+      },
+      {
+        "name": "Natural / Black",
+        "image": "assets/catalog-final/disciple-snapback-natural-black.webp"
+      }
+    ]
+  },
+  {
+    "id": "repent-snapback-hat",
+    "name": "Repent — Acts 3:19 Snapback",
+    "category": "Hats",
+    "price": 33.0,
+    "image": "assets/catalog-featured/repent-snapback-hat.webp",
+    "sizes": [
+      "One Size"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": false,
+    "desc": "Repent snapback featuring Acts 3:19.",
+    "founderFeatured": false,
+    "printfulName": "Repent — Acts 3:19 Snapback",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black / Red",
+        "image": "assets/catalog-final/repent-snapback-black-red.webp"
+      },
+      {
+        "name": "Grey / Red",
+        "image": "assets/catalog-final/repent-snapback-grey-red.webp"
+      },
+      {
+        "name": "White / Red",
+        "image": "assets/catalog-final/repent-snapback-white-red.webp"
+      },
+      {
+        "name": "Blue / Red",
+        "image": "assets/catalog-final/repent-snapback-blue-red.webp"
+      }
+    ]
+  },
+  {
+    "id": "crown-33-shorts",
+    "name": "Crown 33 Shorts",
+    "category": "Shorts",
+    "price": 44.0,
+    "image": "assets/catalog-featured/crown-33-shorts.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": false,
+    "desc": "Crown 33 athletic shorts with the crown-of-thorns 33 mark.",
+    "founderFeatured": false,
+    "printfulName": "Crown 33 Shorts",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/crown-33-shorts-black.webp"
+      },
+      {
+        "name": "Grey",
+        "image": "assets/catalog-final/crown-33-shorts-grey.webp"
+      }
+    ]
+  },
+  {
+    "id": "red-cross-shorts",
+    "name": "Red Cross Shorts",
+    "category": "Shorts",
+    "price": 44.0,
+    "image": "assets/catalog-featured/red-cross-shorts.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tag": "New Release",
+    "status": "available",
+    "featured": false,
+    "desc": "Athletic shorts with a simple red cross design.",
+    "founderFeatured": false,
+    "printfulName": "Red Cross Shorts",
+    "checkoutPending": false,
+    "shippingIncluded": true,
+    "colors": [
+      {
+        "name": "Black",
+        "image": "assets/catalog-final/red-cross-shorts-black.webp"
+      },
+      {
+        "name": "White",
+        "image": "assets/catalog-final/red-cross-shorts-white.webp"
       }
     ]
   }
