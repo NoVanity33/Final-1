@@ -65,7 +65,7 @@ function swatchColor(name){
     'Carolina Blue':'#7baed1','Royal Blue':'#244d9b','Navy':'#17243a',
     'Purple':'#5d3b78','Charcoal':'#454545','Dark Heather':'#3d3d3f',
     'Graphite':'#55575a','Heather Grey':'#b9b9b7','Athletic Heather':'#c9c9c9',
-    'Haze':'#b7aaa7','Cream':'#eee3c7'
+    'Haze':'#b7aaa7','Cream':'#eee3c7','Grey':'#8c8c8c','Khaki':'#b69a6a','Natural':'#e7dfce','Blue':'#2454a6'
   };
   return map[name]||'#c7a75b';
 }
@@ -191,7 +191,7 @@ if(cartBtn&&cartBox){
 async function loadCatalog(){
   try{
     // New URL + no-store prevents Cloudflare/browser from reusing the old broken JSON.
-    const response=await fetch('data/products.json?v=mockup-main-fix-20260811-1',{cache:'no-store'});
+    const response=await fetch('data/products.json?v=hats-shorts-kok-loj-20260816-1',{cache:'no-store'});
     if(!response.ok)throw new Error(`Catalog request failed: HTTP ${response.status}`);
     const data=await response.json();
     if(!Array.isArray(data))throw new Error('Catalog is not an array');
