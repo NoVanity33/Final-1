@@ -72,15 +72,6 @@ function swatchColor(name){
 
 function colorChoices(p){
   if(!Array.isArray(p.colors)||!p.colors.length)return '';
-  if(p.id==='lion-of-judah-hoodie'){
-    return `<div class="hoodie-color-control">
-      <label for="hoodie-color-${p.id}">Hoodie Color</label>
-      <select id="hoodie-color-${p.id}" class="hoodie-color-select" name="color-${p.id}" onchange="swapHoodieColor('${p.id}',this)">
-        ${p.colors.map(c=>`<option value="${c.name}" data-image="${c.image}">${c.name}</option>`).join('')}
-      </select>
-      <div class="hoodie-color-key">${p.colors.map((c,i)=>`<span class="hoodie-color-chip ${i===0?'selected':''}" data-color="${c.name}"><i style="--swatch:${swatchColor(c.name)}"></i>${c.name}</span>`).join('')}</div>
-    </div>`;
-  }
   return `<div class="color-picker" aria-label="Choose color for ${p.name}">${p.colors.map((c,i)=>`
     <label class="color-option ${i===0?'selected':''}" title="${c.name}">
       <input type="radio" name="color-${p.id}" value="${c.name}" ${i===0?'checked':''} onchange="swapProductImage('${p.id}','${c.image}',this)">
@@ -191,7 +182,7 @@ if(cartBtn&&cartBox){
 async function loadCatalog(){
   try{
     // New URL + no-store prevents Cloudflare/browser from reusing the old broken JSON.
-    const response=await fetch('data/products.json?v=hats-shorts-kok-loj-20260816-1',{cache:'no-store'});
+    const response=await fetch('data/products.json?v=black-swatch-hoodie-fix-20260817-1',{cache:'no-store'});
     if(!response.ok)throw new Error(`Catalog request failed: HTTP ${response.status}`);
     const data=await response.json();
     if(!Array.isArray(data))throw new Error('Catalog is not an array');
