@@ -1,22 +1,20 @@
-NO VANITY 33 — BLACK SWATCH + HOODIE CONTROL FIX
+NO VANITY 33 — SWATCH CACHE + COLOR MATCH FIX
 
-SAFE OVERLAY PATCH.
+Why the last patch appeared unchanged:
+- The black variant filenames stayed the same, so the browser/CDN could keep serving the old cached artwork-only images.
+- The page also marked the first swatch as selected even when the curated main mockup was a different color.
 
-What this fixes:
-- Replaces the bad artwork-only BLACK variant assets with real black garment mockups for:
-  99 for 1, Shroud, Faithful Servant, Child of God, Every Knee Will Bow,
-  Disciple, Jesus Is King, Protected by the Blood, Armor of God, Burning Bush,
-  Crown 33, Lamb of God, Parting the Sea, Philippians 4:13, Prayer Cross,
-  The Living Word, and Lion of Judah Hoodie.
-- Keeps every existing products.json path unchanged.
-- Changes Lion of Judah Hoodie from a color dropdown to the same clickable color swatches used by the shirts.
-- Keeps the Navy Lion of Judah Hoodie main image unchanged.
-- Standardizes these repaired black mockups on the same light-grey catalog background.
-- Does NOT modify data/products.json, index.html, checkout, Stripe, Printful, or site structure.
+This patch fixes both problems:
+1. Adds NEW uniquely named black mockup files for all affected products.
+2. Updates data/products.json to point Black swatches to those new filenames.
+3. Uses clickable swatches for the Lion of Judah Hoodie.
+4. Does NOT preselect a color when the main mockup is shown.
+5. Requires a customer to choose a color before adding a multi-color product to cart.
+6. Adds cache-busting to swatch image changes.
 
 INSTALL:
-1. Extract this ZIP.
-2. Go to the ROOT of Final-1 on GitHub.
-3. Upload the CONTENTS of this patch so assets/ merges into assets/ and js/app.js replaces js/app.js.
-4. Do NOT upload the outer NV33_BLACK_SWATCH_HOODIE_FIX folder as a new folder.
-5. Commit to main and let Cloudflare deploy.
+- Extract the ZIP.
+- From the ROOT of Final-1, upload the CONTENTS of this patch.
+- Merge assets/ into assets/.
+- Replace data/products.json and js/app.js.
+- Do not create another nested patch folder.

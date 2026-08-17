@@ -20,10 +20,8 @@ function save(){
 }
 
 function selectedColor(id){
-  const select=document.querySelector(`select[name="color-${id}"]`);
-  if(select)return select.value;
   const checked=document.querySelector(`input[name="color-${id}"]:checked`);
-  return checked?.value||'Default';
+  return checked?.value||'';
 }
 
 function addToCart(id){
@@ -31,6 +29,10 @@ function addToCart(id){
   if(!p||p.status==='coming-soon')return;
   const size=document.getElementById('size-'+id)?.value||'One Size';
   const color=selectedColor(id);
+  if(Array.isArray(p.colors)&&p.colors.length&&!color){
+    alert('Please choose a color before adding this item to your cart.');
+    return;
+  }
   cart.push({
     id:p.id,name:p.name,price:p.price,size,color,
     stripePriceId:p.stripePriceId||'',
@@ -72,16 +74,19 @@ function swatchColor(name){
 
 function colorChoices(p){
   if(!Array.isArray(p.colors)||!p.colors.length)return '';
-  return `<div class="color-picker" aria-label="Choose color for ${p.name}">${p.colors.map((c,i)=>`
-    <label class="color-option ${i===0?'selected':''}" title="${c.name}">
-      <input type="radio" name="color-${p.id}" value="${c.name}" ${i===0?'checked':''} onchange="swapProductImage('${p.id}','${c.image}',this)">
+  return `<div class="color-picker" aria-label="Choose color for ${p.name}">${p.colors.map(c=>`
+    <label class="color-option" title="${c.name}">
+      <input type="radio" name="color-${p.id}" value="${c.name}" onchange="swapProductImage('${p.id}','${c.image}',this)">
       <span class="color-dot" style="--swatch:${swatchColor(c.name)}"></span><small>${c.name}</small>
     </label>`).join('')}</div>`;
 }
 
 function swapProductImage(id,image,input){
   const img=document.getElementById('img-'+id);
-  if(img&&image)img.src=image;
+  if(img&&image){
+    const sep=image.includes('?')?'&':'?';
+    img.src=image+sep+'v=swatchfix-20260817-2';
+  }
   document.querySelectorAll(`input[name="color-${id}"]`).forEach(el=>{
     el.closest('label')?.classList.toggle('selected',el.checked);
   });
@@ -182,7 +187,7 @@ if(cartBtn&&cartBox){
 async function loadCatalog(){
   try{
     // New URL + no-store prevents Cloudflare/browser from reusing the old broken JSON.
-    const response=await fetch('data/products.json?v=black-swatch-hoodie-fix-20260817-1',{cache:'no-store'});
+    const response=await fetch('data/products.json?v=swatchfix-20260817-2',{cache:'no-store'});
     if(!response.ok)throw new Error(`Catalog request failed: HTTP ${response.status}`);
     const data=await response.json();
     if(!Array.isArray(data))throw new Error('Catalog is not an array');
